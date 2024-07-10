@@ -1,6 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import Bg3 from '@/app/public/global/img/photo/Banner-1.jpg';
+import Bg1 from '@/app/public/global/img/photo/Banner-2.jpg';
+import Bg2 from '@/app/public/global/img/photo/Banner-3.jpg';
+import '@/app/styles/flex.css';
+import '@/app/styles/global/style.css';
+import '@/app/styles/global/plugins/bootstrap-grid.css';
+// import "@/app/styles/global/plugins/font-awesome.min.css"
+import '@/app/styles/global/plugins/swiper.min.css';
+import '@/app/swiper.min.js';
+import '@/app/styles/scss/style.scss';
 
 export const Hero = () => {
   return (
@@ -9,7 +19,7 @@ export const Hero = () => {
         <div className="swiper-wrapper">
           <div className="swiper-slide">
             <Image
-              src="/assets/img/photo/1.jpg"
+              src={Bg1}
               className="mil-background-image"
               layout="fill"
               objectFit="cover"
@@ -19,7 +29,7 @@ export const Hero = () => {
           </div>
           <div className="swiper-slide">
             <Image
-              src="/img/photo/2.jpg"
+              src={Bg2}
               className="mil-background-image"
               layout="fill"
               objectFit="cover"
@@ -29,7 +39,7 @@ export const Hero = () => {
           </div>
           <div className="swiper-slide">
             <Image
-              src="/img/photo/3.jpg"
+              src={Bg3}
               className="mil-background-image"
               layout="fill"
               objectFit="cover"
