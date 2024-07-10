@@ -17,6 +17,7 @@ const page = () => {
     <Hero/>
     <Logo/> 
     <Divider/> 
+    <Help/>
   </div>;
 };
 export default page;
