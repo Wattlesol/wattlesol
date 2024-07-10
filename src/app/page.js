@@ -1,8 +1,7 @@
-
 import React from 'react';
 import '@/app/styles/globals.css';
-import Logo from './components/sections/logoSlider/Logo'
-import Divider from './components/common/Divider'
+import Logo from './components/sections/logoSlider/Logo';
+import Divider from './components/common/Divider';
 import { Hero } from './components/home/Hero';
 import "@/app/styles/flex.css"
 import "@/app/styles/global/style.css"
