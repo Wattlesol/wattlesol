@@ -11,11 +11,13 @@ import "@/app/styles/scss/style.scss"
 
 import Logo from './components/sections/logoSlider/Logo'
 import Divider from './components/common/Divider'
+import Help from './components/sections/howWeCanHelp/Help'
 const page = () => {
   return (
     <div>
       {/* <Logo/> */}
       {/* <Divider/> */}
+      <Help/>
     </div>
   )
 }
