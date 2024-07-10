@@ -13,15 +13,27 @@ import "@/app/styles/scss/style.scss"
 import Help from './components/sections/howWeCanHelp/Help'
 import LatestProjects from './components/sections/LatestProjects/LatestProjects';
 import HowItWork from './components/sections/howToWork/HowItWork';
+import Skills from './components/sections/skills/Skills';
 
 const page = () => {
   return <div>
     <Hero/>
+    <Divider/> 
+
     <Logo/> 
     <Divider/> 
     <Help/>
+    <Divider/> 
+
     <LatestProjects/>
+    <Divider/> 
+
     <HowItWork/>
+
+
+    <Skills/>
+    <Divider/> 
+
   </div>;
 };
 export default page;
