@@ -3,8 +3,11 @@ import FooterImage1 from "@/app/public/global/img/deco/map.png"
 import Logo from "@/app/public/global/img/logo/logo-light.png"
 import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
+import Contact from './Contact'
 const Footer = () => {
   return (
+    <>
+    <Contact/>
     <footer class="mil-dark-bg">
       <Image src={FooterImage1} alt="background" class="mil-footer-bg" />
       <Container>
@@ -70,6 +73,7 @@ const Footer = () => {
       </div>
 
     </footer>
+    </>
   )
 }
 
