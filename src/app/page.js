@@ -12,6 +12,7 @@ import "@/app/styles/global/plugins/swiper.min.css"
 import "@/app/styles/scss/style.scss"
 import Help from './components/sections/howWeCanHelp/Help'
 import LatestProjects from './components/sections/LatestProjects/LatestProjects';
+import HowItWork from './components/sections/howToWork/HowItWork';
 
 const page = () => {
   return <div>
@@ -20,6 +21,7 @@ const page = () => {
     <Divider/> 
     <Help/>
     <LatestProjects/>
+    <HowItWork/>
   </div>;
 };
 export default page;
