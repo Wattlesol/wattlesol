@@ -14,6 +14,7 @@ import Help from './components/sections/howWeCanHelp/Help'
 import LatestProjects from './components/sections/LatestProjects/LatestProjects';
 import HowItWork from './components/sections/howToWork/HowItWork';
 import Skills from './components/sections/skills/Skills';
+import LatestThinking from './components/sections/LatestThinking/LatestThinking';
 
 const page = () => {
   return <div>
@@ -33,7 +34,7 @@ const page = () => {
 
     <Skills/>
     <Divider/> 
-
+    <LatestThinking/>
   </div>;
 };
 export default page;
