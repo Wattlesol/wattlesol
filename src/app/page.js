@@ -15,6 +15,7 @@ import LatestProjects from './components/sections/LatestProjects/LatestProjects'
 import HowItWork from './components/sections/howToWork/HowItWork';
 import Skills from './components/sections/skills/Skills';
 import LatestThinking from './components/sections/LatestThinking/LatestThinking';
+import Testimonial from './components/sections/testimonial/Testimonial';
 
 const page = () => {
   return <div>
@@ -35,6 +36,7 @@ const page = () => {
     <Skills/>
     <Divider/> 
     <LatestThinking/>
+    <Testimonial/>
   </div>;
 };
 export default page;
