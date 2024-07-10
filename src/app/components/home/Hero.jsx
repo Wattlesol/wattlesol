@@ -1,18 +1,37 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
-import Bg3 from '@/app/public/global/img/photo/Banner-1.jpg';
-import Bg1 from '@/app/public/global/img/photo/Banner-2.jpg';
-import Bg2 from '@/app/public/global/img/photo/Banner-3.jpg';
-import '@/app/styles/flex.css';
-import '@/app/styles/global/style.css';
-import '@/app/styles/global/plugins/bootstrap-grid.css';
-// import "@/app/styles/global/plugins/font-awesome.min.css"
-import '@/app/styles/global/plugins/swiper.min.css';
-import '@/app/swiper.min.js';
-import '@/app/styles/scss/style.scss';
+import React, { useEffect } from 'react';
+import Bg1 from '@/app/public/global/img/photo/Banner-1.jpg';
+import Bg2 from '@/app/public/global/img/photo/Banner-2.jpg';
+import Bg3 from '@/app/public/global/img/photo/Banner-3.jpg';
+import styles from '@/app/styles/global/plugins/swiper.min.css'; // Import Swiper CSS file
 
 export const Hero = () => {
+  useEffect(() => {
+    // Initialize Swiper when component mounts
+    const swiper = new Swiper('.mil-banner-slideshow', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      speed: 1500,
+      autoplay: true,
+      effect: 'fade',
+      parallax: true,
+      loop: true,
+      pagination: {
+        el: '.mil-pagination',
+        type: 'bullets',
+        clickable: true,
+      },
+    });
+
+    // Clean up Swiper instance on component unmount
+    return () => {
+      swiper.destroy();
+    };
+  }, []); // Empty dependency array ensures this effect runs only once
+
   return (
     <div className="mil-banner mil-top-space-0">
       <div className="swiper-container mil-banner-slideshow">
@@ -48,6 +67,7 @@ export const Hero = () => {
             />
           </div>
         </div>
+        <div className="mil-pagination"></div>
       </div>
       <div className="mil-overlay"></div>
 
@@ -68,7 +88,7 @@ export const Hero = () => {
               </h1>
               <div className="mil-flex-hori-center">
                 <div>
-                  <Link href="/contact" legacyBehavior>
+                  <Link href="/contact" passHref legacyBehavior>
                     <a className="mil-button mil-border mil-light">
                       <span>Let’s Talk</span>
                     </a>
