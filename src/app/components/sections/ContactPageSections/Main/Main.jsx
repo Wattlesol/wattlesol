@@ -136,7 +136,7 @@ const Main = () => {
                         </div>
                         <div class="mil-divider mil-mb-60"></div>
 
-                        <a href="contact.html" class="mil-link mil-link-sm mil-mb-15"><span>Legality Guide</span><i class="fas fa-arrow-right"></i></a><br>
+                        <a href="contact.html" class="mil-link mil-link-sm mil-mb-15"><span>Legality Guide</span><i class="fas fa-arrow-right"></i></a><br/>
                             <a href="contact.html" class="mil-link mil-link-sm"><span>Security Center</span><i class="fas fa-arrow-right"></i></a>
                     </Col>
                 </Row>
