@@ -16,8 +16,8 @@ const Main = () => {
             <Row className="justify-content-between">
               <Col lg={4}>
                 <h3 className="mil-up-font mil-mb-30">
-                  <span className="mil-accent">ITSulu Connects</span> The Entire
-                  Organization From End To End.
+                  <span className="mil-accent">Wattle Sol Connects</span> The
+                  Entire Organization From End To End.
                 </h3>
                 <p className="mil-mb-60">
                   Typi non habent claritatem insitam; est usus legentis in iis
@@ -27,7 +27,7 @@ const Main = () => {
               </Col>
               <Col lg={7}>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -47,7 +47,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -67,7 +67,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -87,7 +87,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -115,8 +115,8 @@ const Main = () => {
             <Row className="justify-content-between">
               <Col lg={4}>
                 <h3 className="mil-up-font mil-mb-30">
-                  <span className="mil-accent">ITSulu Connects</span> The Entire
-                  Organization From End To End.
+                  <span className="mil-accent">Wattle Sol Connects</span> The
+                  Entire Organization From End To End.
                 </h3>
                 <p className="mil-mb-60">
                   Typi non habent claritatem insitam; est usus legentis in iis
@@ -126,7 +126,7 @@ const Main = () => {
               </Col>
               <Col lg={7}>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -146,7 +146,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -166,7 +166,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -186,7 +186,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -214,8 +214,8 @@ const Main = () => {
             <Row className="justify-content-between">
               <Col lg={4}>
                 <h3 className="mil-up-font mil-mb-30">
-                  <span className="mil-accent">ITSulu Connects</span> The Entire
-                  Organization From End To End.
+                  <span className="mil-accent">Wattle Sol Connects</span> The
+                  Entire Organization From End To End.
                 </h3>
                 <p className="mil-mb-60">
                   Typi non habent claritatem insitam; est usus legentis in iis
@@ -225,7 +225,7 @@ const Main = () => {
               </Col>
               <Col lg={7}>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -245,7 +245,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -265,7 +265,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -285,7 +285,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -313,8 +313,8 @@ const Main = () => {
             <Row className="justify-content-between">
               <Col lg={4}>
                 <h3 className="mil-up-font mil-mb-30">
-                  <span className="mil-accent">ITSulu Connects</span> The Entire
-                  Organization From End To End.
+                  <span className="mil-accent">Wattle Sol Connects</span> The
+                  Entire Organization From End To End.
                 </h3>
                 <p className="mil-mb-60">
                   Typi non habent claritatem insitam; est usus legentis in iis
@@ -324,7 +324,7 @@ const Main = () => {
               </Col>
               <Col lg={7}>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -344,7 +344,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -364,7 +364,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
@@ -384,7 +384,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="mil-accordion">
-                  <h6>Information about ITSulu</h6>
+                  <h6>Information about Wattle Sol</h6>
                 </div>
                 <div className="mil-panel">
                   <div className="mil-window">
