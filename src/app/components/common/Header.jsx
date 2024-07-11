@@ -101,7 +101,7 @@ const Header = () => {
       <div className="mil-top-position mil-fixed">
         <div className="mil-top-panel mil-top-panel-transparent mil-animated">
           <div className="container">
-            <Link href="/home-1" legacyBehavior>
+            <Link href="/" legacyBehavior>
               <a className="mil-logo" style={{ width: '140px' }}></a>
             </Link>
             <div className="mil-navigation">
