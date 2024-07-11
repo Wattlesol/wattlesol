@@ -3,103 +3,103 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 import '@/app/styles/globals.css';
 
-const Header = () => {
-  useEffect(() => {
-    const handleAccordionClick = (e) => {
-      e.currentTarget.classList.toggle('mil-active');
-      const panel = e.currentTarget.nextElementSibling;
-      if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = `${panel.scrollHeight}px`;
-      }
-    };
+const HeaderTwo = () => {
+  //   useEffect(() => {
+  //     const handleAccordionClick = (e) => {
+  //       e.currentTarget.classList.toggle('mil-active');
+  //       const panel = e.currentTarget.nextElementSibling;
+  //       if (panel.style.maxHeight) {
+  //         panel.style.maxHeight = null;
+  //       } else {
+  //         panel.style.maxHeight = `${panel.scrollHeight}px`;
+  //       }
+  //     };
 
-    const acc = document.getElementsByClassName('mil-accordion');
-    for (let i = 0; i < acc.length; i++) {
-      acc[i].addEventListener('click', handleAccordionClick);
-    }
+  //     const acc = document.getElementsByClassName('mil-accordion');
+  //     for (let i = 0; i < acc.length; i++) {
+  //       acc[i].addEventListener('click', handleAccordionClick);
+  //     }
 
-    const menuBtn = document.querySelector('.mil-menu-btn');
-    const navigation = document.querySelector('.mil-navigation');
-    menuBtn.addEventListener('click', () => {
-      menuBtn.classList.toggle('mil-active');
-      navigation.classList.toggle('mil-active');
-    });
+  //     const menuBtn = document.querySelector('.mil-menu-btn');
+  //     const navigation = document.querySelector('.mil-navigation');
+  //     menuBtn.addEventListener('click', () => {
+  //       menuBtn.classList.toggle('mil-active');
+  //       navigation.classList.toggle('mil-active');
+  //     });
 
-    const handleScroll = () => {
-      const scroll = window.scrollY;
-      const topPanel = document.querySelector('.mil-top-panel.mil-animated');
-      const additionalPanel = document.querySelector('.has-additional-panel');
+  //     const handleScroll = () => {
+  //       const scroll = window.scrollY;
+  //       const topPanel = document.querySelector('.mil-top-panel.mil-animated');
+  //       const additionalPanel = document.querySelector('.has-additional-panel');
 
-      if (topPanel) {
-        if (scroll >= 220) {
-          topPanel.classList.remove('mil-top-panel-transparent');
-          if (additionalPanel) {
-            additionalPanel.classList.add('mil-hide-top');
-          }
-        } else {
-          topPanel.classList.add('mil-top-panel-transparent');
-          if (additionalPanel) {
-            additionalPanel.classList.remove('mil-hide-top');
-          }
-        }
-      }
-    };
+  //       if (topPanel) {
+  //         if (scroll >= 220) {
+  //           topPanel.classList.remove('mil-top-panel-transparent');
+  //           if (additionalPanel) {
+  //             additionalPanel.classList.add('mil-hide-top');
+  //           }
+  //         } else {
+  //           topPanel.classList.add('mil-top-panel-transparent');
+  //           if (additionalPanel) {
+  //             additionalPanel.classList.remove('mil-hide-top');
+  //           }
+  //         }
+  //       }
+  //     };
 
-    window.addEventListener('scroll', handleScroll);
+  //     window.addEventListener('scroll', handleScroll);
 
-    // Swiper initialization here
-    // Assuming Swiper is already imported and available globally
-    new Swiper('.mil-banner-slideshow', {
-      slidesPerView: 1,
-      spaceBetween: 0,
-      speed: 1500,
-      autoplay: {
-        delay: 5000,
-      },
-      effect: 'fade',
-      parallax: true,
-      loop: true,
-      pagination: {
-        el: '.mil-pagination',
-        type: 'bullets',
-        clickable: true,
-      },
-    });
+  //     // Swiper initialization here
+  //     // Assuming Swiper is already imported and available globally
+  //     new Swiper('.mil-banner-slideshow', {
+  //       slidesPerView: 1,
+  //       spaceBetween: 0,
+  //       speed: 1500,
+  //       autoplay: {
+  //         delay: 5000,
+  //       },
+  //       effect: 'fade',
+  //       parallax: true,
+  //       loop: true,
+  //       pagination: {
+  //         el: '.mil-pagination',
+  //         type: 'bullets',
+  //         clickable: true,
+  //       },
+  //     });
 
-    new Swiper('.mil-banner-slider', {
-      slidesPerView: 1,
-      spaceBetween: 0,
-      speed: 1500,
-      autoplay: {
-        delay: 5000,
-      },
-      effect: 'fade',
-      parallax: true,
-      loop: true,
-      navigation: {
-        prevEl: '.mil-banner-prev',
-        nextEl: '.mil-banner-next',
-      },
-    });
+  //     new Swiper('.mil-banner-slider', {
+  //       slidesPerView: 1,
+  //       spaceBetween: 0,
+  //       speed: 1500,
+  //       autoplay: {
+  //         delay: 5000,
+  //       },
+  //       effect: 'fade',
+  //       parallax: true,
+  //       loop: true,
+  //       navigation: {
+  //         prevEl: '.mil-banner-prev',
+  //         nextEl: '.mil-banner-next',
+  //       },
+  //     });
 
-    // Repeat for other Swiper instances as needed
+  //     // Repeat for other Swiper instances as needed
 
-    return () => {
-      // Clean up event listeners when component unmounts
-      for (let i = 0; i < acc.length; i++) {
-        acc[i].removeEventListener('click', handleAccordionClick);
-      }
-      menuBtn.removeEventListener('click', handleAccordionClick);
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //     return () => {
+  //       // Clean up event listeners when component unmounts
+  //       for (let i = 0; i < acc.length; i++) {
+  //         acc[i].removeEventListener('click', handleAccordionClick);
+  //       }
+  //       menuBtn.removeEventListener('click', handleAccordionClick);
+  //       window.removeEventListener('scroll', handleScroll);
+  //     };
+  //   }, []);
 
   return (
     <>
       <div className="mil-top-position mil-fixed">
-        <div className="mil-top-panel mil-top-panel-transparent mil-animated">
+        <div className="mil-top-panel  mil-animated">
           <div className="container">
             <Link href="/home-1" legacyBehavior>
               <a className="mil-logo" style={{ width: '140px' }}></a>
@@ -194,4 +194,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderTwo;
