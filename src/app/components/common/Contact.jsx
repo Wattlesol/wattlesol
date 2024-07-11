@@ -1,7 +1,26 @@
-import React from 'react'
+'use client'
+import React, { useRef } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-
+import {emailjs} from '@emailjs/browser';
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_yowq95k', 'template_kmgkv7f', form.current, {
+          publicKey: '6n1lcgsUafJHarxF5',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
     return (
         <section className="mil-contact mil-gradient-bg mil-p-120-0">
             <div className="mil-deco mil-deco-accent" style={{
@@ -10,7 +29,7 @@ const Contact = () => {
             }}></div>
             <Container>
                 <h2 className="mil-light mil-mb-90">Contact <span className="mil-accent">Us</span></h2>
-                <form id="formFeedback" method="post" enctype="multipart/form-data">
+                <form id="formFeedback" method="post" enctype="multipart/form-data"  ref={form} onSubmit={sendEmail}>
                 <Row>
                     <Col lg={6}>
                         <div className="mil-input-frame mil-mb-30">
@@ -43,7 +62,7 @@ const Contact = () => {
                             <p className="mil-text-sm mil-light-soft mil-mb-15">We will process your personal information in accordance with our Privacy Policy.</p>
                             <div className="mil-checbox-frame mil-mb-60">
                                 <input className="mil-checkbox" id="checkbox-1" type="checkbox" name="agree" value="1" required/>
-                                <label for="checkbox-1" className="mil-text-sm mil-light">I would like to be contacted with news and updates about your <a href="#." className="mil-accent">events and services</a></label>
+                                <label htmlFor="checkbox-1" className="mil-text-sm mil-light">I would like to be contacted with news and updates about your <a href="#." className="mil-accent">events and services</a></label>
                             </div>
                     </Col>
                     <Col className='col-12'>

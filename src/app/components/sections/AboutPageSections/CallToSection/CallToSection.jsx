@@ -7,7 +7,7 @@ const CallToSection = () => {
             <Container>
                 <Row className='align-items-center'>
                     <Col lg={12} xl={6}>
-                        <h4 className="mil-mb-60">Lorem ipsum dolor sit amet, <span className="mil-accent">consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labor aliqua.</h4>
+                        <h4 className="mil-mb-60">Get to Know <span className="mil-accent"> Wattle Sol</span>,  Pioneering Technology Solutions to Propel Your Business Forward with Innovation and Determination. </h4>
                     </Col>
                     <Col lg={12} xl={6}>
                         <div className="mil-adaptive-right">

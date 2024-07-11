@@ -20,7 +20,7 @@ const Mission = () => {
                     <span className="mil-suptitle mil-suptitle-2 mil-mb-30">IT Enterprise</span>
                         <h2 className="mil-mb-50">Our Mission</h2>
 
-                        <p className="mil-mb-50">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. There are many variations of passages majority.</p>
+                        <p className="mil-mb-50">At Wattle Sol, our mission is clear: to innovate, inspire, and empower through comprehensive solutions. We are committed to delivering measurable results and fostering long-term partnerships built on trust and mutual success. Join us in realizing your business potential with tailored strategies designed for optimal performance. </p>
 
                         <ul className="mil-simple-list">
                             <li>Accelerate innovation.</li>

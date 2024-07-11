@@ -17,7 +17,7 @@ const Value = () => {
                             </div>
                             <div className="mil-box-text">
                                 <h4 className="mil-mb-30">We Are</h4>
-                                <p className="mil-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p className="mil-box-text">innovators at heart, continuously pushing boundaries to pioneer solutions that transform industries. </p>
                             </div>
                         </div>
                 </Col>
@@ -27,8 +27,8 @@ const Value = () => {
                                 <Image src={mdImage10} alt="icon"/>
                             </div>
                             <div className="mil-box-text">
-                                <h4 className="mil-mb-30">We Are</h4>
-                                <p className="mil-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4 className="mil-mb-30">We Deep Dive</h4>
+                                <p className="mil-box-text">into challenges, exploring every detail to uncover innovative solutions that exceed expectations and drive progress. </p>
                             </div>
                         </div>
                 </Col>
@@ -38,8 +38,8 @@ const Value = () => {
                                 <Image src={mdImage10} alt="icon"/>
                             </div>
                             <div className="mil-box-text">
-                                <h4 className="mil-mb-30">We Are</h4>
-                                <p className="mil-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4 className="mil-mb-30">We Take</h4>
+                                <p className="mil-box-text">ownership of our commitments, delivering results with dedication and a proactive mindset to achieve success together. </p>
                             </div>
                         </div>
                 </Col>
@@ -49,8 +49,8 @@ const Value = () => {
                                 <Image src={mdImage10} alt="icon"/>
                             </div>
                             <div className="mil-box-text">
-                                <h4 className="mil-mb-30">We Are</h4>
-                                <p className="mil-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4 className="mil-mb-30">We Value</h4>
+                                <p className="mil-box-text">collaboration, diversity, and mutual respect, fostering a culture where every voice is heard and valued for collective growth. </p>
                             </div>
                         </div>
                 </Col>
@@ -60,8 +60,8 @@ const Value = () => {
                                 <Image src={mdImage10} alt="icon"/>
                             </div>
                             <div className="mil-box-text">
-                                <h4 className="mil-mb-30">We Are</h4>
-                                <p className="mil-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4 className="mil-mb-30">We Believe</h4>
+                                <p className="mil-box-text">in continuous learning and adaptation, embracing change as an opportunity to innovate and stay ahead in a dynamic world. </p>
                             </div>
                         </div>
                 </Col>
@@ -71,8 +71,8 @@ const Value = () => {
                                 <Image src={mdImage10} alt="icon"/>
                             </div>
                             <div className="mil-box-text">
-                                <h4 className="mil-mb-30">We Are</h4>
-                                <p className="mil-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4 className="mil-mb-30">We Say “We”</h4>
+                                <p className="mil-box-text">because teamwork and shared goals define our identity, uniting us in our mission to empower businesses and create lasting impact. </p>
                             </div>
                         </div>
                 </Col>
