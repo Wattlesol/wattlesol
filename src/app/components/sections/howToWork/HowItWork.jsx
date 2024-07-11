@@ -15,27 +15,27 @@ import smIcon12 from "@/app/public/global/img/icons/sm/12.svg"
 import Image from 'next/image'
 const HowItWork = () => {
     return (
-        <section class="mil-how-it-works mil-deep-bg mil-p-120-90">
+        <section className="mil-how-it-works mil-deep-bg mil-p-120-90">
 
-            <div class="mil-deco" style={{
+            <div className="mil-deco" style={{
                 top: 0,
                 right: "20%"
             }}>
             </div>
-            <div class="mil-deco" style={{
+            <div className="mil-deco" style={{
                 bottom: 0,
                 left: "30%",
                 transform: "rotate(180deg)"
             }}></div>
             <Container>
-                <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Discover Our Company</span>
-                <h2 class="mil-mb-90">How We <span class="mil-accent">Collaborate</span> With You</h2>
+                <span className="mil-suptitle mil-suptitle-2 mil-mb-30">Discover Our Company</span>
+                <h2 className="mil-mb-90">How We <span className="mil-accent">Collaborate</span> With You</h2>
                 <Row>
                     <Col md={6} xl={3}>
 
-                        <div class="mil-mb-60">
-                            <div class="mil-icon-box-head mil-mb-30">
-                                <div class="mil-icon-frame mil-icon-frame-sm">
+                        <div className="mil-mb-60">
+                            <div className="mil-icon-box-head mil-mb-30">
+                                <div className="mil-icon-frame mil-icon-frame-sm">
                                     <Image src={smIcon1} alt="icon" />
                                 </div>
                                 <h5>Thinking Big</h5>
@@ -45,9 +45,9 @@ const HowItWork = () => {
                     </Col>
                     <Col md={6} xl={3}>
 
-                        <div class="mil-mb-60">
-                            <div class="mil-icon-box-head mil-mb-30">
-                                <div class="mil-icon-frame mil-icon-frame-sm">
+                        <div className="mil-mb-60">
+                            <div className="mil-icon-box-head mil-mb-30">
+                                <div className="mil-icon-frame mil-icon-frame-sm">
                                     <Image src={smIcon2} alt="icon" />
                                 </div>
                                 <h5>Thinking Big</h5>
@@ -57,9 +57,9 @@ const HowItWork = () => {
                     </Col>
                     <Col md={6} xl={3}>
 
-                        <div class="mil-mb-60">
-                            <div class="mil-icon-box-head mil-mb-30">
-                                <div class="mil-icon-frame mil-icon-frame-sm">
+                        <div className="mil-mb-60">
+                            <div className="mil-icon-box-head mil-mb-30">
+                                <div className="mil-icon-frame mil-icon-frame-sm">
                                     <Image src={smIcon3} alt="icon" />
                                 </div>
                                 <h5>Thinking Big</h5>
@@ -69,9 +69,9 @@ const HowItWork = () => {
                     </Col>
                     <Col md={6} xl={3}>
 
-                        <div class="mil-mb-60">
-                            <div class="mil-icon-box-head mil-mb-30">
-                                <div class="mil-icon-frame mil-icon-frame-sm">
+                        <div className="mil-mb-60">
+                            <div className="mil-icon-box-head mil-mb-30">
+                                <div className="mil-icon-frame mil-icon-frame-sm">
                                     <Image src={smIcon4} alt="icon" />
                                 </div>
                                 <h5>Thinking Big</h5>
@@ -82,11 +82,11 @@ const HowItWork = () => {
                 </Row>
                 <Row className='align-items-center'>
                     <Col md={6} xl={6}>
-                        <a href="#." class="mil-link mil-mb-30"><span>Learn More</span><i class="fas fa-arrow-right"></i></a>
+                        <a href="#." className="mil-link mil-mb-30"><span>Learn More</span><i className="fas fa-arrow-right"></i></a>
                     </Col>
                     <Col md={6} xl={6}>
-                        <div class="mil-adaptive-right">
-                            <a href="#." class="mil-button mil-border mil-mb-30"><span>How We Work</span></a>
+                        <div className="mil-adaptive-right">
+                            <a href="#." className="mil-button mil-border mil-mb-30"><span>How We Work</span></a>
                         </div>
                     </Col>
                 </Row>

@@ -11,9 +11,9 @@ import Image from 'next/image'
 const Help = () => {
     return (
         <>
-            <section class="mil-services mil-p-120-90">
+            <section className="mil-services mil-p-120-90">
 
-                <div class="mil-deco" style={{
+                <div className="mil-deco" style={{
                     top: 0,
                     right: 0
                 }}>
@@ -22,83 +22,83 @@ const Help = () => {
 
                 </div>
                 <Container>
-                    <h2 class="mil-mb-30">How We Can <span class="mil-accent">Help You</span></h2>
+                    <h2 className="mil-mb-30">How We Can <span className="mil-accent">Help You</span></h2>
                 
                 <Row>
                     <Col lg={6} xl={6}>
-                        <h4 class="mil-mb-60 mil-mt-30">IT Services</h4>
-                        <div class="mil-divider mil-divider-left"></div>
-                        <div class="mil-service-item">
-                            <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
+                        <h4 className="mil-mb-60 mil-mt-30">IT Services</h4>
+                        <div className="mil-divider mil-divider-left"></div>
+                        <div className="mil-service-item">
+                            <div className="mil-service-icon">
+                                <div className="mil-icon-frame mil-icon-frame-md">
                                     <Image src={MdIcon1} alt="icon" />
                                 </div>
                             </div>
-                            <div class="mil-service-text">
-                                <h5 class="mil-mb-30"><span class="mil-accent">01</span> Dedicated Team</h5>
+                            <div className="mil-service-text">
+                                <h5 className="mil-mb-30"><span className="mil-accent">01</span> Dedicated Team</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
-                        <div class="mil-divider mil-divider-left"></div>
-                        <div class="mil-service-item">
-                            <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
+                        <div className="mil-divider mil-divider-left"></div>
+                        <div className="mil-service-item">
+                            <div className="mil-service-icon">
+                                <div className="mil-icon-frame mil-icon-frame-md">
                                     <Image src={MdIcon2} alt="icon"/>
                                 </div>
                             </div>
-                            <div class="mil-service-text">
-                                <h5 class="mil-mb-30"><span class="mil-accent">02</span> QA and Testing</h5>
+                            <div className="mil-service-text">
+                                <h5 className="mil-mb-30"><span className="mil-accent">02</span> QA and Testing</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
-                        <div class="mil-divider mil-divider-left"></div>
-                        <div class="mil-service-item">
-                            <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
+                        <div className="mil-divider mil-divider-left"></div>
+                        <div className="mil-service-item">
+                            <div className="mil-service-icon">
+                                <div className="mil-icon-frame mil-icon-frame-md">
                                     <Image src={MdIcon3} alt="icon"/>
                                 </div>
                             </div>
-                            <div class="mil-service-text">
-                                <h5 class="mil-mb-30"><span class="mil-accent">03</span> SaaS</h5>
+                            <div className="mil-service-text">
+                                <h5 className="mil-mb-30"><span className="mil-accent">03</span> SaaS</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
                     </Col>
                     <Col lg={6} xl={6}>
-                    <h4 class="mil-mb-60 mil-mt-30">IT Solutions</h4>
-                        <div class="mil-divider mil-divider-left"></div>
-                        <div class="mil-service-item">
-                            <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
+                    <h4 className="mil-mb-60 mil-mt-30">IT Solutions</h4>
+                        <div className="mil-divider mil-divider-left"></div>
+                        <div className="mil-service-item">
+                            <div className="mil-service-icon">
+                                <div className="mil-icon-frame mil-icon-frame-md">
                                     <Image src={MdIcon4} alt="icon" />
                                 </div>
                             </div>
-                            <div class="mil-service-text">
-                                <h5 class="mil-mb-30"><span class="mil-accent">01</span> Blockchain</h5>
+                            <div className="mil-service-text">
+                                <h5 className="mil-mb-30"><span className="mil-accent">01</span> Blockchain</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
-                        <div class="mil-divider mil-divider-left"></div>
-                        <div class="mil-service-item">
-                            <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
+                        <div className="mil-divider mil-divider-left"></div>
+                        <div className="mil-service-item">
+                            <div className="mil-service-icon">
+                                <div className="mil-icon-frame mil-icon-frame-md">
                                     <Image src={MdIcon5} alt="icon"/>
                                 </div>
                             </div>
-                            <div class="mil-service-text">
-                                <h5 class="mil-mb-30"><span class="mil-accent">02</span> Artificial Intelligence</h5>
+                            <div className="mil-service-text">
+                                <h5 className="mil-mb-30"><span className="mil-accent">02</span> Artificial Intelligence</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
-                        <div class="mil-divider mil-divider-left"></div>
-                        <div class="mil-service-item">
-                            <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
+                        <div className="mil-divider mil-divider-left"></div>
+                        <div className="mil-service-item">
+                            <div className="mil-service-icon">
+                                <div className="mil-icon-frame mil-icon-frame-md">
                                     <Image src={MdIcon6} alt="icon"/>
                                 </div>
                             </div>
-                            <div class="mil-service-text">
-                                <h5 class="mil-mb-30"><span class="mil-accent">03</span> Internet of Things</h5>
+                            <div className="mil-service-text">
+                                <h5 className="mil-mb-30"><span className="mil-accent">03</span> Internet of Things</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>

@@ -21,7 +21,7 @@ const RootLayout = ({ children }) => {
       </head>
       <body>
         <Header />
-        <div class="mil-wrapper">
+        <div className="mil-wrapper">
         {children}
         </div>
         <Footer />
