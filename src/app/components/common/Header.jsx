@@ -108,7 +108,7 @@ const Header = () => {
               <nav>
                 <ul>
                   <li>
-                    <Link href="#" legacyBehavior>
+                    <Link href="/" legacyBehavior>
                       <a>Home</a>
                     </Link>
                   </li>

@@ -108,7 +108,7 @@ const HeaderTwo = () => {
               <nav>
                 <ul>
                   <li>
-                    <Link href="#" legacyBehavior>
+                    <Link href="/" legacyBehavior>
                       <a>Home</a>
                     </Link>
                   </li>
@@ -132,7 +132,7 @@ const HeaderTwo = () => {
                   </li>
 
                   <li className="mil-has-children">
-                    <Link href="#" legacyBehavior>
+                    <Link href="/pages/solution" legacyBehavior>
                       <a>Solutions</a>
                     </Link>
                     <ul>
@@ -142,7 +142,7 @@ const HeaderTwo = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="//pages/solution" legacyBehavior>
+                        <Link href="/pages/solution" legacyBehavior>
                           <a>Solution 2</a>
                         </Link>
                       </li>
