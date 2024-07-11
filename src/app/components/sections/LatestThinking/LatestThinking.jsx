@@ -1,4 +1,3 @@
-
 'use client';
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -13,32 +12,30 @@ import BlogImage6 from '@/app/public/global/img/blog/6.jpg';
 
 const LatestThinking = () => {
   useEffect(() => {
-    // Accordion functionality
-    const acc = document.getElementsByClassName('mil-accordion');
-    for (let i = 0; i < acc.length; i++) {
-      acc[i].onclick = function () {
-        this.classList.toggle('mil-active');
-        const panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + 'px';
-        }
-      };
-    }
-
-    // Menu button toggle
-    const menuButton = document.querySelector('.mil-menu-btn');
-    if (menuButton) {
-      menuButton.addEventListener('click', function () {
-        this.classList.toggle('mil-active');
-        document
-          .querySelector('.mil-navigation')
-          .classList.toggle('mil-active');
+    const handleAccordions = () => {
+      const accs = document.querySelectorAll('.mil-accordion');
+      accs.forEach((acc) => {
+        acc.addEventListener('click', function () {
+          this.classList.toggle('mil-active');
+          const panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + 'px';
+          }
+        });
       });
-    }
+    };
 
-    // Scroll functionality
+    const handleMenuButton = () => {
+      const menuBtn = document.querySelector('.mil-menu-btn');
+      const navigation = document.querySelector('.mil-navigation');
+      menuBtn.addEventListener('click', function () {
+        this.classList.toggle('mil-active');
+        navigation.classList.toggle('mil-active');
+      });
+    };
+
     const handleScroll = () => {
       const scroll = window.scrollY || window.pageYOffset;
       const topPanel = document.querySelector('.mil-top-panel.mil-animated');
@@ -54,32 +51,49 @@ const LatestThinking = () => {
         }
       }
     };
-    window.addEventListener('scroll', handleScroll);
 
-    // Initialize Swiper instances
-    const initializeSwiper = (selector, config) => {
-      if (document.querySelector(selector)) {
-        new Swiper(selector, config);
-      }
+    handleAccordions();
+    handleMenuButton();
+    handleScroll();
+
+    // Initialize Swiper sliders
+    const initializeSwipers = () => {
+      new Swiper('.mil-blog-slider', {
+        spaceBetween: 30,
+        speed: 800,
+        slidesPerView: 1,
+        navigation: {
+          prevEl: '.mil-blog-prev',
+          nextEl: '.mil-blog-next',
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 2,
+          },
+          1200: {
+            slidesPerView: 'auto',
+          },
+        },
+      });
     };
 
-    initializeSwiper('.mil-works-slider', {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      speed: 800,
-      navigation: {
-        prevEl: '.mil-works-prev',
-        nextEl: '.mil-works-next',
-      },
-      breakpoints: {
-        768: {
-          slidesPerView: 2,
-        },
-      },
-    });
+    initializeSwipers();
 
-    // Cleanup function to remove event listeners
+    // Clean up event listeners on unmount
     return () => {
+      const accs = document.querySelectorAll('.mil-accordion');
+      accs.forEach((acc) => {
+        acc.removeEventListener('click', handleAccordions);
+      });
+
+      const menuBtn = document.querySelector('.mil-menu-btn');
+      if (menuBtn) {
+        menuBtn.removeEventListener('click', handleMenuButton);
+      }
+
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
@@ -153,39 +167,8 @@ const LatestThinking = () => {
                     </p>
                   </div>
                 </div>
-
               </a>
             </div>
-            <div className="swiper-slide mil-slide-50">
-              <a href="publication.html" className="mil-card">
-                <div className="mil-cover-frame">
-                  <Image
-                    src={BlogImage1}
-                    alt="project"
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                <div className="mil-description">
-                  <div className="mil-card-title">
-                    <h4 className="mil-mb-20">
-                      Easy & Most Powerful Server Platform.
-                    </h4>
-                    <h6>
-                      by: <span className="mil-accent">Jane Meldrum</span>
-                    </h6>
-                  </div>
-                  <div className="mil-card-text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
             <div className="swiper-slide mil-slide-50">
               <a href="publication.html" className="mil-card">
                 <div className="mil-cover-frame">
@@ -244,6 +227,7 @@ const LatestThinking = () => {
                 </div>
               </a>
             </div>
+            {/* Other swiper slides */}
           </div>
         </div>
         <Row className="align-items-center">

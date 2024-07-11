@@ -22,10 +22,12 @@ const page = () => {
     {/*HOME PAGE */}
     <Hero/>
     <Divider/> 
+
     <Logo/> 
     <Divider/> 
     <Help/>
     <Divider/> 
+
     <LatestProjects/>
     <Divider/> 
 

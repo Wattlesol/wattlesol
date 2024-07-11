@@ -1,4 +1,3 @@
-
 'use client';
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -37,7 +36,7 @@ const LatestProjects = () => {
 
     // Scroll functionality
     const handleScroll = () => {
-      const scroll = window.scrollY || window.pageYOffset;
+      const scroll = window.scrollY;
       const topPanel = document.querySelector('.mil-top-panel.mil-animated');
       const additionalPanel = document.querySelector('.has-additional-panel');
 
@@ -80,6 +79,7 @@ const LatestProjects = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
   return (
     <section className="mil-works mil-p-120-90">
       <div className="mil-deco" style={{ top: 0, right: '40%' }}></div>
