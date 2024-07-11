@@ -20,9 +20,9 @@ const Footer = () => {
                   style={{ width: '140px' }}
                 />
                 <p className="mil-light-soft mil-mb-30">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                  aliquam erat volutpat.
+                  Your partner in innovation. With a confident and motivated
+                  approach, we deliver solutions that transform and elevate your
+                  business.
                 </p>
                 <a href="#." className="mil-app-btn mil-mb-5">
                   <i className="fab fa-google-play"></i>
@@ -52,8 +52,7 @@ const Footer = () => {
                       Experience
                     </h3>
                     <p className="mil-light-soft">
-                      Lorem ipsum dolor sit amet, consectetuer
-                      <br /> adipiscing elit, sed diam nonummy.
+                      Pioneering Technology, Delivering Excellence
                     </p>
                   </Col>
                   <Col lg={5} className="mil-mb-30">

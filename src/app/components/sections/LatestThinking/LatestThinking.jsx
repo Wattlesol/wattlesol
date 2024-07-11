@@ -153,7 +153,7 @@ const LatestThinking = () => {
                 <div className="mil-description">
                   <div className="mil-card-title">
                     <h4 className="mil-mb-20">
-                      Easy & Most Powerful Server Platform.
+                      Revolutionizing Sales for SoftBank Robotics.
                     </h4>
                     <h6>
                       by: <span className="mil-accent">Jane Meldrum</span>
@@ -161,9 +161,8 @@ const LatestThinking = () => {
                   </div>
                   <div className="mil-card-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Strategic SDR Team and Social Media Optimization to Drive
+                      Sales and Leads
                     </p>
                   </div>
                 </div>

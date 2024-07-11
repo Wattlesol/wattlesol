@@ -113,7 +113,7 @@ const LatestProjects = () => {
                 <div className="mil-description">
                   <div className="mil-card-title">
                     <h4 className="mil-mb-20">
-                      Easy & Most Powerful Server Platform.
+                      Revolutionizing Sales for SoftBank Robotics.
                     </h4>
                     <h6>
                       by: <span className="mil-accent">Jane Meldrum</span>
@@ -121,9 +121,9 @@ const LatestProjects = () => {
                   </div>
                   <div className="mil-card-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Boosted SoftBank Robotics sales by optimizing social media
+                      and augmenting SDR team, driving lead generation and
+                      conversion rates.
                     </p>
                   </div>
                 </div>
@@ -137,43 +137,16 @@ const LatestProjects = () => {
                 </div>
                 <div className="mil-description">
                   <div className="mil-card-title">
-                    <h4 className="mil-mb-20">
-                      Easy & Most Powerful Server Platform.
-                    </h4>
+                    <h4 className="mil-mb-20">Most Powerful Snipping Tool.</h4>
                     <h6>
-                      by: <span className="mil-accent">Jane Meldrum</span>
+                      by: <span className="mil-accent">Nguta Ithya</span>
                     </h6>
                   </div>
                   <div className="mil-card-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div className="swiper-slide">
-              <a href="project.html" className="mil-card">
-                <div className="mil-cover-frame">
-                  <Image src={Project2} alt="project" />
-                </div>
-                <div className="mil-description">
-                  <div className="mil-card-title">
-                    <h4 className="mil-mb-20">
-                      Easy & Most Powerful Server Platform.
-                    </h4>
-                    <h6>
-                      by: <span className="mil-accent">Jane Meldrum</span>
-                    </h6>
-                  </div>
-                  <div className="mil-card-text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Enhance Karat Bars' gold trading with our snipping tools,
+                      designed for seamless and secure decentralized
+                      transactions.
                     </p>
                   </div>
                 </div>

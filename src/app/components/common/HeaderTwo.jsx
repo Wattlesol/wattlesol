@@ -32,19 +32,19 @@ const HeaderTwo = () => {
       const topPanel = document.querySelector('.mil-top-panel.mil-animated');
       const additionalPanel = document.querySelector('.has-additional-panel');
 
-      if (topPanel) {
-        if (scroll >= 220) {
-          topPanel.classList.remove('mil-top-panel-transparent');
-          if (additionalPanel) {
-            additionalPanel.classList.add('mil-hide-top');
-          }
-        } else {
-          topPanel.classList.add('mil-top-panel-transparent');
-          if (additionalPanel) {
-            additionalPanel.classList.remove('mil-hide-top');
-          }
-        }
+      // if (topPanel) {
+      //   if (scroll >= 220) {
+      topPanel.classList.remove('mil-top-panel-transparent');
+      if (additionalPanel) {
+        additionalPanel.classList.add('mil-hide-top');
       }
+      //   } else {
+      //     topPanel.classList.add('mil-top-panel-transparent');
+      //     if (additionalPanel) {
+      //       additionalPanel.classList.remove('mil-hide-top');
+      //     }
+      //   }
+      // }
     };
 
     window.addEventListener('scroll', handleScroll);
