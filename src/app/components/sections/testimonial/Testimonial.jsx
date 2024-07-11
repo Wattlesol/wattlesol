@@ -309,32 +309,6 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-
-            <div className="swiper-slide">
-              <div className="mil-review">
-                <div className="mil-stars mil-mb-30">
-                  <Image src={SmImage1} alt="quote" />
-                  <ul>
-                    {[...Array(5)].map((star, index) => (
-                      <li key={index}>
-                        <i className="fas fa-star"></i>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <p className="mil-mb-30">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-                <div className="mil-author">
-                  <Image src={ClientImage1} alt="Customer" />
-                  <div className="mil-name">
-                    <h6 className="mil-mb-5">Tamzyn French</h6>
-                    <span className="mil-text-sm">Agency Design</span>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </Container>
