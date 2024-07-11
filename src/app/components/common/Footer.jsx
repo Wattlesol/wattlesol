@@ -7,7 +7,7 @@ import Contact from './Contact'
 const Footer = () => {
   return (
     <>
-    <Contact/>
+
     <footer class="mil-dark-bg">
       <Image src={FooterImage1} alt="background" class="mil-footer-bg" />
       <Container>

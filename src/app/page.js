@@ -38,7 +38,7 @@ const page = () => {
     <Divider/> 
     <LatestThinking/>
     <Testimonial/>
-
+    <Contact/>
 
   </div>;
 };

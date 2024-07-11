@@ -1,3 +1,4 @@
+import Contact from '@/app/components/common/Contact'
 import Divider from '@/app/components/common/Divider'
 import CallToSection from '@/app/components/sections/AboutPageSections/CallToSection/CallToSection'
 import Counter from '@/app/components/sections/AboutPageSections/Counter/Counter'
@@ -21,6 +22,7 @@ const page = () => {
         <Mission/>
         <WorkWithUs/>
         <Value/>
+        <Contact/>
 
 
     </div>
