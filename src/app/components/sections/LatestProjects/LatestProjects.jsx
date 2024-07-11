@@ -1,3 +1,4 @@
+
 'use client';
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -79,7 +80,6 @@ const LatestProjects = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
   return (
     <section className="mil-works mil-p-120-90">
       <div className="mil-deco" style={{ top: 0, right: '40%' }}></div>

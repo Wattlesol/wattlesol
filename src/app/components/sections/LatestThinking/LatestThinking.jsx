@@ -1,3 +1,4 @@
+
 'use client';
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -152,6 +153,7 @@ const LatestThinking = () => {
                     </p>
                   </div>
                 </div>
+
               </a>
             </div>
             <div className="swiper-slide mil-slide-50">

@@ -2,7 +2,13 @@
 
 import Footer from './components/common/Footer';
 import Header from './components/common/Header';
-
+import '@/app/styles/globals.css';
+import "@/app/styles/flex.css"
+import "@/app/styles/global/style.css"
+import "@/app/styles/global/plugins/bootstrap-grid.css"
+import "@/app/styles/global/plugins/font-awesome.min.css"
+import "@/app/styles/global/plugins/swiper.min.css"
+import "@/app/styles/scss/style.scss"
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
@@ -15,7 +21,9 @@ const RootLayout = ({ children }) => {
       </head>
       <body>
         <Header />
+        <div className="mil-wrapper">
         {children}
+        </div>
         <Footer />
       </body>
     </html>

@@ -252,6 +252,7 @@ const Testimonial = () => {
                     <h6 className="mil-mb-5">Tamzyn French</h6>
                     <span className="mil-text-sm">Agency Design</span>
                   </div>
+
                 </div>
               </div>
             </div>
