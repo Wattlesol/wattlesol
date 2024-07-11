@@ -1,133 +1,345 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import ClientImage1 from "@/app/public/global/img/faces/1.jpg"
-import SmImage1 from "@/app/public/global/img/icons/sm/11.svg"
-import Image from 'next/image'
+'use client';
+import React, { useEffect } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Image from 'next/image';
+import ClientImage1 from '@/app/public/global/img/faces/1.jpg';
+import SmImage1 from '@/app/public/global/img/icons/sm/11.svg';
+import Swiper, {
+  Navigation,
+  Pagination,
+  Autoplay,
+  Parallax,
+  EffectFade,
+} from 'swiper';
+
 const Testimonial = () => {
-    return (
-        <section class="mil-reviews mil-deep-bg mil-p-120-120">
-            <div class="mil-deco" style={{ top: 0, right: "30%" }}></div>
-            <Container>
-                <Row className='align-items-center mil-mb-90'>
-                    <Col md={6} xl={6}>
-                        <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Testimonial</span>
-                        <h2>What Our <span class="mil-accent">Clients</span> Say</h2>
+  useEffect(() => {
+    'use strict';
 
-                    </Col>
-                    <Col md={6} xl={6}>
-                        <div class="mil-adaptive-right mil-mt-60-adapt">
-                            <div class="mil-slider-nav">
-                                <div class="mil-slider-btn-prev mil-revi-prev"><i class="fas fa-arrow-left"></i><span class="mil-h6">Prev</span></div>
-                                <div class="mil-slider-btn-next mil-revi-next"><span class="mil-h6">Next</span><i class="fas fa-arrow-right"></i></div>
-                            </div>
-                        </div>
-                    </Col>
+    Swiper.use([Navigation, Pagination, Autoplay, Parallax, EffectFade]);
 
-                </Row>
-                <div class="swiper-container mil-revi-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+    const acc = document.getElementsByClassName('mil-accordion');
+    for (let i = 0; i < acc.length; i++) {
+      acc[i].onclick = function () {
+        this.classList.toggle('mil-active');
+        const panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + 'px';
+        }
+      };
+    }
 
-                            <div class="mil-review">
-                                <div class="mil-stars mil-mb-30">
-                                    <Image src={SmImage1} alt="quote"/>
-                                        <ul>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                        </ul>
-                                </div>
-                                <p class="mil-mb-30">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <div class="mil-author">
-                                    <Image src={ClientImage1} alt="Customer"/>
-                                        <div class="mil-name">
-                                            <h6 class="mil-mb-5">Tamzyn French</h6>
-                                            <span class="mil-text-sm">Agency Design</span>
-                                        </div>
-                                </div>
-                            </div>
+    const menuBtn = document.querySelector('.mil-menu-btn');
+    const navigation = document.querySelector('.mil-navigation');
+    if (menuBtn) {
+      menuBtn.addEventListener('click', () => {
+        menuBtn.classList.toggle('mil-active');
+        if (navigation) navigation.classList.toggle('mil-active');
+      });
+    }
 
-                        </div>
-                        <div class="swiper-slide">
+    const handleScroll = () => {
+      const scroll = window.scrollY || window.pageYOffset;
+      const topPanel = document.querySelector('.mil-top-panel.mil-animated');
+      const additionalPanel = document.querySelector('.has-additional-panel');
 
-                            <div class="mil-review">
-                                <div class="mil-stars mil-mb-30">
-                                    <Image src={SmImage1} alt="quote"/>
-                                        <ul>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                        </ul>
-                                </div>
-                                <p class="mil-mb-30">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <div class="mil-author">
-                                    <Image src={ClientImage1} alt="Customer"/>
-                                        <div class="mil-name">
-                                            <h6 class="mil-mb-5">Tamzyn French</h6>
-                                            <span class="mil-text-sm">Agency Design</span>
-                                        </div>
-                                </div>
-                            </div>
+      if (topPanel && additionalPanel) {
+        if (scroll >= 220) {
+          topPanel.classList.remove('mil-top-panel-transparent');
+          additionalPanel.classList.add('mil-hide-top');
+        } else {
+          topPanel.classList.add('mil-top-panel-transparent');
+          additionalPanel.classList.remove('mil-hide-top');
+        }
+      }
+    };
 
-                        </div>
-                        <div class="swiper-slide">
+    window.addEventListener('scroll', handleScroll);
 
-                            <div class="mil-review">
-                                <div class="mil-stars mil-mb-30">
-                                    <Image src={SmImage1} alt="quote"/>
-                                        <ul>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                        </ul>
-                                </div>
-                                <p class="mil-mb-30">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <div class="mil-author">
-                                    <Image src={ClientImage1} alt="Customer"/>
-                                        <div class="mil-name">
-                                            <h6 class="mil-mb-5">Tamzyn French</h6>
-                                            <span class="mil-text-sm">Agency Design</span>
-                                        </div>
-                                </div>
-                            </div>
+    const swiperContainers = [
+      { container: '.mil-banner-slideshow', config: {} },
+      {
+        container: '.mil-banner-slider',
+        config: {
+          navigation: {
+            prevEl: '.mil-banner-prev',
+            nextEl: '.mil-banner-next',
+          },
+        },
+      },
+      {
+        container: '.mil-works-slider',
+        config: {
+          navigation: { prevEl: '.mil-works-prev', nextEl: '.mil-works-next' },
+        },
+      },
+      {
+        container: '.mil-blog-slider',
+        config: {
+          navigation: { prevEl: '.mil-blog-prev', nextEl: '.mil-blog-next' },
+        },
+      },
+      {
+        container: '.mil-revi-slider',
+        config: {
+          navigation: { prevEl: '.mil-revi-prev', nextEl: '.mil-revi-next' },
+        },
+      },
+      {
+        container: '.mil-revi-slider-2',
+        config: {
+          navigation: { prevEl: '.mil-revi-prev', nextEl: '.mil-revi-next' },
+        },
+      },
+      {
+        container: '.mil-services-slider',
+        config: {
+          navigation: {
+            prevEl: '.mil-services-prev',
+            nextEl: '.mil-services-next',
+          },
+        },
+      },
+      {
+        container: '.mil-events-slider',
+        config: {
+          navigation: {
+            prevEl: '.mil-events-prev',
+            nextEl: '.mil-events-next',
+          },
+        },
+      },
+      {
+        container: '.mil-courses-slider',
+        config: {
+          navigation: {
+            prevEl: '.mil-courses-prev',
+            nextEl: '.mil-courses-next',
+          },
+        },
+      },
+      {
+        container: '.mil-banners-slider',
+        config: {
+          pagination: {
+            el: '.mil-banners-pagination',
+            type: 'bullets',
+            clickable: true,
+          },
+        },
+      },
+      {
+        container: '.mil-box-slider',
+        config: {
+          navigation: { prevEl: '.mil-box-prev', nextEl: '.mil-box-next' },
+        },
+      },
+      { container: '.mil-tabs-slider', config: {} },
+      { container: '.mil-tabs-slider-2', config: {} },
+    ];
 
-                        </div>
-                        <div class="swiper-slide">
+    swiperContainers.forEach(({ container, config }) => {
+      const swiperEl = document.querySelector(container);
+      if (swiperEl) {
+        new Swiper(swiperEl, {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          speed: 800,
+          autoplay: {
+            delay: 5000,
+          },
+          loop: true,
+          ...config,
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+            },
+            992: {
+              slidesPerView: 3,
+            },
+          },
+        });
+      }
+    });
 
-                            <div class="mil-review">
-                                <div class="mil-stars mil-mb-30">
-                                    <Image src={SmImage1} alt="quote"/>
-                                        <ul>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                        </ul>
-                                </div>
-                                <p class="mil-mb-30">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <div class="mil-author">
-                                    <Image src={ClientImage1} alt="Customer"/>
-                                        <div class="mil-name">
-                                            <h6 class="mil-mb-5">Tamzyn French</h6>
-                                            <span class="mil-text-sm">Agency Design</span>
-                                        </div>
-                                </div>
-                            </div>
+    const tabButtons = document.querySelectorAll('.mil-tab-buttons a');
+    tabButtons.forEach((button) => {
+      button.addEventListener('click', (event) => {
+        tabButtons.forEach((btn) => btn.classList.remove('mil-active'));
+        event.currentTarget.classList.add('mil-active');
+      });
+    });
 
-                        </div>
-                    </div>
+    const tabLeftNav = document.querySelectorAll('.mil-tabs-left-nav a');
+    tabLeftNav.forEach((nav) => {
+      nav.addEventListener('click', (event) => {
+        tabLeftNav.forEach((navItem) => navItem.classList.remove('mil-active'));
+        event.currentTarget.classList.add('mil-active');
+      });
+    });
+
+    const input = document.getElementById('mil-file-input');
+    const label = document.querySelector('.mil-custom-file-input');
+    if (input && label) {
+      input.addEventListener('change', () => {
+        const file = input.value;
+        const [fileName] = file.match(/\w+.\w+$/);
+        if (fileName.trim()) {
+          label.classList.add('mil-with-file');
+          label.querySelector('span').innerText = fileName;
+        }
+      });
+    }
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  return (
+    <section className="mil-reviews mil-deep-bg mil-p-120-120">
+      <div className="mil-deco" style={{ top: 0, right: '30%' }}></div>
+      <Container>
+        <Row className="align-items-center mil-mb-90">
+          <Col md={6} xl={6}>
+            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+              Testimonial
+            </span>
+            <h2>
+              What Our <span className="mil-accent">Clients</span> Say
+            </h2>
+          </Col>
+          <Col md={6} xl={6}>
+            <div className="mil-adaptive-right mil-mt-60-adapt">
+              {/* Navigation buttons */}
+              <div className="mil-slider-nav">
+                <div className="mil-slider-btn-prev mil-revi-prev">
+                  <i className="fas fa-arrow-left"></i>
+                  <span className="mil-h6">Prev</span>
                 </div>
-            </Container>
+                <div className="mil-slider-btn-next mil-revi-next">
+                  <span className="mil-h6">Next</span>
+                  <i className="fas fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <div className="swiper-container mil-revi-slider">
+          <div className="swiper-wrapper">
+            {/* Slide 1 */}
+            <div className="swiper-slide">
+              <div className="mil-review">
+                <div className="mil-stars mil-mb-30">
+                  <Image src={SmImage1} alt="quote" />
+                  <ul>
+                    {[...Array(5)].map((star, index) => (
+                      <li key={index}>
+                        <i className="fas fa-star"></i>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <p className="mil-mb-30">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <div className="mil-author">
+                  <Image src={ClientImage1} alt="Customer" />
+                  <div className="mil-name">
+                    <h6 className="mil-mb-5">Tamzyn French</h6>
+                    <span className="mil-text-sm">Agency Design</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        </section>
-    )
-}
+            {/* Slide 2 */}
+            <div className="swiper-slide">
+              <div className="mil-review">
+                <div className="mil-stars mil-mb-30">
+                  <Image src={SmImage1} alt="quote" />
+                  <ul>
+                    {[...Array(5)].map((star, index) => (
+                      <li key={index}>
+                        <i className="fas fa-star"></i>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <p className="mil-mb-30">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <div className="mil-author">
+                  <Image src={ClientImage1} alt="Customer" />
+                  <div className="mil-name">
+                    <h6 className="mil-mb-5">Tamzyn French</h6>
+                    <span className="mil-text-sm">Agency Design</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-export default Testimonial
+            {/* Slide 3 */}
+            <div className="swiper-slide">
+              <div className="mil-review">
+                <div className="mil-stars mil-mb-30">
+                  <Image src={SmImage1} alt="quote" />
+                  <ul>
+                    {[...Array(5)].map((star, index) => (
+                      <li key={index}>
+                        <i className="fas fa-star"></i>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <p className="mil-mb-30">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <div className="mil-author">
+                  <Image src={ClientImage1} alt="Customer" />
+                  <div className="mil-name">
+                    <h6 className="mil-mb-5">Tamzyn French</h6>
+                    <span className="mil-text-sm">Agency Design</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="swiper-slide">
+              <div className="mil-review">
+                <div className="mil-stars mil-mb-30">
+                  <Image src={SmImage1} alt="quote" />
+                  <ul>
+                    {[...Array(5)].map((star, index) => (
+                      <li key={index}>
+                        <i className="fas fa-star"></i>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <p className="mil-mb-30">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <div className="mil-author">
+                  <Image src={ClientImage1} alt="Customer" />
+                  <div className="mil-name">
+                    <h6 className="mil-mb-5">Tamzyn French</h6>
+                    <span className="mil-text-sm">Agency Design</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+};
+
+export default Testimonial;

@@ -20,12 +20,10 @@ const page = () => {
   return <div>
     <Hero/>
     <Divider/> 
-
     <Logo/> 
     <Divider/> 
     <Help/>
     <Divider/> 
-
     <LatestProjects/>
     <Divider/> 
 
