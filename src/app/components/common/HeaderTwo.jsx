@@ -131,27 +131,10 @@ const HeaderTwo = () => {
                     </ul>
                   </li>
 
-                  <li className="mil-has-children">
+                  <li>
                     <Link href="/pages/solution" legacyBehavior>
                       <a>Solutions</a>
                     </Link>
-                    <ul>
-                      <li>
-                        <Link href="/pages/solution" legacyBehavior>
-                          <a>Solution 1</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/pages/solution" legacyBehavior>
-                          <a>Solution 2</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/pages/solution" legacyBehavior>
-                          <a>Solution 3</a>
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li>
