@@ -2,13 +2,13 @@
 'use client';
 import { usePathname } from 'next/navigation';
 import Header from './Header';
-import Headertwo from './Headertwo';
+import HeaderTwo from './HeaderTwo';
 
 const HeaderSwitcher = () => {
   const pathname = usePathname();
-  const isMainPage = pathname === '/'; 
+  const isMainPage = pathname === '/';
 
-  return <>{isMainPage ? <Header /> : <Headertwo />}</>;
+  return <>{isMainPage ? <Header /> : <HeaderTwo />}</>;
 };
 
 export default HeaderSwitcher;

@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 import '@/app/styles/globals.css';
 
-const Header = () => {
+const HeaderTwo = () => {
   //   useEffect(() => {
   //     const handleAccordionClick = (e) => {
   //       e.currentTarget.classList.toggle('mil-active');
@@ -194,4 +194,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderTwo;
