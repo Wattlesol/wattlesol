@@ -12,28 +12,20 @@ import BlogImage6 from '@/app/public/global/img/blog/6.jpg';
 
 const LatestThinking = () => {
   useEffect(() => {
-    const handleAccordions = () => {
-      const accs = document.querySelectorAll('.mil-accordion');
-      accs.forEach((acc) => {
-        acc.addEventListener('click', function () {
-          this.classList.toggle('mil-active');
-          const panel = this.nextElementSibling;
-          if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-          } else {
-            panel.style.maxHeight = panel.scrollHeight + 'px';
-          }
-        });
-      });
+    const handleAccordionClick = (event) => {
+      event.currentTarget.classList.toggle('mil-active');
+      const panel = event.currentTarget.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+      }
     };
 
-    const handleMenuButton = () => {
-      const menuBtn = document.querySelector('.mil-menu-btn');
-      const navigation = document.querySelector('.mil-navigation');
-      menuBtn.addEventListener('click', function () {
-        this.classList.toggle('mil-active');
-        navigation.classList.toggle('mil-active');
-      });
+    const handleMenuButtonClick = () => {
+      const menuButton = document.querySelector('.mil-menu-btn');
+      menuButton.classList.toggle('mil-active');
+      document.querySelector('.mil-navigation').classList.toggle('mil-active');
     };
 
     const handleScroll = () => {
@@ -52,11 +44,6 @@ const LatestThinking = () => {
       }
     };
 
-    handleAccordions();
-    handleMenuButton();
-    handleScroll();
-
-    // Initialize Swiper sliders
     const initializeSwipers = () => {
       new Swiper('.mil-blog-slider', {
         spaceBetween: 30,
@@ -80,18 +67,28 @@ const LatestThinking = () => {
       });
     };
 
+    // Event listener assignments
+    const accs = document.querySelectorAll('.mil-accordion');
+    accs.forEach((acc) => {
+      acc.addEventListener('click', handleAccordionClick);
+    });
+
+    const menuButton = document.querySelector('.mil-menu-btn');
+    if (menuButton) {
+      menuButton.addEventListener('click', handleMenuButtonClick);
+    }
+
+    window.addEventListener('scroll', handleScroll);
     initializeSwipers();
 
-    // Clean up event listeners on unmount
+    // Cleanup function
     return () => {
-      const accs = document.querySelectorAll('.mil-accordion');
       accs.forEach((acc) => {
-        acc.removeEventListener('click', handleAccordions);
+        acc.removeEventListener('click', handleAccordionClick);
       });
 
-      const menuBtn = document.querySelector('.mil-menu-btn');
-      if (menuBtn) {
-        menuBtn.removeEventListener('click', handleMenuButton);
+      if (menuButton) {
+        menuButton.removeEventListener('click', handleMenuButtonClick);
       }
 
       window.removeEventListener('scroll', handleScroll);
@@ -173,7 +170,7 @@ const LatestThinking = () => {
               <a href="publication.html" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
-                    src={BlogImage1}
+                    src={BlogImage2}
                     alt="project"
                     width={600}
                     height={400}
@@ -203,7 +200,7 @@ const LatestThinking = () => {
               <a href="publication.html" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
-                    src={BlogImage1}
+                    src={BlogImage3}
                     alt="project"
                     width={600}
                     height={400}
