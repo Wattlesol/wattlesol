@@ -137,17 +137,17 @@ const HeaderTwo = () => {
                     </Link>
                     <ul>
                       <li>
-                        <Link href="/solution-1" legacyBehavior>
+                        <Link href="/pages/solution" legacyBehavior>
                           <a>Solution 1</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/solution-2" legacyBehavior>
+                        <Link href="//pages/solution" legacyBehavior>
                           <a>Solution 2</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/solution-3" legacyBehavior>
+                        <Link href="/pages/solution" legacyBehavior>
                           <a>Solution 3</a>
                         </Link>
                       </li>
@@ -155,7 +155,7 @@ const HeaderTwo = () => {
                   </li>
 
                   <li>
-                    <Link href="/blog" legacyBehavior>
+                    <Link href="/pages/blog" legacyBehavior>
                       <a>Blog</a>
                     </Link>
                   </li>
