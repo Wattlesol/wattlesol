@@ -1,16 +1,13 @@
 'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect } from 'react';
 import Bg1 from '@/app/public/global/img/photo/Banner-1.jpg';
 import Bg2 from '@/app/public/global/img/photo/Banner-2.jpg';
 import Bg3 from '@/app/public/global/img/photo/Banner-3.jpg';
-import styles from '@/app/styles/global/plugins/swiper.min.css'; // Import Swiper CSS file
 
 export const Hero = () => {
   useEffect(() => {
-    // Initialize Swiper when component mounts
     const swiper = new Swiper('.mil-banner-slideshow', {
       slidesPerView: 1,
       spaceBetween: 0,
@@ -26,11 +23,10 @@ export const Hero = () => {
       },
     });
 
-    // Clean up Swiper instance on component unmount
     return () => {
       swiper.destroy();
     };
-  }, []); // Empty dependency array ensures this effect runs only once
+  }, []);
 
   return (
     <div className="mil-banner mil-top-space-0">
