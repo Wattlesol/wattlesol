@@ -9,7 +9,7 @@ const Award = () => {
         <section class="mil-awards">
             <Row className='m-0'>
                 <Col xl={6} className=' p-0 mil-relative'>
-                    <Image src={PhotoImage1} class="mil-background-image" style="object-position: center" data-swiper-parallax-scale="1.1" alt="image" />
+                    <Image src={PhotoImage1} class="mil-background-image" style={{objectPosition: "center"}} data-swiper-parallax-scale="1.1" alt="image" />
                     <div class="mil-overlay mil-gradient-bg"></div>
                     <div class="mil-fake-container mil-p-120-120">
                         <div class="swiper-container mil-box-slider mil-mb-120">
