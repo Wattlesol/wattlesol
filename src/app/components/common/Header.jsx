@@ -46,6 +46,18 @@ const Header = () => {
                     <Link href="/pages/about" legacyBehavior>
                       <a>About Us</a>
                     </Link>
+                    <ul>
+                      <li>
+                        <Link href="/pages/team" legacyBehavior>
+                          <a>Team</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/pages/faqs" legacyBehavior>
+                          <a>FAQ</a>
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <Link href="/pages/solution" legacyBehavior>
