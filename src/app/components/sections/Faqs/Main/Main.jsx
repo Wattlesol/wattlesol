@@ -1,4 +1,5 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
 const tabData = [
@@ -145,7 +146,7 @@ const tabData = [
       {
         title: 'Does Wattle Sol provide security training for its employees?',
         description:
-          'Yes, all employees undergo regular security training to stay updated on best practices and emerging threats.',
+          'WYes, all employees undergo regular security training to stay updated on best practices and emerging threats.',
       },
 
       {
@@ -157,22 +158,46 @@ const tabData = [
   },
 ];
 
-const TabContent = ({ content }) => (
-  <>
-    {content.map((item, index) => (
-      <div key={index}>
-        <div className="mil-accordion">
-          <h6>{item.title}</h6>
-        </div>
-        <div className="mil-panel">
-          <div className="mil-window">
-            <p>{item.description}</p>
+const TabContent = ({ content }) => {
+  const [openAccordion, setOpenAccordion] = useState(null);
+
+  const toggleAccordion = (index) => {
+    if (openAccordion === index) {
+      setOpenAccordion(null);
+    } else {
+      setOpenAccordion(index);
+    }
+  };
+
+  return (
+    <>
+      {content.map((item, index) => (
+        <div key={index}>
+          <div
+            className={`mil-accordion ${
+              openAccordion === index ? 'mil-active' : ''
+            }`}
+            onClick={() => toggleAccordion(index)}
+          >
+            <h6>{item.title}</h6>
+          </div>
+          <div
+            className="mil-panel"
+            style={{
+              maxHeight: openAccordion === index ? '1000px' : '0',
+              overflow: 'hidden',
+              transition: 'max-height 0.3s ease',
+            }}
+          >
+            <div className="mil-window">
+              <p>{item.description}</p>
+            </div>
           </div>
         </div>
-      </div>
-    ))}
-  </>
-);
+      ))}
+    </>
+  );
+};
 
 const Main = () => {
   return (
