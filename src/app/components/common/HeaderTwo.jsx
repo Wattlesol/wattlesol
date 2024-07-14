@@ -62,11 +62,11 @@ const HeaderTwo = () => {
                       <a>Solutions</a>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/pages/blog" legacyBehavior>
                       <a>Blog</a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/pages/contact" legacyBehavior>
                       <a>Contact Us</a>

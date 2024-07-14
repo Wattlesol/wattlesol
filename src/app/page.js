@@ -4,12 +4,7 @@ import Logo from './components/sections/logoSlider/Logo';
 import Divider from './components/common/Divider';
 import { Hero } from './components/home/Hero';
 
-
-
-
-
-
-import Help from './components/sections/howWeCanHelp/Help'
+import Help from './components/sections/howWeCanHelp/Help';
 import LatestProjects from './components/sections/LatestProjects/LatestProjects';
 import HowItWork from './components/sections/howToWork/HowItWork';
 import Skills from './components/sections/skills/Skills';
@@ -18,28 +13,28 @@ import Testimonial from './components/sections/testimonial/Testimonial';
 import Contact from './components/common/Contact';
 
 const page = () => {
-  return <div>
-    {/*HOME PAGE */}
-    <Hero/>
-    <Divider/> 
+  return (
+    <div>
+      {/*HOME PAGE */}
+      <Hero />
+      <Divider />
 
-    <Logo/> 
-    <Divider/> 
-    <Help/>
-    <Divider/> 
+      <Logo />
+      <Divider />
+      <Help />
+      <Divider />
 
-    <LatestProjects/>
-    <Divider/> 
+      <LatestProjects />
+      <Divider />
 
-    <HowItWork/>
+      <HowItWork />
 
-
-    <Skills/>
-    <Divider/> 
-    <LatestThinking/>
-    <Testimonial/>
-    <Contact/>
-
-  </div>;
+      <Skills />
+      <Divider />
+      {/* <LatestThinking/> */}
+      <Testimonial />
+      <Contact />
+    </div>
+  );
 };
 export default page;
