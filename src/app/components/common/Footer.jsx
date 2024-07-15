@@ -1,6 +1,6 @@
 import React from 'react';
 import FooterImage1 from '@/app/public/global/img/deco/map.png';
-import Logo from '@/app/public/global/img/logo/logo-light.png';
+import Logo from '@/app/public/global/img/logo/logo-light.svg';
 import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Contact from './Contact';

@@ -1592,7 +1592,7 @@ top panel
   -ms-flex-align: center;
   align-items: center;
   /* background-image: url(../img/logo/logo-dark.png); */
-  background-image: url('/wattlesol-frontend-nextjs/public/img/logo/logo-dark.png');
+  background-image: url('/wattlesol-frontend-nextjs/public/img/logo/logo-dark.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1801,7 +1801,7 @@ top panel
   box-shadow: none;
 }
 .mil-top-panel.mil-top-panel-transparent .mil-logo {
-  background-image: url('../assets/img/logo/logo-light.png');
+  background-image: url('../assets/img/logo/logo-light.svg');
 }
 .mil-top-panel.mil-top-panel-transparent .mil-navigation nav ul li a {
   color: rgb(255, 255, 255);
@@ -1838,7 +1838,7 @@ top panel
     background-color: rgb(255, 255, 255);
   }
   .mil-top-panel.mil-top-panel-transparent .mil-logo {
-    background-image: url('../assets/img/logo/logo-light.png');
+    background-image: url('../assets/img/logo/logo-light.svg');
   }
   .mil-top-panel.mil-top-panel-transparent .mil-navigation nav ul li a {
     color: rgb(18, 24, 32);
