@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Project1 from '@/app/public/global/img/projects/1.jpg';
 import Project2 from '@/app/public/global/img/projects/2.jpg';
 import Project3 from '@/app/public/global/img/projects/3.jpg';
-import Project4 from '@/app/public/global/img/projects/4.jpg';
 
 const LatestProjects = () => {
   useEffect(() => {
@@ -108,7 +107,7 @@ const LatestProjects = () => {
             <div className="swiper-slide">
               <a href="project.html" className="mil-card">
                 <div className="mil-cover-frame">
-                  <Image src={Project2} alt="project" />
+                  <Image src={Project3} alt="project" />
                 </div>
                 <div className="mil-description">
                   <div className="mil-card-title">
@@ -134,6 +133,29 @@ const LatestProjects = () => {
               <a href="project.html" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image src={Project2} alt="project" />
+                </div>
+                <div className="mil-description">
+                  <div className="mil-card-title">
+                    <h4 className="mil-mb-20">Most Powerful Snipping Tool.</h4>
+                    <h6>
+                      by: <span className="mil-accent">Nguta Ithya</span>
+                    </h6>
+                  </div>
+                  <div className="mil-card-text">
+                    <p>
+                      Enhance Karat Bars' gold trading with our snipping tools,
+                      designed for seamless and secure decentralized
+                      transactions.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div className="swiper-slide">
+              <a href="project.html" className="mil-card">
+                <div className="mil-cover-frame">
+                  <Image src={Project1} alt="project" />
                 </div>
                 <div className="mil-description">
                   <div className="mil-card-title">
