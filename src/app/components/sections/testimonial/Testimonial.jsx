@@ -4,6 +4,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 import ClientImage1 from '@/app/public/global/img/faces/1.jpg';
 import SmImage1 from '@/app/public/global/img/icons/sm/11.svg';
 import Image from 'next/image';
+import ColorLogo1 from '@/app/public/logoSection/color-1.png';
+import ColorLogo2 from '@/app/public/logoSection/color-2.png';
+import ColorLogo3 from '@/app/public/logoSection/color-3.png';
+import ColorLogo4 from '@/app/public/logoSection/color-4.png';
 
 const Testimonial = () => {
   useEffect(() => {
@@ -91,14 +95,27 @@ const Testimonial = () => {
                   </ul>
                 </div>
                 <p className="mil-mb-30">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  We partnered with Wattle Sol for our mobile app development
+                  needs, and they exceeded our expectations. Their team was
+                  professional, responsive, and delivered a high-quality product
+                  on time. The seamless integration and user-friendly interface
+                  have significantly boosted our customer engagement. We
+                  couldn't be happier with the results! by the readable content
+                  of a page when looking at its layout.
                 </p>
                 <div className="mil-author">
-                  <Image src={ClientImage1} alt="Customer" />
+                  <Image
+                    style={{
+                      width: '120px',
+                      height: '40px',
+                    }}
+                    objectFit="contain"
+                    src={ColorLogo1}
+                    alt="Customer"
+                  />
                   <div className="mil-name">
-                    <h6 className="mil-mb-5">Tamzyn French</h6>
-                    <span className="mil-text-sm">Agency Design</span>
+                    <h6 className="mil-mb-5">CEO Allocate</h6>
+                    {/* <span className="mil-text-sm">Agency Design</span> */}
                   </div>
                 </div>
               </div>
@@ -127,14 +144,25 @@ const Testimonial = () => {
                   </ul>
                 </div>
                 <p className="mil-mb-30">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  Wattle Sol transformed our outdated legacy system into a
+                  modern, efficient solution that has greatly improved our
+                  operational efficiency. Their expertise in blockchain
+                  technology and custom software development is unparalleled.
+                  The project was completed ahead of schedule, and the support
+                  we received post-launch has been exceptional.
                 </p>
                 <div className="mil-author">
-                  <Image src={ClientImage1} alt="Customer" />
+                  <Image
+                    style={{
+                      width: '120px',
+                      height: '40px',
+                    }}
+                    src={ColorLogo2}
+                    alt="Customer"
+                  />
                   <div className="mil-name">
-                    <h6 className="mil-mb-5">Tamzyn French</h6>
-                    <span className="mil-text-sm">Agency Design</span>
+                    <h6 className="mil-mb-5">CEO Karatbars</h6>
+                    {/* <span className="mil-text-sm">Agency Design</span> */}
                   </div>
                 </div>
               </div>
@@ -163,14 +191,25 @@ const Testimonial = () => {
                   </ul>
                 </div>
                 <p className="mil-mb-30">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  Choosing Wattle Sol for our web development project was one of
+                  the best decisions we made. Their attention to detail,
+                  innovative approach, and dedication to our vision resulted in
+                  a stunning website that has attracted a lot of positive
+                  feedback from our clients. Their team is a pleasure to work
+                  with, and we look forward to future collaborations.
                 </p>
                 <div className="mil-author">
-                  <Image src={ClientImage1} alt="Customer" />
+                  <Image
+                    style={{
+                      width: '120px',
+                      height: '40px',
+                    }}
+                    src={ColorLogo4}
+                    alt="Customer"
+                  />
                   <div className="mil-name">
-                    <h6 className="mil-mb-5">Tamzyn French</h6>
-                    <span className="mil-text-sm">Agency Design</span>
+                    {/* <h6 className="mil-mb-5">Tamzyn French</h6> */}
+                    <span className="mil-text-sm">CEO SoftBanks</span>
                   </div>
                 </div>
               </div>
@@ -199,14 +238,26 @@ const Testimonial = () => {
                   </ul>
                 </div>
                 <p className="mil-mb-30">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  As a startup, we needed a reliable software partner who could
+                  help us bring our ideas to life. Wattle Sol not only provided
+                  us with top-notch development services but also offered
+                  valuable insights and guidance throughout the project. Their
+                  commitment to excellence and customer satisfaction is truly
+                  commendable. We highly recommend their services to anyone
+                  looking for a trustworthy software company.
                 </p>
                 <div className="mil-author">
-                  <Image src={ClientImage1} alt="Customer" />
+                  <Image
+                    style={{
+                      width: '120px',
+                      height: '40px',
+                    }}
+                    src={ColorLogo3}
+                    alt="Customer"
+                  />
                   <div className="mil-name">
-                    <h6 className="mil-mb-5">Tamzyn French</h6>
-                    <span className="mil-text-sm">Agency Design</span>
+                    {/* <h6 className="mil-mb-5">CEO ORMEUS</h6> */}
+                    <span className="mil-text-sm">CEO ORMEUS</span>
                   </div>
                 </div>
               </div>
