@@ -24,7 +24,7 @@ const Footer = () => {
                   approach, we deliver solutions that transform and elevate your
                   business.
                 </p>
-                <a href="#." className="mil-app-btn mil-mb-5">
+                {/* <a href="#." className="mil-app-btn mil-mb-5">
                   <i className="fab fa-google-play"></i>
                   <div className="mil-app-text">
                     <span className="mil-accent mil-text-sm">
@@ -41,7 +41,7 @@ const Footer = () => {
                     </span>
                     <div className="mil-h6">App Store</div>
                   </div>
-                </a>
+                </a> */}
               </Col>
               <Col xl={7} className="mil-mt-60-adapt">
                 <Row>
