@@ -214,7 +214,7 @@ const LatestThinking = () => {
                     Why Staff Augmentation is the best solution for Software companies .
                     </h4>
                     <h6>
-                      by: <span className="mil-accent">Jane Meldrum</span>
+                      by: <span className="mil-accent">Wattle Sol</span>
                     </h6>
                   </div>
                   <div className="mil-card-text">
