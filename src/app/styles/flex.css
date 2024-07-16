@@ -1,63 +1,62 @@
-/* *LOGO SECTION */
+/* LOGO SECTION */
 @keyframes slide {
-    from{
-        transform:translateX(10%)
-    }
-    to{
-        transform:translateX(-50%)
-    }
+  from {
+    transform: translateX(10%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
-.logo-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    padding-inline: 30px;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding-inline: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
 }
-.logo-container:hover .logo-sub-container{
-    animation-play-state: paused;
-
+.logo-container:hover .logo-sub-container {
+  animation-play-state: paused;
 }
-.logo-container::before,.logo-container::after{
-    position:absolute;
-    top: 0;
-    width: 200px;
-    height: 100%;
-    z-index: 2;
-    content: "";
+.logo-container::before,
+.logo-container::after {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  z-index: 2;
+  content: '';
 }
-.logo-container::before{
-    left: 0;
-    background: linear-gradient(to left,rgba(255,255,255,0),white);
+.logo-container::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
 }
-.logo-container::after{
-    right: 0;
-    background: linear-gradient(to right,rgba(255,255,255,0),white);
+.logo-container::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }
-.logo-sub-container{
-    display: inline-block;
-    animation: 10s slide infinite linear ;
+.logo-sub-container {
+  display: inline-block;
+  animation: 10s slide infinite linear;
 }
-.logo-sub-container img{
+.logo-sub-container img {
+  aspect-ratio: 16/9;
+  margin-inline: 40px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+.logo-sub-container img:hover {
+  filter: grayscale(0%);
+}
+@media (max-width: 60rem) {
+  .logo-sub-container img {
     aspect-ratio: 16/9;
     margin-inline: 40px;
+  }
+  .logo-container::before,
+  .logo-container::after {
+    width: 100px;
+  }
 }
-@media (max-width:60rem) {
-    .logo-sub-container img{
-        aspect-ratio: 16/9;
-        margin-inline: 40px;
-    }
-    .logo-container::before,.logo-container::after{
-        position:absolute;
-        top: 0;
-        width: 100px;
-        height: 100%;
-        z-index: 2;
-        content: "";
-    }
-    
-}
-

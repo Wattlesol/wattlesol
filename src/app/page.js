@@ -31,7 +31,7 @@ const page = () => {
 
       <Skills />
       <Divider />
-      {/* <LatestThinking/> */}
+      <LatestThinking/>
       <Testimonial />
       <Contact />
     </div>
