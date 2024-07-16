@@ -150,10 +150,11 @@ const LatestThinking = () => {
                 <div className="mil-description">
                   <div className="mil-card-title">
                     <h4 className="mil-mb-20">
-                      Revolutionizing Sales for SoftBank Robotics.
+                      How DevOps can save disasters in production grade
+                      applications.
                     </h4>
                     <h6>
-                      by: <span className="mil-accent">Jane Meldrum</span>
+                      by: <span className="mil-accent">Wattle Sol</span>
                     </h6>
                   </div>
                   <div className="mil-card-text">
@@ -179,10 +180,11 @@ const LatestThinking = () => {
                 <div className="mil-description">
                   <div className="mil-card-title">
                     <h4 className="mil-mb-20">
-                      Easy & Most Powerful Server Platform.
+                      Micro Services Are the future of seamless operations in
+                      application development.
                     </h4>
                     <h6>
-                      by: <span className="mil-accent">Jane Meldrum</span>
+                      by: <span className="mil-accent">Wattle Sol</span>
                     </h6>
                   </div>
                   <div className="mil-card-text">
@@ -209,7 +211,7 @@ const LatestThinking = () => {
                 <div className="mil-description">
                   <div className="mil-card-title">
                     <h4 className="mil-mb-20">
-                      Easy & Most Powerful Server Platform.
+                    Why Staff Augmentation is the best solution for Software companies .
                     </h4>
                     <h6>
                       by: <span className="mil-accent">Jane Meldrum</span>
