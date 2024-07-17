@@ -36,9 +36,9 @@ export const Hero = () => {
   return (
     <>
       <Head>
-        <title>Enterprise Services and Solutions | Wattle Solutions</title>
+        <title>Staff Augmentation & Services for Enterprises | Wattle Solutions</title>
         <meta name="description" content="Achieve exceptional project outcomes with dedicated development teams from Wattle Solutions. Hire developers, designers, and marketing resources at reduced costs while maintaining quality." />
-        <meta name="keywords" content="enterprise services, software development, staff augmentation, UI/UX design, marketing, dedicated teams" />
+        <meta name="keywords" content="staff augmentation, services for enterprises, software development, UI/UX design, marketing, dedicated teams" />
         <link rel="canonical" href="https://wattlesol.com" />
       </Head>
       <div className="mil-banner mil-top-space-0">
