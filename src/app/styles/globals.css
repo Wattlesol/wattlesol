@@ -2630,6 +2630,7 @@ icons
 .mil-icon-frame.mil-icon-frame-md:before {
   width: 20px;
   height: 20px;
+  z-index: 100 !important;
 }
 .mil-icon-frame.mil-icon-frame-sm {
   width: 25px;
