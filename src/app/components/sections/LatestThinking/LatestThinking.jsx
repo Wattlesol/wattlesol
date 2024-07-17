@@ -3,12 +3,9 @@ import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Image from 'next/image';
 import Swiper from 'swiper';
-import BlogImage1 from '@/app/public/global/img/blog/1.jpg';
-import BlogImage2 from '@/app/public/global/img/blog/2.jpg';
-import BlogImage3 from '@/app/public/global/img/blog/3.jpg';
-import BlogImage4 from '@/app/public/global/img/blog/4.jpg';
-import BlogImage5 from '@/app/public/global/img/blog/5.jpg';
-import BlogImage6 from '@/app/public/global/img/blog/6.jpg';
+import BlogImage1 from '@/app/public/global/img/blog/blog-devops.jpg';
+import BlogImage2 from '@/app/public/global/img/blog/blog-microservice.png';
+import BlogImage3 from '@/app/public/global/img/blog/blog-staff.jpg';
 
 const LatestThinking = () => {
   useEffect(() => {
@@ -143,6 +140,7 @@ const LatestThinking = () => {
                   <Image
                     src={BlogImage1}
                     alt="project"
+                    objectFit="contain"
                     width={600}
                     height={400}
                   />
@@ -172,6 +170,7 @@ const LatestThinking = () => {
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage2}
+                    objectFit="contain"
                     alt="project"
                     width={600}
                     height={400}
@@ -203,6 +202,7 @@ const LatestThinking = () => {
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage3}
+                    objectFit="contain"
                     alt="project"
                     width={600}
                     height={400}
@@ -211,7 +211,8 @@ const LatestThinking = () => {
                 <div className="mil-description">
                   <div className="mil-card-title">
                     <h4 className="mil-mb-20">
-                    Why Staff Augmentation is the best solution for Software companies .
+                      Why Staff Augmentation is the best solution for
+                      Software companies .
                     </h4>
                     <h6>
                       by: <span className="mil-accent">Wattle Sol</span>

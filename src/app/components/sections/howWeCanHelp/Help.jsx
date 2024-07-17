@@ -1,11 +1,11 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import MdIcon1 from '@/app/public/global/img/icons/md/1.svg';
-import MdIcon2 from '@/app/public/global/img/icons/md/2.svg';
-import MdIcon3 from '@/app/public/global/img/icons/md/3.svg';
-import MdIcon4 from '@/app/public/global/img/icons/md/4.svg';
-import MdIcon5 from '@/app/public/global/img/icons/md/5.svg';
-import MdIcon6 from '@/app/public/global/img/icons/md/6.svg';
+import MdIcon1 from '@/app/public/global/img/icons/md/DedicatedDevelopmentTeam.svg';
+import MdIcon2 from '@/app/public/global/img/icons/md/DedicatedDevelopment.svg';
+import MdIcon3 from '@/app/public/global/img/icons/md/MarketingandSalesTeam.svg';
+import MdIcon4 from '@/app/public/global/img/icons/md/SolutionArchitects.svg';
+import MdIcon5 from '@/app/public/global/img/icons/md/CustomerService.svg';
+import MdIcon6 from '@/app/public/global/img/icons/md/DevOps.svg';
 import Image from 'next/image';
 
 const Help = () => {
@@ -55,8 +55,8 @@ const Help = () => {
                 </div>
                 <div className="mil-service-text">
                   <h5 className="mil-mb-30">
-                    <span className="mil-accent">03</span> Q Dedicated
-                    Development Individuals
+                    <span className="mil-accent">03</span>Dedicated Development
+                    Individuals
                   </h5>
                   <p>
                     Partner with Dedicated Development Individuals for tailored
