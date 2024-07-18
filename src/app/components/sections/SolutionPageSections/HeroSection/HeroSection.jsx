@@ -10,11 +10,11 @@ const HeroSection = () => {
             <div class="mil-deco mil-deco-accent" style={{top: "47%", right: "10%", transform: "rotate(90deg)"}}></div>
             <div class="mil-banner-content">
                 <Container class=" mil-relative">
-                    <ul class="mil-breadcrumbs mil-mb-30">
+                    <ul class="mil-breadcrumbs my-2 mil-mb-30">
                         <li><a href="home-1.html">Home</a></li>
                         <li><a href="service-1.html">Solution</a></li>
                     </ul>
-                    <h2 class="mil-uppercase">AI consulting and development</h2>
+                    <h2 class="mil-uppercase">Our Services And Solutions</h2>
                 </Container>
             </div>
         </div>

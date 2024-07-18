@@ -9,6 +9,29 @@ const Consultant = () => {
   const totalSlides = 5;
   const slideWidth = 100 / 3;
 
+  const data = [
+    {
+      id: 1,
+      title: 'Proven Expertise',
+      desc: 'With over 15 years of experience, our team of experts brings unparalleled knowledge and skills to every project.',
+    },
+    {
+      id: 2,
+      title: 'Tailored Solutions',
+      desc: 'We understand that every business is unique. Our solutions are customized to address your specific needs, ensuring optimal results.',
+    },
+    {
+      id: 3,
+      title: 'Client-Centric',
+      desc: 'Your success is our priority. We work closely with you to understand your goals and deliver solutions that drive results.',
+    },
+    {
+      id: 4,
+      title: 'Scalability',
+      desc: " Whether you're a startup or a large enterprise, our solutions are scalable to accommodate your business growth.",
+    },
+  ];
+
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => {
       return Math.min(prevSlide + 1, totalSlides - 3);
@@ -68,8 +91,8 @@ const Consultant = () => {
               width: `${58.2 * (totalSlides / 3)}%`, // Adjust the width calculation
             }}
           >
-            {Array.from({ length: totalSlides }, (_, i) => (
-              <div key={i} style={{ width: `${slideWidth}%`, flexShrink: 0 }}>
+            {data.map((data) => (
+              <div style={{ width: `${slideWidth}%`, flexShrink: 0 }}>
                 <div className="mil-hover-card">
                   <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
                     <Image
@@ -80,10 +103,9 @@ const Consultant = () => {
                       layout="responsive"
                     />
                   </div>
-                  <h5 className="mil-mb-30">Retail and eCommerce</h5>
+                  <h5 className="mil-mb-30">{data.title}</h5>
                   <p>
-                    Dissuade ecstatic and properly saw entirely sir why laughter
-                    endeavor. In on my jointure horrible margaret.
+                   {data.desc}
                   </p>
                 </div>
               </div>

@@ -10,18 +10,33 @@ const Award = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     {
-      title: 'AI Solutions To Analyze and Understand The Physical World',
+      title: 'CSS Design',
       description:
-        'Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable he followed speedily.',
+        'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
       icon: IconImage1,
-      subtitle: 'Facial Recognition',
+      subtitle:
+        'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
     },
     {
-      title: 'Industry Specific AI Consulting and Development',
+      title: 'The FWA Award',
       description:
-        'Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable he followed speedily.',
+        'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
       icon: IconImage2,
-      subtitle: 'Artificial Intelligence',
+      subtitle: 'Tailored Solutions',
+    },
+    {
+      title: 'W3 Design Award',
+      description:
+        'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
+      icon: IconImage2,
+      subtitle: 'W3 Design Award',
+    },
+    {
+      title: 'WWW Awards',
+      description:
+        'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
+      icon: IconImage2,
+      subtitle: 'WWW Awards',
     },
   ];
 
@@ -48,9 +63,9 @@ const Award = () => {
           <div className="mil-fake-container mil-p-120-120">
             <div>
               <h3 className="mil-light mil-mb-120">
-                {slides[currentSlide].title}{' '}
+                {/* {slides[currentSlide].title}{' '} */}
                 <span className="mil-accent">
-                  {slides[currentSlide].subtitle}
+                  {/* {slides[currentSlide].subtitle} */}
                 </span>
               </h3>
               <div className="mil-hori-box mil-mb-30">
@@ -64,13 +79,13 @@ const Award = () => {
                     />
                   </div>
                 </div>
-                <h5 className="mil-light">{slides[currentSlide].subtitle}</h5>
+                <h5 className="mil-light">{slides[currentSlide].title}</h5>
               </div>
               <p className="mil-light-soft">
                 {slides[currentSlide].description}
               </p>
             </div>
-            <div className="mil-slider-nav">
+            <div className="mil-slider-nav mt-5">
               <div
                 className="mil-slider-btn-prev mil-box-prev mil-light"
                 onClick={prevSlide}
