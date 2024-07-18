@@ -33,11 +33,11 @@ const Skills = () => {
                 <div
                   className="mil-skill-prog"
                   style={{
-                    width: '65%',
+                    width: '90%',
                   }}
                 ></div>
               </div>
-              <div className="mil-text-sm">65%</div>
+              <div className="mil-text-sm">90%</div>
             </div>
           </Col>
           <Col md={6} xl={3}>
@@ -63,11 +63,11 @@ const Skills = () => {
                 <div
                   className="mil-skill-prog"
                   style={{
-                    width: '50%',
+                    width: '90%',
                   }}
                 ></div>
               </div>
-              <div className="mil-text-sm">50%</div>
+              <div className="mil-text-sm">90%</div>
             </div>
           </Col>
           <Col md={6} xl={3}>
@@ -86,18 +86,18 @@ const Skills = () => {
             </div>
           </Col>
           <Col md={6} xl={3}>
-            <h6 className="mil-mb-30">Internet of Things</h6>
+            <h6 className="mil-mb-30">Customer Services & Sales</h6>
 
             <div className="mil-skill-frame mil-mb-60">
               <div className="mil-skill-track">
                 <div
                   className="mil-skill-prog"
                   style={{
-                    width: '60%',
+                    width: '80%',
                   }}
                 ></div>
               </div>
-              <div className="mil-text-sm">60%</div>
+              <div className="mil-text-sm">80%</div>
             </div>
           </Col>
           <Col md={6} xl={3}>

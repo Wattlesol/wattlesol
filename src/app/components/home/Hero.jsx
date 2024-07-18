@@ -36,9 +36,17 @@ export const Hero = () => {
   return (
     <>
       <Head>
-        <title>Staff Augmentation & Services for Enterprises | Wattle Solutions</title>
-        <meta name="description" content="Achieve exceptional project outcomes with dedicated development teams from Wattle Solutions. Hire developers, designers, and marketing resources at reduced costs while maintaining quality." />
-        <meta name="keywords" content="staff augmentation, services for enterprises, software development, UI/UX design, marketing, dedicated teams" />
+        <title>
+          Staff Augmentation & Services for Enterprises | Wattle Solutions
+        </title>
+        <meta
+          name="description"
+          content="Achieve exceptional project outcomes with dedicated development teams from Wattle Solutions. Hire developers, designers, and marketing resources at reduced costs while maintaining quality."
+        />
+        <meta
+          name="keywords"
+          content="staff augmentation, services for enterprises, software development, UI/UX design, marketing, dedicated teams"
+        />
         <link rel="canonical" href="https://wattlesol.com" />
       </Head>
       <div className="mil-banner mil-top-space-0">
@@ -119,8 +127,9 @@ export const Hero = () => {
                           <h5 className="mil-dark mil-mb-15">Experts</h5>
                           <div className="mil-divider mil-divider-left mil-mb-15"></div>
                           <p className="mil-text-sm">
-                            Experience top-notch staff augmentation with dedicated
-                            teams working directly for you, but managed by us.
+                            Experience top-notch staff augmentation with
+                            dedicated teams working directly for you, but
+                            managed by us.
                           </p>
                         </div>
                       </div>
@@ -163,6 +172,26 @@ export const Hero = () => {
                       <div className="mil-item-hover">
                         <div className="mil-plus-icon">+</div>
                         <h6 className="mil-light">Sales & Marketing</h6>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mil-item mil-item-4">
+                    <div className="mil-plus">
+                      <div className="mil-hover-window">
+                        <div className="mil-window-content">
+                          <h5 className="mil-dark mil-mb-15">Experts</h5>
+                          <div className="mil-divider mil-divider-left mil-mb-15"></div>
+                          <p className="mil-text-sm">
+                            Optimize your customer service and sales teams
+                            without compromising on quality, all at a reduced
+                            cost.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="mil-item-hover">
+                        <div className="mil-plus-icon">+</div>
+                        <h6 className="mil-light">Customer Services & Sales</h6>
                       </div>
                     </div>
                   </div>

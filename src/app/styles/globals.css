@@ -2385,6 +2385,11 @@ illustration
   bottom: 0;
   left: 30%;
 }
+
+.mil-illustration-1 .mil-item.mil-item-4 {
+  bottom: -100px;
+  left: -10%;
+}
 .mil-illustration-1 .mil-item .mil-plus {
   position: relative;
 }
