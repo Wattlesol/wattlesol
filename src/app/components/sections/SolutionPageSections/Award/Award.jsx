@@ -70,12 +70,12 @@ const Award = () => {
           <div className="mil-overlay mil-gradient-bg"></div>
           <div className="mil-fake-container mil-p-120-120">
             <div>
-              {/* <h3 className="mil-light mil-mb-120">
+              <h3 className="mil-light mil-mb-120">
                 {slides[currentSlide].title}{' '}
-                <span className="mil-accent">
+                {/* <span className="mil-accent">
                   {slides[currentSlide].subtitle}
-                </span>
-              </h3> */}
+                </span> */}
+              </h3>
               <div className="mil-hori-box mil-mb-30">
                 <div className="mil-mr-15">
                   <div className="mil-icon-frame mil-light mil-icon-frame-md">

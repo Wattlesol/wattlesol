@@ -9,35 +9,34 @@ import MdImage4 from '@/app/public/global/img/icons/md/Scalability.svg';
 
 const Consultant = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 5;
-  const slideWidth = 100 / 3;
-
   const data = [
     {
       id: 1,
       title: 'Proven Expertise',
-      desc: 'With over 15 years of experience, our team of experts brings unparalleled knowledge and skills to every project.',
-      image:MdImage2
+      desc: 'With over 15 years of extensive experience, our team of dedicated experts brings unparalleled knowledge and skills to every innovative project.',
+      image: MdImage2,
     },
     {
       id: 2,
       title: 'Tailored Solutions',
       desc: 'We understand that every business is unique. Our solutions are customized to address your specific needs, ensuring optimal results.',
-      image:MdImage3
+      image: MdImage3,
     },
     {
       id: 3,
       title: 'Client-Centric',
       desc: 'Your success is our priority. We work closely with you to understand your goals and deliver solutions that drive results.',
-      image:MdImage1
+      image: MdImage1,
     },
     {
       id: 4,
       title: 'Scalability',
-      desc: " Whether you're a startup or a large enterprise, our solutions are scalable to accommodate your business growth.",
-      image:MdImage4
+      desc: "Whether you're a startup or a large enterprise, our adaptive solutions are designed to be scalable and effectively accommodate your business growth.",
+      image: MdImage4,
     },
   ];
+  const totalSlides = data.length + 1;
+  const slideWidth = 100 / 3;
 
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => {
