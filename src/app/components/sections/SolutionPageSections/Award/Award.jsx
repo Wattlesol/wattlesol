@@ -2,7 +2,11 @@
 import React, { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import Image from 'next/image';
-import PhotoImage1 from '@/app/public/global/img/photo/14.jpg';
+import Banner1 from '@/app/public/global/img/icons/md/CSS-Design-Banner.jpg';
+import Banner2 from '@/app/public/global/img/icons/md/The-FWA-Award-Banner.jpg';
+import Banner3 from '@/app/public/global/img/icons/md/W3-Design-Award-Banner.jpg';
+import Banner4 from '@/app/public/global/img/icons/md/WWW-Awards-Banner.jpg';
+
 import IconImage1 from '@/app/public/global/img/icons/md/10.svg';
 import IconImage2 from '@/app/public/global/img/icons/md/11.svg';
 
@@ -13,9 +17,10 @@ const Award = () => {
       title: 'CSS Design',
       description:
         'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
-      icon: IconImage1,
+      icon: IconImage2,
       subtitle:
         'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
+      banner: Banner1,
     },
     {
       title: 'The FWA Award',
@@ -23,6 +28,7 @@ const Award = () => {
         'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
       icon: IconImage2,
       subtitle: 'Tailored Solutions',
+      banner: Banner2,
     },
     {
       title: 'W3 Design Award',
@@ -30,6 +36,7 @@ const Award = () => {
         'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
       icon: IconImage2,
       subtitle: 'W3 Design Award',
+      banner: Banner3,
     },
     {
       title: 'WWW Awards',
@@ -37,6 +44,7 @@ const Award = () => {
         'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
       icon: IconImage2,
       subtitle: 'WWW Awards',
+      banner: Banner4,
     },
   ];
 
@@ -53,7 +61,7 @@ const Award = () => {
       <Row className="m-0">
         <Col xl={6} className="p-0 mil-relative">
           <Image
-            src={PhotoImage1}
+            src={slides[currentSlide].banner}
             className="mil-background-image"
             style={{ objectPosition: 'center' }}
             alt="background image"
@@ -62,12 +70,12 @@ const Award = () => {
           <div className="mil-overlay mil-gradient-bg"></div>
           <div className="mil-fake-container mil-p-120-120">
             <div>
-              <h3 className="mil-light mil-mb-120">
-                {/* {slides[currentSlide].title}{' '} */}
+              {/* <h3 className="mil-light mil-mb-120">
+                {slides[currentSlide].title}{' '}
                 <span className="mil-accent">
-                  {/* {slides[currentSlide].subtitle} */}
+                  {slides[currentSlide].subtitle}
                 </span>
-              </h3>
+              </h3> */}
               <div className="mil-hori-box mil-mb-30">
                 <div className="mil-mr-15">
                   <div className="mil-icon-frame mil-light mil-icon-frame-md">
@@ -105,7 +113,7 @@ const Award = () => {
         </Col>
         <Col xl={6} className="p-0 mil-relative" style={{ overflow: 'hidden' }}>
           <Image
-            src={PhotoImage1}
+            src={slides[currentSlide].banner}
             className="mil-background-image"
             style={{ objectPosition: 'center' }}
             alt="decorative side"

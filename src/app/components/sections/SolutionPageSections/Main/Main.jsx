@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Image from 'next/image';
 import MdImage1 from '@/app/public/global/img/icons/md/2.svg';
-import FaceImage2 from '@/app/public/global/img/faces/t3.png';
+import SoftwareDevelopment from '@/app/public/global/img/photo/Software-development.png';
+import StaffAugmentation from '@/app/public/global/img/photo/staff-augmentation.png';
 
 const Main = () => {
   const [activeTab, setActiveTab] = useState('tab1');
@@ -50,7 +51,7 @@ const Main = () => {
               point2="Website Development"
               point3="CRM Development and Integration."
               point4="Web3 and Blockchain."
-              image={FaceImage2}
+              image={SoftwareDevelopment}
             />
           )}
           {activeTab === 'tab2' && (
@@ -58,7 +59,7 @@ const Main = () => {
               title="Staff Augmentation"
               desc=" Scale your team with skilled professionals tailored to your
                     needs."
-              image={FaceImage2}
+              image={StaffAugmentation}
               point1="Flexible Staffing Solutions."
               point2="Expertise in Various Technologies."
               point3="Seamless Team Integration."
@@ -69,7 +70,7 @@ const Main = () => {
             <TabContent
               title="UI/UX Design"
               desc="Elevate user experience with intuitive design solutions."
-              image={FaceImage2}
+              image={StaffAugmentation}
               point1="User-Centered Design."
               point2="Wireframing and Prototyping."
               point3="Visual Design and Branding."
@@ -81,7 +82,7 @@ const Main = () => {
               title="Sales And Marketing"
               desc="Drive revenue growth with strategic sales and marketing
                     solutions."
-              image={FaceImage2}
+              image={StaffAugmentation}
               point1="Sales Strategy Development."
               point2="Lead Generation and Qualification."
               point3="Marketing Strategy Development."
@@ -97,7 +98,7 @@ const Main = () => {
 const TabContent = ({ title, image, desc, point1, point2, point3, point4 }) => (
   <Row className="justify-content-between align-items-center">
     <Col lg={7}>
-      <div className="mil-hori-box mil-mb-60">
+      <div className="mt-5 mil-hori-box mil-mb-60">
         <div className="mil-mr-15">
           <div className="mil-icon-frame mil-icon-frame-md">
             <Image src={MdImage1} alt="icon" />

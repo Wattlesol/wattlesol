@@ -2,7 +2,10 @@
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Image from 'next/image';
-import MdImage1 from '@/app/public/global/img/icons/md/12.svg';
+import MdImage1 from '@/app/public/global/img/icons/md/Client-Centric.svg';
+import MdImage2 from '@/app/public/global/img/icons/md/Proven Expertise.svg';
+import MdImage3 from '@/app/public/global/img/icons/md/Tailored Solutions.svg';
+import MdImage4 from '@/app/public/global/img/icons/md/Scalability.svg';
 
 const Consultant = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -14,21 +17,25 @@ const Consultant = () => {
       id: 1,
       title: 'Proven Expertise',
       desc: 'With over 15 years of experience, our team of experts brings unparalleled knowledge and skills to every project.',
+      image:MdImage2
     },
     {
       id: 2,
       title: 'Tailored Solutions',
       desc: 'We understand that every business is unique. Our solutions are customized to address your specific needs, ensuring optimal results.',
+      image:MdImage3
     },
     {
       id: 3,
       title: 'Client-Centric',
       desc: 'Your success is our priority. We work closely with you to understand your goals and deliver solutions that drive results.',
+      image:MdImage1
     },
     {
       id: 4,
       title: 'Scalability',
       desc: " Whether you're a startup or a large enterprise, our solutions are scalable to accommodate your business growth.",
+      image:MdImage4
     },
   ];
 
@@ -96,7 +103,7 @@ const Consultant = () => {
                 <div className="mil-hover-card">
                   <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
                     <Image
-                      src={MdImage1}
+                      src={data.image}
                       alt="icon"
                       width={50}
                       height={50}
@@ -104,9 +111,7 @@ const Consultant = () => {
                     />
                   </div>
                   <h5 className="mil-mb-30">{data.title}</h5>
-                  <p>
-                   {data.desc}
-                  </p>
+                  <p>{data.desc}</p>
                 </div>
               </div>
             ))}
