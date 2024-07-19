@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import weAre from '@/app/public/global/img/icons/weAre.svg';
-import weBelive from '@/app/public/global/img/icons/weBelieve.svg';
+import weBelive from '@/app/public/global/img/icons/WeBelieve.svg';
 import weDeep from '@/app/public/global/img/icons/WeDeepDive.svg';
 import weSay from '@/app/public/global/img/icons/WeSayWe.svg';
 import weTake from '@/app/public/global/img/icons/WeTake.svg';
