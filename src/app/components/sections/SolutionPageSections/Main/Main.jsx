@@ -7,6 +7,10 @@ import SoftwareDevelopment from '@/app/public/global/img/photo/Software-developm
 import UIUX from '@/app/public/global/img/photo/ui-ux.png';
 import StaffAugmentation from '@/app/public/global/img/photo/staff-augmentation.png';
 import MarketingSales from '@/app/public/global/img/photo/marketing-sales.png';
+import SAIcon from '@/app/public/global/img/icons/SAIcon.svg';
+import salesIcon from '@/app/public/global/img/icons/salesIcon.svg';
+import SDIcon from '@/app/public/global/img/icons/SDIcon.svg';
+import UxIcon from '@/app/public/global/img/icons/UxIcon.svg';
 
 const Main = () => {
   const [activeTab, setActiveTab] = useState('tab1');
@@ -54,6 +58,7 @@ const Main = () => {
               point3="CRM Development and Integration."
               point4="Web3 and Blockchain."
               image={SoftwareDevelopment}
+              icon={SDIcon}
             />
           )}
           {activeTab === 'tab2' && (
@@ -66,6 +71,7 @@ const Main = () => {
               point2="Expertise in Various Technologies."
               point3="Seamless Team Integration."
               point4="Support and Management."
+              icon={SAIcon}
             />
           )}
           {activeTab === 'tab3' && (
@@ -77,6 +83,7 @@ const Main = () => {
               point2="Wireframing and Prototyping."
               point3="Visual Design and Branding."
               point4="Usability Testing and Optimization."
+              icon={UxIcon}
             />
           )}
           {activeTab === 'tab4' && (
@@ -89,6 +96,7 @@ const Main = () => {
               point2="Lead Generation and Qualification."
               point3="Marketing Strategy Development."
               point4="Digital Marketing Campaigns."
+              icon={salesIcon}
             />
           )}
         </div>
@@ -97,13 +105,13 @@ const Main = () => {
   );
 };
 
-const TabContent = ({ title, image, desc, point1, point2, point3, point4 }) => (
+const TabContent = ({ title, image, desc, point1, point2, point3, point4, icon}) => (
   <Row className="justify-content-between align-items-center">
     <Col lg={7}>
       <div className="mt-5 mil-hori-box mil-mb-60">
         <div className="mil-mr-15">
           <div className="mil-icon-frame mil-icon-frame-md">
-            <Image src={MdImage1} alt="icon" />
+            <Image src={icon} alt="icon" />
           </div>
         </div>
         <h5>{title}</h5>

@@ -8,7 +8,10 @@ import Banner3 from '@/app/public/global/img/icons/md/W3-Design-Award-Banner.jpg
 import Banner4 from '@/app/public/global/img/icons/md/WWW-Awards-Banner.jpg';
 
 import IconImage1 from '@/app/public/global/img/icons/md/10.svg';
-import IconImage2 from '@/app/public/global/img/icons/md/11.svg';
+import CSSIcon from '@/app/public/global/img/icons/md/CSSIcon.png';
+import FWAIcon from '@/app/public/global/img/icons/md/FWAIcon.png';
+import W3Icon from '@/app/public/global/img/icons/md/W3Icon.png';
+import AWARDIcon from '@/app/public/global/img/icons/md/WWWAwardIcon.png';
 
 const Award = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -17,7 +20,7 @@ const Award = () => {
       title: 'CSS Design',
       description:
         'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
-      icon: IconImage2,
+      icon: CSSIcon,
       subtitle:
         'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
       banner: Banner1,
@@ -26,7 +29,7 @@ const Award = () => {
       title: 'The FWA Award',
       description:
         'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
-      icon: IconImage2,
+      icon: FWAIcon,
       subtitle: 'Tailored Solutions',
       banner: Banner2,
     },
@@ -34,7 +37,7 @@ const Award = () => {
       title: 'W3 Design Award',
       description:
         'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
-      icon: IconImage2,
+      icon: W3Icon,
       subtitle: 'W3 Design Award',
       banner: Banner3,
     },
@@ -42,7 +45,7 @@ const Award = () => {
       title: 'WWW Awards',
       description:
         'Various versions have evolved over the years, sometimes by accident, sometimes on purpose.',
-      icon: IconImage2,
+      icon: AWARDIcon,
       subtitle: 'WWW Awards',
       banner: Banner4,
     },
