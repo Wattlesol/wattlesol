@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Image from 'next/image'
 import smImage12 from "@/app/public/global/img/icons/sm/12.svg"
-import FaceImage1 from "@/app/public/global/img/faces/1.jpg"
+import FaceImage1 from "@/app/public/global/img/photo/t3.png"
 const Main = () => {
     return (
         <section className="mil-deep-bg mil-p-120-60">
