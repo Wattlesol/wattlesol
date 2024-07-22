@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import FaceImage1 from '@/app/public/global/img/faces/1.jpg';
+import FaceImage1 from '@/app/public/global/img/faces/abdullah.jpg';
 const Main = () => {
   return (
     <section className="mil-team mil-p-120-60">
