@@ -10,6 +10,7 @@ import Muiz from '@/app/public/global/img/faces/muiz.jpg';
 import Shayan from '@/app/public/global/img/faces/shayan.jpg';
 import Sheeraz from '@/app/public/global/img/faces/sheeraz.jpg';
 import Zaiqam from '@/app/public/global/img/faces/zaigam.jpg';
+import Faiza from '@/app/public/global/img/faces/faiza.jpg';
 const Main = () => {
   return (
     <section className="mil-team mil-p-120-60">
@@ -60,7 +61,7 @@ const Main = () => {
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Saima Yasmeen</h4>
-              <p>HR</p>
+              <p>HR Manager</p>
             </a>
           </Col>
           <Col sm={6} lg={4}>
@@ -70,7 +71,7 @@ const Main = () => {
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Syed Shayan Bukhari</h4>
-              <p>UI\UX | GFX</p>
+              <p>UI\UX | GFX Designer</p>
             </a>
           </Col>
           <Col sm={6} lg={4}>
@@ -114,6 +115,17 @@ const Main = () => {
               </div>
               <h4 className="mil-mb-10">Azaan Ahmed</h4>
               <p>Full Stack Developer</p>
+            </a>
+          </Col>
+
+          <Col sm={6} lg={4}>
+            <a href="team-single.html" className="mil-team-card mil-mb-60">
+              <div className="mil-image-frame mil-mb-30">
+                <Image src={Faiza} alt="Team member" />
+                <div className="mil-team-circle"></div>
+              </div>
+              <h4 className="mil-mb-10">Faiza Ashraf</h4>
+              <p>Flutter Developer</p>
             </a>
           </Col>
         </Row>
