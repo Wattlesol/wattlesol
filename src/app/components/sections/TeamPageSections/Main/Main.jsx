@@ -50,7 +50,7 @@ const Main = () => {
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Zaigham Bilal</h4>
-              <p>Lead UI/UX Designer</p>
+              <p>Lead Designer</p>
             </a>
           </Col>
           <Col sm={6} lg={4}>
@@ -101,8 +101,8 @@ const Main = () => {
                 <Image src={Ammar} alt="Team member" />
                 <div className="mil-team-circle"></div>
               </div>
-              <h4 className="mil-mb-10">Ammar</h4>
-              <p>Backend Developer</p>
+              <h4 className="mil-mb-10">Ammar Ahmad</h4>
+              <p>Full Stack Developer</p>
             </a>
           </Col>
 
