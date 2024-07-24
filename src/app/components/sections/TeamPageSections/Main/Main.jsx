@@ -50,6 +50,9 @@ const Main = () => {
                 <Image src={Zaiqam} alt="Team member" />
                 <div className="mil-team-circle"></div>
               </div>
+
+
+              
               <h4 className="mil-mb-10">Zaigham Bilal</h4>
               <p>Lead Designer</p>
             </a>
