@@ -186,6 +186,7 @@ const TabContent = ({ content }) => {
             style={{
               maxHeight: openAccordion === index ? '1000px' : '0',
               overflow: 'hidden',
+              marginTop:'20px',
               transition: 'max-height 0.3s ease',
             }}
           >
@@ -220,11 +221,11 @@ const Main = () => {
               <div className="mil-tab">
                 <Row className="justify-content-between">
                   <Col lg={4}>
-                    <h3 className="mil-up-font mil-mb-30">
-                      <span className="mil-accent">{tab.coloredText}</span>{' '}
+                    <h3  className="mil-up-font mil-mb-30">
+                      <span st className="mil-accent">{tab.coloredText}</span>{' '}
                       {tab.title}
                     </h3>
-                    <p className="mil-mb-60">{tab.desc}</p>
+                    <p className="mil-mb-40">{tab.desc}</p>
                   </Col>
                   <Col lg={7}>
                     <TabContent content={tab.content} />

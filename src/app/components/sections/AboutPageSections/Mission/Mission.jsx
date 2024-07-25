@@ -8,7 +8,7 @@ const Mission = () => {
       <div className="mil-deco" style={{ top: 0, right: '15%' }}></div>
       <Container>
         <Row>
-          <Col lg={5} className="mil-mb-60">
+          <Col lg={5} className="mil-mb-60 md:me-0 me-5">
             <div className="mil-circle-illustration">
               <div className="mil-circle-bg"></div>
               <div className="mil-image-frame">
@@ -16,8 +16,9 @@ const Mission = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} className="mil-mb-60">
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+          
+          <Col lg={6} className="mil-mb-60 sm:mt-1 mt-5  ">
+            <span className="mil-suptitle mil-suptitle-2 mil-mb-30 sm:mt-0 mt-5">
               IT Enterprise
             </span>
             <h2 className="mil-mb-50">Our Mission</h2>

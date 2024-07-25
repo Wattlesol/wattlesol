@@ -11,6 +11,7 @@ import Shayan from '@/app/public/global/img/faces/shayan.jpg';
 import Sheeraz from '@/app/public/global/img/faces/sheeraz.jpg';
 import Zaiqam from '@/app/public/global/img/faces/zaigam.jpg';
 import Faiza from '@/app/public/global/img/faces/faiza.jpg';
+import Haider from '@/app/public/global/img/faces/haider.jpg';
 const Main = () => {
   return (
     <section className="mil-team mil-p-120-60">
@@ -51,8 +52,6 @@ const Main = () => {
                 <div className="mil-team-circle"></div>
               </div>
 
-
-              
               <h4 className="mil-mb-10">Zaigham Bilal</h4>
               <p>Lead Designer</p>
             </a>
@@ -83,8 +82,8 @@ const Main = () => {
                 <Image src={Muiz} alt="Team member" />
                 <div className="mil-team-circle"></div>
               </div>
-              <h4 className="mil-mb-10">Muizz Ali</h4>
-              <p>SDR</p>
+              <h4 className="mil-mb-10">Syed Muizz Ali</h4>
+              <p>Sales Manager</p>
             </a>
           </Col>
 
@@ -117,7 +116,7 @@ const Main = () => {
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Azaan Ahmed</h4>
-              <p>Full Stack Developer</p>
+              <p>Sr. Full Stack Developer</p>
             </a>
           </Col>
 
@@ -129,6 +128,17 @@ const Main = () => {
               </div>
               <h4 className="mil-mb-10">Faiza Ashraf</h4>
               <p>Flutter Developer</p>
+            </a>
+          </Col>
+
+          <Col sm={6} lg={4}>
+            <a href="team-single.html" className="mil-team-card mil-mb-60">
+              <div className="mil-image-frame mil-mb-30">
+                <Image src={Haider} alt="Team member" />
+                <div className="mil-team-circle"></div>
+              </div>
+              <h4 className="mil-mb-10">Syed Hyder Ali</h4>
+              <p>Assistant Graphics Designer</p>
             </a>
           </Col>
         </Row>

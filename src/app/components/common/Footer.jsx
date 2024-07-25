@@ -79,15 +79,19 @@ const Footer = () => {
                 <a href="#.">FB</a>
               </li>
               <li className="mil-adapt-links">
-                <a href="#.">Instagram</a>
-                <a href="#.">IG</a>
+                <a href="https://www.instagram.com/wattle_sol/">Instagram</a>
+                <a href="https://www.instagram.com/wattle_sol/">IG</a>
               </li>
               <li className="mil-adapt-links">
-                <a href="#.">LinkedIn</a>
-                <a href="#.">IN</a>
+                <a href="https://www.linkedin.com/company/wattle-sol/">
+                  LinkedIn
+                </a>
+                <a href="">IN</a>
               </li>
               <li className="mil-adapt-links">
-                <a href="#.">Twitter</a>
+                <a href="https://www.linkedin.com/company/wattle-sol/">
+                  Twitter
+                </a>
                 <a href="#.">TW</a>
               </li>
               <li className="mil-adapt-links">
