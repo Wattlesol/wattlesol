@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import MdImage1 from '@/app/public/global/img/icons/md/5.svg';
+// import Productivity from '@/app'
 const Leads = () => {
   return (
     <section className="mil-icon-boxes mil-p-120-60">
