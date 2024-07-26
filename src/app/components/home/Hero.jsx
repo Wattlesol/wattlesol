@@ -183,15 +183,16 @@ export const Hero = () => {
                           <h5 className="mil-dark mil-mb-15">Experts</h5>
                           <div className="mil-divider mil-divider-left mil-mb-15"></div>
                           <p className="mil-text-sm">
-                            Optimize your customer service and sales teams
-                            without compromising on quality, all at a reduced
-                            cost.
+                            Provide seamless, around-the-clock customer support
+                            to ensure your clients receive assistance whenever
+                            they need it, all while maintaining high-quality
+                            service and reducing operational costs.
                           </p>
                         </div>
                       </div>
                       <div className="mil-item-hover">
                         <div className="mil-plus-icon">+</div>
-                        <h6 className="mil-light">Customer Services & Sales</h6>
+                        <h6 className="mil-light">Customer Support 24/7</h6>
                       </div>
                     </div>
                   </div>
