@@ -135,7 +135,7 @@ const LatestThinking = () => {
         <div className="swiper-container mil-blog-slider mil-mb-90">
           <div className="swiper-wrapper">
             <div className="swiper-slide mil-slide-50">
-              <a href="publication.html" className="mil-card">
+              <a href="#" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage1}
@@ -166,7 +166,7 @@ const LatestThinking = () => {
             </div>
 
             <div className="swiper-slide mil-slide-50">
-              <a href="publication.html" className="mil-card">
+              <a href="#" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage2}
@@ -188,9 +188,8 @@ const LatestThinking = () => {
                   </div>
                   <div className="mil-card-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Future-proof your app dev with microservices for
+                      scalability, flexibility, and efficiency.
                     </p>
                   </div>
                 </div>
@@ -198,7 +197,7 @@ const LatestThinking = () => {
             </div>
 
             <div className="swiper-slide mil-slide-50">
-              <a href="publication.html" className="mil-card">
+              <a href="#" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage3}
@@ -220,9 +219,10 @@ const LatestThinking = () => {
                   </div>
                   <div className="mil-card-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Discover why staff augmentation is key for software firms:
+                      access to diverse talent, cost-effective scalability,
+                      accelerated timelines, risk mitigation, and focus on
+                      innovation.
                     </p>
                   </div>
                 </div>

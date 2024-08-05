@@ -105,7 +105,7 @@ const LatestProjects = () => {
         <div className="swiper-container mil-works-slider mil-mb-90">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <a href="project.html" className="mil-card">
+              <a href="#" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image src={Project3} alt="project" />
                 </div>
@@ -115,7 +115,7 @@ const LatestProjects = () => {
                       Revolutionizing Sales for SoftBank Robotics.
                     </h4>
                     <h6>
-                      by: <span className="mil-accent">Jane Meldrum</span>
+                      by: <span className="mil-accent">Wattle Sol</span>
                     </h6>
                   </div>
                   <div className="mil-card-text">
@@ -130,22 +130,26 @@ const LatestProjects = () => {
             </div>
 
             <div className="swiper-slide">
-              <a href="project.html" className="mil-card">
+              <a href="#" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image src={Project2} alt="project" />
                 </div>
                 <div className="mil-description">
                   <div className="mil-card-title">
-                    <h4 className="mil-mb-20">Most Powerful Snipping Tool.</h4>
+                    <h4 className="mil-mb-20">
+                      Revolutionizing Global Gold Transactions with Blockchain
+                      Technology
+                    </h4>
                     <h6>
-                      by: <span className="mil-accent">Nguta Ithya</span>
+                      by: <span className="mil-accent">Wattle Sol</span>
                     </h6>
                   </div>
                   <div className="mil-card-text">
                     <p>
-                      Enhance Karat Bars' gold trading with our snipping tools,
-                      designed for seamless and secure decentralized
-                      transactions.
+                      We revolutionized KaratBars gold transactions by
+                      developing robust smart contracts, we ensured secure
+                      distribution and transparent records of small gold
+                      denominations.
                     </p>
                   </div>
                 </div>
@@ -153,22 +157,24 @@ const LatestProjects = () => {
             </div>
 
             <div className="swiper-slide">
-              <a href="project.html" className="mil-card">
+              <a href="#" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image src={Project1} alt="project" />
                 </div>
                 <div className="mil-description">
                   <div className="mil-card-title">
-                    <h4 className="mil-mb-20">Most Powerful Snipping Tool.</h4>
+                    <h4 className="mil-mb-20">
+                      Enhancing Crypto Mining Transparency and Investor Profits.
+                    </h4>
                     <h6>
-                      by: <span className="mil-accent">Nguta Ithya</span>
+                      by: <span className="mil-accent">Wattle Sol</span>
                     </h6>
                   </div>
                   <div className="mil-card-text">
                     <p>
-                      Enhance Karat Bars' gold trading with our snipping tools,
-                      designed for seamless and secure decentralized
-                      transactions.
+                      We enhanced ORMEUS's mining operations with real-time
+                      updates and a staking system. Our social media campaigns
+                      boosted engagement and investor profits.
                     </p>
                   </div>
                 </div>
