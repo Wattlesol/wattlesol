@@ -3,57 +3,104 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Image1 from '@/app/public/global/img/blog/1.jpg';
 import FaceImage1 from '@/app/public/global/img/faces/1.jpg';
-import BlogImage1 from '@/app/public/global/img/blog/6.jpg';
+import BlogImage1 from '@/app/public/global/img/blog/blog-devops.jpg';
+import BlogImage2 from '@/app/public/global/img/blog/blog-microservice.png';
+import BlogImage3 from '@/app/public/global/img/blog/blog-staff.jpg';
+import Link from 'next/link';
 const Main = () => {
   return (
     <section class="mil-blog mil-p-120-0">
       <Container>
         <Row className="justify-content-between">
           <Col lg={8} xl={8} className="mil-mb-120">
-            <a href="publication.html" class="mil-card mil-mb-60">
-              <div class="mil-cover-frame">
-                <Image src={Image1} alt="project" />
+            <Link href="/pages/blogs/blog1" className="mil-card">
+              <div className="mil-cover-frame">
+                <Image
+                  src={BlogImage1}
+                  alt="project"
+                  objectFit="contain"
+                  width={600}
+                  height={400}
+                />
               </div>
-              <div class="mil-description">
-                <div class="mil-card-title">
-                  <ul class="mil-dot-list mil-text-sm mil-mb-15">
-                    <li>Management</li>
-                    <li>29 Oct. 2024</li>
-                  </ul>
-                  <h4>Easy & Most Powerful Server Platform.</h4>
+              <div className="mil-description">
+                <div className="mil-card-title">
+                  <h4 className="mil-mb-20">
+                    How DevOps can save disasters in production grade
+                    applications.
+                  </h4>
+                  <h6>
+                    by: <span className="mil-accent">Wattle Sol</span>
+                  </h6>
                 </div>
-                <div class="mil-card-text">
+                <div className="mil-card-text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Tempor incididunt dolor sit amet, consectetur
-                    adipisicing.
+                    Strategic SDR Team and Social Media Optimization to Drive
+                    Sales and Leads
                   </p>
                 </div>
               </div>
-            </a>
-            <a href="publication.html" class="mil-card mil-mb-60">
-              <div class="mil-cover-frame">
-                <Image src={Image1} alt="project" />
+            </Link>
+            <div class="mil-divider mil-mb-60"></div>
+            <Link href="/pages/blogs/blog2" className="mil-card">
+              <div className="mil-cover-frame">
+                <Image
+                  src={BlogImage2}
+                  objectFit="contain"
+                  alt="project"
+                  width={600}
+                  height={400}
+                />
               </div>
-              <div class="mil-description">
-                <div class="mil-card-title">
-                  <ul class="mil-dot-list mil-text-sm mil-mb-15">
-                    <li>Management</li>
-                    <li>29 Oct. 2024</li>
-                  </ul>
-                  <h4>Easy & Most Powerful Server Platform.</h4>
+              <div className="mil-description">
+                <div className="mil-card-title">
+                  <h4 className="mil-mb-20">
+                    Micro Services Are the future of seamless operations in
+                    application development.
+                  </h4>
+                  <h6>
+                    by: <span className="mil-accent">Wattle Sol</span>
+                  </h6>
                 </div>
-                <div class="mil-card-text">
+                <div className="mil-card-text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Tempor incididunt dolor sit amet, consectetur
-                    adipisicing.
+                    Future-proof your app dev with microservices for
+                    scalability, flexibility, and efficiency.
                   </p>
                 </div>
               </div>
-            </a>
+            </Link>
+            <div class="mil-divider mil-mb-60"></div>
+            <Link href="/pages/blogs/blog3" className="mil-card">
+              <div className="mil-cover-frame">
+                <Image
+                  src={BlogImage3}
+                  objectFit="contain"
+                  alt="project"
+                  width={600}
+                  height={400}
+                />
+              </div>
+              <div className="mil-description">
+                <div className="mil-card-title">
+                  <h4 className="mil-mb-20">
+                    Why Staff Augmentation is the best solution for
+                    Software companies .
+                  </h4>
+                  <h6>
+                    by: <span className="mil-accent">Wattle Sol</span>
+                  </h6>
+                </div>
+                <div className="mil-card-text">
+                  <p>
+                    Discover why staff augmentation is key for software firms:
+                    access to diverse talent, cost-effective scalability,
+                    accelerated timelines, risk mitigation, and focus on
+                    innovation.
+                  </p>
+                </div>
+              </div>
+            </Link>
             <div class="mil-divider mil-mb-60"></div>
             <div class="mil-pagination mil-hidden-arrows">
               <div class="mil-slider-nav">
@@ -65,12 +112,6 @@ const Main = () => {
               <ul class="mil-pagination-numbers">
                 <li class="mil-active">
                   <a href="#.">1</a>
-                </li>
-                <li>
-                  <a href="#.">2</a>
-                </li>
-                <li>
-                  <a href="#.">3</a>
                 </li>
               </ul>
               <div class="mil-slider-nav">
@@ -93,8 +134,8 @@ const Main = () => {
                   <Image src={FaceImage1} alt="cover" />
                 </div>
                 <div class="mil-description">
-                  <h4 class="mil-font-3 mil-accent">Jane Meldrum</h4>
-                  <p class="mil-text-sm">CEO & Co-Founder</p>
+                  <h4 class="mil-font-3 mil-accent">Syed Zain</h4>
+                  <p class="mil-text-sm">CEO</p>
                 </div>
               </a>
             </div>
@@ -109,18 +150,6 @@ const Main = () => {
                 <i class="fas fa-search"></i>
               </button>
             </form>
-            <div class="mil-divider mil-mb-60"></div>
-            <div class="mil-mb-60">
-              <h5 class="mil-list-title mil-mb-30">Recent Posts</h5>
-              <a href="publication.html" class="mil-post-sm mil-mb-15">
-                <div class="mil-cover-frame">
-                  <Image src={BlogImage1} alt="cover" />
-                </div>
-                <div class="mil-description">
-                  <h6>The World’s Fastest 2 Qubit Qate</h6>
-                </div>
-              </a>
-            </div>
             <div class="mil-divider mil-mb-60"></div>
             <div class="mil-mb-60">
               <h5 class="mil-list-title mil-mb-30">Categories</h5>
