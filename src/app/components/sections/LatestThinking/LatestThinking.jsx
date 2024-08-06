@@ -6,6 +6,7 @@ import Swiper from 'swiper';
 import BlogImage1 from '@/app/public/global/img/blog/blog-devops.jpg';
 import BlogImage2 from '@/app/public/global/img/blog/blog-microservice.png';
 import BlogImage3 from '@/app/public/global/img/blog/blog-staff.jpg';
+import Link from 'next/link';
 
 const LatestThinking = () => {
   useEffect(() => {
@@ -135,7 +136,7 @@ const LatestThinking = () => {
         <div className="swiper-container mil-blog-slider mil-mb-90">
           <div className="swiper-wrapper">
             <div className="swiper-slide mil-slide-50">
-              <a href="#" className="mil-card">
+              <Link href="/pages/blogs/blog1" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage1}
@@ -162,11 +163,11 @@ const LatestThinking = () => {
                     </p>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
 
             <div className="swiper-slide mil-slide-50">
-              <a href="#" className="mil-card">
+              <Link href="/pages/blogs/blog2" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage2}
@@ -193,11 +194,11 @@ const LatestThinking = () => {
                     </p>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
 
             <div className="swiper-slide mil-slide-50">
-              <a href="#" className="mil-card">
+              <Link href="/pages/blogs/blog3" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage3}
@@ -226,7 +227,7 @@ const LatestThinking = () => {
                     </p>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
             {/* Other swiper slides */}
           </div>

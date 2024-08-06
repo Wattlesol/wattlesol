@@ -16,13 +16,10 @@ const Main = () => {
   return (
     <section className="mil-team mil-p-120-60">
       <Container>
-        <h3 className="mil-text-center mil-mb-120">
-          It is a long established fact that a{' '}
-          <span className="mil-accent">
-            reader will be <br />
-            distracted
-          </span>{' '}
-          by the readable content.
+        <h3 class="mil-text-center mil-mb-120">
+          Meet the <span class="mil-accent">POWER HOUSE</span> at
+          <span class="mil-accent">Wattle Sol</span> <br />- where innovation,
+          expertise, and success converge!
         </h3>
         <Row>
           <Col sm={6} lg={4}>

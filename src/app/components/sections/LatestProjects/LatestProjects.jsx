@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Project1 from '@/app/public/global/img/projects/1.jpg';
 import Project2 from '@/app/public/global/img/projects/2.jpg';
 import Project3 from '@/app/public/global/img/projects/3.jpg';
+import Link from 'next/link';
 
 const LatestProjects = () => {
   useEffect(() => {
@@ -105,7 +106,7 @@ const LatestProjects = () => {
         <div className="swiper-container mil-works-slider mil-mb-90">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <a href="#" className="mil-card">
+              <Link href="/pages/Projects/softbanks"  className="mil-card">
                 <div className="mil-cover-frame">
                   <Image src={Project3} alt="project" />
                 </div>
@@ -126,11 +127,11 @@ const LatestProjects = () => {
                     </p>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
 
             <div className="swiper-slide">
-              <a href="#" className="mil-card">
+              <Link href="/pages/Projects/karatbars" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image src={Project2} alt="project" />
                 </div>
@@ -153,11 +154,11 @@ const LatestProjects = () => {
                     </p>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
 
             <div className="swiper-slide">
-              <a href="#" className="mil-card">
+              <Link href="/pages/Projects/ormeus" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image src={Project1} alt="project" />
                 </div>
@@ -178,16 +179,16 @@ const LatestProjects = () => {
                     </p>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
         <Row className="align-items-center">
           <Col md={6} xl={6}>
-            <a href="portfolio.html" className="mil-link mil-mb-30">
+            <Link href="/pages/allCaseStudies" className="mil-link mil-mb-30">
               <span>View All Cases</span>
               <i className="fas fa-arrow-right"></i>
-            </a>
+            </Link>
           </Col>
           <Col md={6} xl={6}>
             <div className="mil-adaptive-right">
