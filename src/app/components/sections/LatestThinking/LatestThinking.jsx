@@ -234,10 +234,10 @@ const LatestThinking = () => {
         </div>
         <Row className="align-items-center">
           <Col className="col-12">
-            <a href="blog.html" className="mil-link">
+            <Link href="/pages/blog" className="mil-link">
               <span>View More Insights</span>
               <i className="fas fa-arrow-right"></i>
-            </a>
+            </Link>
           </Col>
         </Row>
       </Container>

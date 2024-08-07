@@ -74,10 +74,10 @@ const Footer = () => {
           <div className="mil-divider mil-light"></div>
           <div className="mil-footer-links">
             <ul className="mil-social mil-light">
-              <li className="mil-adapt-links">
+              {/* <li className="mil-adapt-links">
                 <a href="#.">Facebook</a>
                 <a href="#.">FB</a>
-              </li>
+              </li> */}
               <li className="mil-adapt-links">
                 <a href="https://www.instagram.com/wattle_sol/">Instagram</a>
                 <a href="https://www.instagram.com/wattle_sol/">IG</a>
@@ -88,7 +88,7 @@ const Footer = () => {
                 </a>
                 <a href="">IN</a>
               </li>
-              <li className="mil-adapt-links">
+              {/* <li className="mil-adapt-links">
                 <a href="https://www.linkedin.com/company/wattle-sol/">
                   Twitter
                 </a>
@@ -97,9 +97,9 @@ const Footer = () => {
               <li className="mil-adapt-links">
                 <a href="#.">YouTube</a>
                 <a href="#.">YT</a>
-              </li>
+              </li> */}
             </ul>
-            <ul className="mil-additional-links mil-light">
+            {/* <ul className="mil-additional-links mil-light">
               <li>
                 <a href="#.">Terms & Condition</a>
               </li>
@@ -109,7 +109,7 @@ const Footer = () => {
               <li>
                 <a href="#.">Sitemap</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </Container>{' '}
         <div className="mil-footer-bottom">
