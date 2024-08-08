@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
@@ -11,7 +12,7 @@ const CallToSection = () => {
                     </Col>
                     <Col lg={12} xl={6}>
                         <div className="mil-adaptive-right">
-                            <a href="#." className="mil-button mil-border mil-mr-15 mil-mb-30"><span>Talk To an Expert</span></a>
+                            <Link href="/pages/contact" className="mil-button mil-border mil-mr-15 mil-mb-30"><span>Talk To an Expert</span></Link>
                             <a href="#." className="mil-button-with-label mil-mb-60">
                                 <div className="mil-button mil-border mil-icon-button"><span><i className="fas fa-play"></i></span></div><span className="mil-dark">Watch Video</span>
                             </a>

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import MdImage1 from '@/app/public/global/img/icons/md/11.svg';
+import Link from 'next/link';
 const CallToSection = () => {
   return (
     <section class="mil-p-120-90">
@@ -27,9 +28,9 @@ const CallToSection = () => {
           </Col>
           <Col lg={4}>
             <div class="mil-adaptive-right">
-              <a href="#." class="mil-button mil-border mil-mb-30">
+              <Link href="/pages/contact" class="mil-button mil-border mil-mb-30">
                 <span>Get in Touch</span>
-              </a>
+              </Link>
             </div>
           </Col>
         </Row>

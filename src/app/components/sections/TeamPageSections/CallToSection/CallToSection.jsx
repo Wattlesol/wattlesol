@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import MdImage1 from '@/app/public/global/img/icons/md/6l.svg';
+import Link from 'next/link';
 const CallToSection = () => {
   return (
     <section className="call-to-action mil-gradient-bg mil-p-120-0">
@@ -23,9 +24,9 @@ const CallToSection = () => {
             Across Every Sector
             <br /> Where Opportunities Blossom and Solutions Thrive
           </p>
-          <a href="#." className="mil-button mil-border mil-light">
+          <Link  href="/pages/contact" className="mil-button mil-border mil-light">
             <span>Book an Appointment</span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
