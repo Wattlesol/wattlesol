@@ -1,31 +1,32 @@
-// api/contact/route.js
-
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
 export async function POST(req) {
-  // Accessing body directly as Next.js handles parsing
-  const {
-    first_name,
-    last_name,
-    email,
-    phone,
-    company,
-    role,
-    category,
-    message,
-    budget,
-  } = req.body;
-
   try {
-    // Configure the mail transporter
+    const body = await req.text();
+    const data = JSON.parse(body);
+
+    console.log('Received data:', data);
+
+    const {
+      first_name,
+      last_name,
+      email,
+      phone,
+      company,
+      role,
+      category,
+      message,
+      budget,
+    } = data;
+
     const transporter = nodemailer.createTransport({
       host: 'smtp.titan.email',
       port: 465,
       secure: true,
       auth: {
-        user: 'info@wattlesol.info', // Use environment variables here
-        pass: 'soqtan-mUkzyq-defci9', // Use environment variables here
+        user: 'info@wattlesol.info',
+        pass: 'soqtan-mUkzyq-defci9', 
       },
     });
 
@@ -42,10 +43,10 @@ export async function POST(req) {
       <p><strong>Budget:</strong> ${budget}</p>
     `;
 
-    // Attempt to send an email
+  
     await transporter.sendMail({
       from: 'info@wattlesol.info',
-      to: 'info@wattlesol.info', // List of recipients
+      to: 'info@wattlesol.info', 
       subject: 'New Contact Form Submission',
       text: `Details: ${first_name}, ${last_name}, ${email}, ${phone}, ${company}, ${role}, ${category}, ${message}, ${budget}`,
       html: htmlContent,
@@ -79,6 +80,6 @@ export async function POST(req) {
 
 export const config = {
   api: {
-    bodyParser: true, // Set this to true to use Next.js's built-in body parser
+    bodyParser: false, 
   },
 };
