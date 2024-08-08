@@ -1,4 +1,4 @@
-'use client';
+'use client'
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import MdImage1 from '@/app/public/global/img/icons/md/8.svg';
@@ -35,12 +35,14 @@ const Main = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    const data = new FormData();
+    for (const key in formData) {
+      data.append(key, formData[key]);
+    }
+
     const response = await fetch('/api/contact', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
+      body: data,
     });
 
     if (response.ok) {
