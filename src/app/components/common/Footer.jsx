@@ -4,6 +4,7 @@ import Logo from '@/app/public/global/img/logo/logo-light.svg';
 import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Contact from './Contact';
+import Link from 'next/link';
 const Footer = () => {
   return (
     <>
@@ -99,17 +100,17 @@ const Footer = () => {
                 <a href="#.">YT</a>
               </li> */}
             </ul>
-            {/* <ul className="mil-additional-links mil-light">
+            <ul className="mil-additional-links mil-light">
               <li>
-                <a href="#.">Terms & Condition</a>
+                <Link href="/pages/TermsAndConditions">Terms & Condition</Link>
               </li>
               <li>
-                <a href="#.">Privacy Policy</a>
+                <Link href="/pages/PrivacyAndPolicy">Privacy Policy</Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#.">Sitemap</a>
-              </li>
-            </ul> */}
+              </li> */}
+            </ul>
           </div>
         </Container>{' '}
         <div className="mil-footer-bottom">
