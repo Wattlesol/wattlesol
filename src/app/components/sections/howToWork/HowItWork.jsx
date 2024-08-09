@@ -6,6 +6,7 @@ import CreatingFast from '@/app/public/global/img/icons/md/CreatingFast.svg';
 import InnovatingScale from '@/app/public/global/img/icons/md/InnovatingScale.svg';
 
 import Image from 'next/image';
+import Link from 'next/link';
 const HowItWork = () => {
   return (
     <section className="mil-how-it-works mil-deep-bg mil-p-120-90">
@@ -93,16 +94,16 @@ const HowItWork = () => {
         </Row>
         <Row className="align-items-center">
           <Col md={6} xl={6}>
-            <a href="#." className="mil-link mil-mb-30">
+            <Link href="/pages/faq" className="mil-link mil-mb-30">
               <span>Learn More</span>
               <i className="fas fa-arrow-right"></i>
-            </a>
+            </Link>
           </Col>
           <Col md={6} xl={6}>
             <div className="mil-adaptive-right">
-              <a href="#." className="mil-button mil-border mil-mb-30">
+              <Link href="/pages/about" className="mil-button mil-border mil-mb-30">
                 <span>How We Work</span>
-              </a>
+              </Link>
             </div>
           </Col>
         </Row>

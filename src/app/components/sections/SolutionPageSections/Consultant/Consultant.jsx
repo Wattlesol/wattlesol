@@ -6,6 +6,7 @@ import MdImage1 from '@/app/public/global/img/icons/md/Client-Centric.svg';
 import MdImage2 from '@/app/public/global/img/icons/md/Proven Expertise.svg';
 import MdImage3 from '@/app/public/global/img/icons/md/Tailored Solutions.svg';
 import MdImage4 from '@/app/public/global/img/icons/md/Scalability.svg';
+import Link from 'next/link';
 
 const Consultant = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -116,10 +117,10 @@ const Consultant = () => {
             ))}
           </div>
         </div>
-        <a href="#" className="mil-link">
+        <Link href="/pages/contact" className="mil-link">
           <span>Let’s Solve Your Challenges With AI</span>
           <i className="fas fa-arrow-right"></i>
-        </a>
+        </Link>
       </Container>
     </section>
   );

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -131,10 +132,10 @@ const Skills = () => {
             </div>
           </Col>
           <Col md={6} xl={3}>
-            <a href="#." className="mil-link mil-mb-30">
+            <Link href="/pages/solution" className="mil-link mil-mb-30">
               <span>More</span>
               <i className="fas fa-arrow-right"></i>
-            </a>
+            </Link>
           </Col>
         </Row>
       </Container>

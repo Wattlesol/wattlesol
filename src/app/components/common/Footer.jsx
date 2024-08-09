@@ -57,7 +57,7 @@ const Footer = () => {
                     </p>
                   </Col>
                   <Col lg={5} className="mil-mb-30">
-                    <form>
+                    <div>
                       <input
                         className="mil-rounded-input mil-text-center mil-mb-5"
                         type="text"
@@ -66,7 +66,7 @@ const Footer = () => {
                       <button className="mil-button mil-accent-bg mil-fw">
                         <span>Subscribe Now</span>
                       </button>
-                    </form>
+                    </div>
                   </Col>
                 </Row>
               </Col>

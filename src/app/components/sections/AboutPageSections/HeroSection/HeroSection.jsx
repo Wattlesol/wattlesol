@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import MapImage from "@/app/public/global/img/deco/map.png"
+import Link from 'next/link'
 const HeroSection = () => {
     return (
         <div className="mil-banner-sm mil-deep-bg">
@@ -9,8 +10,8 @@ const HeroSection = () => {
             <div className="mil-banner-content">
                 <div className="container mil-relative">
                     <ul className="mil-breadcrumbs mil-mb-30">
-                        <li><a href="home-1.html">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
+                        <li><Link href="/" legacyBehavior>Home</Link></li>
+                        <li><Link href="/pages/about">About us</Link></li>
                     </ul>
                     <h2 className="mil-uppercase">Enterprise</h2>
                 </div>

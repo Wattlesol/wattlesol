@@ -1,22 +1,34 @@
-import Image from 'next/image'
-import React from 'react'
-import MapImage1 from "@/app/public/global/img/deco/map.png"
+import Image from 'next/image';
+import React from 'react';
+import MapImage1 from '@/app/public/global/img/deco/map.png';
+import Link from 'next/link';
 const HeroSection = () => {
   return (
     <div className="mil-banner-sm mil-deep-bg">
-    <Image src={MapImage1} alt="background" className="mil-background-image"/>
-    <div className="mil-deco mil-deco-accent" style={{top: "47%", right: "10%", transform:" rotate(90deg)"}}></div>
-    <div className="mil-banner-content">
+      <Image
+        src={MapImage1}
+        alt="background"
+        className="mil-background-image"
+      />
+      <div
+        className="mil-deco mil-deco-accent"
+        style={{ top: '47%', right: '10%', transform: ' rotate(90deg)' }}
+      ></div>
+      <div className="mil-banner-content">
         <div className="container mil-relative">
-            <ul className="mil-breadcrumbs mil-mb-30">
-                <li><a href="home-1.html">Home</a></li>
-                <li><a href="team.html">Team</a></li>
-            </ul>
-            <h2 className="mil-uppercase">Leadership Team</h2>
+          <ul className="mil-breadcrumbs mil-mb-30">
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/pages/team">Team</Link>
+            </li>
+          </ul>
+          <h2 className="mil-uppercase">Leadership Team</h2>
         </div>
+      </div>
     </div>
-</div>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;

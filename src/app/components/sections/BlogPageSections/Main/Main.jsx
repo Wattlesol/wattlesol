@@ -35,8 +35,9 @@ const Main = () => {
                 </div>
                 <div className="mil-card-text">
                   <p>
-                    Strategic SDR Team and Social Media Optimization to Drive
-                    Sales and Leads
+                    Enhance deployment speed with our efficient DevOps
+                    strategies. Tailored approaches for rapid and reliable
+                    releases.
                   </p>
                 </div>
               </div>
@@ -123,7 +124,7 @@ const Main = () => {
             </div>
           </Col>
           <Col lg={4} xl={3} className="mil-mb-120">
-            <div class="mil-mb-60">
+            {/* <div class="mil-mb-60">
               <h5 class="mil-list-title mil-mb-30">About Wattle Sol</h5>
               <p class="mil-mb-30">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
@@ -138,8 +139,8 @@ const Main = () => {
                   <p class="mil-text-sm">CEO</p>
                 </div>
               </a>
-            </div>
-            <div class="mil-divider mil-mb-60"></div>
+            </div> */}
+            {/* <div class="mil-divider mil-mb-60"></div> */}
             <form class="mil-sidebar-input-frame mil-mb-60">
               <input
                 type="text"
@@ -150,8 +151,8 @@ const Main = () => {
                 <i class="fas fa-search"></i>
               </button>
             </form>
-            <div class="mil-divider mil-mb-60"></div>
-            <div class="mil-mb-60">
+            {/* <div class="mil-divider mil-mb-60"></div> */}
+            {/* <div class="mil-mb-60">
               <h5 class="mil-list-title mil-mb-30">Categories</h5>
               <ul class="mil-hover-link-list">
                 <li>
@@ -170,8 +171,8 @@ const Main = () => {
                   <a href="#.">Software</a>
                 </li>
               </ul>
-            </div>
-            <div class="mil-divider mil-mb-60"></div>
+            </div> */}
+            {/* <div class="mil-divider mil-mb-60"></div>
             <div class="mil-mb-60">
               <h5 class="mil-list-title mil-mb-30">Tags</h5>
               <ul class="mil-tags">
@@ -191,11 +192,11 @@ const Main = () => {
                   <a href="#.">Learning</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div class="mil-divider mil-mb-60"></div>
             <div class="mil-mb-60">
               <h5 class="mil-list-title mil-mb-30">Newsletter</h5>
-              <form class="mil-sidebar-input-frame">
+              <div class="mil-sidebar-input-frame">
                 <input
                   type="text"
                   class="mil-sidebar-input"
@@ -204,17 +205,19 @@ const Main = () => {
                 <button type="submit">
                   <i class="fas fa-arrow-right"></i>
                 </button>
-              </form>
+              </div>
             </div>
             <div class="mil-divider mil-mb-60"></div>
             <h5 class="mil-list-title mil-mb-30">Contact us</h5>
             <p class="mil-mb-30">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              info@wattlesol.info
+              <br />
+              30 N Gould St Ste R Sheridan, WY 82801
             </p>
-            <a href="contact.html" class="mil-link">
+            {/* <a href="contact.html" class="mil-link">
               <span>Send</span>
               <i class="fas fa-arrow-right"></i>
-            </a>
+            </a> */}
           </Col>
         </Row>
       </Container>
