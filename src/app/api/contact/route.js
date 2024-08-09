@@ -42,7 +42,6 @@ export async function POST(req) {
       }
     }
 
-
     const {
       first_name,
       last_name,
@@ -101,15 +100,19 @@ export async function POST(req) {
         subject: 'New Contact Form Submission',
         text: `Details: ${first_name}, ${last_name}, ${email}, ${phone}, ${company}, ${role}, ${category}, ${message}, ${budget}`,
         html: htmlContent,
-        attachments: userfile
-          ? [
-              {
-                filename: userfile.filename,
-                content: userfile.content,
-                contentType: userfile.contentType,
-              },
-            ]
-          : [],
+        attachments:
+          userfile &&
+          userfile.content &&
+          userfile.filename &&
+          userfile.contentType
+            ? [
+                {
+                  filename: userfile.filename,
+                  content: userfile.content,
+                  contentType: userfile.contentType,
+                },
+              ]
+            : [],
       };
 
       await transporter.sendMail(mailOptions);
@@ -157,9 +160,3 @@ export async function POST(req) {
     );
   }
 }
-
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
