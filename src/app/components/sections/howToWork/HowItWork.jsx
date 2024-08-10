@@ -94,7 +94,7 @@ const HowItWork = () => {
         </Row>
         <Row className="align-items-center">
           <Col md={6} xl={6}>
-            <Link href="/pages/faq" className="mil-link mil-mb-30">
+            <Link href="/pages/faqs" className="mil-link mil-mb-30">
               <span>Learn More</span>
               <i className="fas fa-arrow-right"></i>
             </Link>

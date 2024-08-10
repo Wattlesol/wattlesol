@@ -3,6 +3,7 @@ import Project1 from '@/app/public/global/img/projects/1.jpg';
 import Project2 from '@/app/public/global/img/projects/2.jpg';
 import Project3 from '@/app/public/global/img/projects/3.jpg';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function page() {
   return (
@@ -21,10 +22,10 @@ export default function page() {
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
               <li>
-                <a href="index.html">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a href="portfolio.html">Works</a>
+                <Link href="/pages/allCaseStudies">Works</Link>
               </li>
             </ul>
             <h2 className="mil-uppercase">Case Studies</h2>
@@ -47,14 +48,17 @@ export default function page() {
                 Revolutionizing Global Gold Transactions with Blockchain
                 Technology
               </h3>
-              <a href="project.html" className="mil-button-with-label">
+              <Link
+                href="/pages/Projects/karatbars"
+                className="mil-button-with-label"
+              >
                 <div className="mil-button mil-border mil-icon-button">
                   <span>
                     <i className="fas fa-plus"></i>
                   </span>
                 </div>
                 <span className="mil-dark">See More</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
@@ -70,14 +74,17 @@ export default function page() {
               <h3 className="mil-mb-30">
                 Enhancing Crypto Mining Transparency and Investor Profits
               </h3>
-              <a href="project.html" className="mil-button-with-label">
+              <Link
+                href="/pages/Projects/ormeus"
+                className="mil-button-with-label"
+              >
                 <div className="mil-button mil-border mil-icon-button">
                   <span>
                     <i className="fas fa-plus"></i>
                   </span>
                 </div>
                 <span className="mil-dark">See More</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row justify-content-between align-items-center">
@@ -94,14 +101,17 @@ export default function page() {
               <h3 className="mil-mb-30">
                 Boosting Social Media Presence and Lead Generation
               </h3>
-              <a href="project.html" className="mil-button-with-label">
+              <Link
+                href="/pages/Projects/softbanks"
+                className="mil-button-with-label"
+              >
                 <div className="mil-button mil-border mil-icon-button">
                   <span>
                     <i className="fas fa-plus"></i>
                   </span>
                 </div>
                 <span className="mil-dark">See More</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="mil-divider mil-mb-60"></div>

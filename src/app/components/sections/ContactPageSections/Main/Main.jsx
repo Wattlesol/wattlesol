@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import MdImage1 from '@/app/public/global/img/icons/md/8.svg';
@@ -259,12 +259,13 @@ const Main = () => {
               </div>
               <h5 className="mil-list-title mil-mb-30">Needs More Info?</h5>
               <p>
-                For technical questions or billing questions, please contact
-                Customer Care.
+                info@wattlesol.info
+                <br />
+                30 N Gould St Ste R Sheridan, WY 82801  
               </p>
             </div>
             <div className="mil-divider mil-mb-60"></div>
-            <a href="contact.html" className="mil-link mil-link-sm mil-mb-15">
+            {/* <a href="contact.html" className="mil-link mil-link-sm mil-mb-15">
               <span>Legality Guide</span>
               <i className="fas fa-arrow-right"></i>
             </a>
@@ -272,7 +273,7 @@ const Main = () => {
             <a href="contact.html" className="mil-link mil-link-sm">
               <span>Security Center</span>
               <i className="fas fa-arrow-right"></i>
-            </a>
+            </a> */}
           </Col>
         </Row>
       </Container>
