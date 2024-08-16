@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Image from 'next/image';
 import MdImage1 from '@/app/public/global/img/icons/md/Client-Centric.svg';
-import MdImage2 from '@/app/public/global/img/icons/md/Proven Expertise.svg';
-import MdImage3 from '@/app/public/global/img/icons/md/Tailored Solutions.svg';
+import MdImage2 from '@/app/public/global/img/icons/md/ProvenExpertise.svg';
+import MdImage3 from '@/app/public/global/img/icons/md/TailoredSolutions.svg';
 import MdImage4 from '@/app/public/global/img/icons/md/Scalability.svg';
 import Link from 'next/link';
 
