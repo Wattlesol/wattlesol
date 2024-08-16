@@ -1,5 +1,21 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
+import Challenge from '@/app/public/global/img/icons/md/ThinkingBig.svg'
+import BlockChain from '@/app/public/global/img/icons/md/blockchain.svg'
+import Development from '@/app/public/global/img/icons/SDIcon.svg'
+import BigData from '@/app/public/global/img/icons/md/big-data.svg'
+import Server from '@/app/public/global/img/icons/md/db.svg'
+import Solution from '@/app/public/global/img/icons/md/SolutionArchitects.svg'
+import DevOps from '@/app/public/global/img/icons/md/DevOps.svg'
+import Scalability from '@/app/public/global/img/icons/md/Scalability.svg'
+import Transparency from '@/app/public/global/img/icons/md/Transparency.svg'
+import MainImage from '@/app/public/global/img/projects/1.jpg'
+import SecondImage from '@/app/public/global/img/projects/project3.jpg'
+import SocialMedia from '@/app/public/global/img/projects/social_media.png'
+import Revenue from '@/app/public/global/img/projects/revenue.png'
+import Engagement from '@/app/public/global/img/projects/engagement.png'
+
 
 export default function page() {
   return (
@@ -69,7 +85,7 @@ export default function page() {
               <div className="mil-mb-30">
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <img src="img/icons/sm/1.svg" alt="icon" />
+                    <Image src={Challenge} alt="icon" />
                   </div>
                   <p className="mil-dark">
                     Developing a secure system to share live progress of newly
@@ -79,7 +95,7 @@ export default function page() {
                 </div>
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <img src="img/icons/sm/1.svg" alt="icon" />
+                    <Image src={Challenge} alt="icon" />
                   </div>
                   <p className="mil-dark">
                     Building an on-chain staking system to enable investors to
@@ -88,7 +104,7 @@ export default function page() {
                 </div>
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <img src="img/icons/sm/1.svg" alt="icon" />
+                    <Image src={Challenge} alt="icon" />
                   </div>
                   <p className="mil-dark">
                     Running effective social media marketing campaigns to
@@ -106,7 +122,7 @@ export default function page() {
 
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <img src="img/icons/sm/7.svg" alt="icon" />
+                  <Image src={BlockChain} width={32} alt="icon" />
                 </div>
                 <h6 className="mil-dark">
                   Blockchain Development with Solidity and ERC20 Network
@@ -124,7 +140,7 @@ export default function page() {
               </p>
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <img src="img/icons/sm/4.svg" alt="icon" />
+                  <Image src={Development} alt="icon" />
                 </div>
                 <h6 className="mil-dark">Software Development</h6>
               </div>
@@ -141,7 +157,7 @@ export default function page() {
               </p>
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <img src="img/icons/sm/8.svg" alt="icon" />
+                  <Image src={BigData} width={32} alt="icon" />
                 </div>
                 <h6 className="mil-dark">Big Data Architecture</h6>
               </div>
@@ -153,7 +169,7 @@ export default function page() {
 
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <img src="img/icons/sm/8.svg" alt="icon" />
+                  <Image src={Server} width={24} alt="icon" />
                 </div>
                 <h6 className="mil-dark">Server-Side Solutions</h6>
               </div>
@@ -165,7 +181,7 @@ export default function page() {
 
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <img src="img/icons/sm/9.svg" alt="icon" />
+                  <Image src={DevOps} width={32} alt="icon" />
                 </div>
                 <h6 className="mil-dark">DevOps Practices</h6>
               </div>
@@ -176,7 +192,7 @@ export default function page() {
 
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <img src="img/icons/sm/9.svg" alt="icon" />
+                  <Image src={Solution} width={32} alt="icon" />
                 </div>
                 <h6 className="mil-dark">Solution Architecture</h6>
               </div>
@@ -189,7 +205,7 @@ export default function page() {
 
             <div className="mil-icon-box-head mil-long mil-mb-15">
               <div className="mil-icon-frame mil-icon-frame-sm">
-                <img src="img/icons/sm/9.svg" alt="icon" />
+                <Image src={SocialMedia} width={32} alt="icon" />
               </div>
               <h6 className="mil-dark">Social Media Campaigns</h6>
             </div>
@@ -200,7 +216,7 @@ export default function page() {
             </p>
             <div className="mil-icon-box-head mil-long mil-mb-15">
               <div className="mil-icon-frame mil-icon-frame-sm">
-                <img src="img/icons/sm/9.svg" alt="icon" />
+                <Image src={Engagement} width={32} alt="icon" />
               </div>
               <h6 className="mil-dark">Content Strategy</h6>
             </div>
@@ -241,15 +257,15 @@ export default function page() {
                 <div className="col-xl-6">
                   <ul className="mil-check-icon-list mil-mb-15">
                     <li>
-                      <img src="img/icons/sm/12.svg" alt="icon" />
+                      <Image src={Transparency} width={32} alt="icon" />
                       <span className="mil-dark">Real-Time Transparency</span>
                     </li>
                     <li>
-                      <img src="img/icons/sm/12.svg" alt="icon" />
+                      <Image src={Revenue} width={32} alt="icon" />
                       <span className="mil-dark">Increased Profits</span>
                     </li>
                     <li>
-                      <img src="img/icons/sm/12.svg" alt="icon" />
+                      <Image src={Engagement} width={32} alt="icon" />
                       <span className="mil-dark">
                         Enhanced Customer Engagement
                       </span>
@@ -259,7 +275,7 @@ export default function page() {
                 <div className="col-xl-6 mil-mb-30">
                   <ul className="mil-check-icon-list">
                     <li>
-                      <img src="img/icons/sm/12.svg" alt="icon" />
+                      <Image src={Scalability} width={32} alt="icon" />
                       <span className="mil-dark">
                         Scalability and Reliability
                       </span>
@@ -270,7 +286,7 @@ export default function page() {
             </div>
             <div className="col-xl-6 mil-mb-60">
               <div className="mil-project-cover">
-                <img src="img/projects/2.jpg" alt="Project" />
+                <Image src={SecondImage} alt="icon" />
               </div>
             </div>
           </div>
@@ -293,7 +309,7 @@ export default function page() {
             </div>
             <div className="col-xl-6 mil-mb-60">
               <div className="mil-project-cover">
-                <img src="img/projects/2.jpg" alt="Project" />
+                <Image src={MainImage} alt="icon" />
               </div>
             </div>
           </div>
@@ -330,20 +346,20 @@ export default function page() {
 
       <div className="container mil-mb-120">
         <div className="mil-pagination mil-hidden-button">
-          <a href="project.html" className="mil-slider-nav">
+          <a href="/pages/Projects/karatbars" className="mil-slider-nav">
             <div className="mil-slider-btn-prev mil-button-sm mil-blog-prev">
               <i className="fas fa-arrow-left"></i>
               <span className="mil-h6">Prev</span>
             </div>
           </a>
-          <a href="portfolio.html" className="mil-button-all">
+          <a href="/pages/allCaseStudies" className="mil-button-all">
             <span>
               <i className="fas fa-list"></i>
             </span>
           </a>
           <div className="mil-slider-nav">
             <a
-              href="project.html"
+              href="/pages/Projects/softbanks"
               className="mil-slider-btn-next mil-blog-next"
             >
               <span className="mil-h6">Next</span>
