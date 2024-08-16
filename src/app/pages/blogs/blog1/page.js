@@ -1,16 +1,27 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+
+import MainImage from '@/app/public/global/img/blog/blog-devops.jpg'
+import MicroServices from '@/app/public/global/img/blog/blog-microservice.png'
+import Staff from '@/app/public/global/img/blog/blog-staff.jpg'
+import Zain from '@/app/public/global/img/faces/zain.jpg';
+import Avatar from '@/app/public/global/img/faces/image.png';
+import Author from '@/app/public/global/img/logo/wattle_sol_logo.jpeg';
+import StaffCover from '@/app/public/global/img/blog/augmentation-cover.png';
+import ServicesCover from '@/app/public/global/img/blog/micro-service-cover.png';
+
+
 
 export default function page() {
   return (
     <div>
       <div className="mil-banner-sm-2 mil-deep-bg">
-        <img
-          src="img/blog/5.jpg"
-          className="mil-background-image"
-          style={{ objectPosition: 'center' }}
+        <Image
+          src={MainImage}
           alt="Publication cover"
-        />
+          className="mil-background-image"
+          style={{ objectFit: 'fill' }} />
         <div className="mil-overlay"></div>
       </div>
       <section className="mil-blog mil-p-120-0">
@@ -23,7 +34,7 @@ export default function page() {
               </h3>
               <ul className="mil-dot-list mil-post-info mil-text-sm mil-mb-60">
                 <li className="mil-post-author">
-                  <img src="img/faces/3.jpg" alt="Author" />
+                  <Image src={Author} alt="Author" />
                   <span>Wattle Sol</span>
                 </li>
                 <li>1 June. 2024</li>
@@ -99,7 +110,7 @@ export default function page() {
                 and communication between development and operations teams. This
                 cultural shift breaks down silos, encouraging shared
                 responsibility for the success of production-grade applications.
-                Regular cross-functional meetings, blameless post-mortems, and
+                Regular cross-functional meetings, blameless post-mortem, and
                 the use of collaborative tools like JIRAand Confluence enhance
                 transparency and accountability.
               </p>
@@ -138,14 +149,7 @@ export default function page() {
               </p>
 
               <p className="mil-mb-60">
-                In conclusion, adopting DevOps practices is crucial for
-                safeguarding production-grade applications against potential
-                disasters. Through CI/CD, IaC, monitoring, collaboration, and
-                automation, DevOps provides a robust framework for delivering
-                reliable, high-quality software. By embracing these practices,
-                organizations can enhance their agility, resilience, and
-                competitiveness in the digital era, ensuring that
-                production-grade applications remain stable and performant.
+
               </p>
 
               {/* <blockquote cite="google.com" className="mil-mb-60">
@@ -171,15 +175,15 @@ export default function page() {
 
               <div className="row mil-mb-30">
                 <div className="col-xl-6 mil-mb-30">
-                  <img
-                    src="img/blog/1.jpg"
+                  <Image
+                    src={MicroServices}
                     alt="blog"
                     className="mil-post-image"
                   />
                 </div>
                 <div className="col-xl-6 mil-mb-30">
-                  <img
-                    src="img/blog/3.jpg"
+                  <Image
+                    src={Staff}
                     alt="blog"
                     className="mil-post-image"
                   />
@@ -189,12 +193,14 @@ export default function page() {
               <h3 className="mil-mb-50">Conclusion</h3>
 
               <p className="mil-mb-60">
-                Aliquam mollis, lorem ut elementum sagittis, ligula nulla ornare
-                lorem, in pulvinar nulla turpis ac massa. Fusce imperdiet
-                ullamcorper lacus non condimentum. Etiam ante magna, posuere sit
-                amet quam id, ultricies cursus nisl. Vivamus maximus lorem in
-                augue vulputate accumsan vel sed erat. Nullam quis sapien
-                fermentum, sagittis est vel, commodo lectus.
+                In conclusion, adopting DevOps practices is crucial for
+                safeguarding production-grade applications against potential
+                disasters. Through CI/CD, IaC, monitoring, collaboration, and
+                automation, DevOps provides a robust framework for delivering
+                reliable, high-quality software. By embracing these practices,
+                organizations can enhance their agility, resilience, and
+                competitiveness in the digital era, ensuring that
+                production-grade applications remain stable and performant.
               </p>
 
               <ul className="mil-tags mil-mb-60">
@@ -203,11 +209,9 @@ export default function page() {
                   <a href="#.">Business</a>
                 </li>
                 <li>
-                  <a href="#.">Design</a>
+                  <a href="#.">Development</a>
                 </li>
-                <li>
-                  <a href="#.">Learning</a>
-                </li>
+
               </ul>
 
               <div className="mil-divider mil-mb-60"></div>
@@ -236,10 +240,10 @@ export default function page() {
                 <li className="mil-comment">
                   <div className="mil-comment-top-panel">
                     <div className="mil-left">
-                      <img src="img/faces/1.jpg" alt="user avatar" />
+                      <Image src={Avatar} alt="user avatar" />
                       <div>
-                        <h5>Ponnappa Priya</h5>
-                        <p className="mil-text-sm">September 23, 2020</p>
+                        <h5>Ponape Pima</h5>
+                        <p className="mil-text-sm">June 5, 2024</p>
                       </div>
                     </div>
                     <a
@@ -250,19 +254,16 @@ export default function page() {
                     </a>
                   </div>
                   <p className="mil-comment-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Enim minus rerum officiis sit quos non, nulla alias labore
-                    sapiente quasi ut exercitationem aperiam beatae magni sunt
-                    corporis ducimus? Ipsum, asperiores.
+                    Great insights on using IaC for disaster prevention! Could you elaborate on how Wattle Sol integrates these DevOps practices into its client projects? Any specific tools or workflows you recommend?
                   </p>
                   <ul className="mil-sub-comments">
                     <li className="mil-comment">
                       <div className="mil-comment-top-panel">
                         <div className="mil-left">
-                          <img src="img/faces/2.jpg" alt="user avatar" />
+                          <Image src={Zain} alt="user avatar" />
                           <div>
-                            <h5>Tamzyn French</h5>
-                            <p className="mil-text-sm">September 23, 2020</p>
+                            <h5>Syed Zain</h5>
+                            <p className="mil-text-sm">June 5, 2024</p>
                           </div>
                         </div>
                         <a
@@ -273,9 +274,7 @@ export default function page() {
                         </a>
                       </div>
                       <p className="mil-comment-text">
-                        We realised we really wanted to catch a glimpse of what
-                        went on behind the scenes of the companies we looked up
-                        to.
+                        At Wattle Sol, we integrate DevOps practices through a combination of customized IaC solutions tailored to each client's infrastructure. We primarily use tools like Terraform and Ansible for automated provisioning and configuration management, ensuring consistency across environments.
                       </p>
                     </li>
                   </ul>
@@ -283,10 +282,10 @@ export default function page() {
                 <li className="mil-comment">
                   <div className="mil-comment-top-panel">
                     <div className="mil-left">
-                      <img src="img/faces/3.jpg" alt="user avatar" />
+                      <Image src={Avatar} alt="user avatar" />
                       <div>
                         <h5>Paul Freeman</h5>
-                        <p className="mil-text-sm">September 23, 2020</p>
+                        <p className="mil-text-sm">June 10, 2024</p>
                       </div>
                     </div>
                     <a
@@ -297,14 +296,7 @@ export default function page() {
                     </a>
                   </div>
                   <p className="mil-comment-text">
-                    Dolor sit amet, consectetur adipisicing elit. Veritatis
-                    minus at aliquid dolorem quis, alias impedit eveniet, omnis
-                    quisquam eaque, maxime aliquam repudiandae laborum mollitia
-                    iure vel, ab illum voluptatem. Possimus eaque magnam facere
-                    voluptatum ipsam optio, porro qui veritatis nostrum itaque,
-                    tempora, vitae quam aliquid voluptate amet! Pariatur libero
-                    blanditiis nesciunt quibusdam itaque voluptates iure tempore
-                    facilis dolorem aut.
+                    As a non-tech CEO, I find this article very insightful. It’s impressive how DevOps practices, like automation and Infrastructure as Code, can prevent issues before they even arise. It’s clear that having a strong, proactive approach to technology is essential for any business aiming for long-term success.
                   </p>
                 </li>
               </ul>
@@ -327,7 +319,7 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
                       <label className="mil-h6">
-                        <span>Email Adress</span>
+                        <span>Email Address</span>
                         <span className="mil-accent">Required</span>
                       </label>
                       <input type="email" placeholder="Your Email" />
@@ -379,12 +371,11 @@ export default function page() {
               <div className="mil-mb-60">
                 <h5 className="mil-list-title mil-mb-30">About Wattle Sol</h5>
                 <p className="mil-mb-30">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt.
+                  At Wattle Sol, we're committed to developing innovative software solutions that drive the future of technology and sustainability.
                 </p>
-                <a href="team-single.html" className="mil-post-sm mil-mb-15">
+                <a href="/pages/team" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
-                    <img src="img/faces/1.jpg" alt="cover" />
+                    <Image src={Zain} alt="cover" />
                   </div>
                   <div className="mil-description">
                     <h4 className="mil-font-3 mil-accent">Syed Zain</h4>
@@ -411,7 +402,7 @@ export default function page() {
                   className="mil-post-sm mil-mb-15"
                 >
                   <div className="mil-cover-frame">
-                    <img src="img/blog/6.jpg" alt="cover" />
+                    <Image src={ServicesCover} alt="cover" />
                   </div>
                   <div className="mil-description">
                     <h6>
@@ -422,7 +413,7 @@ export default function page() {
                 </Link>
                 <Link href="/pages/blogs/blog3" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
-                    <img src="img/blog/5.jpg" alt="cover" />
+                    <Image src={StaffCover} alt="cover" />
                   </div>
                   <div className="mil-description">
                     <h6>
@@ -438,9 +429,6 @@ export default function page() {
                 <ul className="mil-hover-link-list">
                   <li>
                     <a href="#.">Business</a>
-                  </li>
-                  <li>
-                    <a href="#.">Design</a>
                   </li>
                   <li>
                     <a href="#.">Development</a>
@@ -491,9 +479,9 @@ export default function page() {
               <div className="mil-divider mil-mb-60"></div>
               <h5 className="mil-list-title mil-mb-30">Contact us</h5>
               <p className="mil-mb-30">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                For technical questions or billing questions, please contact us at info@wattlesol.com.
               </p>
-              <a href="contact.html" className="mil-link mil-link-sm">
+              <a href="/pages/contact" className="mil-link mil-link-sm">
                 <span>Send</span>
                 <i className="fas fa-arrow-right"></i>
               </a>
