@@ -1,12 +1,22 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
+
+import MainImage from '@/app/public/global/img/blog/blog-microservice.png'
+import DevOps from '@/app/public/global/img/blog/blog-devops.jpg'
+import Staff from '@/app/public/global/img/blog/blog-staff.jpg'
+import Zain from '@/app/public/global/img/faces/zain.jpg';
+import Avatar from '@/app/public/global/img/faces/image.png';
+import Author from '@/app/public/global/img/logo/wattle_sol_logo.jpeg';
+import StaffCover from '@/app/public/global/img/blog/augmentation-cover.png';
+import DevOpsCover from '@/app/public/global/img/blog/devops-cover.png';
 
 export default function page() {
   return (
     <div>
       <div className="mil-banner-sm-2 mil-deep-bg">
-        <img
-          src="img/blog/5.jpg"
+        <Image
+          src={MainImage}
           className="mil-background-image"
           style={{ objectPosition: 'center' }}
           alt="Publication cover"
@@ -24,7 +34,7 @@ export default function page() {
               </h3>
               <ul className="mil-dot-list mil-post-info mil-text-sm mil-mb-60">
                 <li className="mil-post-author">
-                  <img src="img/faces/3.jpg" alt="Author" />
+                  <Image src={Author} alt="Author" />
                   <span>Wattle Sol</span>
                 </li>
                 <li>10 July. 2024</li>
@@ -63,7 +73,7 @@ export default function page() {
                 unparalleled flexibility. Each microservice operates as a
                 standalone unit, responsible for a specific business function.
                 This decoupling allows development teams to use different
-                technologies and programminglanguages for different services,
+                technologies and programming languages for different services,
                 optimizing each component for its unique requirements. The
                 ability to independently develop, deploy, and update
                 microservices accelerates the development lifecycle, enabling
@@ -174,6 +184,25 @@ export default function page() {
                 optimal performance and resource efficiency.
               </p>
 
+              <div className="row mil-mb-30">
+                <div className="col-xl-6 mil-mb-30">
+                  <Image
+                    src={DevOps}
+                    alt="blog"
+                    className="mil-post-image"
+                  />
+                </div>
+                <div className="col-xl-6 mil-mb-30">
+                  <Image
+                    src={Staff}
+                    alt="blog"
+                    className="mil-post-image"
+                  />
+                </div>
+              </div>
+
+              <h3 className="mil-mb-50">Conclusion</h3>
+
               <p className="mil-mb-60">
                 In conclusion, microservices architecture is undeniably the
                 future of seamless operations in application development. By
@@ -186,44 +215,13 @@ export default function page() {
                 operations in the digital era.
               </p>
 
-              <div className="row mil-mb-30">
-                <div className="col-xl-6 mil-mb-30">
-                  <img
-                    src="img/blog/1.jpg"
-                    alt="blog"
-                    className="mil-post-image"
-                  />
-                </div>
-                <div className="col-xl-6 mil-mb-30">
-                  <img
-                    src="img/blog/3.jpg"
-                    alt="blog"
-                    className="mil-post-image"
-                  />
-                </div>
-              </div>
-
-              <h3 className="mil-mb-50">Conclusion</h3>
-
-              <p className="mil-mb-60">
-                Aliquam mollis, lorem ut elementum sagittis, ligula nulla ornare
-                lorem, in pulvinar nulla turpis ac massa. Fusce imperdiet
-                ullamcorper lacus non condimentum. Etiam ante magna, posuere sit
-                amet quam id, ultricies cursus nisl. Vivamus maximus lorem in
-                augue vulputate accumsan vel sed erat. Nullam quis sapien
-                fermentum, sagittis est vel, commodo lectus.
-              </p>
-
               <ul className="mil-tags mil-mb-60">
                 <li className="mil-h6">Tags:&nbsp;&nbsp;</li>
                 <li>
                   <a href="#.">Business</a>
                 </li>
                 <li>
-                  <a href="#.">Design</a>
-                </li>
-                <li>
-                  <a href="#.">Learning</a>
+                  <a href="#.">Management</a>
                 </li>
               </ul>
 
@@ -246,17 +244,17 @@ export default function page() {
               <div className="mil-divider mil-mb-60"></div>
 
               <h3 className="mil-mb-60">
-                Comments - <span className="mil-accent">02</span>
+                Comments - <span className="mil-accent">03</span>
               </h3>
 
               <ul className="mil-comments-frame">
                 <li className="mil-comment">
                   <div className="mil-comment-top-panel">
                     <div className="mil-left">
-                      <img src="img/faces/1.jpg" alt="user avatar" />
+                      <Image src={Avatar} alt="user avatar" />
                       <div>
-                        <h5>Ponnappa Priya</h5>
-                        <p className="mil-text-sm">September 23, 2020</p>
+                        <h5>Roparzh Leclerc</h5>
+                        <p className="mil-text-sm">June 12, 2024</p>
                       </div>
                     </div>
                     <a
@@ -267,43 +265,16 @@ export default function page() {
                     </a>
                   </div>
                   <p className="mil-comment-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Enim minus rerum officiis sit quos non, nulla alias labore
-                    sapiente quasi ut exercitationem aperiam beatae magni sunt
-                    corporis ducimus? Ipsum, asperiores.
+                    As a startup founder, I’m really impressed by how microservices can help businesses scale efficiently. The ability to deploy and manage individual components independently seems like a huge advantage for growth without the typical tech bottlenecks.
                   </p>
-                  <ul className="mil-sub-comments">
-                    <li className="mil-comment">
-                      <div className="mil-comment-top-panel">
-                        <div className="mil-left">
-                          <img src="img/faces/2.jpg" alt="user avatar" />
-                          <div>
-                            <h5>Tamzyn French</h5>
-                            <p className="mil-text-sm">September 23, 2020</p>
-                          </div>
-                        </div>
-                        <a
-                          href="#reply"
-                          className="mil-button mil-border mil-button-xs mil-gray-border mil-mb-15"
-                        >
-                          <span>Reply</span>
-                        </a>
-                      </div>
-                      <p className="mil-comment-text">
-                        We realised we really wanted to catch a glimpse of what
-                        went on behind the scenes of the companies we looked up
-                        to.
-                      </p>
-                    </li>
-                  </ul>
                 </li>
                 <li className="mil-comment">
                   <div className="mil-comment-top-panel">
                     <div className="mil-left">
-                      <img src="img/faces/3.jpg" alt="user avatar" />
+                      <Image src={Avatar} alt="user avatar" />
                       <div>
-                        <h5>Paul Freeman</h5>
-                        <p className="mil-text-sm">September 23, 2020</p>
+                        <h5>Sofia Rossi</h5>
+                        <p className="mil-text-sm">June 13, 2024</p>
                       </div>
                     </div>
                     <a
@@ -314,16 +285,29 @@ export default function page() {
                     </a>
                   </div>
                   <p className="mil-comment-text">
-                    Dolor sit amet, consectetur adipisicing elit. Veritatis
-                    minus at aliquid dolorem quis, alias impedit eveniet, omnis
-                    quisquam eaque, maxime aliquam repudiandae laborum mollitia
-                    iure vel, ab illum voluptatem. Possimus eaque magnam facere
-                    voluptatum ipsam optio, porro qui veritatis nostrum itaque,
-                    tempora, vitae quam aliquid voluptate amet! Pariatur libero
-                    blanditiis nesciunt quibusdam itaque voluptates iure tempore
-                    facilis dolorem aut.
-                  </p>
+                    Coming from a finance background, I appreciate how microservices can reduce risks by isolating potential issues within specific services. This level of control and stability is crucial for maintaining operational continuity in any business.</p>
                 </li>
+
+                <li className="mil-comment">
+                  <div className="mil-comment-top-panel">
+                    <div className="mil-left">
+                      <Image src={Avatar} alt="user avatar" />
+                      <div>
+                        <h5>Olivia Greene</h5>
+                        <p className="mil-text-sm">June 15, 2024</p>
+                      </div>
+                    </div>
+                    <a
+                      href="#reply"
+                      className="mil-button mil-border mil-button-xs mil-gray-border mil-mb-15"
+                    >
+                      <span>Reply</span>
+                    </a>
+                  </div>
+                  <p className="mil-comment-text">
+                    I find the flexibility offered by microservices fascinating. It’s incredible how this architecture allows tech teams to innovate and adapt quickly to market changes, ensuring our campaigns are always supported by robust, responsive technology.</p>
+                </li>
+
               </ul>
 
               <div className="mil-divider mil-mb-60" id="reply"></div>
@@ -344,7 +328,7 @@ export default function page() {
                   <div className="col-lg-6">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
                       <label className="mil-h6">
-                        <span>Email Adress</span>
+                        <span>Email Address</span>
                         <span className="mil-accent">Required</span>
                       </label>
                       <input type="email" placeholder="Your Email" />
@@ -396,12 +380,11 @@ export default function page() {
               <div className="mil-mb-60">
                 <h5 className="mil-list-title mil-mb-30">About Wattle Sol</h5>
                 <p className="mil-mb-30">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt.
+                  At Wattle Sol, we're committed to developing innovative software solutions that drive the future of technology and sustainability.
                 </p>
                 <a href="team-single.html" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
-                    <img src="img/faces/1.jpg" alt="cover" />
+                    <Image src={Zain} alt="cover" />
                   </div>
                   <div className="mil-description">
                     <h4 className="mil-font-3 mil-accent">Syed Zain</h4>
@@ -428,7 +411,7 @@ export default function page() {
                   className="mil-post-sm mil-mb-15"
                 >
                   <div className="mil-cover-frame">
-                    <img src="img/blog/6.jpg" alt="cover" />
+                    <Image src={DevOpsCover} alt="cover" />
                   </div>
                   <div className="mil-description">
                     <h6>
@@ -439,7 +422,7 @@ export default function page() {
                 </Link>
                 <Link href="/pages/blogs/blog3" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
-                    <img src="img/blog/5.jpg" alt="cover" />
+                    <Image src={StaffCover} alt="cover" />
                   </div>
                   <div className="mil-description">
                     <h6>
@@ -478,10 +461,7 @@ export default function page() {
                     <a href="#.">Business</a>
                   </li>
                   <li>
-                    <a href="#.">Design</a>
-                  </li>
-                  <li>
-                    <a href="#.">General</a>
+                    <a href="#.">Startup</a>
                   </li>
                   <li>
                     <a href="#.">Development</a>
@@ -508,9 +488,9 @@ export default function page() {
               <div className="mil-divider mil-mb-60"></div>
               <h5 className="mil-list-title mil-mb-30">Contact us</h5>
               <p className="mil-mb-30">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                For technical questions or billing questions, please contact us at info@wattlesol.com.
               </p>
-              <a href="contact.html" className="mil-link mil-link-sm">
+              <a href="/pages/contact" className="mil-link mil-link-sm">
                 <span>Send</span>
                 <i className="fas fa-arrow-right"></i>
               </a>
