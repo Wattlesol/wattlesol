@@ -18,12 +18,12 @@ const Main = () => {
       <Container>
         <h3 class="mil-text-center mil-mb-120">
           Meet the <span class="mil-accent">POWER HOUSE</span> at
-          <span class="mil-accent">Wattle Sol</span> <br />- where innovation,
+          <span class="mil-accent"> Wattle Sol</span> <br />- where innovation,
           expertise, and success converge!
         </h3>
         <Row>
           <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+            <a className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={Zain} alt="Team member" />
                 <div className="mil-team-circle"></div>
@@ -32,8 +32,8 @@ const Main = () => {
               <p>CEO Wattle Sol</p>
             </a>
           </Col>
-          <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+          {/* <Col sm={6} lg={4}>
+            <a  className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={Sheeraz} alt="Team member" />
                 <div className="mil-team-circle"></div>
@@ -41,9 +41,9 @@ const Main = () => {
               <h4 className="mil-mb-10">Muhammad Sheraz</h4>
               <p>Lead Software Developer</p>
             </a>
-          </Col>
-          <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+          </Col> */}
+          {/* <Col sm={6} lg={4}>
+            <a  className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={Zaiqam} alt="Team member" />
                 <div className="mil-team-circle"></div>
@@ -52,9 +52,9 @@ const Main = () => {
               <h4 className="mil-mb-10">Zaigham Bilal</h4>
               <p>Lead Designer</p>
             </a>
-          </Col>
+          </Col> */}
           <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+            <a className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={Saima} alt="Team member" />
                 <div className="mil-team-circle"></div>
@@ -64,7 +64,7 @@ const Main = () => {
             </a>
           </Col>
           <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+            <a className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={Shayan} alt="Team member" />
                 <div className="mil-team-circle"></div>
@@ -74,7 +74,7 @@ const Main = () => {
             </a>
           </Col>
           <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+            <a className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={Muiz} alt="Team member" />
                 <div className="mil-team-circle"></div>
@@ -85,7 +85,7 @@ const Main = () => {
           </Col>
 
           <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+            <a className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={FaceImage1} alt="Team member" />
                 <div className="mil-team-circle"></div>
@@ -95,8 +95,8 @@ const Main = () => {
             </a>
           </Col>
 
-          <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+          {/* <Col sm={6} lg={4}>
+            <a  className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={Ammar} alt="Team member" />
                 <div className="mil-team-circle"></div>
@@ -104,10 +104,10 @@ const Main = () => {
               <h4 className="mil-mb-10">Ammar Ahmad</h4>
               <p>Full Stack Developer</p>
             </a>
-          </Col>
+          </Col> */}
 
           <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+            <a  className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={Azaan} alt="Team member" />
                 <div className="mil-team-circle"></div>
@@ -118,7 +118,7 @@ const Main = () => {
           </Col>
 
           <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+            <a  className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={Faiza} alt="Team member" />
                 <div className="mil-team-circle"></div>
@@ -129,7 +129,7 @@ const Main = () => {
           </Col>
 
           <Col sm={6} lg={4}>
-            <a href="team-single.html" className="mil-team-card mil-mb-60">
+            <a  className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
                 <Image src={Haider} alt="Team member" />
                 <div className="mil-team-circle"></div>

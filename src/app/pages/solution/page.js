@@ -19,7 +19,7 @@ const page = () => {
       {/* <Title/> */}
       <Main />
       {/* <TitleSecond/> */}
-      <Award />
+      <Stack />
       <Consultant />
       <CallToSectionSecond />
       {/* <Stack/> */}
