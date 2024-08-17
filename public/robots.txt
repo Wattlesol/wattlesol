@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://wattlesol.com
+
+# Sitemaps
+Sitemap: https://wattlesol.com/sitemap.xml
