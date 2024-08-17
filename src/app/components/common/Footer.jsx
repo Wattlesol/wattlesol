@@ -1,13 +1,22 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import FooterImage1 from '@/app/public/global/img/deco/map.png';
 import Logo from '@/app/public/global/img/logo/logo-light.svg';
 import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Contact from './Contact';
 import Link from 'next/link';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
 const Footer = () => {
+  const [email, setEmail] = useState('');
+  const handleToast = () => {
+    setEmail('');
+    return toast.success('Email Subscribed Successfully');
+  };
   return (
     <>
+      <ToastContainer />
       <footer className="mil-dark-bg">
         <Image src={FooterImage1} alt="background" className="mil-footer-bg" />
         <Container>
@@ -62,8 +71,13 @@ const Footer = () => {
                         className="mil-rounded-input mil-text-center mil-mb-5"
                         type="text"
                         placeholder="Your email address"
+                        value={email ? email : ''}
+                        onChange={(e) => setEmail(e.target.value)}
                       />
-                      <button className="mil-button mil-accent-bg mil-fw">
+                      <button
+                        className="mil-button mil-accent-bg mil-fw"
+                        onClick={handleToast}
+                      >
                         <span>Subscribe Now</span>
                       </button>
                     </div>
