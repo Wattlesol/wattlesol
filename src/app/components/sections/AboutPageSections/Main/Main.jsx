@@ -3,6 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Image from 'next/image'
 import smImage12 from "@/app/public/global/img/icons/sm/12.svg"
 import FaceImage1 from "@/app/public/global/img/photo/t3.png"
+import Zain from '@/app/public/global/img/faces/zain.jpg';
+
 const Main = () => {
     return (
         <section className="mil-deep-bg mil-p-120-60">
@@ -31,7 +33,7 @@ const Main = () => {
                                     </li>
                                     <li>
                                         <Image src={smImage12} alt="icon" />
-                                        <span className="mil-dark"> icon Flexible and Responsive. </span>
+                                        <span className="mil-dark">Flexible and Responsive. </span>
                                     </li>
                                     <li>
                                         <Image src={smImage12} alt="icon" />
@@ -45,8 +47,8 @@ const Main = () => {
                             </Col>
                             <Col xl={5}>
 
-                                <a href="team-single.html" className="mil-post-sm mil-mb-60">
-                                    <div className="mil-cover-frame"><Image src={FaceImage1} alt="cover"/></div>
+                                <a className="mil-post-sm mil-mb-60">
+                                    <div className="mil-cover-frame"><Image src={Zain} alt="cover"/></div>
                                     <div className="mil-description">
                                         <h4 className="mil-font-3 mil-accent">Zain Syed</h4>
                                         <p className="mil-text-sm">CEO & Co-Founder</p>
