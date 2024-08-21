@@ -23,7 +23,7 @@ const Main = () => {
         <Container>
           <Row className="justify-content-between">
             <Col lg={8} xl={8} className="mil-mb-120">
-              <Link href="/pages/blogs/blog1" className="mil-card">
+              <Link href="/blogs/blog1" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage1}
@@ -53,7 +53,7 @@ const Main = () => {
                 </div>
               </Link>
               <div class="mil-divider mil-mb-60"></div>
-              <Link href="/pages/blogs/blog2" className="mil-card">
+              <Link href="/blogs/blog2" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage2}
@@ -82,7 +82,7 @@ const Main = () => {
                 </div>
               </Link>
               <div class="mil-divider mil-mb-60"></div>
-              <Link href="/pages/blogs/blog3" className="mil-card">
+              <Link href="/blogs/blog3" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage3}

@@ -21,7 +21,7 @@ const HeroSection = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/pages/team">Team</Link>
+              <Link href="/team">Team</Link>
             </li>
           </ul>
           <h2 className="mil-uppercase">Leadership Team</h2>

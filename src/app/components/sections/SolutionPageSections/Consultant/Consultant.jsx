@@ -117,7 +117,7 @@ const Consultant = () => {
             ))}
           </div>
         </div>
-        <Link href="/pages/contact" className="mil-link">
+        <Link href="/contact" className="mil-link">
           <span>Let’s Solve Your Challenges With AI</span>
           <i className="fas fa-arrow-right"></i>
         </Link>

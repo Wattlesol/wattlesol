@@ -25,7 +25,7 @@ export default function page() {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/pages/allCaseStudies">Works</Link>
+                <Link href="/case-studies">Works</Link>
               </li>
             </ul>
             <h2 className="mil-uppercase">Case Studies</h2>
@@ -49,7 +49,7 @@ export default function page() {
                 Technology
               </h3>
               <Link
-                href="/pages/Projects/karatbars"
+                href="/projects/karatbars"
                 className="mil-button-with-label"
               >
                 <div className="mil-button mil-border mil-icon-button">
@@ -75,7 +75,7 @@ export default function page() {
                 Enhancing Crypto Mining Transparency and Investor Profits
               </h3>
               <Link
-                href="/pages/Projects/ormeus"
+                href="/projects/ormeus"
                 className="mil-button-with-label"
               >
                 <div className="mil-button mil-border mil-icon-button">
@@ -102,7 +102,7 @@ export default function page() {
                 Boosting Social Media Presence and Lead Generation
               </h3>
               <Link
-                href="/pages/Projects/softbanks"
+                href="/projects/softbanks"
                 className="mil-button-with-label"
               >
                 <div className="mil-button mil-border mil-icon-button">
@@ -125,7 +125,7 @@ export default function page() {
             </div>
             <ul className="mil-pagination-numbers">
               <li className="mil-active">
-                <a href="portfolio.html">1</a>
+                <a href="#">1</a>
               </li>
               {/* <li>
                 <a href="portfolio.html">2</a>

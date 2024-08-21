@@ -116,10 +116,10 @@ const Footer = () => {
             </ul>
             <ul className="mil-additional-links mil-light">
               <li>
-                <Link href="/pages/TermsAndConditions">Terms & Condition</Link>
+                <Link href="/terms-and-conditions">Terms & Condition</Link>
               </li>
               <li>
-                <Link href="/pages/PrivacyAndPolicy">Privacy Policy</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
               </li>
               {/* <li>
                 <a href="#.">Sitemap</a>

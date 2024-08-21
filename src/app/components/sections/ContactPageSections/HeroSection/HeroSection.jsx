@@ -12,7 +12,7 @@ const HeroSection = () => {
         <Container class=" mil-relative">
             <ul class="mil-breadcrumbs mil-mb-30">
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="/pages/contact">Contact Us</Link></li>
+                <li><Link href="/contact">Contact Us</Link></li>
             </ul>
             <h2 class="mil-uppercase">Let’s discuss your opportunity</h2>
         </Container>

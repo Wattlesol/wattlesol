@@ -43,34 +43,34 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="mil-has-children">
-                    <Link href="/pages/about" legacyBehavior>
+                    <Link href="/about" legacyBehavior>
                       <a>About Us</a>
                     </Link>
                     <ul>
                       <li>
-                        <Link href="/pages/team" legacyBehavior>
+                        <Link href="/team" legacyBehavior>
                           <a>Team</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/pages/faqs" legacyBehavior>
+                        <Link href="/faqs" legacyBehavior>
                           <a>FAQ</a>
                         </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link href="/pages/solution" legacyBehavior>
+                    <Link href="/solution" legacyBehavior>
                       <a>Solutions</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pages/blog" legacyBehavior>
+                    <Link href="/blog" legacyBehavior>
                       <a>Blog</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pages/contact" legacyBehavior>
+                    <Link href="/contact" legacyBehavior>
                       <a>Contact Us</a>
                     </Link>
                   </li>

@@ -28,7 +28,7 @@ export default function page() {
         ></div>
         <div className="mil-banner-content">
           <div className="container mil-relative">
-            <Link href="/pages/allCaseStudies" className="mil-link link-left mil-mb-30">
+            <Link href="/case-studies" className="mil-link link-left mil-mb-30">
               <i className="fas fa-arrow-left"></i>
               <span>All Cases</span>
             </Link>
@@ -319,20 +319,20 @@ export default function page() {
 
       <div className="container mil-mb-120">
         <div className="mil-pagination mil-hidden-button">
-          <a href="/pages/Projects/karatbars" className="mil-slider-nav">
+          <Link href="/projects/karatbars" className="mil-slider-nav">
             <div className="mil-slider-btn-prev mil-button-sm mil-blog-prev">
               <i className="fas fa-arrow-left"></i>
               <span className="mil-h6">Prev</span>
             </div>
-          </a>
-          <a href="/pages/allCaseStudies" className="mil-button-all">
+          </Link>
+          <Link href="/case-studies" className="mil-button-all">
             <span>
               <i className="fas fa-list"></i>
             </span>
-          </a>
+          </Link>
           <div className="mil-slider-nav">
             <a
-              href="/pages/Projects/ormeus"
+              href="/projects/ormeus"
               className="mil-slider-btn-next mil-blog-next"
             >
               <span className="mil-h6">Next</span>

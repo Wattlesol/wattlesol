@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <div class="container mil-relative">
                     <ul class="mil-breadcrumbs mil-mb-30">
                         <li><Link href="/">Home</Link></li>
-                        <li><Link href="/pages/blogs">Blog</Link></li>
+                        <li><Link href="/blogs">Blog</Link></li>
                     </ul>
                     <h2 class="mil-uppercase">Our Blog</h2>
                 </div>

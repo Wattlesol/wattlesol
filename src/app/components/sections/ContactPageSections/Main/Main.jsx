@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import MdImage1 from '@/app/public/global/img/icons/md/8.svg';
 import MdImage2 from '@/app/public/global/img/icons/md/9.svg';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Main = () => {
   const [formData, setFormData] = useState({
@@ -237,10 +238,10 @@ const Main = () => {
               <p className="mil-mb-20">
                 Our experts are ready to answer your questions.
               </p>
-              <a href="contact.html" className="mil-link mil-link-sm">
+              <Link href="/contact" className="mil-link mil-link-sm">
                 <span>Support Now</span>
                 <i className="fas fa-arrow-right"></i>
-              </a>
+              </Link>
             </div>
             <div className="mil-divider mil-mb-60"></div>
             <div className="mil-mb-60">

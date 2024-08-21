@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <div className="container mil-relative">
                     <ul className="mil-breadcrumbs mil-mb-30">
                         <li><Link href="/" legacyBehavior>Home</Link></li>
-                        <li><Link href="/pages/about">About us</Link></li>
+                        <li><Link href="/about">About us</Link></li>
                     </ul>
                     <h2 className="mil-uppercase">Enterprise</h2>
                 </div>
