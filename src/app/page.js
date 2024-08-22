@@ -11,6 +11,7 @@ import Skills from './components/sections/skills/Skills';
 import LatestThinking from './components/sections/LatestThinking/LatestThinking';
 import Testimonial from './components/sections/testimonial/Testimonial';
 import Contact from './components/common/Contact';
+import LatestProduct from './components/sections/LatestProduct/LatestProduct';
 
 const page = () => {
   return (
@@ -23,7 +24,7 @@ const page = () => {
       <Divider />
       <Help />
       <Divider />
-
+      <LatestProduct />
       <LatestProjects />
       <Divider />
 
@@ -31,7 +32,7 @@ const page = () => {
 
       <Skills />
       <Divider />
-      <LatestThinking/>
+      <LatestThinking />
       <Testimonial />
       <Contact />
     </div>

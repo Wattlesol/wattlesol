@@ -8,6 +8,7 @@ import GameChanger from '@/app/components/sections/AIBDESection/GameChanger/Game
 import Features from '@/app/components/sections/AIBDESection/Features/Features'
 import React from 'react'
 import Faq from '@/app/components/sections/AIBDESection/Faq/Faq'
+import CallToSectionSecond from '@/app/components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond'
 
 const page = () => {
     return (
@@ -18,6 +19,7 @@ const page = () => {
             <GameChanger />
             <Features />
             <Perks />
+            <CallToSectionSecond />
             <Faq />
             <Contact />
 
