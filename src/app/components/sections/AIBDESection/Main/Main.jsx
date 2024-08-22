@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
-import FaceImage1 from "@/app/public/global/img/photo/t3.png";
+import MarketingSales from '@/app/public/global/img/photo/marketing-sales.png';
 
 const Main = () => {
     return (
@@ -20,7 +20,7 @@ const Main = () => {
                             <div className="mil-circle-bg"></div>
                             <div className="mil-image-frame">
                                 <Image
-                                    src={FaceImage1}
+                                    src={MarketingSales}
                                     alt="img"
                                 />
                             </div>
@@ -39,38 +39,7 @@ const Main = () => {
                             AI ensures fast, personalized responses that keep your customers happy and
                             loyal.
                         </p>
-                        {/* <Row className=' align-items-end'>
-                            <Col xl={7}>
-                                <ul className="mil-check-icon-list mil-mb-60">
-                                    <li>
-                                        <Image src={smImage12} alt="icon" />
-                                        <span className="mil-dark">Seasoned Professionals.</span>
-                                    </li>
-                                    <li>
-                                        <Image src={smImage12} alt="icon" />
-                                        <span className="mil-dark">Flexible and Responsive. </span>
-                                    </li>
-                                    <li>
-                                        <Image src={smImage12} alt="icon" />
-                                        <span className="mil-dark">Clear and Open Dialogue.</span>
-                                    </li>
-                                    <li>
-                                        <Image src={smImage12} alt="icon" />
-                                        <span className="mil-dark">Global Talent Without Compromise.</span>
-                                    </li>
-                                </ul>
-                            </Col>
-                            <Col xl={5}>
 
-                                <a className="mil-post-sm mil-mb-60">
-                                    <div className="mil-cover-frame"><Image src={Zain} alt="cover"/></div>
-                                    <div className="mil-description">
-                                        <h4 className="mil-font-3 mil-accent">Zain Syed</h4>
-                                        <p className="mil-text-sm">CEO & Co-Founder</p>
-                                    </div>
-                                </a>
-                            </Col>
-                        </Row> */}
                     </Col>
                 </Row>
             </Container>

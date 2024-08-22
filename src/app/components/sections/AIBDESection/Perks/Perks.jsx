@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import FaceImage1 from '@/app/public/global/img/photo/Our-Mission.png';
+import FaceImage1 from '@/app/public/global/img/photo/ai.png';
 import Image from 'next/image';
 const Perks = () => {
   return (

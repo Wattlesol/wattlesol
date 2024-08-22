@@ -3,8 +3,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 import TopExpertise from '@/app/public/global/img/icons/md/TopExpertise.svg';
 import QualityManagement from '@/app/public/global/img/icons/md/QualityManagement.svg';
 import UtmostFlexibility from '@/app/public/global/img/icons/md/UtmostFlexibility.svg';
-import Agility from '@/app/public/global/img/icons/md/Agility.svg';
-import Innovation from '@/app/public/global/img/icons/md/Innovation.svg';
+import Productivity from '@/app/public/global/img/icons/md/Productivity.svg';
+import Scalability from '@/app/public/global/img/icons/md/Scalability.svg';
+import Support from '@/app/public/global/img/projects/engagement.png'
+
 import Image from 'next/image';
 const GameChanger = () => {
   return (
@@ -17,7 +19,7 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={TopExpertise} alt="icon" />
+                <Image src={Support} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>
@@ -53,7 +55,7 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={UtmostFlexibility} alt="icon" />
+                <Image src={Productivity} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>
@@ -72,7 +74,7 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Agility} alt="icon" />
+                <Image src={Scalability} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>

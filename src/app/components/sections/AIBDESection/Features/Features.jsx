@@ -5,7 +5,13 @@ import weBelive from '@/app/public/global/img/icons/WeBelieve.svg';
 import weDeep from '@/app/public/global/img/icons/WeDeepDive.svg';
 import weSay from '@/app/public/global/img/icons/WeSayWe.svg';
 import weTake from '@/app/public/global/img/icons/WeTake.svg';
-import wevalue from '@/app/public/global/img/icons/WeValue.svg';
+import support from '@/app/public/global/img/icons/24.svg';
+import multiSupport from '@/app/public/global/img/icons/multi-support.svg';
+import ai from '@/app/public/global/img/icons/ai.svg';
+import integration from '@/app/public/global/img/icons/integration.svg';
+import scalability from '@/app/public/global/img/icons/md/Scalability.svg';
+import insights from '@/app/public/global/img/icons/insights.svg';
+
 
 import Image from 'next/image';
 const Features = () => {
@@ -22,7 +28,7 @@ const Features = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={weAre} alt="icon" />
+                <Image src={multiSupport} width={35} alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">Multi-Channel Support</h4>
@@ -35,7 +41,7 @@ const Features = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={weDeep} alt="icon" />
+                <Image src={ai} alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">Advanced AI Automation</h4>
@@ -48,7 +54,7 @@ const Features = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={weTake} alt="icon" />
+                <Image src={integration} alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">Seamless Integration</h4>
@@ -61,7 +67,7 @@ const Features = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={wevalue} alt="icon" />
+                <Image src={support} width={35} alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">24/7 Assistance</h4>
@@ -74,7 +80,7 @@ const Features = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={weBelive} alt="icon" />
+                <Image src={scalability} width={35} alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">Scalability & Customization</h4>
@@ -87,7 +93,7 @@ const Features = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={weSay} alt="icon" />
+                <Image src={insights} alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">Data-Driven Insights</h4>
