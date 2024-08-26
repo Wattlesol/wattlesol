@@ -9,6 +9,7 @@ import React from 'react'
 import Faq from '@/app/components/sections/StaffPageSections/Faq/Faq'
 import CallToSectionSecond from '@/app/components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond'
 import WorkWithUs from '@/app/components/sections/StaffPageSections/WorkWithUs/WorkWithUs'
+import LatestProjects from '@/app/components/sections/LatestProjects/LatestProjects'
 
 
 const page = () => {
@@ -21,6 +22,7 @@ const page = () => {
             <Features />
             <WorkWithUs />
             <Perks />
+            <LatestProjects />
             <Divider />
             <Faq />
             <Contact />

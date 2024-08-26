@@ -9,6 +9,7 @@ import React from 'react'
 import Faq from '@/app/components/sections/UIUXPageSections/Faq/Faq'
 import Tools from '@/app/components/sections/UIUXPageSections/Tools/Tools'
 import Process from '@/app/components/sections/UIUXPageSections/Process/Process'
+import LatestProjects from '@/app/components/sections/LatestProjects/LatestProjects'
 
 const page = () => {
     return (
@@ -21,6 +22,7 @@ const page = () => {
             <Divider />
             <Process />
             <WhyChooseUS />
+            <LatestProjects />
             <Faq />
             <Contact />
         </div>
