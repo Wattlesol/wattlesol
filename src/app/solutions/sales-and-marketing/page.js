@@ -20,6 +20,7 @@ const page = () => {
             <Services />
             <WhyChooseUs />
             <Perks />
+            <Divider />
             <LatestProjects />
             <CallToSectionSecond />
             <Faq />

@@ -9,6 +9,7 @@ import Expertise from '@/app/components/sections/SDPageSection/OurExpertise/OurE
 import WorkWithUs from '@/app/components/sections/AboutPageSections/WorkWithUs/WorkWithUs'
 import Stack from '@/app/components/sections/SolutionPageSections/Stack/Stack'
 import LatestProjects from '@/app/components/sections/LatestProjects/LatestProjects'
+import Divider from '@/app/components/common/Divider'
 
 const page = () => {
     return (

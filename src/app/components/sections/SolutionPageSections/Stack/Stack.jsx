@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 const Stack = () => {
     return (
         <>
-            <section class="mil-p-120-90">
+            <section class="mil-deep-bg mil-p-120-90">
                 <div class="mil-deco" style={{ top: 0, right: "15%" }}></div>
                 <Container>
                     <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Our Tools</span>

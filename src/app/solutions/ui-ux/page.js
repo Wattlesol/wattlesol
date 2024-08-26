@@ -10,6 +10,7 @@ import Faq from '@/app/components/sections/UIUXPageSections/Faq/Faq'
 import Tools from '@/app/components/sections/UIUXPageSections/Tools/Tools'
 import Process from '@/app/components/sections/UIUXPageSections/Process/Process'
 import LatestProjects from '@/app/components/sections/LatestProjects/LatestProjects'
+import CallToSectionSecond from '@/app/components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond'
 
 const page = () => {
     return (
@@ -23,6 +24,8 @@ const page = () => {
             <Process />
             <WhyChooseUS />
             <LatestProjects />
+            <Divider />
+            <CallToSectionSecond />
             <Faq />
             <Contact />
         </div>

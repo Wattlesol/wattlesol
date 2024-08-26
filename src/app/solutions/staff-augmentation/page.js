@@ -24,6 +24,7 @@ const page = () => {
             <Perks />
             <LatestProjects />
             <Divider />
+            <CallToSectionSecond />
             <Faq />
             <Contact />
         </div>
