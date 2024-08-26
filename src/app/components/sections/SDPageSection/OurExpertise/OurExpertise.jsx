@@ -1,33 +1,33 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import TopExpertise from '@/app/public/global/img/icons/md/TopExpertise.svg';
-import QualityManagement from '@/app/public/global/img/icons/md/QualityManagement.svg';
+import MobileDev from '@/app/public/global/img/icons/md/mobile-dev.svg';
+import WebApp from '@/app/public/global/img/icons/md/web-app.svg';
 import UtmostFlexibility from '@/app/public/global/img/icons/md/UtmostFlexibility.svg';
-import Productivity from '@/app/public/global/img/icons/md/Productivity.svg';
+import AI from '@/app/public/global/img/icons/ai.svg';
 import Scalability from '@/app/public/global/img/icons/md/Scalability.svg';
-import Support from '@/app/public/global/img/icons/24.svg';
+import BlockChain from '@/app/public/global/img/icons/md/blockchain.svg'
 
 import Image from 'next/image';
-const GameChanger = () => {
+const Expertise = () => {
   return (
     <section className="mil-p-120-120">
       <Container>
-        <h2 className="mil-mb-120">Why AI is a Game Changer</h2>
+        <h2 className="mil-mb-120">Expertise That Drives Results</h2>
 
         <div className="mil-divider"></div>
         <div className="mil-line-icon-box">
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Support} alt="icon" />
+                <Image src={MobileDev} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>
-              <h4 className="mil-mb-30">Instant Support</h4>
+              <h4 className="mil-mb-30">Mobile App Development              </h4>
             </Col>
             <Col xl={6}>
               <p className="mil-box-text mil-mb-30">
-                AI ensures your customers receive immediate assistance, regardless of the time or day. Unlike human agents, AI doesn't need breaks, enabling your business to provide 24/7 support that keeps customers satisfied and engaged.{' '}
+                Our mobile app development service focuses on creating intuitive, responsive, and high-performance apps for iOS and Android platforms. Whether you're looking for a native, hybrid, or cross-platform solution, our experts will ensure your app stands out in the crowded marketplace.{' '}
               </p>
             </Col>
           </Row>
@@ -37,15 +37,15 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={QualityManagement} alt="icon" />
+                <Image src={WebApp} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>
-              <h4 className="mil-mb-30">Consistent Responses</h4>
+              <h4 className="mil-mb-30">Web Application Development</h4>
             </Col>
             <Col xl={6}>
               <p className="mil-box-text mil-mb-30">
-                With AI, you eliminate the variability that comes with human agents. AI delivers precise, reliable answers every time, ensuring that your customers receive consistent information, which builds trust and reliability.
+                We specialize in web app development that meets the highest standards of functionality, security, and scalability. Our team utilizes the latest frameworks and technologies to build custom web applications that drive efficiency and provide seamless integration with your existing systems.
               </p>
             </Col>
           </Row>
@@ -55,16 +55,16 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Productivity} alt="icon" />
+                <Image src={AI} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>
-              <h4 className="mil-mb-30">Continuous Improvement
+              <h4 className="mil-mb-30">AI and Machine Learning Solutions
               </h4>
             </Col>
             <Col xl={6}>
               <p className="mil-box-text mil-mb-30">
-                AI systems are designed to learn from every interaction. Over time, they become more efficient and accurate, adapting to new customer needs and preferences, which helps in continuously improving the customer experience.
+                Stay ahead of the competition by integrating AI and machine learning into your business operations. Our AI and ML services help automate processes, enhance decision-making, and unlock new opportunities for growth. From predictive analytics to natural language processing, we provide bespoke AI solutions that drive innovation and efficiency.
               </p>
             </Col>
           </Row>
@@ -74,15 +74,15 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Scalability} alt="icon" />
+                <Image src={BlockChain} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>
-              <h4 className="mil-mb-30">Scalable Solutions</h4>
+              <h4 className="mil-mb-30">Blockchain Development              </h4>
             </Col>
             <Col xl={6}>
               <p className="mil-box-text mil-mb-30">
-                As your business grows, so do customer interactions. AI can easily scale to handle an increasing volume of queries without the need for additional resources, allowing you to expand your support capabilities without significant cost increases.{' '}
+                Explore the future of secure, decentralized technology with our blockchain development services. We help businesses build blockchain solutions that enhance transparency, security, and trust. Whether you're looking to develop a blockchain-based application, smart contracts, or a cryptocurrency, our experts provide the tools and expertise to make it happen.{' '}
               </p>
             </Col>
           </Row>
@@ -94,4 +94,4 @@ const GameChanger = () => {
   );
 };
 
-export default GameChanger;
+export default Expertise;

@@ -2,75 +2,56 @@ import ExperienceContactFooter from '@/app/components/common/ExperienceContactFo
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
-const Stack = () => {
+const Tools = () => {
     return (
         <>
-            <section class="mil-p-120-90">
+            <section class="mil-deep-bg mil-p-120-90">
                 <div class="mil-deco" style={{ top: 0, right: "15%" }}></div>
                 <Container>
                     <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Our Tools</span>
-                    <h2 class="mil-mb-90">Development <span class="mil-accent">Tech Stack</span></h2>
+                    <h2 class="mil-mb-90">Tools We <span className="mil-accent">Use</span>  </h2>
                     <Row className='mil-grid-lines'>
                         <Col lg={3} md={4} sm={6}>
                             <div class="mil-item-card">
-                                <h6>Flutter</h6>
+                                <h6>Adobe XD</h6>
                             </div>
                         </Col>
                         <Col lg={3} md={4} sm={6}>
                             <div class="mil-item-card">
-                                <h6>React Native</h6>
+                                <h6>Figma</h6>
                             </div>
                         </Col>
                         <Col lg={3} md={4} sm={6}>
                             <div class="mil-item-card">
-                                <h6>Kotlin</h6>
+                                <h6>Sketch</h6>
                             </div>
                         </Col>
                         <Col lg={3} md={4} sm={6}>
                             <div class="mil-item-card">
-                                <h6>Swift</h6>
+                                <h6>Adobe Photoshop</h6>
                             </div>
                         </Col>
                         <Col lg={3} md={4} sm={6}>
                             <div class="mil-item-card">
-                                <h6>Next Js</h6>
+                                <h6>InVision</h6>
                             </div>
                         </Col>
                         <Col lg={3} md={4} sm={6}>
                             <div class="mil-item-card">
-                                <h6>MEAN</h6>
+                                <h6>Adobe Illustrator</h6>
                             </div>
                         </Col>
                         <Col lg={3} md={4} sm={6}>
                             <div class="mil-item-card">
-                                <h6>MERN</h6>
+                                <h6>Marvel</h6>
                             </div>
                         </Col>
                         <Col lg={3} md={4} sm={6}>
                             <div class="mil-item-card">
-                                <h6>Solidity</h6>
+                                <h6>Proto.io</h6>
                             </div>
                         </Col>
-                        <Col lg={3} md={4} sm={6}>
-                            <div class="mil-item-card">
-                                <h6>Python</h6>
-                            </div>
-                        </Col>
-                        <Col lg={3} md={4} sm={6}>
-                            <div class="mil-item-card">
-                                <h6>Artificial Intelligence</h6>
-                            </div>
-                        </Col>
-                        <Col lg={3} md={4} sm={6}>
-                            <div class="mil-item-card">
-                                <h6>Machine Learning</h6>
-                            </div>
-                        </Col>
-                        <Col lg={3} md={4} sm={6}>
-                            <div class="mil-item-card">
-                                <h6>Block Chain and Web3</h6>
-                            </div>
-                        </Col>
+
                     </Row>
                 </Container>
             </section>
@@ -78,4 +59,4 @@ const Stack = () => {
     )
 }
 
-export default Stack
+export default Tools

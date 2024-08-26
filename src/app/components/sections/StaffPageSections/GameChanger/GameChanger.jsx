@@ -5,7 +5,7 @@ import QualityManagement from '@/app/public/global/img/icons/md/QualityManagemen
 import UtmostFlexibility from '@/app/public/global/img/icons/md/UtmostFlexibility.svg';
 import Productivity from '@/app/public/global/img/icons/md/Productivity.svg';
 import Scalability from '@/app/public/global/img/icons/md/Scalability.svg';
-import Support from '@/app/public/global/img/icons/24.svg';
+import Support from '@/app/public/global/img/projects/engagement.png'
 
 import Image from 'next/image';
 const GameChanger = () => {

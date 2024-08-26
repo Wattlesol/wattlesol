@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
-import CustomerSupport from '@/app/public/global/img/photo/customer-support.png';
+import StaffAugmentation from '@/app/public/global/img/photo/staff-augmentation.png';
 
 
 const Main = () => {
@@ -21,7 +21,7 @@ const Main = () => {
                             <div className="mil-circle-bg"></div>
                             <div className="mil-image-frame">
                                 <Image
-                                    src={CustomerSupport}
+                                    src={StaffAugmentation}
                                     alt="img"
                                 />
                             </div>
@@ -29,16 +29,10 @@ const Main = () => {
                     </Col>
                     <Col lg={6}>
                         <h2 className="mil-mb-50">
-                            Elevating Your Customer Service with{" "}
-                            <span className="mil-accent">AI-Powered Solutions</span> with for the
-                            Digital Era.
+                            Empower Your <span className="mil-accent"> Workforce</span> with Premier Staff Augmentation
                         </h2>
                         <p className="mil-mb-50">
-                            In today’s digital age, stellar customer service is non-negotiable. Wattle
-                            Sol’s AI-Powered Contact Center Solution transforms how businesses handle
-                            customer interactions across email, chat, and phone calls. Our cutting-edge
-                            AI ensures fast, personalized responses that keep your customers happy and
-                            loyal.
+                            At Wattle Sol, we specialize in seamlessly integrating top-tier professionals into your teams, delivering the flexibility and expertise needed to fuel your business’s growth. Whether you're seeking temporary support or long-term talent, our customized solutions ensure you find the perfect match to overcome challenges and achieve success.
                         </p>
 
                     </Col>

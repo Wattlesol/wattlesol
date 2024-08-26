@@ -3,31 +3,30 @@ import { Col, Container, Row } from 'react-bootstrap';
 import TopExpertise from '@/app/public/global/img/icons/md/TopExpertise.svg';
 import QualityManagement from '@/app/public/global/img/icons/md/QualityManagement.svg';
 import UtmostFlexibility from '@/app/public/global/img/icons/md/UtmostFlexibility.svg';
-import Productivity from '@/app/public/global/img/icons/md/Productivity.svg';
-import Scalability from '@/app/public/global/img/icons/md/Scalability.svg';
-import Support from '@/app/public/global/img/icons/24.svg';
-
+import TailorSolution from '@/app/public/global/img/icons/md/TailoredSolutions.svg';
+import integration from '@/app/public/global/img/icons/integration.svg';
+import Innovation from '@/app/public/global/img/icons/md/Innovation.svg';
 import Image from 'next/image';
-const GameChanger = () => {
+const WorkWithUs = () => {
   return (
-    <section className="mil-p-120-120">
+    <section className="mil-deep-bg mil-p-120-120">
       <Container>
-        <h2 className="mil-mb-120">Why AI is a Game Changer</h2>
+        <h2 className="mil-mb-120">Why Work With Us</h2>
 
         <div className="mil-divider"></div>
         <div className="mil-line-icon-box">
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Support} alt="icon" />
+                <Image src={TopExpertise} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>
-              <h4 className="mil-mb-30">Instant Support</h4>
+              <h4 className="mil-mb-30">Extensive Talent Network</h4>
             </Col>
             <Col xl={6}>
               <p className="mil-box-text mil-mb-30">
-                AI ensures your customers receive immediate assistance, regardless of the time or day. Unlike human agents, AI doesn't need breaks, enabling your business to provide 24/7 support that keeps customers satisfied and engaged.{' '}
+                Our broad network includes professionals across various industries, allowing us to provide immediate and relevant expertise.{' '}
               </p>
             </Col>
           </Row>
@@ -41,11 +40,11 @@ const GameChanger = () => {
               </div>
             </Col>
             <Col xl={4}>
-              <h4 className="mil-mb-30">Consistent Responses</h4>
+              <h4 className="mil-mb-30">Quality Management</h4>
             </Col>
             <Col xl={6}>
               <p className="mil-box-text mil-mb-30">
-                With AI, you eliminate the variability that comes with human agents. AI delivers precise, reliable answers every time, ensuring that your customers receive consistent information, which builds trust and reliability.
+                We meticulously vet and evaluate all candidates to guarantee they meet your standards and deliver exceptional results.
               </p>
             </Col>
           </Row>
@@ -55,16 +54,15 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Productivity} alt="icon" />
+                <Image src={UtmostFlexibility} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>
-              <h4 className="mil-mb-30">Continuous Improvement
-              </h4>
+              <h4 className="mil-mb-30">Utmost Flexibility</h4>
             </Col>
             <Col xl={6}>
               <p className="mil-box-text mil-mb-30">
-                AI systems are designed to learn from every interaction. Over time, they become more efficient and accurate, adapting to new customer needs and preferences, which helps in continuously improving the customer experience.
+                From temporary staffing to project-based support and permanent placements, we offer flexible models that fit your unique requirements.
               </p>
             </Col>
           </Row>
@@ -74,24 +72,42 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Scalability} alt="icon" />
+                <Image src={integration} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>
-              <h4 className="mil-mb-30">Scalable Solutions</h4>
+              <h4 className="mil-mb-30">Seamless Integration</h4>
             </Col>
             <Col xl={6}>
               <p className="mil-box-text mil-mb-30">
-                As your business grows, so do customer interactions. AI can easily scale to handle an increasing volume of queries without the need for additional resources, allowing you to expand your support capabilities without significant cost increases.{' '}
+                Our professionals integrate smoothly into your team, working collaboratively to achieve your business goals and enhance overall productivity.{' '}
               </p>
             </Col>
           </Row>
         </div>
 
+        <div className="mil-divider"></div>
+        <div className="mil-line-icon-box">
+          <Row className="align-items-center">
+            <Col xl={2}>
+              <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+                <Image src={Innovation} alt="icon" />
+              </div>
+            </Col>
+            <Col xl={4}>
+              <h4 className="mil-mb-30">Tailor Solution</h4>
+            </Col>
+            <Col xl={6}>
+              <p className="mil-box-text mil-mb-30">
+                We customize our staff augmentation services to align with your specific project requirements, ensuring a perfect match for your needs.{' '}
+              </p>
+            </Col>
+          </Row>
+        </div>
         <div className="mil-divider"></div>
       </Container>
     </section>
   );
 };
 
-export default GameChanger;
+export default WorkWithUs;

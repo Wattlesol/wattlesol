@@ -7,10 +7,13 @@ import SoftwareDevelopment from '@/app/public/global/img/photo/Software-developm
 import UIUX from '@/app/public/global/img/photo/ui-ux.png';
 import StaffAugmentation from '@/app/public/global/img/photo/staff-augmentation.png';
 import MarketingSales from '@/app/public/global/img/photo/marketing-sales.png';
+import CustomerSupport from '@/app/public/global/img/photo/customer-support.png';
 import SAIcon from '@/app/public/global/img/icons/SAIcon.svg';
 import salesIcon from '@/app/public/global/img/icons/salesIcon.svg';
 import SDIcon from '@/app/public/global/img/icons/SDIcon.svg';
 import UxIcon from '@/app/public/global/img/icons/UxIcon.svg';
+import SupportIcon from '@/app/public/global/img/icons/multi-support.svg';
+
 
 const Main = () => {
   const [activeTab, setActiveTab] = useState('tab1');
@@ -47,6 +50,12 @@ const Main = () => {
             >
               <span>Sales And Marketing</span>
             </a>
+            <a
+              onClick={() => handleTabClick('tab5')}
+              className={activeTab === 'tab5' ? 'mil-active' : ''}
+            >
+              <span>AI Customer Support</span>
+            </a>
           </div>
           {activeTab === 'tab1' && (
             <TabContent
@@ -59,6 +68,7 @@ const Main = () => {
               point4="Web3 and Blockchain."
               image={SoftwareDevelopment}
               icon={SDIcon}
+              link="/solutions/software-development"
             />
           )}
           {activeTab === 'tab2' && (
@@ -72,6 +82,7 @@ const Main = () => {
               point3="Seamless Team Integration."
               point4="Support and Management."
               icon={SAIcon}
+              link="/solutions/staff-augmentation"
             />
           )}
           {activeTab === 'tab3' && (
@@ -84,6 +95,7 @@ const Main = () => {
               point3="Visual Design and Branding."
               point4="Usability Testing and Optimization."
               icon={UxIcon}
+              link="/solutions/ui-ux"
             />
           )}
           {activeTab === 'tab4' && (
@@ -97,6 +109,20 @@ const Main = () => {
               point3="Marketing Strategy Development."
               point4="Digital Marketing Campaigns."
               icon={salesIcon}
+              link="/solutions/sales-and-marketing"
+            />
+          )}
+          {activeTab === 'tab5' && (
+            <TabContent
+              title="Customer Support"
+              desc="Strengthen customer relationships with personalized support and service approaches."
+              image={CustomerSupport}
+              point1="24/7 Support."
+              point2="Multi Channel Support."
+              point3="Data Driven Insights."
+              point4="Scalable Solution."
+              icon={SupportIcon}
+              link="/solutions/contact-center"
             />
           )}
         </div>
@@ -105,7 +131,7 @@ const Main = () => {
   );
 };
 
-const TabContent = ({ title, image, desc, point1, point2, point3, point4, icon}) => (
+const TabContent = ({ title, image, desc, point1, point2, point3, point4, icon, link }) => (
   <Row className="justify-content-between align-items-center">
     <Col lg={7}>
       <div className="mt-5 mil-hori-box mil-mb-60">
@@ -128,7 +154,7 @@ const TabContent = ({ title, image, desc, point1, point2, point3, point4, icon})
         </Col>
         <Col lg={6}></Col>
       </Row>
-      <a href="#." className="mil-link mil-mb-60">
+      <a href={link} className="mil-link mil-mb-60">
         <span>See More</span>
         <i className="fas fa-arrow-right"></i>
       </a>

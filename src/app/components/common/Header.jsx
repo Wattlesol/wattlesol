@@ -48,6 +48,11 @@ const Header = () => {
                     </Link>
                     <ul>
                       <li>
+                        <Link href="/about" legacyBehavior>
+                          <a>Company</a>
+                        </Link>
+                      </li>
+                      <li>
                         <Link href="/team" legacyBehavior>
                           <a>Team</a>
                         </Link>
@@ -64,6 +69,31 @@ const Header = () => {
                       <a>Solutions</a>
                     </Link>
                     <ul>
+                      <li>
+                        <Link href="/solution" legacyBehavior>
+                          <a>Our Services</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/solutions/software-development" legacyBehavior>
+                          <a>Software Development</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/solutions/sales-and-marketing" legacyBehavior>
+                          <a>Sales and Marketing</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/solutions/ui-ux" legacyBehavior>
+                          <a>UI/UX Design</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/solutions/staff-augmentation" legacyBehavior>
+                          <a>Staff Augmentation</a>
+                        </Link>
+                      </li>
                       <li>
                         <Link href="/solutions/contact-center" legacyBehavior>
                           <a>Contact Center Solution</a>

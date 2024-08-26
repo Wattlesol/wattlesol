@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
-import CustomerSupport from '@/app/public/global/img/photo/customer-support.png';
+import SoftwareDevelopment from '@/app/public/global/img/photo/Software-development.png';
 
 
 const Main = () => {
@@ -21,7 +21,7 @@ const Main = () => {
                             <div className="mil-circle-bg"></div>
                             <div className="mil-image-frame">
                                 <Image
-                                    src={CustomerSupport}
+                                    src={SoftwareDevelopment}
                                     alt="img"
                                 />
                             </div>
@@ -29,16 +29,11 @@ const Main = () => {
                     </Col>
                     <Col lg={6}>
                         <h2 className="mil-mb-50">
-                            Elevating Your Customer Service with{" "}
-                            <span className="mil-accent">AI-Powered Solutions</span> with for the
-                            Digital Era.
+                            Empowering Your Business With{" "}
+                            <span className="mil-accent">Comprehensive</span> Software Development Services.
                         </h2>
                         <p className="mil-mb-50">
-                            In today’s digital age, stellar customer service is non-negotiable. Wattle
-                            Sol’s AI-Powered Contact Center Solution transforms how businesses handle
-                            customer interactions across email, chat, and phone calls. Our cutting-edge
-                            AI ensures fast, personalized responses that keep your customers happy and
-                            loyal.
+                            At Wattle Sol, we are committed to driving digital transformation through our comprehensive suite of software development services. Whether you need a cutting-edge mobile app, a robust web application, or a sophisticated AI solution, our team of experienced developers and strategists is here to bring your vision to life. We leverage the latest technologies and development methodologies to deliver scalable, secure, and high-performance software solutions tailored to your unique business needs.
                         </p>
 
                     </Col>

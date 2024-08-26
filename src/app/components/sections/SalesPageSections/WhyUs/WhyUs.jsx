@@ -1,19 +1,54 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import TopExpertise from '@/app/public/global/img/icons/md/TopExpertise.svg';
-import QualityManagement from '@/app/public/global/img/icons/md/QualityManagement.svg';
-import UtmostFlexibility from '@/app/public/global/img/icons/md/UtmostFlexibility.svg';
-import Productivity from '@/app/public/global/img/icons/md/Productivity.svg';
-import Scalability from '@/app/public/global/img/icons/md/Scalability.svg';
 import Support from '@/app/public/global/img/icons/24.svg';
+import ProvenExpertise from '@/app/public/global/img/icons/md/ProvenExpertise.svg';
+import TailoredSolution from '@/app/public/global/img/icons/md/TailoredSolutions.svg';
+import Innovation from '@/app/public/global/img/icons/md/Innovation.svg';
+
 
 import Image from 'next/image';
-const GameChanger = () => {
+const WhyChooseUs = () => {
   return (
-    <section className="mil-p-120-120">
+    <section className="mil-deep-bg mil-p-120-120">
       <Container>
-        <h2 className="mil-mb-120">Why AI is a Game Changer</h2>
+        <h2 className="mil-mb-120">Why Choose Us?</h2>
 
+        <div className="mil-divider"></div>
+        <div className="mil-line-icon-box">
+          <Row className="align-items-center">
+            <Col xl={2}>
+              <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+                <Image src={ProvenExpertise} width={35} alt="icon" />
+              </div>
+            </Col>
+            <Col xl={4}>
+              <h4 className="mil-mb-30">Proven Results</h4>
+            </Col>
+            <Col xl={6}>
+              <p className="mil-box-text mil-mb-30">
+                Unlike other agencies, we leverage our proprietary analytics platform to deliver insights that drive 25% higher conversion rates for our clients.{' '}
+              </p>
+            </Col>
+          </Row>
+        </div>
+        <div className="mil-divider"></div>
+        <div className="mil-line-icon-box">
+          <Row className="align-items-center">
+            <Col xl={2}>
+              <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+                <Image src={TailoredSolution} width={35} alt="icon" />
+              </div>
+            </Col>
+            <Col xl={4}>
+              <h4 className="mil-mb-30">Customized Strategies</h4>
+            </Col>
+            <Col xl={6}>
+              <p className="mil-box-text mil-mb-30">
+                We don’t believe in one-size-fits-all. Our team develops tailored strategies that align with your unique business goals and market conditions.
+              </p>
+            </Col>
+          </Row>
+        </div>
         <div className="mil-divider"></div>
         <div className="mil-line-icon-box">
           <Row className="align-items-center">
@@ -23,48 +58,12 @@ const GameChanger = () => {
               </div>
             </Col>
             <Col xl={4}>
-              <h4 className="mil-mb-30">Instant Support</h4>
-            </Col>
-            <Col xl={6}>
-              <p className="mil-box-text mil-mb-30">
-                AI ensures your customers receive immediate assistance, regardless of the time or day. Unlike human agents, AI doesn't need breaks, enabling your business to provide 24/7 support that keeps customers satisfied and engaged.{' '}
-              </p>
-            </Col>
-          </Row>
-        </div>
-        <div className="mil-divider"></div>
-        <div className="mil-line-icon-box">
-          <Row className="align-items-center">
-            <Col xl={2}>
-              <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={QualityManagement} alt="icon" />
-              </div>
-            </Col>
-            <Col xl={4}>
-              <h4 className="mil-mb-30">Consistent Responses</h4>
-            </Col>
-            <Col xl={6}>
-              <p className="mil-box-text mil-mb-30">
-                With AI, you eliminate the variability that comes with human agents. AI delivers precise, reliable answers every time, ensuring that your customers receive consistent information, which builds trust and reliability.
-              </p>
-            </Col>
-          </Row>
-        </div>
-        <div className="mil-divider"></div>
-        <div className="mil-line-icon-box">
-          <Row className="align-items-center">
-            <Col xl={2}>
-              <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Productivity} alt="icon" />
-              </div>
-            </Col>
-            <Col xl={4}>
-              <h4 className="mil-mb-30">Continuous Improvement
+              <h4 className="mil-mb-30">Dedicated Support
               </h4>
             </Col>
             <Col xl={6}>
               <p className="mil-box-text mil-mb-30">
-                AI systems are designed to learn from every interaction. Over time, they become more efficient and accurate, adapting to new customer needs and preferences, which helps in continuously improving the customer experience.
+                We’re not just a service provider; we’re your dedicated partner. Our team is available 24/7 to support your needs and ensure your success.
               </p>
             </Col>
           </Row>
@@ -74,15 +73,16 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Scalability} alt="icon" />
+                <Image src={Innovation} alt="icon" />
               </div>
             </Col>
             <Col xl={4}>
-              <h4 className="mil-mb-30">Scalable Solutions</h4>
+              <h4 className="mil-mb-30">Innovative Approach</h4>
             </Col>
             <Col xl={6}>
               <p className="mil-box-text mil-mb-30">
-                As your business grows, so do customer interactions. AI can easily scale to handle an increasing volume of queries without the need for additional resources, allowing you to expand your support capabilities without significant cost increases.{' '}
+                Our dynamic approach allows us to pivot strategies based on real-time market data, helping you capitalize on emerging trends and opportunities.
+                {' '}
               </p>
             </Col>
           </Row>
@@ -94,4 +94,4 @@ const GameChanger = () => {
   );
 };
 
-export default GameChanger;
+export default WhyChooseUs;

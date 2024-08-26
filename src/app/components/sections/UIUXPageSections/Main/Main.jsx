@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
-import CustomerSupport from '@/app/public/global/img/photo/customer-support.png';
+import UI from '@/app/public/global/img/photo/ui-ux.png';
 
 
 const Main = () => {
@@ -21,7 +21,7 @@ const Main = () => {
                             <div className="mil-circle-bg"></div>
                             <div className="mil-image-frame">
                                 <Image
-                                    src={CustomerSupport}
+                                    src={UI}
                                     alt="img"
                                 />
                             </div>
@@ -29,16 +29,10 @@ const Main = () => {
                     </Col>
                     <Col lg={6}>
                         <h2 className="mil-mb-50">
-                            Elevating Your Customer Service with{" "}
-                            <span className="mil-accent">AI-Powered Solutions</span> with for the
-                            Digital Era.
+                            Elevate Your <span className="mil-accent">Brand Identity </span> with Our UI/UX Design Solutions
                         </h2>
                         <p className="mil-mb-50">
-                            In today’s digital age, stellar customer service is non-negotiable. Wattle
-                            Sol’s AI-Powered Contact Center Solution transforms how businesses handle
-                            customer interactions across email, chat, and phone calls. Our cutting-edge
-                            AI ensures fast, personalized responses that keep your customers happy and
-                            loyal.
+                            In today's digital landscape, a well-designed user interface (UI) and a seamless user experience (UX) are critical for engaging users and converting them into loyal customers. At Wattle Sol, we combine creativity, innovation, and industry best practices to design digital products that are not only visually appealing but also highly functional and user-friendly. Whether you need a complete redesign of your website or a custom UI/UX design for your mobile app, our team of expert designers is here to help you achieve your goals.
                         </p>
 
                     </Col>
