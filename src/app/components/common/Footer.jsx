@@ -8,7 +8,13 @@ import Contact from './Contact';
 import Link from 'next/link';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+// import {
+//   FaMapMarkerAlt,
+//   FaPhoneAlt,
+//   FaEnvelope,
+//   FaInstagram,
+//   FaLinkedinIn,
+// } from 'react-icons/fa';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -38,13 +44,14 @@ const Footer = () => {
                 </p>
                 <div className="mil-contact-info">
                   <p className="mil-light-soft mil-mb-10">
-                    <FaMapMarkerAlt className="mil-icon" /> 30 N Gould St Ste R Sheridan, WY 82801
+                    {/* <FaMapMarkerAlt className="mil-icon" /> 30 N Gould St Ste R */}
+                    Sheridan, WY 82801
                   </p>
                   <p className="mil-light-soft mil-mb-10">
-                    <FaPhoneAlt className="mil-icon" /> +1 (502) 230-3883
+                    {/* <FaPhoneAlt className="mil-icon" /> +1 (502) 230-3883 */}
                   </p>
                   <p className="mil-light-soft mil-mb-10">
-                    <FaEnvelope className="mil-icon" /> info@wattlesol.com
+                    {/* <FaEnvelope className="mil-icon" /> info@wattlesol.com */}
                   </p>
                 </div>
                 {/* <a href="#." className="mil-app-btn mil-mb-5">
@@ -102,13 +109,17 @@ const Footer = () => {
           <div className="mil-divider mil-light"></div>
           <div className="mil-footer-links">
             <ul className="mil-social mil-light">
-
               <li className="mil-adapt-links">
-                <a href="https://www.instagram.com/wattle_sol/"> <FaInstagram className="mil-icon" size={24} /></a>
+                <a href="https://www.instagram.com/wattle_sol/">
+                  {' '}
+                  {/* <FaInstagram className="mil-icon" size={24} /> */}
+                </a>
                 <a href="https://www.instagram.com/wattle_sol/">IG</a>
               </li>
               <li className="mil-adapt-links">
-                <a href="https://www.linkedin.com/company/wattle-sol/"> <FaLinkedinIn className="mil-icon" size={24} />
+                <a href="https://www.linkedin.com/company/wattle-sol/">
+                  {' '}
+                  {/* <FaLinkedinIn className="mil-icon" size={24} /> */}
                 </a>
                 <a href="">IN</a>
               </li>
