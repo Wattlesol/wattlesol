@@ -238,7 +238,7 @@ const Main = () => {
               <p className="mil-mb-20">
                 Our experts are ready to answer your questions.
               </p>
-              <Link href="/contact" className="mil-link mil-link-sm">
+              <Link href="/contact-us" className="mil-link mil-link-sm">
                 <span>Support Now</span>
                 <i className="fas fa-arrow-right"></i>
               </Link>
@@ -262,19 +262,11 @@ const Main = () => {
               <p>
                 info@wattlesol.info
                 <br />
-                30 N Gould St Ste R Sheridan, WY 82801  
+                30 N Gould St Ste R Sheridan, WY 82801
               </p>
             </div>
             <div className="mil-divider mil-mb-60"></div>
-            {/* <a href="contact.html" className="mil-link mil-link-sm mil-mb-15">
-              <span>Legality Guide</span>
-              <i className="fas fa-arrow-right"></i>
-            </a>
-            <br />
-            <a href="contact.html" className="mil-link mil-link-sm">
-              <span>Security Center</span>
-              <i className="fas fa-arrow-right"></i>
-            </a> */}
+
           </Col>
         </Row>
       </Container>

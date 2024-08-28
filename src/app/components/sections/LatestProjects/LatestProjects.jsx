@@ -106,7 +106,7 @@ const LatestProjects = () => {
         <div className="swiper-container mil-works-slider mil-mb-90">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <Link href="/projects/softbanks" className="mil-card">
+              <Link href="/softbank" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image src={Project3} alt="project" />
                 </div>
@@ -131,7 +131,7 @@ const LatestProjects = () => {
             </div>
 
             <div className="swiper-slide">
-              <Link href="/projects/karatbars" className="mil-card">
+              <Link href="/karatbars" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image src={Project2} alt="project" />
                 </div>
@@ -158,7 +158,7 @@ const LatestProjects = () => {
             </div>
 
             <div className="swiper-slide">
-              <Link href="/projects/ormeus" className="mil-card">
+              <Link href="/ormeus" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image src={Project1} alt="project" />
                 </div>
@@ -193,7 +193,7 @@ const LatestProjects = () => {
           <Col md={6} xl={6}>
             <div className="mil-adaptive-right">
               <Link
-                href="/contact"
+                href="/contact-us"
                 className="mil-button mil-border mil-mb-30"
               >
                 <span>Get Started</span>
@@ -202,7 +202,7 @@ const LatestProjects = () => {
           </Col>
         </Row>
       </Container>
-    </section>
+    </section >
   );
 };
 

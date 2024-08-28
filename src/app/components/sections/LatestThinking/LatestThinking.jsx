@@ -136,7 +136,7 @@ const LatestThinking = () => {
         <div className="swiper-container mil-blog-slider mil-mb-90">
           <div className="swiper-wrapper">
             <div className="swiper-slide mil-slide-50">
-              <Link href="/blogs/blog1" className="mil-card">
+              <Link href="/how-devops-can-save-disasters-in-production-grade-applications" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage1}
@@ -167,7 +167,7 @@ const LatestThinking = () => {
             </div>
 
             <div className="swiper-slide mil-slide-50">
-              <Link href="/blogs/blog2" className="mil-card">
+              <Link href="/micro-services-are-the-future-of-seamless-operations-in-application-development" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage2}
@@ -198,7 +198,7 @@ const LatestThinking = () => {
             </div>
 
             <div className="swiper-slide mil-slide-50">
-              <Link href="/blogs/blog3" className="mil-card">
+              <Link href="/why-staff-augmentation-is-the-best-solution-for-software-companies" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage3}
@@ -234,7 +234,7 @@ const LatestThinking = () => {
         </div>
         <Row className="align-items-center">
           <Col className="col-12">
-            <Link href="/blog" className="mil-link">
+            <Link href="/blogs" className="mil-link">
               <span>View More Insights</span>
               <i className="fas fa-arrow-right"></i>
             </Link>

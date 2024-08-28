@@ -49,7 +49,7 @@ export default function page() {
                 Technology
               </h3>
               <Link
-                href="/projects/karatbars"
+                href="/karatbars"
                 className="mil-button-with-label"
               >
                 <div className="mil-button mil-border mil-icon-button">
@@ -75,7 +75,7 @@ export default function page() {
                 Enhancing Crypto Mining Transparency and Investor Profits
               </h3>
               <Link
-                href="/projects/ormeus"
+                href="/ormeus"
                 className="mil-button-with-label"
               >
                 <div className="mil-button mil-border mil-icon-button">
@@ -102,7 +102,7 @@ export default function page() {
                 Boosting Social Media Presence and Lead Generation
               </h3>
               <Link
-                href="/projects/softbanks"
+                href="/softbank"
                 className="mil-button-with-label"
               >
                 <div className="mil-button mil-border mil-icon-button">
@@ -115,7 +115,7 @@ export default function page() {
             </div>
           </div>
           <div className="mil-divider mil-mb-60"></div>
-
+          {/* 
           <div className="mil-pagination mil-hidden-arrows">
             <div className="mil-slider-nav">
               <div className="mil-slider-btn-prev mil-blog-prev">
@@ -132,7 +132,7 @@ export default function page() {
               </li>
               <li>
                 <a href="portfolio.html">3</a>
-              </li> */}
+              </li> 
             </ul>
             <div className="mil-slider-nav">
               <div className="mil-slider-btn-next mil-blog-next">
@@ -140,9 +140,10 @@ export default function page() {
                 <i className="fas fa-arrow-right"></i>
               </div>
             </div>
-          </div>
+
+          </div> */}
         </div>
-      </section>
+      </section >
     </>
   );
 }

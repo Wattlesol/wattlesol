@@ -34,7 +34,7 @@ const LatestProduct = () => {
                 </div>
                 <div class="mil-adaptive-center">
                     <Link
-                        href="/solutions/contact-center"
+                        href="/contact-center"
                         class="mil-button mil-border"
                     >
                         <span class='mil-light'>Learn More</span>

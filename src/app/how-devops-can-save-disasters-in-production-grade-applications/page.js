@@ -398,7 +398,7 @@ export default function page() {
               <div className="mil-mb-60">
                 <h5 className="mil-list-title mil-mb-30">Recent Posts</h5>
                 <Link
-                  href="/blogs/blog2"
+                  href="/micro-services-are-the-future-of-seamless-operations-in-application-development"
                   className="mil-post-sm mil-mb-15"
                 >
                   <div className="mil-cover-frame">
@@ -411,7 +411,7 @@ export default function page() {
                     </h6>
                   </div>
                 </Link>
-                <Link href="/blogs/blog3" className="mil-post-sm mil-mb-15">
+                <Link href="/why-staff-augmentation-is-the-best-solution-for-software-companies" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
                     <Image src={StaffCover} alt="cover" />
                   </div>
@@ -481,7 +481,7 @@ export default function page() {
               <p className="mil-mb-30">
                 For technical questions or billing questions, please contact us at info@wattlesol.com.
               </p>
-              <a href="/contact" className="mil-link mil-link-sm">
+              <a href="/contact-us" className="mil-link mil-link-sm">
                 <span>Send</span>
                 <i className="fas fa-arrow-right"></i>
               </a>

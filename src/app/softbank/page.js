@@ -12,6 +12,7 @@ import Revenue from '@/app/public/global/img/projects/revenue.png'
 import Engagement from '@/app/public/global/img/projects/engagement.png'
 import MainImage from '@/app/public/global/img/projects/3.jpg'
 import SecondImage from '@/app/public/global/img/projects/project1.jpg'
+import LatestProjects from '../components/sections/LatestProjects/LatestProjects';
 
 export default function page() {
   return (
@@ -313,34 +314,8 @@ export default function page() {
         </div>
       </section>
 
-      <div className="container">
-        <div className="mil-divider mil-mb-60"></div>
-      </div>
+      <LatestProjects />
 
-      <div className="container mil-mb-120">
-        <div className="mil-pagination mil-hidden-button">
-          <Link href="/projects/karatbars" className="mil-slider-nav">
-            <div className="mil-slider-btn-prev mil-button-sm mil-blog-prev">
-              <i className="fas fa-arrow-left"></i>
-              <span className="mil-h6">Prev</span>
-            </div>
-          </Link>
-          <Link href="/case-studies" className="mil-button-all">
-            <span>
-              <i className="fas fa-list"></i>
-            </span>
-          </Link>
-          <div className="mil-slider-nav">
-            <a
-              href="/projects/ormeus"
-              className="mil-slider-btn-next mil-blog-next"
-            >
-              <span className="mil-h6">Next</span>
-              <i className="fas fa-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
     </>
   );
 }

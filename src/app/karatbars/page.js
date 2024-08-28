@@ -12,6 +12,7 @@ import Scalability from '@/app/public/global/img/icons/md/Scalability.svg'
 import Transparency from '@/app/public/global/img/icons/md/Transparency.svg'
 import MainImage from '@/app/public/global/img/projects/2.jpg'
 import SecondImage from '@/app/public/global/img/projects/project2.jpg'
+import LatestProjects from '../components/sections/LatestProjects/LatestProjects';
 
 
 export default function page() {
@@ -296,34 +297,8 @@ export default function page() {
         </div>
       </section>
 
-      <div className="container">
-        <div className="mil-divider mil-mb-60"></div>
-      </div>
+      <LatestProjects />
 
-      <div className="container mil-mb-120">
-        <div className="mil-pagination mil-hidden-button">
-          <Link href="/Projects/softbanks" className="mil-slider-nav">
-            <div className="mil-slider-btn-prev mil-button-sm mil-blog-prev">
-              <i className="fas fa-arrow-left"></i>
-              <span className="mil-h6">Prev</span>
-            </div>
-          </Link>
-          <Link href="/case-studies" className="mil-button-all">
-            <span>
-              <i className="fas fa-list"></i>
-            </span>
-          </Link>
-          <div className="mil-slider-nav">
-            <Link
-              href="/Projects/ormeus"
-              className="mil-slider-btn-next mil-blog-next"
-            >
-              <span className="mil-h6">Next</span>
-              <i className="fas fa-arrow-right"></i>
-            </Link>
-          </div>
-        </div>
-      </div>
     </>
   );
 }

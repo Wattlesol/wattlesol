@@ -9,13 +9,13 @@ const CallToSection = () => {
         <Row className="align-items-center">
           <Col lg={12} xl={6}>
             <h4 className="mil-mb-60">
-            Redefine customer service with Wattle Sol's <span className="mil-accent">AI Contact Center Solution </span>,
-            Boost efficiency and loyalty—get started now!</h4>
+              Redefine customer service with Wattle Sol's <span className="mil-accent">AI Contact Center Solution </span>,
+              Boost efficiency and loyalty—get started now!</h4>
           </Col>
           <Col lg={12} xl={6}>
             <div className="mil-adaptive-right">
               <Link
-                href="/contact"
+                href="/contact-us"
                 className="mil-button mil-border mil-mr-15 mil-mb-30"
               >
                 <span>Talk To an Expert</span>

@@ -24,7 +24,7 @@ const CallToSection = () => {
             Across Every Sector
             <br /> Where Opportunities Blossom and Solutions Thrive
           </p>
-          <Link  href="/contact" className="mil-button mil-border mil-light">
+          <Link href="/contact-us" className="mil-button mil-border mil-light">
             <span>Book an Appointment</span>
           </Link>
         </div>

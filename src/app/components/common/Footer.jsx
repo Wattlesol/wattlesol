@@ -8,13 +8,13 @@ import Contact from './Contact';
 import Link from 'next/link';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
-// import {
-//   FaMapMarkerAlt,
-//   FaPhoneAlt,
-//   FaEnvelope,
-//   FaInstagram,
-//   FaLinkedinIn,
-// } from 'react-icons/fa';
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaInstagram,
+  FaLinkedinIn,
+} from 'react-icons/fa';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -44,34 +44,16 @@ const Footer = () => {
                 </p>
                 <div className="mil-contact-info">
                   <p className="mil-light-soft mil-mb-10">
-                    {/* <FaMapMarkerAlt className="mil-icon" /> 30 N Gould St Ste R */}
+                    <FaMapMarkerAlt className="mil-icon" /> 30 N Gould St Ste R
                     Sheridan, WY 82801
                   </p>
                   <p className="mil-light-soft mil-mb-10">
-                    {/* <FaPhoneAlt className="mil-icon" /> +1 (502) 230-3883 */}
+                    <FaPhoneAlt className="mil-icon" /> +1 (502) 230-3883
                   </p>
                   <p className="mil-light-soft mil-mb-10">
-                    {/* <FaEnvelope className="mil-icon" /> info@wattlesol.com */}
+                    <FaEnvelope className="mil-icon" /> info@wattlesol.com
                   </p>
                 </div>
-                {/* <a href="#." className="mil-app-btn mil-mb-5">
-                  <i className="fab fa-google-play"></i>
-                  <div className="mil-app-text">
-                    <span className="mil-accent mil-text-sm">
-                      Available on the
-                    </span>
-                    <div className="mil-h6">Google Play</div>
-                  </div>
-                </a>
-                <a href="#." className="mil-app-btn">
-                  <i className="fab fa-apple"></i>
-                  <div className="mil-app-text">
-                    <span className="mil-accent mil-text-sm">
-                      Download on the
-                    </span>
-                    <div className="mil-h6">App Store</div>
-                  </div>
-                </a> */}
               </Col>
               <Col xl={7} className="mil-mt-60-adapt">
                 <Row>
@@ -112,27 +94,17 @@ const Footer = () => {
               <li className="mil-adapt-links">
                 <a href="https://www.instagram.com/wattle_sol/">
                   {' '}
-                  {/* <FaInstagram className="mil-icon" size={24} /> */}
+                  <FaInstagram className="mil-icon" size={24} />
                 </a>
                 <a href="https://www.instagram.com/wattle_sol/">IG</a>
               </li>
               <li className="mil-adapt-links">
                 <a href="https://www.linkedin.com/company/wattle-sol/">
                   {' '}
-                  {/* <FaLinkedinIn className="mil-icon" size={24} /> */}
+                  <FaLinkedinIn className="mil-icon" size={24} />
                 </a>
                 <a href="">IN</a>
               </li>
-              {/* <li className="mil-adapt-links">
-                <a href="https://www.linkedin.com/company/wattle-sol/">
-                  Twitter
-                </a>
-                <a href="#.">TW</a>
-              </li>
-              <li className="mil-adapt-links">
-                <a href="#.">YouTube</a>
-                <a href="#.">YT</a>
-              </li> */}
             </ul>
             <ul className="mil-additional-links mil-light">
               <li>

@@ -68,7 +68,7 @@ const Main = () => {
               point4="Web3 and Blockchain."
               image={SoftwareDevelopment}
               icon={SDIcon}
-              link="/solutions/software-development"
+              link="/software-development"
             />
           )}
           {activeTab === 'tab2' && (
@@ -122,7 +122,7 @@ const Main = () => {
               point3="Data Driven Insights."
               point4="Scalable Solution."
               icon={SupportIcon}
-              link="/solutions/contact-center"
+              link="/contact-center"
             />
           )}
         </div>

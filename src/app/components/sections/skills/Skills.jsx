@@ -132,7 +132,7 @@ const Skills = () => {
             </div>
           </Col>
           <Col md={6} xl={3}>
-            <Link href="/solution" className="mil-link mil-mb-30">
+            <Link href="/solutions" className="mil-link mil-mb-30">
               <span>More</span>
               <i className="fas fa-arrow-right"></i>
             </Link>

@@ -104,7 +104,7 @@ export const Hero = () => {
                 </h1>
                 <div className="mil-flex-hori-center">
                   <div>
-                    <Link href="/contact" passHref legacyBehavior>
+                    <Link href="/contact-us" passHref legacyBehavior>
                       <a className="mil-button mil-border mil-light">
                         <span>Let’s Talk</span>
                       </a>

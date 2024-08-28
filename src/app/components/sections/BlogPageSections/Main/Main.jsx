@@ -23,7 +23,7 @@ const Main = () => {
         <Container>
           <Row className="justify-content-between">
             <Col lg={8} xl={8} className="mil-mb-120">
-              <Link href="/blogs/blog1" className="mil-card">
+              <Link href="/how-devops-can-save-disasters-in-production-grade-applications" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage1}
@@ -53,7 +53,7 @@ const Main = () => {
                 </div>
               </Link>
               <div class="mil-divider mil-mb-60"></div>
-              <Link href="/blogs/blog2" className="mil-card">
+              <Link href="/micro-services-are-the-future-of-seamless-operations-in-application-development" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage2}
@@ -82,7 +82,7 @@ const Main = () => {
                 </div>
               </Link>
               <div class="mil-divider mil-mb-60"></div>
-              <Link href="/blogs/blog3" className="mil-card">
+              <Link href="/why-staff-augmentation-is-the-best-solution-for-software-companies" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage3}
@@ -212,7 +212,7 @@ const Main = () => {
                     class="mil-sidebar-input"
                     placeholder="Your email address"
                     value={email ? email : ''}
-                    onChange={(e)=>setEmail(e.target.value)}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                   <button onClick={handleToast}>
                     <i class="fas fa-arrow-right"></i>
@@ -226,10 +226,7 @@ const Main = () => {
                 <br />
                 30 N Gould St Ste R Sheridan, WY 82801
               </p>
-              {/* <a href="contact.html" class="mil-link">
-              <span>Send</span>
-              <i class="fas fa-arrow-right"></i>
-            </a> */}
+
             </Col>
           </Row>
         </Container>

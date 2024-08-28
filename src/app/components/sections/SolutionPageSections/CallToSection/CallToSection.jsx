@@ -28,7 +28,7 @@ const CallToSection = () => {
           </Col>
           <Col lg={4}>
             <div class="mil-adaptive-right">
-              <Link href="/contact" class="mil-button mil-border mil-mb-30">
+              <Link href="/contact-us" class="mil-button mil-border mil-mb-30">
                 <span>Get in Touch</span>
               </Link>
             </div>

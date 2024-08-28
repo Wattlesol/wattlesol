@@ -101,7 +101,7 @@ const HowItWork = () => {
           </Col>
           <Col md={6} xl={6}>
             <div className="mil-adaptive-right">
-              <Link href="/about" className="mil-button mil-border mil-mb-30">
+              <Link href="/about-us" className="mil-button mil-border mil-mb-30">
                 <span>How We Work</span>
               </Link>
             </div>

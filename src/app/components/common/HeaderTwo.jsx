@@ -41,12 +41,12 @@ const HeaderTwo = () => {
                     </Link>
                   </li>
                   <li className="mil-has-children">
-                    <Link href="/about" legacyBehavior>
+                    <Link href="/about-us" legacyBehavior>
                       <a>About Us</a>
                     </Link>
                     <ul>
                       <li>
-                        <Link href="/about" legacyBehavior>
+                        <Link href="/about-us" legacyBehavior>
                           <a>Company</a>
                         </Link>
                       </li>
@@ -63,17 +63,17 @@ const HeaderTwo = () => {
                     </ul>
                   </li>
                   <li className="mil-has-children">
-                    <Link href="/solution" legacyBehavior>
+                    <Link href="/solutions" legacyBehavior>
                       <a>Solutions</a>
                     </Link>
                     <ul>
                       <li>
-                        <Link href="/solution" legacyBehavior>
+                        <Link href="/solutions" legacyBehavior>
                           <a>Our Services</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/solutions/software-development" legacyBehavior>
+                        <Link href="/software-development" legacyBehavior>
                           <a>Software Development</a>
                         </Link>
                       </li>
@@ -93,19 +93,24 @@ const HeaderTwo = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/solutions/contact-center" legacyBehavior>
+                        <Link href="/contact-center" legacyBehavior>
                           <a>Contact Center Solution</a>
                         </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link href="/blog" legacyBehavior>
+                    <Link href="/blogs" legacyBehavior>
                       <a>Blog</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact" legacyBehavior>
+                    <Link href="/case-studies" legacyBehavior>
+                      <a>Case Studies</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact-us" legacyBehavior>
                       <a>Contact Us</a>
                     </Link>
                   </li>

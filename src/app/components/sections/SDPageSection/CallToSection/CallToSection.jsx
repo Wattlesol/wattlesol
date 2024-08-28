@@ -15,7 +15,7 @@ const CallToSection = () => {
           <Col lg={12} xl={6}>
             <div className="mil-adaptive-right">
               <Link
-                href="/contact"
+                href="/contact-us"
                 className="mil-button mil-border mil-mr-15 mil-mb-30"
               >
                 <span>Talk To an Expert</span>
