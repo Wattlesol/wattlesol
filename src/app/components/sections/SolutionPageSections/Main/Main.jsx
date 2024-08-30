@@ -82,7 +82,7 @@ const Main = () => {
               point3="Seamless Team Integration."
               point4="Support and Management."
               icon={SAIcon}
-              link="/solutions/staff-augmentation"
+              link="/staff-augmentation"
             />
           )}
           {activeTab === 'tab3' && (
@@ -95,7 +95,7 @@ const Main = () => {
               point3="Visual Design and Branding."
               point4="Usability Testing and Optimization."
               icon={UxIcon}
-              link="/solutions/ui-ux"
+              link="/ui-ux"
             />
           )}
           {activeTab === 'tab4' && (
@@ -109,7 +109,7 @@ const Main = () => {
               point3="Marketing Strategy Development."
               point4="Digital Marketing Campaigns."
               icon={salesIcon}
-              link="/solutions/sales-and-marketing"
+              link="/sales-and-marketing"
             />
           )}
           {activeTab === 'tab5' && (
