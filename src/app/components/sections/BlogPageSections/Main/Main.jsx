@@ -151,6 +151,7 @@ const Main = () => {
               </a>
             </div> */}
               {/* <div class="mil-divider mil-mb-60"></div> */}
+
               <form class="mil-sidebar-input-frame mil-mb-60">
                 <input
                   type="text"
@@ -226,6 +227,14 @@ const Main = () => {
                 <br />
                 30 N Gould St Ste R Sheridan, WY 82801
               </p>
+              <div className="mil-adaptive-right">
+                <Link
+                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
+                  className="mil-button mil-border mil-mr-15 mil-mb-30"
+                >
+                  <span>Book an Appointment</span>
+                </Link>
+              </div>
 
             </Col>
           </Row>

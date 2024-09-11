@@ -13,6 +13,8 @@ import Engagement from '@/app/public/global/img/projects/engagement.png'
 import MainImage from '@/app/public/global/img/projects/3.jpg'
 import SecondImage from '@/app/public/global/img/projects/project1.jpg'
 import LatestProjects from '../components/sections/LatestProjects/LatestProjects';
+import CallToSectionSecond from '../components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond';
+import CallToSection from '../components/sections/SalesPageSections/CallToSection/CallToSection';
 
 export default function page() {
   return (
@@ -40,6 +42,7 @@ export default function page() {
           </div>
         </div>
       </div>
+      <CallToSection />
       <section className="mil-p-120-90">
         <div className="container">
           <div className="row flex-sm-row-reverse justify-content-between">
@@ -315,6 +318,7 @@ export default function page() {
       </section>
 
       <LatestProjects />
+      <CallToSectionSecond />
 
     </>
   );

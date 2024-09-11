@@ -238,10 +238,14 @@ const Main = () => {
               <p className="mil-mb-20">
                 Our experts are ready to answer your questions.
               </p>
-              <Link href="/contact-us" className="mil-link mil-link-sm">
-                <span>Support Now</span>
-                <i className="fas fa-arrow-right"></i>
-              </Link>
+              <div className="mil-adaptive-right">
+                <Link
+                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
+                  className="mil-button mil-border mil-mr-15 mil-mb-30"
+                >
+                  <span>Book an Appointment</span>
+                </Link>
+              </div>
             </div>
             <div className="mil-divider mil-mb-60"></div>
             <div className="mil-mb-60">

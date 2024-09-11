@@ -15,10 +15,10 @@ const CallToSection = () => {
           <Col lg={12} xl={6}>
             <div className="mil-adaptive-right">
               <Link
-                href="/contact-us"
+                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
                 className="mil-button mil-border mil-mr-15 mil-mb-30"
               >
-                <span>Talk To an Expert</span>
+                <span>Book an Appointment</span>
               </Link>
             </div>
           </Col>

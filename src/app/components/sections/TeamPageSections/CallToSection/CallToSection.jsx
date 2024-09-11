@@ -24,7 +24,7 @@ const CallToSection = () => {
             Across Every Sector
             <br /> Where Opportunities Blossom and Solutions Thrive
           </p>
-          <Link href="/contact-us" className="mil-button mil-border mil-light">
+          <Link href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer" className="mil-button mil-border mil-light">
             <span>Book an Appointment</span>
           </Link>
         </div>

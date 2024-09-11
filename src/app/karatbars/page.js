@@ -13,6 +13,8 @@ import Transparency from '@/app/public/global/img/icons/md/Transparency.svg'
 import MainImage from '@/app/public/global/img/projects/2.jpg'
 import SecondImage from '@/app/public/global/img/projects/project2.jpg'
 import LatestProjects from '../components/sections/LatestProjects/LatestProjects';
+import CallToSectionSecond from '../components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond';
+import CallToSection from '../components/sections/SDPageSection/CallToSection/CallToSection';
 
 
 export default function page() {
@@ -44,6 +46,7 @@ export default function page() {
           </div>
         </div>
       </div>
+      <CallToSection />
       <section className="mil-p-120-90">
         <div className="container">
           <div className="row flex-sm-row-reverse justify-content-between">
@@ -298,6 +301,7 @@ export default function page() {
       </section>
 
       <LatestProjects />
+      <CallToSectionSecond />
 
     </>
   );

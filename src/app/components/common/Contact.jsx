@@ -15,15 +15,15 @@ const Contact = () => {
             form.current,
             '6n1lcgsUafJHarxF5'
         )
-        .then((result) => {
-            console.log(result.text);
-            document.querySelector('.alert-success').style.display = 'block';
-            document.querySelector('.alert-error').style.display = 'none';
-        }, (error) => {
-            console.log(error.text);
-            document.querySelector('.alert-success').style.display = 'none';
-            document.querySelector('.alert-error').style.display = 'block';
-        });
+            .then((result) => {
+                console.log(result.text);
+                document.querySelector('.alert-success').style.display = 'block';
+                document.querySelector('.alert-error').style.display = 'none';
+            }, (error) => {
+                console.log(error.text);
+                document.querySelector('.alert-success').style.display = 'none';
+                document.querySelector('.alert-error').style.display = 'block';
+            });
 
         form.current.reset();
     };
@@ -75,6 +75,12 @@ const Contact = () => {
                     <div className="alert-success" style={{ display: "none" }}><h5>Thanks, your message is sent successfully.</h5></div>
                     <div className="alert-error" style={{ display: "none" }}><h5>Error! Message could not be sent.</h5></div>
                 </form>
+                <div className="mt-30">
+                    <Col className='col-12 mt-4'>
+                        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' className="mil-button mil-accent-bg mil-fw"><span>Book an Appointment</span></a>
+                    </Col>
+                </div>
+
             </Container>
         </section>
     )

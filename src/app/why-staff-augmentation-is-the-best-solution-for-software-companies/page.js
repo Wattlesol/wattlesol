@@ -198,18 +198,22 @@ export default function page() {
 
               <div className="row mil-mb-30">
                 <div className="col-xl-6 mil-mb-30">
-                  <Image
-                    src={DevOps}
-                    alt="blog"
-                    className="mil-post-image"
-                  />
+                  <Link href="/how-devops-can-save-disasters-in-production-grade-applications">
+                    <Image
+                      src={DevOps}
+                      alt="blog"
+                      className="mil-post-image"
+                    />
+                  </Link>
                 </div>
                 <div className="col-xl-6 mil-mb-30">
-                  <Image
-                    src={Microservice}
-                    alt="blog"
-                    className="mil-post-image"
-                  />
+                  <Link href="/micro-services-are-the-future-of-seamless-operations-in-application-development">
+                    <Image
+                      src={Microservice}
+                      alt="blog"
+                      className="mil-post-image"
+                    />
+                  </Link>
                 </div>
               </div>
 
@@ -463,10 +467,14 @@ export default function page() {
               <p className="mil-mb-30">
                 For technical questions or billing questions, please contact us at info@wattlesol.com.
               </p>
-              <a href="/contact-us" className="mil-link mil-link-sm">
-                <span>Send</span>
-                <i className="fas fa-arrow-right"></i>
-              </a>
+              <div className="mil-adaptive-right">
+                <Link
+                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
+                  className="mil-button mil-border mil-mr-15 mil-mb-30"
+                >
+                  <span>Book an Appointment</span>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

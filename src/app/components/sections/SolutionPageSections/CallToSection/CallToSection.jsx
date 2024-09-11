@@ -28,8 +28,11 @@ const CallToSection = () => {
           </Col>
           <Col lg={4}>
             <div class="mil-adaptive-right">
-              <Link href="/contact-us" class="mil-button mil-border mil-mb-30">
-                <span>Get in Touch</span>
+              <Link
+                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
+                className="mil-button mil-border mil-mr-15 mil-mb-30"
+              >
+                <span>Book an Appointment</span>
               </Link>
             </div>
           </Col>

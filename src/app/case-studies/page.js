@@ -4,6 +4,7 @@ import Project2 from '@/app/public/global/img/projects/2.jpg';
 import Project3 from '@/app/public/global/img/projects/3.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
+import CallToSectionSecond from '../components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond';
 
 export default function page() {
   return (
@@ -144,6 +145,7 @@ export default function page() {
           </div> */}
         </div>
       </section >
+      <CallToSectionSecond />
     </>
   );
 }

@@ -97,24 +97,20 @@ export const Hero = () => {
                 </span>
                 <h1 className="mil-mb-60">
                   <span className="mil-uppercase mil-light">
-                    We Provide Services <br />
-                    and Solutions&nbsp;
+                    We Provide AI Services and Solutions&nbsp;
                   </span>
                   <span className="mil-font-3 mil-accent">To Enterprise</span>
                 </h1>
                 <div className="mil-flex-hori-center">
                   <div>
-                    <Link href="/contact-us" passHref legacyBehavior>
-                      <a className="mil-button mil-border mil-light">
-                        <span>Let’s Talk</span>
+                    <Link href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" passHref legacyBehavior>
+                      <a target="_blank" rel="noopener noreferrer" className="mil-button mil-border mil-light">
+                        <span>Book an Appointment</span>
                       </a>
                     </Link>
                   </div>
                   <p className="mil-button-descr mil-light-soft">
-                    Achieve exceptional project outcomes with dedicated
-                    development teams. Hire individual developers, UI/UX
-                    designers, graphic designers, and marketing resources at
-                    reduced costs. Quality maintained.
+                    Transform your business with innovative AI solutions and services that include advanced AI integrations and automation, helping you achieve better efficiency, decision-making, and operational success
                   </p>
                 </div>
               </div>
@@ -127,15 +123,14 @@ export const Hero = () => {
                           <h5 className="mil-dark mil-mb-15">Experts</h5>
                           <div className="mil-divider mil-divider-left mil-mb-15"></div>
                           <p className="mil-text-sm">
-                            Experience top-notch staff augmentation with
-                            dedicated teams working directly for you, but
-                            managed by us.
+                            Experience elite staff augmentation with AI-powered teams that work for you, managed by us to deliver smart, data-driven solutions.
                           </p>
                         </div>
                       </div>
                       <div className="mil-item-hover">
                         <div className="mil-plus-icon">+</div>
-                        <h6 className="mil-light">Dedicated Team</h6>
+                        <h6 className="mil-light">Dedicated AI Teams
+                        </h6>
                       </div>
                     </div>
                   </div>
@@ -146,14 +141,14 @@ export const Hero = () => {
                           <h5 className="mil-dark mil-mb-15">Experts</h5>
                           <div className="mil-divider mil-divider-left mil-mb-15"></div>
                           <p className="mil-text-sm">
-                            Access individual developers, UI/UX designers, and
-                            more at affordable rates, maintaining high quality.
+                            Access individual AI developers and specialists at competitive rates, blending innovation with top-tier quality.
                           </p>
                         </div>
                       </div>
                       <div className="mil-item-hover">
                         <div className="mil-plus-icon">+</div>
-                        <h6 className="mil-light">Developers</h6>
+                        <h6 className="mil-light">AI Experts On-Demand
+                        </h6>
                       </div>
                     </div>
                   </div>
@@ -164,14 +159,14 @@ export const Hero = () => {
                           <h5 className="mil-dark mil-mb-15">Experts</h5>
                           <div className="mil-divider mil-divider-left mil-mb-15"></div>
                           <p className="mil-text-sm">
-                            Secure sales and marketing talent at lower costs,
-                            while keeping quality high.
+                            Harness the power of AI to optimize sales and marketing strategies, driving growth and efficiency while maintaining high standards.
                           </p>
                         </div>
                       </div>
                       <div className="mil-item-hover">
                         <div className="mil-plus-icon">+</div>
-                        <h6 className="mil-light">Sales & Marketing</h6>
+                        <h6 className="mil-light">AI-Driven Sales & Marketing
+                        </h6>
                       </div>
                     </div>
                   </div>
@@ -183,16 +178,14 @@ export const Hero = () => {
                           <h5 className="mil-dark mil-mb-15">Experts</h5>
                           <div className="mil-divider mil-divider-left mil-mb-15"></div>
                           <p className="mil-text-sm">
-                            Provide seamless, around-the-clock customer support
-                            to ensure your clients receive assistance whenever
-                            they need it, all while maintaining high-quality
-                            service and reducing operational costs.
+                            Deliver round-the-clock, AI-enabled customer support that enhances user satisfaction, reduces costs, and streamlines service operations.
                           </p>
                         </div>
                       </div>
                       <div className="mil-item-hover">
                         <div className="mil-plus-icon">+</div>
-                        <h6 className="mil-light">Customer Support 24/7</h6>
+                        <h6 className="mil-light">AI-Powered Customer Support
+                        </h6>
                       </div>
                     </div>
                   </div>

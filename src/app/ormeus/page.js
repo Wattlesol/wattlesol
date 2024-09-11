@@ -16,6 +16,8 @@ import SocialMedia from '@/app/public/global/img/projects/social_media.png'
 import Revenue from '@/app/public/global/img/projects/revenue.png'
 import Engagement from '@/app/public/global/img/projects/engagement.png'
 import LatestProjects from '../components/sections/LatestProjects/LatestProjects';
+import CallToSection from '../components/sections/SDPageSection/CallToSection/CallToSection';
+import CallToSectionSecond from '../components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond';
 
 
 export default function page() {
@@ -46,6 +48,7 @@ export default function page() {
           </div>
         </div>
       </div>
+      <CallToSection />
       <section className="mil-p-120-90">
         <div className="container">
           <div className="row flex-sm-row-reverse justify-content-between">
@@ -342,8 +345,7 @@ export default function page() {
       </section>
 
       <LatestProjects />
-
-
+      <CallToSectionSecond />
     </>
   );
 }
