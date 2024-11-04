@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import MapImage1 from '@/app/public/global/img/deco/map.png';
+// import MapImage1 from '@/app/public/global/img/deco/map.png';
 import Link from 'next/link';
 const HeroSection = () => {
   return (
     <div class="mil-banner-sm mil-deep-bg">
-      <Image src={MapImage1} alt="background" class="mil-background-image" />
+      <Image src='global/img/deco/map.png' alt="background" class="mil-background-image" unoptimized/>
       <div
         class="mil-deco mil-deco-accent"
         style={{ top: '47%', right: '10%', transform: 'rotate(90deg)' }}

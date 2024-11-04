@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Image from 'next/image'
-import smImage12 from "@/app/public/global/img/icons/sm/12.svg"
-import FaceImage1 from "@/app/public/global/img/photo/t3.png"
-import Zain from '@/app/public/global/img/faces/zain.jpg';
+// import smImage12 from "@/app/public/global/img/icons/sm/12.svg"
+// import FaceImage1 from "@/app/public/global/img/photo/t3.png"
+// import Zain from '@/app/public/global/img/faces/zain.jpg';
 
 const Main = () => {
     return (
@@ -15,7 +15,7 @@ const Main = () => {
                         <div className="mil-circle-illustration">
                             <div className="mil-circle-bg"></div>
                             <div className="mil-image-frame">
-                                <Image src={FaceImage1} alt="img" />
+                                <Image src='global/img/photo/t3.png' alt="img" unoptimized/>
                             </div>
                         </div>
                     </Col>
@@ -28,19 +28,19 @@ const Main = () => {
                             <Col xl={7}>
                                 <ul className="mil-check-icon-list mil-mb-60">
                                     <li>
-                                        <Image src={smImage12} alt="icon" />
+                                        <Image src='global/img/icons/sm/12.svg' alt="icon" unoptimized/>
                                         <span className="mil-dark">Seasoned Professionals.</span>
                                     </li>
                                     <li>
-                                        <Image src={smImage12} alt="icon" />
+                                        <Image src='global/img/icons/sm/12.svg' alt="icon" unoptimized/>
                                         <span className="mil-dark">Flexible and Responsive. </span>
                                     </li>
                                     <li>
-                                        <Image src={smImage12} alt="icon" />
+                                        <Image src='global/img/icons/sm/12.svg' alt="icon" unoptimized/>
                                         <span className="mil-dark">Clear and Open Dialogue.</span>
                                     </li>
                                     <li>
-                                        <Image src={smImage12} alt="icon" />
+                                        <Image src='global/img/icons/sm/12.svg' alt="icon" unoptimized/>
                                         <span className="mil-dark">Global Talent Without Compromise.</span>
                                     </li>
                                 </ul>
@@ -48,7 +48,7 @@ const Main = () => {
                             <Col xl={5}>
 
                                 <a className="mil-post-sm mil-mb-60">
-                                    <div className="mil-cover-frame"><Image src={Zain} alt="cover"/></div>
+                                    <div className="mil-cover-frame"><Image src='global/img/faces/zain.jpg' alt="cover" unoptimized/></div>
                                     <div className="mil-description">
                                         <h4 className="mil-font-3 mil-accent">Zain Syed</h4>
                                         <p className="mil-text-sm">CEO & Co-Founder</p>

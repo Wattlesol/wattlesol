@@ -16,13 +16,10 @@ const page = () => {
       <HeroSection />
       <CallToSection />
       <Divider />
-      {/* <Title/> */}
       <Main />
-      {/* <TitleSecond/> */}
       <Stack />
       <Consultant />
       <CallToSectionSecond />
-      {/* <Stack/> */}
     </div>
   );
 };

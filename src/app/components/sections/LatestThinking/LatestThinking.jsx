@@ -3,9 +3,9 @@ import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Image from 'next/image';
 import Swiper from 'swiper';
-import BlogImage1 from '@/app/public/global/img/blog/blog-devops.jpg';
-import BlogImage2 from '@/app/public/global/img/blog/blog-microservice.png';
-import BlogImage3 from '@/app/public/global/img/blog/blog-staff.jpg';
+// import BlogImage1 from '@/app/public/global/img/blog/blog-devops.jpg';
+// import BlogImage2 from '@/app/public/global/img/blog/blog-microservice.png';
+// import BlogImage3 from '@/app/public/global/img/blog/blog-staff.jpg';
 import Link from 'next/link';
 
 const LatestThinking = () => {
@@ -139,11 +139,12 @@ const LatestThinking = () => {
               <Link href="/blogs/blog1" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
-                    src={BlogImage1}
-                    alt="project"
+                    src='global/img/blog/blog-devops.jpg'
+                    alt="How DevOps can save disasters in production grade"
                     objectFit="contain"
                     width={600}
                     height={400}
+                    unoptimized
                   />
                 </div>
                 <div className="mil-description">
@@ -170,11 +171,12 @@ const LatestThinking = () => {
               <Link href="/blogs/blog2" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
-                    src={BlogImage2}
-                    objectFit="contain"
+                    src='global/img/blog/blog-microservice.png'
+                    objectFit="why microservices are the future of seamless operations in"
                     alt="project"
                     width={600}
                     height={400}
+                    unoptimized
                   />
                 </div>
                 <div className="mil-description">
@@ -201,11 +203,12 @@ const LatestThinking = () => {
               <Link href="/blogs/blog3" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
-                    src={BlogImage3}
-                    objectFit="contain"
+                    src='global/img/blog/blog-staff.jpg'
+                    objectFit="How Staff Augmentation is the best solution for"
                     alt="project"
                     width={600}
                     height={400}
+                    unoptimized
                   />
                 </div>
                 <div className="mil-description">

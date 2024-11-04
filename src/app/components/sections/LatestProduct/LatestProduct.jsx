@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import MdImage1 from '@/app/public/global/img/icons/md/13l.svg';
-import ai from '@/app/public/global/img/icons/ai-customer.svg';
+// import MdImage1 from '@/app/public/global/img/icons/md/13l.svg';
+// import ai from '@/app/public/global/img/icons/ai-customer.svg';
 import { Col, Container, Row } from 'react-bootstrap';
 import Link from 'next/link';
 
@@ -20,7 +20,7 @@ const LatestProduct = () => {
             <div class="container mil-text-center">
                 <div class="mil-cta-frame">
                     <div class="mil-icon-frame mil-icon-frame-md mil-mb-50">
-                        <Image src={ai} alt="icon" />
+                        <Image src='global/img/icons/ai-customer.svg' alt="Ai ChatBot" unoptimized/>
                     </div>
                     <p class="mil-light mil-mb-30">Our Latest Product</p>
                     <h3 class="mil-light mil-mb-30">

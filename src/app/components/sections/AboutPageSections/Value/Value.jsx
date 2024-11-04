@@ -1,11 +1,11 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import weAre from '@/app/public/global/img/icons/weAre.svg';
-import weBelive from '@/app/public/global/img/icons/WeBelieve.svg';
-import weDeep from '@/app/public/global/img/icons/WeDeepDive.svg';
-import weSay from '@/app/public/global/img/icons/WeSayWe.svg';
-import weTake from '@/app/public/global/img/icons/WeTake.svg';
-import wevalue from '@/app/public/global/img/icons/WeValue.svg';
+// import weAre from '@/app/public/global/img/icons/weAre.svg';
+// import weBelive from '@/app/public/global/img/icons/WeBelieve.svg';
+// import weDeep from '@/app/public/global/img/icons/WeDeepDive.svg';
+// import weSay from '@/app/public/global/img/icons/WeSayWe.svg';
+// import weTake from '@/app/public/global/img/icons/WeTake.svg';
+// import wevalue from '@/app/public/global/img/icons/WeValue.svg';
 
 import Image from 'next/image';
 const Value = () => {
@@ -23,7 +23,7 @@ const Value = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={weAre} alt="icon" />
+                <Image src='global/img/icons/weAre.svg' alt="icon" unoptimized/>
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Are</h4>
@@ -37,7 +37,7 @@ const Value = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={weDeep} alt="icon" />
+                <Image src='global/img/icons/WeDeepDive.svg' alt="icon" unoptimized/>
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Deep Dive</h4>
@@ -51,7 +51,7 @@ const Value = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={weTake} alt="icon" />
+                <Image src='global/img/icons/WeTake.svg' alt="icon" unoptimized/>
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Take</h4>
@@ -66,7 +66,7 @@ const Value = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={wevalue} alt="icon" />
+                <Image src='global/img/icons/WeValue.svg' alt="icon" unoptimized/>
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Value</h4>
@@ -81,7 +81,7 @@ const Value = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={weBelive} alt="icon" />
+                <Image src='global/img/icons/WeBelieve.svg' alt="icon" unoptimized/>
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Believe</h4>
@@ -95,7 +95,7 @@ const Value = () => {
           <Col md={6} xl={4}>
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={weSay} alt="icon" />
+                <Image src='global/img/icons/WeSayWe.svg' alt="icon" unoptimized/>
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Say “We”</h4>

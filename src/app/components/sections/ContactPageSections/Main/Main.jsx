@@ -1,8 +1,8 @@
 'use client';
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import MdImage1 from '@/app/public/global/img/icons/md/8.svg';
-import MdImage2 from '@/app/public/global/img/icons/md/9.svg';
+// import MdImage1 from '@/app/public/global/img/icons/md/8.svg';
+// import MdImage2 from '@/app/public/global/img/icons/md/9.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -246,7 +246,7 @@ const Main = () => {
             <div className="mil-divider mil-mb-60"></div>
             <div className="mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={MdImage1} alt="icon" />
+                <Image src='global/img/icons/md/8.svg' alt="icon" unoptimized/>
               </div>
               <h5 className="mil-list-title mil-mb-30">Need Help?</h5>
               <p>
@@ -256,7 +256,7 @@ const Main = () => {
             </div>
             <div className="mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <Image src={MdImage2} alt="icon" />
+                <Image src='global/img/icons/md/9.svg' alt="icon" unoptimized/>
               </div>
               <h5 className="mil-list-title mil-mb-30">Needs More Info?</h5>
               <p>

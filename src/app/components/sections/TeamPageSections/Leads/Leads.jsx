@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Productivity from '@/app/public/global/img/icons/md/Productivity.svg';
-import Personality from '@/app/public/global/img/icons/md/Personality.svg';
-import Transparency from '@/app/public/global/img/icons/md/Transparency.svg';
-import Volition from '@/app/public/global/img/icons/md/Volition.svg';
+// import Productivity from '@/app/public/global/img/icons/md/Productivity.svg';
+// import Personality from '@/app/public/global/img/icons/md/Personality.svg';
+// import Transparency from '@/app/public/global/img/icons/md/Transparency.svg';
+// import Volition from '@/app/public/global/img/icons/md/Volition.svg';
 
 // import Productivity from '@/app'
 const Leads = () => {
@@ -28,7 +28,7 @@ const Leads = () => {
           <Col md={6} xl={3}>
             <div className="mil-icon-box mil-center mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Productivity} alt="icon" />
+                <Image src='global/img/icons/md/Productivity.svg' alt="icon" unoptimized/>
               </div>
               <h5 className="mil-mb-20">
                 <span className="mil-accent">01.</span>&nbsp; Productivity
@@ -42,7 +42,7 @@ const Leads = () => {
           <Col md={6} xl={3}>
             <div className="mil-icon-box mil-center mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Transparency} alt="icon" />
+                <Image src='global/img/icons/md/Transparency.svg' alt="icon" unoptimized/>
               </div>
               <h5 className="mil-mb-20">
                 <span className="mil-accent">02.</span>&nbsp; Transparency
@@ -56,7 +56,7 @@ const Leads = () => {
           <Col md={6} xl={3}>
             <div className="mil-icon-box mil-center mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Personality} alt="icon" />
+                <Image src='global/img/icons/md/Personality.svg' alt="icon" unoptimized/>
               </div>
               <h5 className="mil-mb-20">
                 <span className="mil-accent">03.</span>&nbsp; Personality
@@ -70,7 +70,7 @@ const Leads = () => {
           <Col md={6} xl={3}>
             <div className="mil-icon-box mil-center mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Volition} alt="icon" />
+                <Image src='global/img/icons/md/Volition.svg' alt="icon" unoptimized/>
               </div>
               <h5 className="mil-mb-20">
                 <span className="mil-accent">04.</span>&nbsp; Volition

@@ -16,7 +16,7 @@ const CallToSection = () => {
             <div class="mil-hori-box mil-mb-30">
               <div class="mil-mr-30">
                 <div class="mil-icon-frame mil-icon-frame-md mil-icon-bg">
-                  <Image src={MdImage1} alt="icon" />
+                  <Image src='global/img/icons/md/11.svg' alt="icon" unoptimized/>
                 </div>
               </div>
               <h5>

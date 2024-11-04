@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import MdImage1 from '@/app/public/global/img/icons/md/13l.svg';
+// import MdImage1 from '@/app/public/global/img/icons/md/13l.svg';
 const CallToSectionSecond = () => {
   return (
     <section class="call-to-action mil-gradient-bg mil-p-120-120">
@@ -15,7 +15,7 @@ const CallToSectionSecond = () => {
       <div class="container mil-text-center">
         <div class="mil-cta-frame">
           <div class="mil-icon-frame mil-icon-frame-md mil-mb-50">
-            <Image src={MdImage1} alt="icon" />
+            <Image src='global/img/icons/md/13l.svg' alt="icon" unoptimized/>
           </div>
           <p class="mil-light mil-mb-30">Our Services and Solutions</p>
           <h3 class="mil-light">

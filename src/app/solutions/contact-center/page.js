@@ -22,8 +22,6 @@ const page = () => {
             <CallToSectionSecond />
             <Faq />
             <Contact />
-
-
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import FaceImage1 from '@/app/public/global/img/photo/ai.png';
+// import FaceImage1 from '@/app/public/global/img/photo/ai.png';
 import Image from 'next/image';
 const Perks = () => {
   return (
@@ -12,7 +12,7 @@ const Perks = () => {
             <div className="mil-circle-illustration">
               <div className="mil-circle-bg"></div>
               <div className="mil-image-frame">
-                <Image src={FaceImage1} alt="img" />
+                <Image src='global/img/photo/ai.png' alt="img" unoptimized/>
               </div>
             </div>
           </Col>

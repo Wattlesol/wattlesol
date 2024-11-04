@@ -1,13 +1,13 @@
 'use client';
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import ClientImage1 from '@/app/public/global/img/faces/1.jpg';
-import SmImage1 from '@/app/public/global/img/icons/sm/11.svg';
+// import ClientImage1 from '@/app/public/global/img/faces/1.jpg';
+// import SmImage1 from '@/app/public/global/img/icons/sm/11.svg';
 import Image from 'next/image';
-import ColorLogo1 from '@/app/public/logoSection/color-1.png';
-import ColorLogo2 from '@/app/public/logoSection/color-2.png';
-import ColorLogo3 from '@/app/public/logoSection/color-3.png';
-import ColorLogo4 from '@/app/public/logoSection/color-4.png';
+// import ColorLogo1 from '@/app/public/logoSection/color-1.png';
+// import ColorLogo2 from '@/app/public/logoSection/color-2.png';
+// import ColorLogo3 from '@/app/public/logoSection/color-3.png';
+// import ColorLogo4 from '@/app/public/logoSection/color-4.png';
 
 const Testimonial = () => {
   useEffect(() => {
@@ -75,7 +75,7 @@ const Testimonial = () => {
             <div className="swiper-slide">
               <div className="mil-review">
                 <div className="mil-stars mil-mb-30">
-                  <Image src={SmImage1} alt="quote" />
+                  <Image src='global/img/icons/sm/11.svg' alt="quote" unoptimized/>
                   <ul>
                     <li>
                       <i className="fas fa-star"></i>
@@ -110,8 +110,9 @@ const Testimonial = () => {
                       height: '40px',
                     }}
                     objectFit="contain"
-                    src={ColorLogo1}
-                    alt="Customer"
+                    src='logoSection/color-1.png'
+                    alt="Wattle Sol"
+                    unoptimized
                   />
                   <div className="mil-name">
                     <h6 className="mil-mb-5">CEO Allocate</h6>
@@ -124,7 +125,7 @@ const Testimonial = () => {
             <div className="swiper-slide">
               <div className="mil-review">
                 <div className="mil-stars mil-mb-30">
-                  <Image src={SmImage1} alt="quote" />
+                  <Image src='global/img/icons/sm/11.svg' alt="quote" unoptimized/>
                   <ul>
                     <li>
                       <i className="fas fa-star"></i>
@@ -157,8 +158,9 @@ const Testimonial = () => {
                       width: '120px',
                       height: '40px',
                     }}
-                    src={ColorLogo2}
-                    alt="Customer"
+                    src='logoSection/color-2.png'
+                    alt="wattle Sol"
+                    unoptimized
                   />
                   <div className="mil-name">
                     <h6 className="mil-mb-5">CEO Karatbars</h6>
@@ -171,7 +173,7 @@ const Testimonial = () => {
             <div className="swiper-slide">
               <div className="mil-review">
                 <div className="mil-stars mil-mb-30">
-                  <Image src={SmImage1} alt="quote" />
+                  <Image src='global/img/icons/sm/11.svg' alt="quote" unoptimized/>
                   <ul>
                     <li>
                       <i className="fas fa-star"></i>
@@ -204,8 +206,9 @@ const Testimonial = () => {
                       width: '120px',
                       height: '40px',
                     }}
-                    src={ColorLogo4}
+                    src='logoSection/color-4.png'
                     alt="Customer"
+                    unoptimized
                   />
                   <div className="mil-name">
                     {/* <h6 className="mil-mb-5">Tamzyn French</h6> */}
@@ -218,7 +221,7 @@ const Testimonial = () => {
             <div className="swiper-slide">
               <div className="mil-review">
                 <div className="mil-stars mil-mb-30">
-                  <Image src={SmImage1} alt="quote" />
+                  <Image src='global/img/icons/sm/11.svg' alt="quote" unoptimized/>
                   <ul>
                     <li>
                       <i className="fas fa-star"></i>
@@ -252,8 +255,9 @@ const Testimonial = () => {
                       width: '120px',
                       height: '40px',
                     }}
-                    src={ColorLogo3}
+                    src='logoSection/color-3.png'
                     alt="Customer"
+                    unoptimized
                   />
                   <div className="mil-name">
                     {/* <h6 className="mil-mb-5">CEO ORMEUS</h6> */}

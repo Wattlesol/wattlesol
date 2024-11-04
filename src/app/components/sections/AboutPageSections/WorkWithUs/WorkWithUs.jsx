@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import TopExpertise from '@/app/public/global/img/icons/md/TopExpertise.svg';
-import QualityManagement from '@/app/public/global/img/icons/md/QualityManagement.svg';
-import UtmostFlexibility from '@/app/public/global/img/icons/md/UtmostFlexibility.svg';
-import Agility from '@/app/public/global/img/icons/md/Agility.svg';
-import Innovation from '@/app/public/global/img/icons/md/Innovation.svg';
+// import TopExpertise from '@/app/public/global/img/icons/md/TopExpertise.svg';
+// import QualityManagement from '@/app/public/global/img/icons/md/QualityManagement.svg';
+// import UtmostFlexibility from '@/app/public/global/img/icons/md/UtmostFlexibility.svg';
+// import Agility from '@/app/public/global/img/icons/md/Agility.svg';
+// import Innovation from '@/app/public/global/img/icons/md/Innovation.svg';
 import Image from 'next/image';
 const WorkWithUs = () => {
   return (
@@ -20,7 +20,7 @@ const WorkWithUs = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={TopExpertise} alt="icon" />
+                <Image src='global/img/icons/md/TopExpertise.svg' alt="icon" unoptimized/>
               </div>
             </Col>
             <Col xl={4}>
@@ -42,7 +42,7 @@ const WorkWithUs = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={QualityManagement} alt="icon" />
+                <Image src='global/img/icons/md/QualityManagement.svg' alt="icon" unoptimized/>
               </div>
             </Col>
             <Col xl={4}>
@@ -63,7 +63,7 @@ const WorkWithUs = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={UtmostFlexibility} alt="icon" />
+                <Image src='global/img/icons/md/UtmostFlexibility.svg' alt="icon" unoptimized/>
               </div>
             </Col>
             <Col xl={4}>
@@ -84,7 +84,7 @@ const WorkWithUs = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Agility} alt="icon" />
+                <Image src='global/img/icons/md/Agility.svg' alt="icon" unoptimized/>
               </div>
             </Col>
             <Col xl={4}>
@@ -106,7 +106,7 @@ const WorkWithUs = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Innovation} alt="icon" />
+                <Image src='global/img/icons/md/Innovation.svg' alt="icon" unoptimized/>
               </div>
             </Col>
             <Col xl={4}>

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import MdImage1 from '@/app/public/global/img/icons/md/6l.svg';
+// import MdImage1 from '@/app/public/global/img/icons/md/6l.svg';
 import Link from 'next/link';
 const CallToSection = () => {
   return (
@@ -12,7 +12,7 @@ const CallToSection = () => {
       <div className="container mil-text-center">
         <div className="mil-cta-frame">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-60">
-            <Image src={MdImage1} alt="icon" />
+            <Image src='global/img/icons/md/6l.svg' alt="icon" unoptimized/>
           </div>
           <p className="mil-light mil-mb-30">Leadership Team</p>
           <h2 className="mil-light mil-mb-30">

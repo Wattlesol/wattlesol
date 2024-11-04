@@ -2,9 +2,9 @@
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Image from 'next/image';
-import Project1 from '@/app/public/global/img/projects/1.jpg';
-import Project2 from '@/app/public/global/img/projects/2.jpg';
-import Project3 from '@/app/public/global/img/projects/3.jpg';
+// import Project1 from '@/app/public/global/img/projects/1.jpg';
+// import Project2 from '@/app/public/global/img/projects/2.jpg';
+// import Project3 from '@/app/public/global/img/projects/3.jpg';
 import Link from 'next/link';
 
 const LatestProjects = () => {
@@ -108,7 +108,7 @@ const LatestProjects = () => {
             <div className="swiper-slide">
               <Link href="/projects/softbanks" className="mil-card">
                 <div className="mil-cover-frame">
-                  <Image src={Project3} alt="project" />
+                  <Image src='global/img/projects/1.jpg' alt="project" unoptimized/>
                 </div>
                 <div className="mil-description">
                   <div className="mil-card-title">
@@ -133,7 +133,7 @@ const LatestProjects = () => {
             <div className="swiper-slide">
               <Link href="/projects/karatbars" className="mil-card">
                 <div className="mil-cover-frame">
-                  <Image src={Project2} alt="project" />
+                  <Image src='global/img/projects/2.jpg' alt="project" unoptimized/>
                 </div>
                 <div className="mil-description">
                   <div className="mil-card-title">
@@ -160,7 +160,7 @@ const LatestProjects = () => {
             <div className="swiper-slide">
               <Link href="/projects/ormeus" className="mil-card">
                 <div className="mil-cover-frame">
-                  <Image src={Project1} alt="project" />
+                  <Image src='global/img/projects/1.jpg' alt="project" unoptimized/>
                 </div>
                 <div className="mil-description">
                   <div className="mil-card-title">

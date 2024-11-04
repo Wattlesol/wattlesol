@@ -1,17 +1,17 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import Challenge from '@/app/public/global/img/icons/md/ThinkingBig.svg'
-import Leads from '@/app/public/global/img/projects/lead_generation.png'
-import Customers from '@/app/public/global/img/projects/qualifying_customers.png'
-import Booking from '@/app/public/global/img/projects/booking.png'
-import FollowUp from '@/app/public/global/img/projects/follow_up.png'
-import SocialMedia from '@/app/public/global/img/projects/social_media.png'
-import Rates from '@/app/public/global/img/projects/rates.png'
-import Revenue from '@/app/public/global/img/projects/revenue.png'
-import Engagement from '@/app/public/global/img/projects/engagement.png'
-import MainImage from '@/app/public/global/img/projects/3.jpg'
-import SecondImage from '@/app/public/global/img/projects/project1.jpg'
+// import Challenge from '@/app/public/global/img/icons/md/ThinkingBig.svg'
+// import Leads from '@/app/public/global/img/projects/lead_generation.png'
+// import Customers from '@/app/public/global/img/projects/qualifying_customers.png'
+// import Booking from '@/app/public/global/img/projects/booking.png'
+// import FollowUp from '@/app/public/global/img/projects/follow_up.png'
+// import SocialMedia from '@/app/public/global/img/projects/social_media.png'
+// import Rates from '@/app/public/global/img/projects/rates.png'
+// import Revenue from '@/app/public/global/img/projects/revenue.png'
+// import Engagement from '@/app/public/global/img/projects/engagement.png'
+// import MainImage from '@/app/public/global/img/projects/3.jpg'
+// import SecondImage from '@/app/public/global/img/projects/project1.jpg'
 
 export default function page() {
   return (
@@ -75,7 +75,7 @@ export default function page() {
               <div className="mil-mb-30">
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <Image src={Challenge} alt="icon" />
+                    <Image src='global/img/icons/md/ThinkingBig.svg' alt="icon" unoptimized/>
                   </div>
                   <p className="mil-dark">
                     Enhancing the client's social media presence to reach a
@@ -84,7 +84,7 @@ export default function page() {
                 </div>
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <Image src={Challenge} alt="icon" />
+                    <Image src='global/img/icons/md/ThinkingBig.svg' alt="icon" unoptimized/>
                   </div>
                   <p className="mil-dark">
                     Generating a higher volume of qualified leads for the sales
@@ -93,7 +93,7 @@ export default function page() {
                 </div>
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <Image src={Challenge} alt="icon" />
+                    <Image src='global/img/icons/md/ThinkingBig.svg' alt="icon" unoptimized/>
                   </div>
                   <p className="mil-dark">
                     Streamlining the lead qualification, appointment booking,
@@ -102,7 +102,7 @@ export default function page() {
                 </div>
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <Image src={Challenge} alt="icon" />
+                    <Image src='global/img/icons/md/ThinkingBig.svg' alt="icon" unoptimized/>
                   </div>
                   <p className="mil-dark">
                     Ensuring effective follow-ups to close sales and increase
@@ -120,7 +120,7 @@ export default function page() {
 
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={Leads} width={32} alt="icon" />
+                  <Image src='global/img/projects/lead_generation.png' width={32} alt="icon" unoptimized/>
                 </div>
                 <h6 className="mil-dark">Lead Generation:</h6>
               </div>
@@ -133,7 +133,7 @@ export default function page() {
               </p>
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={Customers} width={32} alt="icon" />
+                  <Image src='global/img/projects/qualifying_customers.png' width={32} alt="icon" unoptimized/>
                 </div>
                 <h6 className="mil-dark">Qualifying Customers:</h6>
               </div>
@@ -146,7 +146,7 @@ export default function page() {
               </p>
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={Booking} width={32} alt="icon" />
+                  <Image src='global/img/projects/booking.png' width={32} alt="icon" unoptimized/>
                 </div>
                 <h6 className="mil-dark">
                   Appointment Booking and Demo Scheduling:
@@ -161,7 +161,7 @@ export default function page() {
               </p>
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={FollowUp} width={32} alt="icon" />
+                  <Image src='global/img/projects/follow_up.png' width={32} alt="icon" unoptimized/>
                 </div>
                 <h6 className="mil-dark">Follow-Up for Final Meetings:</h6>
               </div>
@@ -174,7 +174,7 @@ export default function page() {
               </p>
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={SocialMedia} width={32} alt="icon" />
+                  <Image src='global/img/projects/social_media.png' width={32} alt="icon" unoptimized/>
                 </div>
                 <h6 className="mil-dark">Social Media Marketing:</h6>
               </div>
@@ -222,17 +222,17 @@ export default function page() {
                 <div className="col-xl-6">
                   <ul className="mil-check-icon-list mil-mb-15">
                     <li>
-                      <Image src={SocialMedia} width={32} alt="icon" />
+                      <Image src='global/img/projects/social_media.png' width={32} alt="icon" unoptimized/>
                       <span className="mil-dark">
                         Increased Social Media Presence
                       </span>
                     </li>
                     <li>
-                      <Image src={Leads} width={32} alt="icon" />
+                      <Image src='global/img/projects/lead_generation.png' width={32} alt="icon" unoptimized/>
                       <span className="mil-dark">Higher Lead Volume</span>
                     </li>
                     <li>
-                      <Image src={Rates} width={32} alt="icon" />
+                      <Image src='global/img/projects/rates.png' width={32} alt="icon" unoptimized/>
                       <span className="mil-dark">
                         Improved Conversion Rates
                       </span>
@@ -242,13 +242,13 @@ export default function page() {
                 <div className="col-xl-6 mil-mb-30">
                   <ul className="mil-check-icon-list">
                     <li>
-                      <Image src={Engagement} width={32} alt="icon" />
+                      <Image src='global/img/projects/engagement.png' width={32} alt="icon" unoptimized/>
                       <span className="mil-dark">
                         Enhanced Customer Engagement
                       </span>
                     </li>
                     <li>
-                      <Image src={Revenue} width={32} alt="icon" />
+                      <Image src='global/img/projects/revenue.png' width={32} alt="icon" unoptimized/>
                       <span className="mil-dark">Revenue Growth</span>
                     </li>
                   </ul>
@@ -257,7 +257,7 @@ export default function page() {
             </div>
             <div className="col-xl-6 mil-mb-60">
               <div className="mil-project-cover">
-                <Image src={SecondImage} alt="Project" />
+                <Image src='global/img/projects/project1.jpg' alt="Project" unoptimized/>
               </div>
             </div>
           </div>
@@ -279,7 +279,7 @@ export default function page() {
             </div>
             <div className="col-xl-6 mil-mb-60">
               <div className="mil-project-cover">
-                <Image src={MainImage} alt="Project" />
+                <Image src='global/img/projects/3.jpg' alt="Project" unoptimized/>
               </div>
             </div>
           </div>

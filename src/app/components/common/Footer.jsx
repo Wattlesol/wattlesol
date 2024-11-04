@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
-import FooterImage1 from '@/app/public/global/img/deco/map.png';
-import Logo from '@/app/public/global/img/logo/logo-light.svg';
+// import FooterImage1 from '@/app/public/global/img/deco/map.png';
+// import Logo from '@/app/public/global/img/logo/logo-light.svg';
 import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Contact from './Contact';
@@ -18,16 +18,17 @@ const Footer = () => {
     <>
       <ToastContainer />
       <footer className="mil-dark-bg">
-        <Image src={FooterImage1} alt="background" className="mil-footer-bg" />
+        <Image src='global/img/deco/map.png' alt="background" className="mil-footer-bg" unoptimized/>
         <Container>
           <div className="mil-footer-content mil-p-120-90">
             <Row className="justify-content-between align-items-center">
               <Col xl={4} className="mil-mb-30">
                 <Image
-                  src={Logo}
-                  alt=""
+                  src='global/img/logo/logo-light.svg'
+                  alt="Wattle Sol"
                   className="mil-logo mil-mb-30"
                   style={{ width: '140px' }}
+                  unoptimized
                 />
                 <p className="mil-light-soft mil-mb-30">
                   Your partner in innovation. With a confident and motivated

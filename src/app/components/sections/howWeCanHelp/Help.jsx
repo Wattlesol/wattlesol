@@ -1,11 +1,11 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import MdIcon1 from '@/app/public/global/img/icons/md/DedicatedDevelopmentTeam.svg';
-import MdIcon2 from '@/app/public/global/img/icons/md/DedicatedDevelopment.svg';
-import MdIcon3 from '@/app/public/global/img/icons/md/MarketingandSalesTeam.svg';
-import MdIcon4 from '@/app/public/global/img/icons/md/SolutionArchitects.svg';
-import MdIcon5 from '@/app/public/global/img/icons/md/CustomerService.svg';
-import MdIcon6 from '@/app/public/global/img/icons/md/DevOps.svg';
+// import MdIcon1 from '@/app/public/global/img/icons/md/DedicatedDevelopmentTeam.svg';
+// import MdIcon2 from '@/app/public/global/img/icons/md/DedicatedDevelopment.svg';
+// import MdIcon3 from '@/app/public/global/img/icons/md/MarketingandSalesTeam.svg';
+// import MdIcon4 from '@/app/public/global/img/icons/md/SolutionArchitects.svg';
+// import MdIcon5 from '@/app/public/global/img/icons/md/CustomerService.svg';
+// import MdIcon6 from '@/app/public/global/img/icons/md/DevOps.svg';
 import Image from 'next/image';
 
 const Help = () => {
@@ -31,7 +31,7 @@ const Help = () => {
               <div className="mil-service-item">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <Image src={MdIcon1} alt="icon" />
+                    <Image src='global/img/icons/md/DedicatedDevelopmentTeam.svg' alt="icon" unoptimized/>
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -50,7 +50,7 @@ const Help = () => {
               <div className="mil-service-item">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <Image src={MdIcon2} alt="icon" />
+                    <Image src='global/img/icons/md/DedicatedDevelopment.svg' alt="icon" unoptimized/>
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -68,7 +68,7 @@ const Help = () => {
               <div className="mil-service-item">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <Image src={MdIcon3} alt="icon" />
+                    <Image src='global/img/icons/md/MarketingandSalesTeam.svg' alt="icon" unoptimized/>
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -94,7 +94,7 @@ const Help = () => {
               <div className="mil-service-item">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <Image src={MdIcon4} alt="icon" />
+                    <Image src='global/img/icons/md/SolutionArchitects.svg' alt="icon" unoptimized/>
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -111,7 +111,7 @@ const Help = () => {
               <div className="mil-service-item">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <Image src={MdIcon5} alt="icon" />
+                    <Image src='global/img/icons/md/CustomerService.svg' alt="icon" unoptimized/>
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -129,7 +129,7 @@ const Help = () => {
               <div className="mil-service-item">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <Image src={MdIcon6} alt="icon" />
+                    <Image src='global/img/icons/md/DevOps.svg' alt="DevOps Enginners" unoptimized />
                   </div>
                 </div>
                 <div className="mil-service-text">

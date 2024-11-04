@@ -1,17 +1,17 @@
 import Image from 'next/image';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import FaceImage1 from '@/app/public/global/img/faces/abdullah.jpg';
-import Zain from '@/app/public/global/img/faces/zain.jpg';
-import Saima from '@/app/public/global/img/faces/saima.jpg';
-import Ammar from '@/app/public/global/img/faces/ammar.jpg';
-import Azaan from '@/app/public/global/img/faces/azaan.jpg';
-import Muiz from '@/app/public/global/img/faces/muiz.jpg';
-import Shayan from '@/app/public/global/img/faces/shayan.jpg';
-import Sheeraz from '@/app/public/global/img/faces/sheeraz.jpg';
-import Zaiqam from '@/app/public/global/img/faces/zaigam.jpg';
-import Faiza from '@/app/public/global/img/faces/faiza.jpg';
-import Haider from '@/app/public/global/img/faces/haider.jpg';
+// import FaceImage1 from '@/app/public/global/img/faces/abdullah.jpg';
+// import Zain from '@/app/public/global/img/faces/zain.jpg';
+// import Saima from '@/app/public/global/img/faces/saima.jpg';
+// import Ammar from '@/app/public/global/img/faces/ammar.jpg';
+// import Azaan from '@/app/public/global/img/faces/azaan.jpg';
+// import Muiz from '@/app/public/global/img/faces/muiz.jpg';
+// import Shayan from '@/app/public/global/img/faces/shayan.jpg';
+// import Sheeraz from '@/app/public/global/img/faces/sheeraz.jpg';
+// import Zaiqam from '@/app/public/global/img/faces/zaigam.jpg';
+// import Faiza from '@/app/public/global/img/faces/faiza.jpg';
+// import Haider from '@/app/public/global/img/faces/haider.jpg';
 const Main = () => {
   return (
     <section className="mil-team mil-p-120-60">
@@ -25,7 +25,7 @@ const Main = () => {
           <Col sm={6} lg={4}>
             <a className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
-                <Image src={Zain} alt="Team member" />
+                <Image src='global/img/faces/zain.jpg' alt="Team member" unoptimized/>
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Syed Zain</h4>
@@ -56,7 +56,7 @@ const Main = () => {
           <Col sm={6} lg={4}>
             <a className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
-                <Image src={Saima} alt="Team member" />
+                <Image src='global/img/faces/saima.jpg' alt="Team member" unoptimized />
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Saima Yasmeen</h4>
@@ -66,7 +66,7 @@ const Main = () => {
           <Col sm={6} lg={4}>
             <a className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
-                <Image src={Shayan} alt="Team member" />
+                <Image src='global/img/faces/shayan.jpg' alt="Team member" unoptimized/>
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Syed Shayan Bukhari</h4>
@@ -76,7 +76,7 @@ const Main = () => {
           <Col sm={6} lg={4}>
             <a className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
-                <Image src={Muiz} alt="Team member" />
+                <Image src='global/img/faces/muiz.jpg' alt="Team member" unoptimized/>
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Syed Muizz Ali</h4>
@@ -87,7 +87,7 @@ const Main = () => {
           <Col sm={6} lg={4}>
             <a className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
-                <Image src={FaceImage1} alt="Team member" />
+                <Image src='global/img/faces/abdullah.jpg' alt="Team member" unoptimized/>
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Abdullah Attique</h4>
@@ -109,7 +109,7 @@ const Main = () => {
           <Col sm={6} lg={4}>
             <a  className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
-                <Image src={Azaan} alt="Team member" />
+                <Image src='global/img/faces/azaan.jpg' alt="Team member" unoptimized/>
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Azaan Ahmed</h4>
@@ -120,7 +120,7 @@ const Main = () => {
           <Col sm={6} lg={4}>
             <a  className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
-                <Image src={Faiza} alt="Team member" />
+                <Image src='global/img/faces/faiza.jpg' alt="Team member" unoptimized/>
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Faiza Ashraf</h4>
@@ -131,7 +131,7 @@ const Main = () => {
           <Col sm={6} lg={4}>
             <a  className="mil-team-card mil-mb-60">
               <div className="mil-image-frame mil-mb-30">
-                <Image src={Haider} alt="Team member" />
+                <Image src='global/img/faces/haider.jpg' alt="Team member" unoptimized/>
                 <div className="mil-team-circle"></div>
               </div>
               <h4 className="mil-mb-10">Syed Hyder Ali</h4>

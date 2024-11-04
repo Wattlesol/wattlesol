@@ -2,24 +2,25 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 
-import MainImage from '@/app/public/global/img/blog/blog-microservice.png'
-import DevOps from '@/app/public/global/img/blog/blog-devops.jpg'
-import Staff from '@/app/public/global/img/blog/blog-staff.jpg'
-import Zain from '@/app/public/global/img/faces/zain.jpg';
-import Avatar from '@/app/public/global/img/faces/image.png';
-import Author from '@/app/public/global/img/logo/wattle_sol_logo.jpeg';
-import StaffCover from '@/app/public/global/img/blog/augmentation-cover.png';
-import DevOpsCover from '@/app/public/global/img/blog/devops-cover.png';
+// import MainImage from '@/app/public/global/img/blog/blog-microservice.png'
+// import DevOps from '@/app/public/global/img/blog/blog-devops.jpg'
+// import Staff from '@/app/public/global/img/blog/blog-staff.jpg'
+// import Zain from '@/app/public/global/img/faces/zain.jpg';
+// import Avatar from '@/app/public/global/img/faces/image.png';
+// import Author from '@/app/public/global/img/logo/wattle_sol_logo.jpeg';
+// import StaffCover from '@/app/public/global/img/blog/augmentation-cover.png';
+// import DevOpsCover from '@/app/public/global/img/blog/devops-cover.png';
 
 export default function page() {
   return (
     <div>
       <div className="mil-banner-sm-2 mil-deep-bg">
         <Image
-          src={MainImage}
+          src='global/img/blog/blog-microservice.png'
           className="mil-background-image"
           style={{ objectPosition: 'center' }}
           alt="Publication cover"
+          unoptimized
         />
         <div className="mil-overlay"></div>
       </div>
@@ -34,7 +35,7 @@ export default function page() {
               </h3>
               <ul className="mil-dot-list mil-post-info mil-text-sm mil-mb-60">
                 <li className="mil-post-author">
-                  <Image src={Author} alt="Author" />
+                  <Image src='global/img/logo/wattle_sol_logo.jpeg' alt="Author" unoptimized/>
                   <span>Wattle Sol</span>
                 </li>
                 <li>10 July. 2024</li>
@@ -187,16 +188,18 @@ export default function page() {
               <div className="row mil-mb-30">
                 <div className="col-xl-6 mil-mb-30">
                   <Image
-                    src={DevOps}
+                    src='global/img/blog/blog-devops.jpg'
                     alt="blog"
                     className="mil-post-image"
+                    unoptimized
                   />
                 </div>
                 <div className="col-xl-6 mil-mb-30">
                   <Image
-                    src={Staff}
+                    src='global/img/blog/blog-staff.jpg'
                     alt="blog"
                     className="mil-post-image"
+                    unoptimized
                   />
                 </div>
               </div>
@@ -251,7 +254,7 @@ export default function page() {
                 <li className="mil-comment">
                   <div className="mil-comment-top-panel">
                     <div className="mil-left">
-                      <Image src={Avatar} alt="user avatar" />
+                      <Image src='global/img/faces/image.png' alt="user avatar" unoptimized/>
                       <div>
                         <h5>Roparzh Leclerc</h5>
                         <p className="mil-text-sm">June 12, 2024</p>
@@ -271,7 +274,7 @@ export default function page() {
                 <li className="mil-comment">
                   <div className="mil-comment-top-panel">
                     <div className="mil-left">
-                      <Image src={Avatar} alt="user avatar" />
+                      <Image src='global/img/faces/image.png' alt="user avatar" unoptimized/>
                       <div>
                         <h5>Sofia Rossi</h5>
                         <p className="mil-text-sm">June 13, 2024</p>
@@ -291,7 +294,7 @@ export default function page() {
                 <li className="mil-comment">
                   <div className="mil-comment-top-panel">
                     <div className="mil-left">
-                      <Image src={Avatar} alt="user avatar" />
+                      <Image src='global/img/faces/image.png' alt="user avatar" unoptimized/>
                       <div>
                         <h5>Olivia Greene</h5>
                         <p className="mil-text-sm">June 15, 2024</p>
@@ -384,7 +387,7 @@ export default function page() {
                 </p>
                 <a href="team-single.html" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
-                    <Image src={Zain} alt="cover" />
+                    <Image src='global/img/faces/zain.jpg' alt="cover" unoptimized/>
                   </div>
                   <div className="mil-description">
                     <h4 className="mil-font-3 mil-accent">Syed Zain</h4>
@@ -411,7 +414,7 @@ export default function page() {
                   className="mil-post-sm mil-mb-15"
                 >
                   <div className="mil-cover-frame">
-                    <Image src={DevOpsCover} alt="cover" />
+                    <Image src='global/img/blog/devops-cover.png' alt="cover" unoptimized/>
                   </div>
                   <div className="mil-description">
                     <h6>
@@ -422,7 +425,7 @@ export default function page() {
                 </Link>
                 <Link href="/blogs/blog3" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
-                    <Image src={StaffCover} alt="cover" />
+                    <Image src='global/img/blog/augmentation-cover.png' alt="cover" unoptimized/>
                   </div>
                   <div className="mil-description">
                     <h6>

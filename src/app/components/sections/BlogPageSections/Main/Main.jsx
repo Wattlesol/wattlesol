@@ -2,9 +2,9 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import BlogImage1 from '@/app/public/global/img/blog/blog-devops.jpg';
-import BlogImage2 from '@/app/public/global/img/blog/blog-microservice.png';
-import BlogImage3 from '@/app/public/global/img/blog/blog-staff.jpg';
+// import BlogImage1 from '@/app/public/global/img/blog/blog-devops.jpg';
+// import BlogImage2 from '@/app/public/global/img/blog/blog-microservice.png';
+// import BlogImage3 from '@/app/public/global/img/blog/blog-staff.jpg';
 import Link from 'next/link';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
@@ -26,11 +26,12 @@ const Main = () => {
               <Link href="/blogs/blog1" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
-                    src={BlogImage1}
-                    alt="project"
+                    src='global/img/blog/blog-devops.jpg'
+                    alt="DevOps in the Cloud: Best Practices"
                     objectFit="contain"
                     width={600}
                     height={400}
+                    unoptimized
                   />
                 </div>
                 <div className="mil-description">
@@ -56,11 +57,12 @@ const Main = () => {
               <Link href="/blogs/blog2" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
-                    src={BlogImage2}
+                    src='global/img/blog/blog-microservice.png'
                     objectFit="contain"
-                    alt="project"
+                    alt="microservices in the cloud: Best Practices"
                     width={600}
                     height={400}
+                    unoptimized
                   />
                 </div>
                 <div className="mil-description">
@@ -85,11 +87,12 @@ const Main = () => {
               <Link href="/blogs/blog3" className="mil-card">
                 <div className="mil-cover-frame">
                   <Image
-                    src={BlogImage3}
+                    src='global/img/blog/blog-staff.jpg'
                     objectFit="contain"
-                    alt="project"
+                    alt="Wattle Sol Staff Augmentation"
                     width={600}
                     height={400}
+                    unoptimized
                   />
                 </div>
                 <div className="mil-description">
@@ -134,23 +137,6 @@ const Main = () => {
               </div>
             </Col>
             <Col lg={4} xl={3} className="mil-mb-120">
-              {/* <div class="mil-mb-60">
-              <h5 class="mil-list-title mil-mb-30">About Wattle Sol</h5>
-              <p class="mil-mb-30">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt.
-              </p>
-              <a href="team-single.html" class="mil-post-sm mil-mb-15">
-                <div class="mil-cover-frame">
-                  <Image src={FaceImage1} alt="cover" />
-                </div>
-                <div class="mil-description">
-                  <h4 class="mil-font-3 mil-accent">Syed Zain</h4>
-                  <p class="mil-text-sm">CEO</p>
-                </div>
-              </a>
-            </div> */}
-              {/* <div class="mil-divider mil-mb-60"></div> */}
               <form class="mil-sidebar-input-frame mil-mb-60">
                 <input
                   type="text"
@@ -161,48 +147,6 @@ const Main = () => {
                   <i class="fas fa-search"></i>
                 </button>
               </form>
-              {/* <div class="mil-divider mil-mb-60"></div> */}
-              {/* <div class="mil-mb-60">
-              <h5 class="mil-list-title mil-mb-30">Categories</h5>
-              <ul class="mil-hover-link-list">
-                <li>
-                  <a href="#.">Business</a>
-                </li>
-                <li>
-                  <a href="#.">Design</a>
-                </li>
-                <li>
-                  <a href="#.">Development</a>
-                </li>
-                <li>
-                  <a href="#.">Management</a>
-                </li>
-                <li>
-                  <a href="#.">Software</a>
-                </li>
-              </ul>
-            </div> */}
-              {/* <div class="mil-divider mil-mb-60"></div>
-            <div class="mil-mb-60">
-              <h5 class="mil-list-title mil-mb-30">Tags</h5>
-              <ul class="mil-tags">
-                <li>
-                  <a href="#.">Business</a>
-                </li>
-                <li>
-                  <a href="#.">Design</a>
-                </li>
-                <li>
-                  <a href="#.">General</a>
-                </li>
-                <li>
-                  <a href="#.">Development</a>
-                </li>
-                <li>
-                  <a href="#.">Learning</a>
-                </li>
-              </ul>
-            </div> */}
               <div class="mil-divider mil-mb-60"></div>
               <div class="mil-mb-60">
                 <h5 class="mil-list-title mil-mb-30">Newsletter</h5>
@@ -226,10 +170,6 @@ const Main = () => {
                 <br />
                 30 N Gould St Ste R Sheridan, WY 82801
               </p>
-              {/* <a href="contact.html" class="mil-link">
-              <span>Send</span>
-              <i class="fas fa-arrow-right"></i>
-            </a> */}
             </Col>
           </Row>
         </Container>

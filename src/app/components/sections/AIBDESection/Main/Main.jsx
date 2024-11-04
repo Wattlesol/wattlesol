@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
-import MarketingSales from '@/app/public/global/img/photo/marketing-sales.png';
+// import MarketingSales from '@/app/public/global/img/photo/marketing-sales.png';
 
 const Main = () => {
     return (
@@ -20,8 +20,9 @@ const Main = () => {
                             <div className="mil-circle-bg"></div>
                             <div className="mil-image-frame">
                                 <Image
-                                    src={MarketingSales}
-                                    alt="img"
+                                    src='global/img/photo/marketing-sales.png'
+                                    alt="Wattle Sol AI-Powered Contact Center Solution"
+                                    unoptimized
                                 />
                             </div>
                         </div>

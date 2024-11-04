@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import ThinkingBig from '@/app/public/global/img/icons/md/ThinkingBig.svg';
-import StartingSmall from '@/app/public/global/img/icons/md/StartingSmall.svg';
-import CreatingFast from '@/app/public/global/img/icons/md/CreatingFast.svg';
-import InnovatingScale from '@/app/public/global/img/icons/md/InnovatingScale.svg';
+// import ThinkingBig from '@/app/public/global/img/icons/md/ThinkingBig.svg';
+// import StartingSmall from '@/app/public/global/img/icons/md/StartingSmall.svg';
+// import CreatingFast from '@/app/public/global/img/icons/md/CreatingFast.svg';
+// import InnovatingScale from '@/app/public/global/img/icons/md/InnovatingScale.svg';
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -37,7 +37,7 @@ const HowItWork = () => {
             <div className="mil-mb-60">
               <div className="mil-icon-box-head mil-mb-30">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={ThinkingBig} alt="icon" />
+                  <Image src='global/img/icons/md/ThinkingBig.svg' alt="icon" unoptimized/>
                 </div>
                 <h5>Thinking Big</h5>
               </div>
@@ -52,7 +52,7 @@ const HowItWork = () => {
             <div className="mil-mb-60">
               <div className="mil-icon-box-head mil-mb-30">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={StartingSmall} alt="icon" />
+                  <Image src='global/img/icons/md/StartingSmall.svg' alt="icon" unoptimized/>
                 </div>
                 <h5>Starting Small</h5>
               </div>
@@ -67,7 +67,7 @@ const HowItWork = () => {
             <div className="mil-mb-60">
               <div className="mil-icon-box-head mil-mb-30">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={CreatingFast} alt="icon" />
+                  <Image src='global/img/icons/md/CreatingFast.svg' alt="icon" unoptimized/>
                 </div>
                 <h5>Creating Fast</h5>
               </div>
@@ -81,7 +81,7 @@ const HowItWork = () => {
             <div className="mil-mb-60">
               <div className="mil-icon-box-head mil-mb-30">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={InnovatingScale} alt="icon" />
+                  <Image src='global/img/icons/md/InnovatingScale.svg' alt="innovation Scale" unoptimized/>
                 </div>
                 <h5>Innovating Scale</h5>
               </div>

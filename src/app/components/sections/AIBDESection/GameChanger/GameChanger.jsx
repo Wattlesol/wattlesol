@@ -1,11 +1,11 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import TopExpertise from '@/app/public/global/img/icons/md/TopExpertise.svg';
-import QualityManagement from '@/app/public/global/img/icons/md/QualityManagement.svg';
-import UtmostFlexibility from '@/app/public/global/img/icons/md/UtmostFlexibility.svg';
-import Productivity from '@/app/public/global/img/icons/md/Productivity.svg';
-import Scalability from '@/app/public/global/img/icons/md/Scalability.svg';
-import Support from '@/app/public/global/img/projects/engagement.png'
+// import TopExpertise from '@/app/public/global/img/icons/md/TopExpertise.svg';
+// import QualityManagement from '@/app/public/global/img/icons/md/QualityManagement.svg';
+// import UtmostFlexibility from '@/app/public/global/img/icons/md/UtmostFlexibility.svg';
+// import Productivity from '@/app/public/global/img/icons/md/Productivity.svg';
+// import Scalability from '@/app/public/global/img/icons/md/Scalability.svg';
+// import Support from '@/app/public/global/img/projects/engagement.png'
 
 import Image from 'next/image';
 const GameChanger = () => {
@@ -19,7 +19,7 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Support} alt="icon" />
+                <Image src='global/img/projects/engagement.png' alt="icon" unoptimized/>
               </div>
             </Col>
             <Col xl={4}>
@@ -37,7 +37,7 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={QualityManagement} alt="icon" />
+                <Image src='global/img/icons/md/QualityManagement.svg' alt="icon" unoptimized/>
               </div>
             </Col>
             <Col xl={4}>
@@ -55,7 +55,7 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Productivity} alt="icon" />
+                <Image src='global/img/icons/md/Productivity.svg' alt="icon" unoptimized/>
               </div>
             </Col>
             <Col xl={4}>
@@ -74,7 +74,7 @@ const GameChanger = () => {
           <Row className="align-items-center">
             <Col xl={2}>
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <Image src={Scalability} alt="icon" />
+                <Image src='global/img/icons/md/Scalability.svg' alt="icon" unoptimized/>
               </div>
             </Col>
             <Col xl={4}>

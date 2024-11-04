@@ -4,9 +4,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect } from 'react';
 import Head from 'next/head';
-import Bg1 from '@/app/public/global/img/photo/Banner-1.jpg';
-import Bg2 from '@/app/public/global/img/photo/Banner-2.jpg';
-import Bg3 from '@/app/public/global/img/photo/Banner-3.jpg';
+// import Bg1 from '@/app/public/global/img/photo/Banner-1.jpg';
+// import Bg2 from '@/app/public/global/img/photo/Banner-2.jpg';
+// import Bg3 from '@/app/public/global/img/photo/Banner-3.jpg';
 import styles from '@/app/styles/global/plugins/swiper.min.css'; // Import Swiper CSS file
 
 export const Hero = () => {
@@ -54,32 +54,35 @@ export const Hero = () => {
           <div className="swiper-wrapper">
             <div className="swiper-slide">
               <Image
-                src={Bg1}
+                src='global/img/photo/Banner-1.jpg'
                 className="mil-background-image"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
                 alt="Banner image 1"
+                unoptimized
               />
             </div>
             <div className="swiper-slide">
               <Image
-                src={Bg2}
+                src='global/img/photo/Banner-2.jpg'
                 className="mil-background-image"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
                 alt="Banner image 2"
+                unoptimized
               />
             </div>
             <div className="swiper-slide">
               <Image
-                src={Bg3}
+                src='global/img/photo/Banner-3.jpg'
                 className="mil-background-image"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
                 alt="Banner image 3"
+                unoptimized
               />
             </div>
           </div>

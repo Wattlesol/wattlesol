@@ -1,17 +1,17 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import Challenge from '@/app/public/global/img/icons/md/ThinkingBig.svg'
-import BlockChain from '@/app/public/global/img/icons/md/blockchain.svg'
-import Development from '@/app/public/global/img/icons/SDIcon.svg'
-import BigData from '@/app/public/global/img/icons/md/big-data.svg'
-import DevOps from '@/app/public/global/img/icons/md/DevOps.svg'
-import Security from '@/app/public/global/img/icons/md/security.svg'
-import Global from '@/app/public/global/img/icons/md/global.svg'
-import Scalability from '@/app/public/global/img/icons/md/Scalability.svg'
-import Transparency from '@/app/public/global/img/icons/md/Transparency.svg'
-import MainImage from '@/app/public/global/img/projects/2.jpg'
-import SecondImage from '@/app/public/global/img/projects/project2.jpg'
+// import Challenge from '@/app/public/global/img/icons/md/ThinkingBig.svg'
+// import BlockChain from '@/app/public/global/img/icons/md/blockchain.svg'
+// import Development from '@/app/public/global/img/icons/SDIcon.svg'
+// import BigData from '@/app/public/global/img/icons/md/big-data.svg'
+// import DevOps from '@/app/public/global/img/icons/md/DevOps.svg'
+// import Security from '@/app/public/global/img/icons/md/security.svg'
+// import Global from '@/app/public/global/img/icons/md/global.svg'
+// import Scalability from '@/app/public/global/img/icons/md/Scalability.svg'
+// import Transparency from '@/app/public/global/img/icons/md/Transparency.svg'
+// import MainImage from '@/app/public/global/img/projects/2.jpg'
+// import SecondImage from '@/app/public/global/img/projects/project2.jpg'
 
 
 export default function page() {
@@ -83,7 +83,7 @@ export default function page() {
               <div className="mil-mb-30">
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <Image src={Challenge} alt="icon" />
+                    <Image src='global/img/icons/md/ThinkingBig.svg' alt="icon" unoptimized/>
                   </div>
                   <p className="mil-dark">
                     Developing a blockchain-based system that ensures the secure
@@ -92,7 +92,7 @@ export default function page() {
                 </div>
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <Image src={Challenge} alt="icon" />
+                    <Image src='global/img/icons/md/ThinkingBig.svg' alt="icon" unoptimized/>
                   </div>
                   <p className="mil-dark">
                     Creating a transparent and immutable record of all gold
@@ -101,7 +101,7 @@ export default function page() {
                 </div>
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <Image src={Challenge} alt="icon" />
+                    <Image src='global/img/icons/md/ThinkingBig.svg' alt="icon" unoptimized/>
                   </div>
                   <p className="mil-dark">
                     Ensuring global accessibility and scalability of the
@@ -110,7 +110,7 @@ export default function page() {
                 </div>
                 <div className="mil-icon-box-head mil-long mil-mb-15">
                   <div className="mil-icon-frame mil-icon-frame-sm">
-                    <Image src={Challenge} alt="icon" />
+                    <Image src='global/img/icons/md/ThinkingBig.svg' alt="icon" unoptimized/>
                   </div>
                   <p className="mil-dark">
                     Integrating advanced technologies to handle large volumes of
@@ -128,7 +128,7 @@ export default function page() {
 
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={BlockChain} width={32} alt="icon" />
+                  <Image src='global/img/icons/md/blockchain.svg' width={32} alt="icon" unoptimized/>
                 </div>
                 <h6 className="mil-dark">
                   Blockchain Development with Solidity and ERC20 Network
@@ -146,7 +146,7 @@ export default function page() {
               </p>
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={Development} alt="icon" />
+                  <Image src='global/img/icons/SDIcon.svg' alt="icon" unoptimized/>
                 </div>
                 <h6 className="mil-dark">Software Development</h6>
               </div>
@@ -163,7 +163,7 @@ export default function page() {
               </p>
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={BigData} width={32} alt="icon" />
+                  <Image src='global/img/icons/md/big-data.svg' width={32} alt="icon" unoptimized/>
                 </div>
                 <h6 className="mil-dark">Big Data Architecture</h6>
               </div>
@@ -174,7 +174,7 @@ export default function page() {
               </p>
               <div className="mil-icon-box-head mil-long mil-mb-15">
                 <div className="mil-icon-frame mil-icon-frame-sm">
-                  <Image src={DevOps} width={32} alt="icon" />
+                  <Image src='global/img/icons/md/DevOps.svg' width={32} alt="icon" unoptimized/>
                 </div>
                 <h6 className="mil-dark">DevOps</h6>
               </div>
@@ -212,15 +212,15 @@ export default function page() {
                 <div className="col-xl-6">
                   <ul className="mil-check-icon-list mil-mb-15">
                     <li>
-                      <Image src={Security} width={24} alt="icon" />
+                      <Image src='global/img/icons/md/security.svg' width={24} alt="icon" unoptimized/>
                       <span className="mil-dark">Enhanced Security</span>
                     </li>
                     <li>
-                      <Image src={Global} width={32} alt="icon" />
+                      <Image src='global/img/icons/md/global.svg' width={32} alt="icon" unoptimized/>
                       <span className="mil-dark">Global Accessibility</span>
                     </li>
                     <li>
-                      <Image src={Transparency} width={32} alt="icon" />
+                      <Image src='global/img/icons/md/Transparency.svg' width={32} alt="icon" unoptimized/>
                       <span className="mil-dark">
                         Traceability and Transparency
                       </span>
@@ -230,11 +230,11 @@ export default function page() {
                 <div className="col-xl-6 mil-mb-30">
                   <ul className="mil-check-icon-list">
                     <li>
-                      <Image src={BigData} width={32} alt="icon" />
+                      <Image src='global/img/icons/md/big-data.svg' width={32} alt="icon" unoptimized/>
                       <span className="mil-dark">Big Data Management</span>
                     </li>
                     <li>
-                      <Image src={Scalability} width={32} alt="icon" />
+                      <Image src='global/img/icons/md/Scalability.svg' width={32} alt="icon" unoptimized/>
                       <span className="mil-dark">Scalability</span>
                     </li>
                   </ul>
@@ -243,7 +243,7 @@ export default function page() {
             </div>
             <div className="col-xl-6 mil-mb-60">
               <div className="mil-project-cover">
-                <Image src={SecondImage} alt="Project" />
+                <Image src='global/img/projects/project2.jpg' alt="Project" unoptimized/>
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function page() {
             </div>
             <div className="col-xl-6 mil-mb-60">
               <div className="mil-project-cover">
-                <Image src={MainImage} alt="Project" />
+                <Image src='global/img/projects/2.jpg' alt="Project" unoptimized/>
               </div>
             </div>
           </div>

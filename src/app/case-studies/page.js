@@ -1,7 +1,7 @@
 import React from 'react';
-import Project1 from '@/app/public/global/img/projects/1.jpg';
-import Project2 from '@/app/public/global/img/projects/2.jpg';
-import Project3 from '@/app/public/global/img/projects/3.jpg';
+// import Project1 from '@/app/public/global/img/projects/1.jpg';
+// import Project2 from '@/app/public/global/img/projects/2.jpg';
+// import Project3 from '@/app/public/global/img/projects/3.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -37,7 +37,7 @@ export default function page() {
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-6 mil-mb-60">
               <div className="mil-project-cover">
-                <Image src={Project2} alt="Project" />
+                <Image src='global/img/projects/2.jpg' alt="Project" unoptimized/>
               </div>
             </div>
             <div className="col-xl-5 mil-mb-60">
@@ -64,7 +64,7 @@ export default function page() {
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
             <div className="col-xl-6 mil-mb-60">
               <div className="mil-project-cover mil-type-2">
-                <Image src={Project1} alt="Project" />
+                <Image src='global/img/projects/1.jpg' alt="Project" unoptimized/>
               </div>
             </div>
             <div className="col-xl-5 mil-mb-60">
@@ -90,7 +90,7 @@ export default function page() {
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-6 mil-mb-60">
               <div className="mil-project-cover">
-                <Image src={Project3} alt="Project" />
+                <Image src='global/img/projects/3.jpg' alt="Project" unoptimized/>
               </div>
             </div>
             <div className="col-xl-5 mil-mb-60">
