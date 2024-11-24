@@ -67,10 +67,6 @@ const RootLayout = ({ children }) => {
     <html lang="en">
       <head>
         {/* External stylesheets and scripts */}
-        <link
-          rel="stylesheet"
-          href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css"
-        />
         <script
           async
           src="https://unpkg.com/swiper/swiper-bundle.min.js"
