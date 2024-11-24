@@ -13,55 +13,55 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useEffect } from 'react';
 
 const RootLayout = ({ children }) => {
-  useEffect(() => {
-    // Add Dialogflow widget script dynamically
-    const script = document.createElement('script');
-    script.src =
-      'https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js';
-    script.async = true;
-    document.body.appendChild(script);
+  // useEffect(() => {
+  //   // Add Dialogflow widget script dynamically
+  //   // const script = document.createElement('script');
+  //   // script.src =
+  //   //   'https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js';
+  //   // script.async = true;
+  //   // document.body.appendChild(script);
 
-    script.onload = () => {
-      // Ensure the script has loaded before creating the widget
-      const dfMessenger = document.createElement('df-messenger');
-      dfMessenger.setAttribute('project-id', 'wattle-sol-433700');
-      dfMessenger.setAttribute(
-        'agent-id',
-        '05e3e682-fec3-4b74-ab38-315e0e0cc147'
-      );
-      dfMessenger.setAttribute('language-code', 'en');
-      dfMessenger.setAttribute('max-query-length', '-1');
+  //   // script.onload = () => {
+  //   //   // Ensure the script has loaded before creating the widget
+  //   //   const dfMessenger = document.createElement('df-messenger');
+  //   //   dfMessenger.setAttribute('project-id', 'wattle-sol-433700');
+  //   //   dfMessenger.setAttribute(
+  //   //     'agent-id',
+  //   //     '05e3e682-fec3-4b74-ab38-315e0e0cc147'
+  //   //   );
+  //   //   dfMessenger.setAttribute('language-code', 'en');
+  //   //   dfMessenger.setAttribute('max-query-length', '-1');
 
-      // Apply custom styles to the chat widget
-      dfMessenger.style.zIndex = '999';
-      dfMessenger.style.position = 'fixed';
-      dfMessenger.style.bottom = '30px';
-      dfMessenger.style.right = '30px';
-      dfMessenger.style.setProperty('--df-messenger-font-color', '#000');
-      dfMessenger.style.setProperty(
-        '--df-messenger-font-family',
-        'Google Sans'
-      );
-      dfMessenger.style.setProperty(
-        '--df-messenger-chat-background',
-        '#f3f6fc'
-      );
-      dfMessenger.style.setProperty(
-        '--df-messenger-message-user-background',
-        '#d3e3fd'
-      );
-      dfMessenger.style.setProperty(
-        '--df-messenger-message-bot-background',
-        '#fff'
-      );
-      dfMessenger.style.setProperty('--df-messenger-min-width', '600px');
-      dfMessenger.style.setProperty('--df-messenger-max-width', '600px');
-      dfMessenger.style.setProperty('--df-messenger-min-height', '500px');
-      dfMessenger.style.setProperty('--df-messenger-max-height', '700px');
+  //   //   // Apply custom styles to the chat widget
+  //   //   dfMessenger.style.zIndex = '999';
+  //   //   dfMessenger.style.position = 'fixed';
+  //   //   dfMessenger.style.bottom = '30px';
+  //   //   dfMessenger.style.right = '30px';
+  //   //   dfMessenger.style.setProperty('--df-messenger-font-color', '#000');
+  //   //   dfMessenger.style.setProperty(
+  //   //     '--df-messenger-font-family',
+  //   //     'Google Sans'
+  //   //   );
+  //   //   dfMessenger.style.setProperty(
+  //   //     '--df-messenger-chat-background',
+  //   //     '#f3f6fc'
+  //   //   );
+  //   //   dfMessenger.style.setProperty(
+  //   //     '--df-messenger-message-user-background',
+  //   //     '#d3e3fd'
+  //   //   );
+  //   //   dfMessenger.style.setProperty(
+  //   //     '--df-messenger-message-bot-background',
+  //   //     '#fff'
+  //   //   );
+  //   //   dfMessenger.style.setProperty('--df-messenger-min-width', '600px');
+  //   //   dfMessenger.style.setProperty('--df-messenger-max-width', '600px');
+  //   //   dfMessenger.style.setProperty('--df-messenger-min-height', '500px');
+  //   //   dfMessenger.style.setProperty('--df-messenger-max-height', '700px');
 
-      document.body.appendChild(dfMessenger);
-    };
-  }, []);
+  //   //   document.body.appendChild(dfMessenger);
+  //   // };
+  // }, []);
 
   return (
     <html lang="en">
