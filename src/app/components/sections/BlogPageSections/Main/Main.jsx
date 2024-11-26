@@ -1,29 +1,32 @@
-'use client';
-import Image from 'next/image';
-import React, { useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import BlogImage1 from '@/app/public/global/img/blog/blog-devops.jpg';
-import BlogImage2 from '@/app/public/global/img/blog/blog-microservice.png';
-import BlogImage3 from '@/app/public/global/img/blog/blog-staff.jpg';
-import Link from 'next/link';
-import 'react-toastify/dist/ReactToastify.css';
-import { ToastContainer, toast } from 'react-toastify';
+"use client";
+import Image from "next/image";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import BlogImage1 from "@/app/public/global/img/blog/blog-devops.jpg";
+import BlogImage2 from "@/app/public/global/img/blog/blog-microservice.png";
+import BlogImage3 from "@/app/public/global/img/blog/blog-staff.jpg";
+import Link from "next/link";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from "react-toastify";
 
 const Main = () => {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
 
   const handleToast = () => {
-    setEmail('');
-    return toast.success('Email Subscribed Successfully');
+    setEmail("");
+    return toast.success("Email Subscribed Successfully");
   };
   return (
     <>
       <ToastContainer />
-      <section class="mil-blog mil-p-120-0">
+      <section className="mil-blog mil-p-120-0">
         <Container>
           <Row className="justify-content-between">
             <Col lg={8} xl={8} className="mil-mb-120">
-              <Link href="/how-devops-can-save-disasters-in-production-grade-applications" className="mil-card">
+              <Link
+                href="/how-devops-can-save-disasters-in-production-grade-applications"
+                className="mil-card"
+              >
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage1}
@@ -52,8 +55,11 @@ const Main = () => {
                   </div>
                 </div>
               </Link>
-              <div class="mil-divider mil-mb-60"></div>
-              <Link href="/micro-services-are-the-future-of-seamless-operations-in-application-development" className="mil-card">
+              <div className="mil-divider mil-mb-60"></div>
+              <Link
+                href="/micro-services-are-the-future-of-seamless-operations-in-application-development"
+                className="mil-card"
+              >
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage2}
@@ -81,8 +87,11 @@ const Main = () => {
                   </div>
                 </div>
               </Link>
-              <div class="mil-divider mil-mb-60"></div>
-              <Link href="/why-staff-augmentation-is-the-best-solution-for-software-companies" className="mil-card">
+              <div className="mil-divider mil-mb-60"></div>
+              <Link
+                href="/why-staff-augmentation-is-the-best-solution-for-software-companies"
+                className="mil-card"
+              >
                 <div className="mil-cover-frame">
                   <Image
                     src={BlogImage3}
@@ -112,60 +121,60 @@ const Main = () => {
                   </div>
                 </div>
               </Link>
-              <div class="mil-divider mil-mb-60"></div>
-              <div class="mil-pagination mil-hidden-arrows">
-                <div class="mil-slider-nav">
-                  <div class="mil-slider-btn-prev mil-blog-prev">
-                    <i class="fas fa-arrow-left"></i>
-                    <span class="mil-h6">Prev</span>
+              <div className="mil-divider mil-mb-60"></div>
+              <div className="mil-pagination mil-hidden-arrows">
+                <div className="mil-slider-nav">
+                  <div className="mil-slider-btn-prev mil-blog-prev">
+                    <i className="fas fa-arrow-left"></i>
+                    <span className="mil-h6">Prev</span>
                   </div>
                 </div>
-                <ul class="mil-pagination-numbers">
-                  <li class="mil-active">
+                <ul className="mil-pagination-numbers">
+                  <li className="mil-active">
                     <a href="#.">1</a>
                   </li>
                 </ul>
-                <div class="mil-slider-nav">
-                  <div class="mil-slider-btn-next mil-blog-next">
-                    <span class="mil-h6">Next</span>
-                    <i class="fas fa-arrow-right"></i>
+                <div className="mil-slider-nav">
+                  <div className="mil-slider-btn-next mil-blog-next">
+                    <span className="mil-h6">Next</span>
+                    <i className="fas fa-arrow-right"></i>
                   </div>
                 </div>
               </div>
             </Col>
             <Col lg={4} xl={3} className="mil-mb-120">
-              {/* <div class="mil-mb-60">
-              <h5 class="mil-list-title mil-mb-30">About Wattle Sol</h5>
-              <p class="mil-mb-30">
+              {/* <div className="mil-mb-60">
+              <h5 className="mil-list-title mil-mb-30">About Wattle Sol</h5>
+              <p className="mil-mb-30">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt.
               </p>
-              <a href="team-single.html" class="mil-post-sm mil-mb-15">
-                <div class="mil-cover-frame">
+              <a href="team-single.html" className="mil-post-sm mil-mb-15">
+                <div className="mil-cover-frame">
                   <Image src={FaceImage1} alt="cover" />
                 </div>
-                <div class="mil-description">
-                  <h4 class="mil-font-3 mil-accent">Syed Zain</h4>
-                  <p class="mil-text-sm">CEO</p>
+                <div className="mil-description">
+                  <h4 className="mil-font-3 mil-accent">Syed Zain</h4>
+                  <p className="mil-text-sm">CEO</p>
                 </div>
               </a>
             </div> */}
-              {/* <div class="mil-divider mil-mb-60"></div> */}
+              {/* <div className="mil-divider mil-mb-60"></div> */}
 
-              <form class="mil-sidebar-input-frame mil-mb-60">
+              <form className="mil-sidebar-input-frame mil-mb-60">
                 <input
                   type="text"
-                  class="mil-sidebar-input"
+                  className="mil-sidebar-input"
                   placeholder="Search here..."
                 />
                 <button type="submit">
-                  <i class="fas fa-search"></i>
+                  <i className="fas fa-search"></i>
                 </button>
               </form>
-              {/* <div class="mil-divider mil-mb-60"></div> */}
-              {/* <div class="mil-mb-60">
-              <h5 class="mil-list-title mil-mb-30">Categories</h5>
-              <ul class="mil-hover-link-list">
+              {/* <div className="mil-divider mil-mb-60"></div> */}
+              {/* <div className="mil-mb-60">
+              <h5 className="mil-list-title mil-mb-30">Categories</h5>
+              <ul className="mil-hover-link-list">
                 <li>
                   <a href="#.">Business</a>
                 </li>
@@ -183,10 +192,10 @@ const Main = () => {
                 </li>
               </ul>
             </div> */}
-              {/* <div class="mil-divider mil-mb-60"></div>
-            <div class="mil-mb-60">
-              <h5 class="mil-list-title mil-mb-30">Tags</h5>
-              <ul class="mil-tags">
+              {/* <div className="mil-divider mil-mb-60"></div>
+            <div className="mil-mb-60">
+              <h5 className="mil-list-title mil-mb-30">Tags</h5>
+              <ul className="mil-tags">
                 <li>
                   <a href="#.">Business</a>
                 </li>
@@ -204,38 +213,39 @@ const Main = () => {
                 </li>
               </ul>
             </div> */}
-              <div class="mil-divider mil-mb-60"></div>
-              <div class="mil-mb-60">
-                <h5 class="mil-list-title mil-mb-30">Newsletter</h5>
-                <div class="mil-sidebar-input-frame">
+              <div className="mil-divider mil-mb-60"></div>
+              <div className="mil-mb-60">
+                <h5 className="mil-list-title mil-mb-30">Newsletter</h5>
+                <div className="mil-sidebar-input-frame">
                   <input
                     type="text"
-                    class="mil-sidebar-input"
+                    className="mil-sidebar-input"
                     placeholder="Your email address"
-                    value={email ? email : ''}
+                    value={email ? email : ""}
                     onChange={(e) => setEmail(e.target.value)}
                   />
                   <button onClick={handleToast}>
-                    <i class="fas fa-arrow-right"></i>
+                    <i className="fas fa-arrow-right"></i>
                   </button>
                 </div>
               </div>
-              <div class="mil-divider mil-mb-60"></div>
-              <h5 class="mil-list-title mil-mb-30">Contact us</h5>
-              <p class="mil-mb-30">
+              <div className="mil-divider mil-mb-60"></div>
+              <h5 className="mil-list-title mil-mb-30">Contact us</h5>
+              <p className="mil-mb-30">
                 info@wattlesol.info
                 <br />
                 30 N Gould St Ste R Sheridan, WY 82801
               </p>
               <div className="mil-adaptive-right">
                 <Link
-                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
+                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2MVk3D4z7q8WW0oLXjtYbr0fiDQpFGj1gr9LgCLUaVH5wq9wlW0qxM377Cu7TyH0sfU48A7JN3"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mil-button mil-border mil-mr-15 mil-mb-30"
                 >
                   <span>Book an Appointment</span>
                 </Link>
               </div>
-
             </Col>
           </Row>
         </Container>

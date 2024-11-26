@@ -1,56 +1,57 @@
-'use client';
-import React, { useEffect } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import Image from 'next/image';
-import Project1 from '@/app/public/global/img/projects/1.jpg';
-import Project2 from '@/app/public/global/img/projects/2.jpg';
-import Project3 from '@/app/public/global/img/projects/3.jpg';
-import Link from 'next/link';
+"use client";
+import React, { useEffect } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import Image from "next/image";
+import Swiper from "swiper";
+import Project1 from "@/app/public/global/img/projects/1.jpg";
+import Project2 from "@/app/public/global/img/projects/2.jpg";
+import Project3 from "@/app/public/global/img/projects/3.jpg";
+import Link from "next/link";
 
 const LatestProjects = () => {
   useEffect(() => {
     // Accordion functionality
-    const acc = document.getElementsByClassName('mil-accordion');
+    const acc = document.getElementsByClassName("mil-accordion");
     for (let i = 0; i < acc.length; i++) {
       acc[i].onclick = function () {
-        this.classList.toggle('mil-active');
+        this.classList.toggle("mil-active");
         const panel = this.nextElementSibling;
         if (panel.style.maxHeight) {
           panel.style.maxHeight = null;
         } else {
-          panel.style.maxHeight = panel.scrollHeight + 'px';
+          panel.style.maxHeight = panel.scrollHeight + "px";
         }
       };
     }
 
     // Menu button toggle
-    const menuButton = document.querySelector('.mil-menu-btn');
+    const menuButton = document.querySelector(".mil-menu-btn");
     if (menuButton) {
-      menuButton.addEventListener('click', function () {
-        this.classList.toggle('mil-active');
+      menuButton.addEventListener("click", function () {
+        this.classList.toggle("mil-active");
         document
-          .querySelector('.mil-navigation')
-          .classList.toggle('mil-active');
+          .querySelector(".mil-navigation")
+          .classList.toggle("mil-active");
       });
     }
 
     // Scroll functionality
     const handleScroll = () => {
       const scroll = window.scrollY;
-      const topPanel = document.querySelector('.mil-top-panel.mil-animated');
-      const additionalPanel = document.querySelector('.has-additional-panel');
+      const topPanel = document.querySelector(".mil-top-panel.mil-animated");
+      const additionalPanel = document.querySelector(".has-additional-panel");
 
       if (topPanel && additionalPanel) {
         if (scroll >= 220) {
-          topPanel.classList.remove('mil-top-panel-transparent');
-          additionalPanel.classList.add('mil-hide-top');
+          topPanel.classList.remove("mil-top-panel-transparent");
+          additionalPanel.classList.add("mil-hide-top");
         } else {
-          topPanel.classList.add('mil-top-panel-transparent');
-          additionalPanel.classList.remove('mil-hide-top');
+          topPanel.classList.add("mil-top-panel-transparent");
+          additionalPanel.classList.remove("mil-hide-top");
         }
       }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Initialize Swiper instances
     const initializeSwiper = (selector, config) => {
@@ -59,13 +60,13 @@ const LatestProjects = () => {
       }
     };
 
-    initializeSwiper('.mil-works-slider', {
+    initializeSwiper(".mil-works-slider", {
       slidesPerView: 1,
       spaceBetween: 30,
       speed: 800,
       navigation: {
-        prevEl: '.mil-works-prev',
-        nextEl: '.mil-works-next',
+        prevEl: ".mil-works-prev",
+        nextEl: ".mil-works-next",
       },
       breakpoints: {
         768: {
@@ -76,13 +77,13 @@ const LatestProjects = () => {
 
     // Cleanup function to remove event listeners
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <section className="mil-works mil-p-120-90">
-      <div className="mil-deco" style={{ top: 0, right: '40%' }}></div>
+      <div className="mil-deco" style={{ top: 0, right: "40%" }}></div>
       <Container>
         <Row className="align-items-center mil-mb-60-adapt">
           <Col md={6} xl={6}>
@@ -91,11 +92,25 @@ const LatestProjects = () => {
           <Col md={6} xl={6}>
             <div className="mil-adaptive-right">
               <div className="mil-slider-nav mil-mb-30">
-                <div className="mil-slider-btn-prev mil-works-prev">
+                <div
+                  className="mil-slider-btn-prev mil-works-prev"
+                  onClick={() => {
+                    const swiperInstance =
+                      document.querySelector(".mil-works-slider").swiper;
+                    swiperInstance.slidePrev();
+                  }}
+                >
                   <i className="fas fa-arrow-left"></i>
                   <span className="mil-h6">Prev</span>
                 </div>
-                <div className="mil-slider-btn-next mil-works-next">
+                <div
+                  className="mil-slider-btn-next mil-works-next"
+                  onClick={() => {
+                    const swiperInstance =
+                      document.querySelector(".mil-works-slider").swiper;
+                    swiperInstance.slideNext();
+                  }}
+                >
                   <span className="mil-h6">Next</span>
                   <i className="fas fa-arrow-right"></i>
                 </div>
@@ -202,7 +217,7 @@ const LatestProjects = () => {
           </Col>
         </Row>
       </Container>
-    </section >
+    </section>
   );
 };
 

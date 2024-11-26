@@ -1,28 +1,29 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import React, { useEffect } from 'react';
-import Head from 'next/head';
-import Bg1 from '@/app/public/global/img/photo/Banner-1.jpg';
-import Bg2 from '@/app/public/global/img/photo/Banner-2.jpg';
-import Bg3 from '@/app/public/global/img/photo/Banner-3.jpg';
-import styles from '@/app/styles/global/plugins/swiper.min.css'; // Import Swiper CSS file
+import Image from "next/image";
+import Link from "next/link";
+import React, { useEffect } from "react";
+import Swiper from "swiper";
+import Head from "next/head";
+import Bg1 from "@/app/public/global/img/photo/Banner-1.jpg";
+import Bg2 from "@/app/public/global/img/photo/Banner-2.jpg";
+import Bg3 from "@/app/public/global/img/photo/Banner-3.jpg";
+import styles from "@/app/styles/global/plugins/swiper.min.css"; // Import Swiper CSS file
 
 export const Hero = () => {
   useEffect(() => {
     // Initialize Swiper when component mounts
-    const swiper = new Swiper('.mil-banner-slideshow', {
+    const swiper = new Swiper(".mil-banner-slideshow", {
       slidesPerView: 1,
       spaceBetween: 0,
       speed: 1500,
       autoplay: true,
-      effect: 'fade',
+      effect: "fade",
       parallax: true,
       loop: true,
       pagination: {
-        el: '.mil-pagination',
-        type: 'bullets',
+        el: ".mil-pagination",
+        type: "bullets",
         clickable: true,
       },
     });
@@ -103,14 +104,25 @@ export const Hero = () => {
                 </h1>
                 <div className="mil-flex-hori-center">
                   <div>
-                    <Link href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" passHref legacyBehavior>
-                      <a target="_blank" rel="noopener noreferrer" className="mil-button mil-border mil-light">
+                    <Link
+                      href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2MVk3D4z7q8WW0oLXjtYbr0fiDQpFGj1gr9LgCLUaVH5wq9wlW0qxM377Cu7TyH0sfU48A7JN3"
+                      passHref
+                      legacyBehavior
+                    >
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mil-button mil-border mil-light"
+                      >
                         <span>Book an Appointment</span>
                       </a>
                     </Link>
                   </div>
                   <p className="mil-button-descr mil-light-soft">
-                    Transform your business with innovative AI solutions and services that include advanced AI integrations and automation, helping you achieve better efficiency, decision-making, and operational success
+                    Transform your business with innovative AI solutions and
+                    services that include advanced AI integrations and
+                    automation, helping you achieve better efficiency,
+                    decision-making, and operational success
                   </p>
                 </div>
               </div>
@@ -123,14 +135,15 @@ export const Hero = () => {
                           <h5 className="mil-dark mil-mb-15">Experts</h5>
                           <div className="mil-divider mil-divider-left mil-mb-15"></div>
                           <p className="mil-text-sm">
-                            Experience elite staff augmentation with AI-powered teams that work for you, managed by us to deliver smart, data-driven solutions.
+                            Experience elite staff augmentation with AI-powered
+                            teams that work for you, managed by us to deliver
+                            smart, data-driven solutions.
                           </p>
                         </div>
                       </div>
                       <div className="mil-item-hover">
                         <div className="mil-plus-icon">+</div>
-                        <h6 className="mil-light">Dedicated AI Teams
-                        </h6>
+                        <h6 className="mil-light">Dedicated AI Teams</h6>
                       </div>
                     </div>
                   </div>
@@ -141,14 +154,15 @@ export const Hero = () => {
                           <h5 className="mil-dark mil-mb-15">Experts</h5>
                           <div className="mil-divider mil-divider-left mil-mb-15"></div>
                           <p className="mil-text-sm">
-                            Access individual AI developers and specialists at competitive rates, blending innovation with top-tier quality.
+                            Access individual AI developers and specialists at
+                            competitive rates, blending innovation with top-tier
+                            quality.
                           </p>
                         </div>
                       </div>
                       <div className="mil-item-hover">
                         <div className="mil-plus-icon">+</div>
-                        <h6 className="mil-light">AI Experts On-Demand
-                        </h6>
+                        <h6 className="mil-light">AI Experts On-Demand</h6>
                       </div>
                     </div>
                   </div>
@@ -159,13 +173,16 @@ export const Hero = () => {
                           <h5 className="mil-dark mil-mb-15">Experts</h5>
                           <div className="mil-divider mil-divider-left mil-mb-15"></div>
                           <p className="mil-text-sm">
-                            Harness the power of AI to optimize sales and marketing strategies, driving growth and efficiency while maintaining high standards.
+                            Harness the power of AI to optimize sales and
+                            marketing strategies, driving growth and efficiency
+                            while maintaining high standards.
                           </p>
                         </div>
                       </div>
                       <div className="mil-item-hover">
                         <div className="mil-plus-icon">+</div>
-                        <h6 className="mil-light">AI-Driven Sales & Marketing
+                        <h6 className="mil-light">
+                          AI-Driven Sales & Marketing
                         </h6>
                       </div>
                     </div>
@@ -178,13 +195,16 @@ export const Hero = () => {
                           <h5 className="mil-dark mil-mb-15">Experts</h5>
                           <div className="mil-divider mil-divider-left mil-mb-15"></div>
                           <p className="mil-text-sm">
-                            Deliver round-the-clock, AI-enabled customer support that enhances user satisfaction, reduces costs, and streamlines service operations.
+                            Deliver round-the-clock, AI-enabled customer support
+                            that enhances user satisfaction, reduces costs, and
+                            streamlines service operations.
                           </p>
                         </div>
                       </div>
                       <div className="mil-item-hover">
                         <div className="mil-plus-icon">+</div>
-                        <h6 className="mil-light">AI-Powered Customer Support
+                        <h6 className="mil-light">
+                          AI-Powered Customer Support
                         </h6>
                       </div>
                     </div>

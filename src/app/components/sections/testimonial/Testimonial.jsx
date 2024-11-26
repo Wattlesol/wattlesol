@@ -1,13 +1,14 @@
-'use client';
-import React, { useEffect } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import ClientImage1 from '@/app/public/global/img/faces/1.jpg';
-import SmImage1 from '@/app/public/global/img/icons/sm/11.svg';
-import Image from 'next/image';
-import ColorLogo1 from '@/app/public/logoSection/color-1.png';
-import ColorLogo2 from '@/app/public/logoSection/color-2.png';
-import ColorLogo3 from '@/app/public/logoSection/color-3.png';
-import ColorLogo4 from '@/app/public/logoSection/color-4.png';
+"use client";
+import React, { useEffect } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import ClientImage1 from "@/app/public/global/img/faces/1.jpg";
+import SmImage1 from "@/app/public/global/img/icons/sm/11.svg";
+import Image from "next/image";
+import ColorLogo1 from "@/app/public/logoSection/color-1.png";
+import ColorLogo2 from "@/app/public/logoSection/color-2.png";
+import ColorLogo3 from "@/app/public/logoSection/color-3.png";
+import ColorLogo4 from "@/app/public/logoSection/color-4.png";
+import Swiper from "swiper";
 
 const Testimonial = () => {
   useEffect(() => {
@@ -18,13 +19,13 @@ const Testimonial = () => {
       }
     };
 
-    initializeSwiper('.mil-revi-slider', {
+    initializeSwiper(".mil-revi-slider", {
       slidesPerView: 1,
       spaceBetween: 30,
       speed: 800,
       navigation: {
-        prevEl: '.mil-slider-btn-prev',
-        nextEl: '.mil-slider-btn-next',
+        prevEl: ".mil-slider-btn-prev",
+        nextEl: ".mil-slider-btn-next",
       },
       breakpoints: {
         768: {
@@ -35,7 +36,7 @@ const Testimonial = () => {
 
     // Cleanup function to remove Swiper instances
     return () => {
-      const swiperInstance = document.querySelector('.mil-revi-slider')?.swiper;
+      const swiperInstance = document.querySelector(".mil-revi-slider")?.swiper;
       if (swiperInstance) {
         swiperInstance.destroy(true, true);
       }
@@ -44,7 +45,7 @@ const Testimonial = () => {
 
   return (
     <section className="mil-reviews mil-deep-bg mil-p-120-120">
-      <div className="mil-deco" style={{ top: 0, right: '30%' }}></div>
+      <div className="mil-deco" style={{ top: 0, right: "30%" }}></div>
       <Container>
         <Row className="align-items-center mil-mb-90">
           <Col md={6} xl={6}>
@@ -106,8 +107,8 @@ const Testimonial = () => {
                 <div className="mil-author">
                   <Image
                     style={{
-                      width: '120px',
-                      height: '40px',
+                      width: "120px",
+                      height: "40px",
                     }}
                     objectFit="contain"
                     src={ColorLogo1}
@@ -154,8 +155,8 @@ const Testimonial = () => {
                 <div className="mil-author">
                   <Image
                     style={{
-                      width: '120px',
-                      height: '40px',
+                      width: "120px",
+                      height: "40px",
                     }}
                     src={ColorLogo2}
                     alt="Customer"
@@ -201,8 +202,8 @@ const Testimonial = () => {
                 <div className="mil-author">
                   <Image
                     style={{
-                      width: '120px',
-                      height: '40px',
+                      width: "120px",
+                      height: "40px",
                     }}
                     src={ColorLogo4}
                     alt="Customer"
@@ -249,8 +250,8 @@ const Testimonial = () => {
                 <div className="mil-author">
                   <Image
                     style={{
-                      width: '120px',
-                      height: '40px',
+                      width: "120px",
+                      height: "40px",
                     }}
                     src={ColorLogo3}
                     alt="Customer"

@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import Link from "next/link";
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 
 const CallToSection = () => {
   return (
@@ -11,13 +11,15 @@ const CallToSection = () => {
             <h4 className="mil-mb-60">
               Get to Know <span className="mil-accent"> Wattle Sol</span>,
               Pioneering Technology Solutions to Propel Your Business Forward
-              with Innovation and Determination.{' '}
+              with Innovation and Determination.{" "}
             </h4>
           </Col>
           <Col lg={12} xl={6}>
             <div className="mil-adaptive-right">
               <Link
-                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
+                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2MVk3D4z7q8WW0oLXjtYbr0fiDQpFGj1gr9LgCLUaVH5wq9wlW0qxM377Cu7TyH0sfU48A7JN3"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mil-button mil-border mil-mr-15 mil-mb-30"
               >
                 <span>Book an Appointment</span>

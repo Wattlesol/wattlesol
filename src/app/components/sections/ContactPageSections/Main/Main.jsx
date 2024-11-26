@@ -1,22 +1,22 @@
-'use client';
-import React, { useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import MdImage1 from '@/app/public/global/img/icons/md/8.svg';
-import MdImage2 from '@/app/public/global/img/icons/md/9.svg';
-import Image from 'next/image';
-import Link from 'next/link';
+"use client";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import MdImage1 from "@/app/public/global/img/icons/md/8.svg";
+import MdImage2 from "@/app/public/global/img/icons/md/9.svg";
+import Image from "next/image";
+import Link from "next/link";
 
 const Main = () => {
   const [formData, setFormData] = useState({
-    first_name: '',
-    last_name: '',
-    email: '',
-    phone: '',
-    company: '',
-    role: '',
-    category: '',
-    message: '',
-    budget: '',
+    first_name: "",
+    last_name: "",
+    email: "",
+    phone: "",
+    company: "",
+    role: "",
+    category: "",
+    message: "",
+    budget: "",
     userfile: null,
   });
 
@@ -41,8 +41,8 @@ const Main = () => {
       data.append(key, formData[key]);
     }
 
-    const response = await fetch('/api/contact', {
-      method: 'POST',
+    const response = await fetch("/api/contact", {
+      method: "POST",
       body: data,
     });
 
@@ -240,7 +240,9 @@ const Main = () => {
               </p>
               <div className="mil-adaptive-right">
                 <Link
-                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
+                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2MVk3D4z7q8WW0oLXjtYbr0fiDQpFGj1gr9LgCLUaVH5wq9wlW0qxM377Cu7TyH0sfU48A7JN3"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mil-button mil-border mil-mr-15 mil-mb-30"
                 >
                   <span>Book an Appointment</span>
@@ -270,7 +272,6 @@ const Main = () => {
               </p>
             </div>
             <div className="mil-divider mil-mb-60"></div>
-
           </Col>
         </Row>
       </Container>

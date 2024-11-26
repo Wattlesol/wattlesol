@@ -1,16 +1,15 @@
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
+import Link from "next/link";
+import React from "react";
+import Image from "next/image";
 
-import MainImage from '@/app/public/global/img/blog/blog-staff.jpg'
-import Microservice from '@/app/public/global/img/blog/blog-microservice.png'
-import DevOps from '@/app/public/global/img/blog/blog-devops.jpg'
-import Zain from '@/app/public/global/img/faces/zain.jpg';
-import Avatar from '@/app/public/global/img/faces/image.png';
-import Author from '@/app/public/global/img/logo/wattle_sol_logo.jpeg';
-import ServiceCover from '@/app/public/global/img/blog/micro-service-cover.png';
-import DevOpsCover from '@/app/public/global/img/blog/devops-cover.png';
-
+import MainImage from "@/app/public/global/img/blog/blog-staff.jpg";
+import Microservice from "@/app/public/global/img/blog/blog-microservice.png";
+import DevOps from "@/app/public/global/img/blog/blog-devops.jpg";
+import Zain from "@/app/public/global/img/faces/zain.jpg";
+import Avatar from "@/app/public/global/img/faces/image.png";
+import Author from "@/app/public/global/img/logo/wattle_sol_logo.jpeg";
+import ServiceCover from "@/app/public/global/img/blog/micro-service-cover.png";
+import DevOpsCover from "@/app/public/global/img/blog/devops-cover.png";
 
 export default function page() {
   return (
@@ -19,7 +18,7 @@ export default function page() {
         <Image
           src={MainImage}
           className="mil-background-image"
-          style={{ objectPosition: 'center' }}
+          style={{ objectPosition: "center" }}
           alt="Publication cover"
         />
         <div className="mil-overlay"></div>
@@ -194,16 +193,10 @@ export default function page() {
                 advancements.
               </p>
 
-
-
               <div className="row mil-mb-30">
                 <div className="col-xl-6 mil-mb-30">
                   <Link href="/how-devops-can-save-disasters-in-production-grade-applications">
-                    <Image
-                      src={DevOps}
-                      alt="blog"
-                      className="mil-post-image"
-                    />
+                    <Image src={DevOps} alt="blog" className="mil-post-image" />
                   </Link>
                 </div>
                 <div className="col-xl-6 mil-mb-30">
@@ -285,7 +278,12 @@ export default function page() {
                     </a>
                   </div>
                   <p className="mil-comment-text">
-                    Great read! This article really highlights the benefits of staff augmentation in a way that's easy to grasp. It’s exciting to see how bringing in the right talent can make such a big difference. The practical tips here are spot-on for anyone looking to boost their team’s capabilities. Thanks for the valuable insights!
+                    Great read! This article really highlights the benefits of
+                    staff augmentation in a way that's easy to grasp. It’s
+                    exciting to see how bringing in the right talent can make
+                    such a big difference. The practical tips here are spot-on
+                    for anyone looking to boost their team’s capabilities.
+                    Thanks for the valuable insights!
                   </p>
                 </li>
               </ul>
@@ -360,7 +358,9 @@ export default function page() {
               <div className="mil-mb-60">
                 <h5 className="mil-list-title mil-mb-30">About Wattle Sol</h5>
                 <p className="mil-mb-30">
-                  At Wattle Sol, we're committed to developing innovative software solutions that drive the future of technology and sustainability.
+                  At Wattle Sol, we're committed to developing innovative
+                  software solutions that drive the future of technology and
+                  sustainability.
                 </p>
                 <a href="team-single.html" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
@@ -465,11 +465,14 @@ export default function page() {
               <div className="mil-divider mil-mb-60"></div>
               <h5 className="mil-list-title mil-mb-30">Contact us</h5>
               <p className="mil-mb-30">
-                For technical questions or billing questions, please contact us at info@wattlesol.com.
+                For technical questions or billing questions, please contact us
+                at info@wattlesol.com.
               </p>
               <div className="mil-adaptive-right">
                 <Link
-                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
+                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2MVk3D4z7q8WW0oLXjtYbr0fiDQpFGj1gr9LgCLUaVH5wq9wlW0qxM377Cu7TyH0sfU48A7JN3"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mil-button mil-border mil-mr-15 mil-mb-30"
                 >
                   <span>Book an Appointment</span>

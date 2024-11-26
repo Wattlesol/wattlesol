@@ -1,16 +1,16 @@
-'use client';
+"use client";
 
-import Footer from './components/common/Footer';
-import '@/app/styles/globals.css';
-import '@/app/styles/flex.css';
-import '@/app/styles/global/style.css';
-import '@/app/styles/global/plugins/bootstrap-grid.css';
-import '@/app/styles/global/plugins/font-awesome.min.css';
-import '@/app/styles/global/plugins/swiper.min.css';
-import '@/app/styles/scss/style.scss';
-import HeaderSwitcher from './components/common/HeaderSwitcher';
-import 'react-toastify/dist/ReactToastify.css';
-import { useEffect } from 'react';
+import Footer from "./components/common/Footer";
+import "@/app/styles/globals.css";
+import "@/app/styles/flex.css";
+import "@/app/styles/global/style.css";
+import "@/app/styles/global/plugins/bootstrap-grid.css";
+import "@/app/styles/global/plugins/font-awesome.min.css";
+import "@/app/styles/global/plugins/swiper.min.css";
+import "@/app/styles/scss/style.scss";
+import HeaderSwitcher from "./components/common/HeaderSwitcher";
+import "react-toastify/dist/ReactToastify.css";
+import { useEffect } from "react";
 
 const RootLayout = ({ children }) => {
   // useEffect(() => {

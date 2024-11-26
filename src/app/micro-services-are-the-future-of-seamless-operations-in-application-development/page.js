@@ -1,15 +1,15 @@
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
+import Link from "next/link";
+import React from "react";
+import Image from "next/image";
 
-import MainImage from '@/app/public/global/img/blog/blog-microservice.png'
-import DevOps from '@/app/public/global/img/blog/blog-devops.jpg'
-import Staff from '@/app/public/global/img/blog/blog-staff.jpg'
-import Zain from '@/app/public/global/img/faces/zain.jpg';
-import Avatar from '@/app/public/global/img/faces/image.png';
-import Author from '@/app/public/global/img/logo/wattle_sol_logo.jpeg';
-import StaffCover from '@/app/public/global/img/blog/augmentation-cover.png';
-import DevOpsCover from '@/app/public/global/img/blog/devops-cover.png';
+import MainImage from "@/app/public/global/img/blog/blog-microservice.png";
+import DevOps from "@/app/public/global/img/blog/blog-devops.jpg";
+import Staff from "@/app/public/global/img/blog/blog-staff.jpg";
+import Zain from "@/app/public/global/img/faces/zain.jpg";
+import Avatar from "@/app/public/global/img/faces/image.png";
+import Author from "@/app/public/global/img/logo/wattle_sol_logo.jpeg";
+import StaffCover from "@/app/public/global/img/blog/augmentation-cover.png";
+import DevOpsCover from "@/app/public/global/img/blog/devops-cover.png";
 
 export default function page() {
   return (
@@ -18,7 +18,7 @@ export default function page() {
         <Image
           src={MainImage}
           className="mil-background-image"
-          style={{ objectPosition: 'center' }}
+          style={{ objectPosition: "center" }}
           alt="Publication cover"
         />
         <div className="mil-overlay"></div>
@@ -187,20 +187,12 @@ export default function page() {
               <div className="row mil-mb-30">
                 <div className="col-xl-6 mil-mb-30">
                   <Link href="/how-devops-can-save-disasters-in-production-grade-applications">
-                    <Image
-                      src={DevOps}
-                      alt="blog"
-                      className="mil-post-image"
-                    />
+                    <Image src={DevOps} alt="blog" className="mil-post-image" />
                   </Link>
                 </div>
                 <div className="col-xl-6 mil-mb-30">
                   <Link href="/why-staff-augmentation-is-the-best-solution-for-software-companies">
-                    <Image
-                      src={Staff}
-                      alt="blog"
-                      className="mil-post-image"
-                    />
+                    <Image src={Staff} alt="blog" className="mil-post-image" />
                   </Link>
                 </div>
               </div>
@@ -269,7 +261,11 @@ export default function page() {
                     </a>
                   </div>
                   <p className="mil-comment-text">
-                    As a startup founder, I’m really impressed by how microservices can help businesses scale efficiently. The ability to deploy and manage individual components independently seems like a huge advantage for growth without the typical tech bottlenecks.
+                    As a startup founder, I’m really impressed by how
+                    microservices can help businesses scale efficiently. The
+                    ability to deploy and manage individual components
+                    independently seems like a huge advantage for growth without
+                    the typical tech bottlenecks.
                   </p>
                 </li>
                 <li className="mil-comment">
@@ -289,7 +285,12 @@ export default function page() {
                     </a>
                   </div>
                   <p className="mil-comment-text">
-                    Coming from a finance background, I appreciate how microservices can reduce risks by isolating potential issues within specific services. This level of control and stability is crucial for maintaining operational continuity in any business.</p>
+                    Coming from a finance background, I appreciate how
+                    microservices can reduce risks by isolating potential issues
+                    within specific services. This level of control and
+                    stability is crucial for maintaining operational continuity
+                    in any business.
+                  </p>
                 </li>
 
                 <li className="mil-comment">
@@ -309,9 +310,13 @@ export default function page() {
                     </a>
                   </div>
                   <p className="mil-comment-text">
-                    I find the flexibility offered by microservices fascinating. It’s incredible how this architecture allows tech teams to innovate and adapt quickly to market changes, ensuring our campaigns are always supported by robust, responsive technology.</p>
+                    I find the flexibility offered by microservices fascinating.
+                    It’s incredible how this architecture allows tech teams to
+                    innovate and adapt quickly to market changes, ensuring our
+                    campaigns are always supported by robust, responsive
+                    technology.
+                  </p>
                 </li>
-
               </ul>
 
               <div className="mil-divider mil-mb-60" id="reply"></div>
@@ -384,7 +389,9 @@ export default function page() {
               <div className="mil-mb-60">
                 <h5 className="mil-list-title mil-mb-30">About Wattle Sol</h5>
                 <p className="mil-mb-30">
-                  At Wattle Sol, we're committed to developing innovative software solutions that drive the future of technology and sustainability.
+                  At Wattle Sol, we're committed to developing innovative
+                  software solutions that drive the future of technology and
+                  sustainability.
                 </p>
                 <a href="team-single.html" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
@@ -424,7 +431,10 @@ export default function page() {
                     </h6>
                   </div>
                 </Link>
-                <Link href="/why-staff-augmentation-is-the-best-solution-for-software-companies" className="mil-post-sm mil-mb-15">
+                <Link
+                  href="/why-staff-augmentation-is-the-best-solution-for-software-companies"
+                  className="mil-post-sm mil-mb-15"
+                >
                   <div className="mil-cover-frame">
                     <Image src={StaffCover} alt="cover" />
                   </div>
@@ -492,11 +502,14 @@ export default function page() {
               <div className="mil-divider mil-mb-60"></div>
               <h5 className="mil-list-title mil-mb-30">Contact us</h5>
               <p className="mil-mb-30">
-                For technical questions or billing questions, please contact us at info@wattlesol.com.
+                For technical questions or billing questions, please contact us
+                at info@wattlesol.com.
               </p>
               <div className="mil-adaptive-right">
                 <Link
-                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
+                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2MVk3D4z7q8WW0oLXjtYbr0fiDQpFGj1gr9LgCLUaVH5wq9wlW0qxM377Cu7TyH0sfU48A7JN3"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mil-button mil-border mil-mr-15 mil-mb-30"
                 >
                   <span>Book an Appointment</span>

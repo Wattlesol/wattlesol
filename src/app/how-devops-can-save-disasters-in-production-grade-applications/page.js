@@ -1,17 +1,15 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
-import MainImage from '@/app/public/global/img/blog/blog-devops.jpg'
-import MicroServices from '@/app/public/global/img/blog/blog-microservice.png'
-import Staff from '@/app/public/global/img/blog/blog-staff.jpg'
-import Zain from '@/app/public/global/img/faces/zain.jpg';
-import Avatar from '@/app/public/global/img/faces/image.png';
-import Author from '@/app/public/global/img/logo/wattle_sol_logo.jpeg';
-import StaffCover from '@/app/public/global/img/blog/augmentation-cover.png';
-import ServicesCover from '@/app/public/global/img/blog/micro-service-cover.png';
-
-
+import MainImage from "@/app/public/global/img/blog/blog-devops.jpg";
+import MicroServices from "@/app/public/global/img/blog/blog-microservice.png";
+import Staff from "@/app/public/global/img/blog/blog-staff.jpg";
+import Zain from "@/app/public/global/img/faces/zain.jpg";
+import Avatar from "@/app/public/global/img/faces/image.png";
+import Author from "@/app/public/global/img/logo/wattle_sol_logo.jpeg";
+import StaffCover from "@/app/public/global/img/blog/augmentation-cover.png";
+import ServicesCover from "@/app/public/global/img/blog/micro-service-cover.png";
 
 export default function page() {
   return (
@@ -21,7 +19,8 @@ export default function page() {
           src={MainImage}
           alt="Publication cover"
           className="mil-background-image"
-          style={{ objectFit: 'fill' }} />
+          style={{ objectFit: "fill" }}
+        />
         <div className="mil-overlay"></div>
       </div>
       <section className="mil-blog mil-p-120-0">
@@ -148,9 +147,7 @@ export default function page() {
                 disasters.
               </p>
 
-              <p className="mil-mb-60">
-
-              </p>
+              <p className="mil-mb-60"></p>
 
               {/* <blockquote cite="google.com" className="mil-mb-60">
                 <p className="mil-text-lg mil-mb-20">
@@ -174,7 +171,6 @@ export default function page() {
               </p> */}
 
               <div className="row mil-mb-30">
-
                 <div className="col-xl-6 mil-mb-30">
                   <Link href="/micro-services-are-the-future-of-seamless-operations-in-application-development">
                     <Image
@@ -187,11 +183,7 @@ export default function page() {
 
                 <div className="col-xl-6 mil-mb-30">
                   <Link href="/why-staff-augmentation-is-the-best-solution-for-software-companies">
-                    <Image
-                      src={Staff}
-                      alt="blog"
-                      className="mil-post-image"
-                    />
+                    <Image src={Staff} alt="blog" className="mil-post-image" />
                   </Link>
                 </div>
               </div>
@@ -217,7 +209,6 @@ export default function page() {
                 <li>
                   <a href="#.">Development</a>
                 </li>
-
               </ul>
 
               <div className="mil-divider mil-mb-60"></div>
@@ -260,7 +251,10 @@ export default function page() {
                     </a>
                   </div>
                   <p className="mil-comment-text">
-                    Great insights on using IaC for disaster prevention! Could you elaborate on how Wattle Sol integrates these DevOps practices into its client projects? Any specific tools or workflows you recommend?
+                    Great insights on using IaC for disaster prevention! Could
+                    you elaborate on how Wattle Sol integrates these DevOps
+                    practices into its client projects? Any specific tools or
+                    workflows you recommend?
                   </p>
                   <ul className="mil-sub-comments">
                     <li className="mil-comment">
@@ -280,7 +274,12 @@ export default function page() {
                         </a>
                       </div>
                       <p className="mil-comment-text">
-                        At Wattle Sol, we integrate DevOps practices through a combination of customized IaC solutions tailored to each client's infrastructure. We primarily use tools like Terraform and Ansible for automated provisioning and configuration management, ensuring consistency across environments.
+                        At Wattle Sol, we integrate DevOps practices through a
+                        combination of customized IaC solutions tailored to each
+                        client's infrastructure. We primarily use tools like
+                        Terraform and Ansible for automated provisioning and
+                        configuration management, ensuring consistency across
+                        environments.
                       </p>
                     </li>
                   </ul>
@@ -302,7 +301,12 @@ export default function page() {
                     </a>
                   </div>
                   <p className="mil-comment-text">
-                    As a non-tech CEO, I find this article very insightful. It’s impressive how DevOps practices, like automation and Infrastructure as Code, can prevent issues before they even arise. It’s clear that having a strong, proactive approach to technology is essential for any business aiming for long-term success.
+                    As a non-tech CEO, I find this article very insightful. It’s
+                    impressive how DevOps practices, like automation and
+                    Infrastructure as Code, can prevent issues before they even
+                    arise. It’s clear that having a strong, proactive approach
+                    to technology is essential for any business aiming for
+                    long-term success.
                   </p>
                 </li>
               </ul>
@@ -377,7 +381,9 @@ export default function page() {
               <div className="mil-mb-60">
                 <h5 className="mil-list-title mil-mb-30">About Wattle Sol</h5>
                 <p className="mil-mb-30">
-                  At Wattle Sol, we're committed to developing innovative software solutions that drive the future of technology and sustainability.
+                  At Wattle Sol, we're committed to developing innovative
+                  software solutions that drive the future of technology and
+                  sustainability.
                 </p>
                 <a href="/team" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
@@ -417,7 +423,10 @@ export default function page() {
                     </h6>
                   </div>
                 </Link>
-                <Link href="/why-staff-augmentation-is-the-best-solution-for-software-companies" className="mil-post-sm mil-mb-15">
+                <Link
+                  href="/why-staff-augmentation-is-the-best-solution-for-software-companies"
+                  className="mil-post-sm mil-mb-15"
+                >
                   <div className="mil-cover-frame">
                     <Image src={StaffCover} alt="cover" />
                   </div>
@@ -485,11 +494,14 @@ export default function page() {
               <div className="mil-divider mil-mb-60"></div>
               <h5 className="mil-list-title mil-mb-30">Contact us</h5>
               <p className="mil-mb-30">
-                For technical questions or billing questions, please contact us at info@wattlesol.com.
+                For technical questions or billing questions, please contact us
+                at info@wattlesol.com.
               </p>
               <div className="mil-adaptive-right">
                 <Link
-                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ02e9dd0BtTOmft6sGk2qDolJA6-KZkxLAMrsDdagnhwiZhzrYr4A3XDACnNPRzjSIzJUjv3g7l" target='_blank' rel="noopener noreferrer"
+                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2MVk3D4z7q8WW0oLXjtYbr0fiDQpFGj1gr9LgCLUaVH5wq9wlW0qxM377Cu7TyH0sfU48A7JN3"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mil-button mil-border mil-mr-15 mil-mb-30"
                 >
                   <span>Book an Appointment</span>
