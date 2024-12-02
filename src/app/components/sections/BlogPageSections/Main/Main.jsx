@@ -143,22 +143,6 @@ const Main = () => {
               </div>
             </Col>
             <Col lg={4} xl={3} className="mil-mb-120">
-              {/* <div className="mil-mb-60">
-              <h5 className="mil-list-title mil-mb-30">About Wattle Sol</h5>
-              <p className="mil-mb-30">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt.
-              </p>
-              <a href="team-single.html" className="mil-post-sm mil-mb-15">
-                <div className="mil-cover-frame">
-                  <Image src={FaceImage1} alt="cover" />
-                </div>
-                <div className="mil-description">
-                  <h4 className="mil-font-3 mil-accent">Syed Zain</h4>
-                  <p className="mil-text-sm">CEO</p>
-                </div>
-              </a>
-            </div> */}
               {/* <div className="mil-divider mil-mb-60"></div> */}
 
               <form className="mil-sidebar-input-frame mil-mb-60">
