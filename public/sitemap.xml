@@ -1,4 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<sitemap><loc>https://wattlesol.com/sitemap-0.xml</loc></sitemap>
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/about-us</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/contact-us</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/faqs</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/how-devops-can-save-disasters-in-production-grade-applications</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/contact-center</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/karatbars</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/blogs</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/micro-services-are-the-future-of-seamless-operations-in-application-development</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/privacy-policy</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/softbank</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/staff-augmentation</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/solutions</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/sales-and-marketing</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/team</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/terms-and-conditions</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/software-development</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/why-staff-augmentation-is-the-best-solution-for-software-companies</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/ui-ux</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/ormeus</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/case-studies</ns0:loc>
+        <ns0:lastmod>2024-11-26T20:56:59.757Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/about-us</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.192Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/case-studies</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.192Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/blogs</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.192Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/contact-center</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.192Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/contact-us</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.192Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/how-devops-can-save-disasters-in-production-grade-applications</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.192Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/faqs</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.192Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/micro-services-are-the-future-of-seamless-operations-in-application-development</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.192Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/karatbars</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.192Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/privacy-policy</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.192Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/sales-and-marketing</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/softbank</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/software-development</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/solutions</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/staff-augmentation</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/ormeus</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/team</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/terms-and-conditions</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/why-staff-augmentation-is-the-best-solution-for-software-companies</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+    <ns0:url xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <ns0:loc>https://wattlesol.com/ui-ux</ns0:loc>
+        <ns0:lastmod>2024-08-28T21:28:02.194Z</ns0:lastmod>
+        <ns0:changefreq>daily</ns0:changefreq>
+        <ns0:priority>0.7</ns0:priority>
+    </ns0:url>
+
+</urlset>
