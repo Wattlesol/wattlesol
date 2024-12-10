@@ -155,48 +155,6 @@ const Main = () => {
                   <i className="fas fa-search"></i>
                 </button>
               </form>
-              {/* <div className="mil-divider mil-mb-60"></div> */}
-              {/* <div className="mil-mb-60">
-              <h5 className="mil-list-title mil-mb-30">Categories</h5>
-              <ul className="mil-hover-link-list">
-                <li>
-                  <a href="#.">Business</a>
-                </li>
-                <li>
-                  <a href="#.">Design</a>
-                </li>
-                <li>
-                  <a href="#.">Development</a>
-                </li>
-                <li>
-                  <a href="#.">Management</a>
-                </li>
-                <li>
-                  <a href="#.">Software</a>
-                </li>
-              </ul>
-            </div> */}
-              {/* <div className="mil-divider mil-mb-60"></div>
-            <div className="mil-mb-60">
-              <h5 className="mil-list-title mil-mb-30">Tags</h5>
-              <ul className="mil-tags">
-                <li>
-                  <a href="#.">Business</a>
-                </li>
-                <li>
-                  <a href="#.">Design</a>
-                </li>
-                <li>
-                  <a href="#.">General</a>
-                </li>
-                <li>
-                  <a href="#.">Development</a>
-                </li>
-                <li>
-                  <a href="#.">Learning</a>
-                </li>
-              </ul>
-            </div> */}
               <div className="mil-divider mil-mb-60"></div>
               <div className="mil-mb-60">
                 <h5 className="mil-list-title mil-mb-30">Newsletter</h5>
