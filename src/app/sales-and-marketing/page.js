@@ -10,10 +10,14 @@ import React from 'react'
 import Faq from '@/app/components/sections/SalesPageSections/Faq/Faq'
 import CallToSectionSecond from '@/app/components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond'
 import LatestProjects from '@/app/components/sections/LatestProjects/LatestProjects'
+import Head from 'next/head'
 
 const page = () => {
     return (
         <div>
+            <Head>
+                <link rel="canonical" href="https://wattlesol.com/sales-and-marketing" />
+            </Head>
             <HeroSection />
             <CallToSection />
             <Main />

@@ -10,10 +10,14 @@ import WorkWithUs from '@/app/components/sections/AboutPageSections/WorkWithUs/W
 import Stack from '@/app/components/sections/SolutionPageSections/Stack/Stack'
 import LatestProjects from '@/app/components/sections/LatestProjects/LatestProjects'
 import Divider from '@/app/components/common/Divider'
+import Head from 'next/head'
 
 const page = () => {
     return (
         <div>
+            <Head>
+                <link rel="canonical" href="https://wattlesol.com/software-devlopment" />
+            </Head>
             <HeroSection />
             <CallToSection />
             <Main />

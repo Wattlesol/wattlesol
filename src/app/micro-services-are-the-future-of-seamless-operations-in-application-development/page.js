@@ -10,10 +10,15 @@ import Avatar from "@/app/public/global/img/faces/image.png";
 import Author from "@/app/public/global/img/logo/wattle_sol_logo.jpeg";
 import StaffCover from "@/app/public/global/img/blog/augmentation-cover.png";
 import DevOpsCover from "@/app/public/global/img/blog/devops-cover.png";
+import Head from "next/head";
 
 export default function page() {
   return (
     <div>
+      <Head>
+        <link rel="canonical" href="https://wattlesol.com/micro-services-are-the-future-of-seamless-operations-in-application-development" />
+
+      </Head>
       <div className="mil-banner-sm-2 mil-deep-bg">
         <Image
           src={MainImage}

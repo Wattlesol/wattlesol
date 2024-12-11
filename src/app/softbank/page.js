@@ -15,10 +15,14 @@ import SecondImage from '@/app/public/global/img/projects/project1.jpg'
 import LatestProjects from '../components/sections/LatestProjects/LatestProjects';
 import CallToSectionSecond from '../components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond';
 import CallToSection from '../components/sections/SalesPageSections/CallToSection/CallToSection';
+import Head from 'next/head';
 
 export default function page() {
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://wattlesol.com/softbank" />
+      </Head>
       <div className="mil-banner-sm mil-deep-bg">
         <img
           src="img/deco/map.png"

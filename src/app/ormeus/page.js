@@ -18,11 +18,15 @@ import Engagement from '@/app/public/global/img/projects/engagement.png'
 import LatestProjects from '../components/sections/LatestProjects/LatestProjects';
 import CallToSection from '../components/sections/SDPageSection/CallToSection/CallToSection';
 import CallToSectionSecond from '../components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond';
+import Head from 'next/head';
 
 
 export default function page() {
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://wattlesol.com/ormeus" />
+      </Head>
       <div className="mil-banner-sm mil-deep-bg">
         <img
           src="img/deco/map.png"

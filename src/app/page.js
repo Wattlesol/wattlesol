@@ -12,11 +12,14 @@ import LatestThinking from "./components/sections/LatestThinking/LatestThinking"
 import Testimonial from "./components/sections/testimonial/Testimonial";
 import Contact from "./components/common/Contact";
 import LatestProduct from "./components/sections/LatestProduct/LatestProduct";
+import Head from "next/head";
 
 const page = () => {
   return (
     <div>
-      {/*HOME PAGE */}
+      <Head>
+        <link rel="canonical" href="https://wattlesol.com" />
+      </Head>
       <Hero />
       <Divider />
       <Logo />

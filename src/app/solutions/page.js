@@ -8,11 +8,15 @@ import Main from '@/app/components/sections/SolutionPageSections/Main/Main';
 import Stack from '@/app/components/sections/SolutionPageSections/Stack/Stack';
 import Title from '@/app/components/sections/SolutionPageSections/Title/Title';
 import TitleSecond from '@/app/components/sections/SolutionPageSections/TitleSecond/TitleSecond';
+import Head from 'next/head';
 import React from 'react';
 
 const page = () => {
   return (
     <div>
+      <Head>
+        <link rel="canonical" href="https://wattlesol.com/solutions" />
+      </Head>
       <HeroSection />
       <CallToSection />
       <Divider />

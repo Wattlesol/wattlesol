@@ -1,9 +1,13 @@
 import HeroSection from '@/app/components/sections/TermsAndConditions/Hero/Hero';
+import Head from 'next/head';
 import React from 'react';
 
 export default function TermsOfService() {
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://wattlesol.com/terms-and-conditions" />
+      </Head>
       <HeroSection />
       <div
         style={{

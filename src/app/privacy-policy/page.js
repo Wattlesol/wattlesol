@@ -1,11 +1,15 @@
 import HeroSection from '@/app/components/sections/PrivacyAndPolicy/Hero/Hero';
+import Head from 'next/head';
 import React from 'react';
 
 export default function PrivacyPolicy() {
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://wattlesol.com/privacy-policy" />
+      </Head>
       <HeroSection />
-      <div style={{ padding: '20px', margin: '100px', display:'flex',flexDirection:'column', gap:"20px" }}>
+      <div style={{ padding: '20px', margin: '100px', display: 'flex', flexDirection: 'column', gap: "20px" }}>
         <h1>Privacy Policy for Wattle Sol</h1>
         <p>
           <strong>Last Updated:</strong> 1 January 2024

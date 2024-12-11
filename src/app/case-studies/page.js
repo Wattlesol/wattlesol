@@ -9,6 +9,9 @@ import CallToSectionSecond from '../components/sections/SolutionPageSections/Cal
 export default function page() {
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://wattlesol.com/case-studies" />
+      </Head>
       <div className="mil-banner-sm mil-deep-bg">
         <img
           src="img/deco/map.png"
@@ -116,33 +119,6 @@ export default function page() {
             </div>
           </div>
           <div className="mil-divider mil-mb-60"></div>
-          {/* 
-          <div className="mil-pagination mil-hidden-arrows">
-            <div className="mil-slider-nav">
-              <div className="mil-slider-btn-prev mil-blog-prev">
-                <i className="fas fa-arrow-left"></i>
-                <span className="mil-h6">Prev</span>
-              </div>
-            </div>
-            <ul className="mil-pagination-numbers">
-              <li className="mil-active">
-                <a href="#">1</a>
-              </li>
-              {/* <li>
-                <a href="portfolio.html">2</a>
-              </li>
-              <li>
-                <a href="portfolio.html">3</a>
-              </li> 
-            </ul>
-            <div className="mil-slider-nav">
-              <div className="mil-slider-btn-next mil-blog-next">
-                <span className="mil-h6">Next</span>
-                <i className="fas fa-arrow-right"></i>
-              </div>
-            </div>
-
-          </div> */}
         </div>
       </section >
       <CallToSectionSecond />

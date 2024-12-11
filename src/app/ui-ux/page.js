@@ -11,10 +11,14 @@ import Tools from '@/app/components/sections/UIUXPageSections/Tools/Tools'
 import Process from '@/app/components/sections/UIUXPageSections/Process/Process'
 import LatestProjects from '@/app/components/sections/LatestProjects/LatestProjects'
 import CallToSectionSecond from '@/app/components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond'
+import Head from 'next/head'
 
 const page = () => {
     return (
         <div>
+            <Head>
+                <link rel="canonical" href="https://wattlesol.com/ui-ux" />
+            </Head>
             <HeroSection />
             <CallToSection />
             <Main />

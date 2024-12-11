@@ -10,10 +10,14 @@ import Avatar from "@/app/public/global/img/faces/image.png";
 import Author from "@/app/public/global/img/logo/wattle_sol_logo.jpeg";
 import ServiceCover from "@/app/public/global/img/blog/micro-service-cover.png";
 import DevOpsCover from "@/app/public/global/img/blog/devops-cover.png";
+import Head from "next/head";
 
 export default function page() {
   return (
     <div>
+      <Head>
+        <link rel="canonical" href="https://wattlesol.com/why-staff-augmentation-is-the-best-solution-for-software-companies" />
+      </Head>
       <div className="mil-banner-sm-2 mil-deep-bg">
         <Image
           src={MainImage}

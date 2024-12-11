@@ -12,6 +12,7 @@ import DevOpsCover from "@/app/public/global/img/blog/devops-cover.png";
 import Sidebar from "../components/blog/Sidbar";
 import Comments from "../components/blog/Comments";
 import smImage12 from "@/app/public/global/img/icons/sm/12.svg"
+import Head from "next/head";
 
 
 export default function page() {
@@ -51,6 +52,9 @@ export default function page() {
 
   return (
     <div>
+      <Head>
+        <link rel="canonical" href="https://wattlesol.com/managed-it-services" />
+      </Head>
       <div className="mil-banner-sm-2 mil-deep-bg">
         <Image
           src={MainImage}
