@@ -393,7 +393,7 @@ export default function page() {
                   software solutions that drive the future of technology and
                   sustainability.
                 </p>
-                <a href="" className="mil-post-sm mil-mb-15">
+                <a href="/team" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
                     <Image src={Zain} alt="cover" />
                   </div>

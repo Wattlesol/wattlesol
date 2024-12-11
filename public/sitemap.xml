@@ -1,114 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-    <url>
-        <loc>https://www.wattlesol.com/</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>1.00</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/about-us</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/team</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/faqs</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/solutions</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/software-development</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/sales-and-marketing</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/ui-ux</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/staff-augmentation</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/contact-center</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/blogs</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/case-studies</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/contact-us</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/softbank</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/karatbars</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/ormeus</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/how-devops-can-save-disasters-in-production-grade-applications</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/micro-services-are-the-future-of-seamless-operations-in-application-development</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/why-staff-augmentation-is-the-best-solution-for-software-companies</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/terms-and-conditions</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.wattlesol.com/privacy-policy</loc>
-        <lastmod>2024-12-09T20:41:21+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://wattlesol.com/blogs</loc><lastmod>2024-12-10T19:19:35.637Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/case-studies</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/about-us</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/contact-center</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/how-devops-can-save-disasters-in-production-grade-applications</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/faqs</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/micro-services-are-the-future-of-seamless-operations-in-application-development</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/karatbars</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/privacy-policy</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/contact-us</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/ormeus</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/sales-and-marketing</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/software-development</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/solutions</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/staff-augmentation</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/team</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/terms-and-conditions</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/ui-ux</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/why-staff-augmentation-is-the-best-solution-for-software-companies</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://wattlesol.com/softbank</loc><lastmod>2024-12-10T19:19:35.638Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

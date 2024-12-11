@@ -1,21 +1,68 @@
 "use client";
+
 import Image from "next/image";
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import BlogImage1 from "@/app/public/global/img/blog/blog-devops.jpg";
 import BlogImage2 from "@/app/public/global/img/blog/blog-microservice.png";
 import BlogImage3 from "@/app/public/global/img/blog/blog-staff.jpg";
+import BlogImage4 from "@/app/public/global/img/blog/blog-it_service.png";
 import Link from "next/link";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer, toast } from "react-toastify";
 
 const Main = () => {
   const [email, setEmail] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const blogsPerPage = 2; // Blogs per page
+  const totalBlogs = 4; // Total number of blogs
+  const totalPages = Math.ceil(totalBlogs / blogsPerPage); // Total number of pages
 
   const handleToast = () => {
     setEmail("");
     return toast.success("Email Subscribed Successfully");
   };
+
+  // List of blogs
+  const blogs = [
+    {
+      image: BlogImage4,
+      title: "What Exactly Are Managed IT Services?",
+      description:
+        "Discover what managed IT services are and how they enhance business efficiency with expert support, proactive solutions, and robust security. Learn more today!",
+      link: "/managed-it-services",
+    },
+    {
+      image: BlogImage3,
+      title: "Why Staff Augmentation is the best solution for Software companies.",
+      description:
+        "Discover why staff augmentation is key for software firms: access to diverse talent, cost-effective scalability, accelerated timelines, risk mitigation, and focus on innovation.",
+      link: "/why-staff-augmentation-is-the-best-solution-for-software-companies",
+    },
+    {
+      image: BlogImage2,
+      title: "Micro Services Are the future of seamless operations in application development.",
+      description:
+        "Future-proof your app dev with microservices for scalability, flexibility, and efficiency.",
+      link: "/micro-services-are-the-future-of-seamless-operations-in-application-development",
+    },
+    {
+      image: BlogImage1,
+      title: "How DevOps can save disasters in production grade applications.",
+      description:
+        "Enhance deployment speed with our efficient DevOps strategies. Tailored approaches for rapid and reliable releases.",
+      link: "/how-devops-can-save-disasters-in-production-grade-applications",
+    },
+  ];
+
+  const indexOfLastBlog = currentPage * blogsPerPage;
+  const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
+  const currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
   return (
     <>
       <ToastContainer />
@@ -23,119 +70,55 @@ const Main = () => {
         <Container>
           <Row className="justify-content-between">
             <Col lg={8} xl={8} className="mil-mb-120">
-              <Link
-                href="/how-devops-can-save-disasters-in-production-grade-applications"
-                className="mil-card"
-              >
-                <div className="mil-cover-frame">
-                  <Image
-                    src={BlogImage1}
-                    alt="project"
-                    objectFit="contain"
-                    width={600}
-                    height={400}
-                  />
+              {currentBlogs.map((blog, index) => (
+                <div key={index}>
+                  <Link href={blog.link} className="mil-card">
+                    <div className="mil-cover-frame">
+                      <Image
+                        src={blog.image}
+                        alt="project"
+                        objectFit="contain"
+                        width={600}
+                        height={400}
+                      />
+                    </div>
+                    <div className="mil-description">
+                      <div className="mil-card-title">
+                        <h4 className="mil-mb-20">{blog.title}</h4>
+                        <h6>
+                          by: <span className="mil-accent">Wattle Sol</span>
+                        </h6>
+                      </div>
+                      <div className="mil-card-text">
+                        <p>{blog.description}</p>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="mil-divider mil-mb-60"></div>
                 </div>
-                <div className="mil-description">
-                  <div className="mil-card-title">
-                    <h4 className="mil-mb-20">
-                      How DevOps can save disasters in production grade
-                      applications.
-                    </h4>
-                    <h6>
-                      by: <span className="mil-accent">Wattle Sol</span>
-                    </h6>
-                  </div>
-                  <div className="mil-card-text">
-                    <p>
-                      Enhance deployment speed with our efficient DevOps
-                      strategies. Tailored approaches for rapid and reliable
-                      releases.
-                    </p>
-                  </div>
-                </div>
-              </Link>
-              <div className="mil-divider mil-mb-60"></div>
-              <Link
-                href="/micro-services-are-the-future-of-seamless-operations-in-application-development"
-                className="mil-card"
-              >
-                <div className="mil-cover-frame">
-                  <Image
-                    src={BlogImage2}
-                    objectFit="contain"
-                    alt="project"
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                <div className="mil-description">
-                  <div className="mil-card-title">
-                    <h4 className="mil-mb-20">
-                      Micro Services Are the future of seamless operations in
-                      application development.
-                    </h4>
-                    <h6>
-                      by: <span className="mil-accent">Wattle Sol</span>
-                    </h6>
-                  </div>
-                  <div className="mil-card-text">
-                    <p>
-                      Future-proof your app dev with microservices for
-                      scalability, flexibility, and efficiency.
-                    </p>
-                  </div>
-                </div>
-              </Link>
-              <div className="mil-divider mil-mb-60"></div>
-              <Link
-                href="/why-staff-augmentation-is-the-best-solution-for-software-companies"
-                className="mil-card"
-              >
-                <div className="mil-cover-frame">
-                  <Image
-                    src={BlogImage3}
-                    objectFit="contain"
-                    alt="project"
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                <div className="mil-description">
-                  <div className="mil-card-title">
-                    <h4 className="mil-mb-20">
-                      Why Staff Augmentation is the best solution for
-                      Software companies .
-                    </h4>
-                    <h6>
-                      by: <span className="mil-accent">Wattle Sol</span>
-                    </h6>
-                  </div>
-                  <div className="mil-card-text">
-                    <p>
-                      Discover why staff augmentation is key for software firms:
-                      access to diverse talent, cost-effective scalability,
-                      accelerated timelines, risk mitigation, and focus on
-                      innovation.
-                    </p>
-                  </div>
-                </div>
-              </Link>
-              <div className="mil-divider mil-mb-60"></div>
+              ))}
               <div className="mil-pagination mil-hidden-arrows">
                 <div className="mil-slider-nav">
-                  <div className="mil-slider-btn-prev mil-blog-prev">
+                  <div
+                    className={`mil-slider-btn-prev mil-blog-prev ${currentPage === 1 ? "disabled" : ""}`}
+                    onClick={() => currentPage > 1 && handlePageChange(currentPage - 1)}
+                  >
                     <i className="fas fa-arrow-left"></i>
                     <span className="mil-h6">Prev</span>
                   </div>
                 </div>
                 <ul className="mil-pagination-numbers">
-                  <li className="mil-active">
-                    <a href="#.">1</a>
-                  </li>
+                  {[...Array(totalPages)].map((_, index) => (
+                    <li key={index} className={currentPage === index + 1 ? "mil-active" : ""}>
+                      <a onClick={() => handlePageChange(index + 1)}>{index + 1}</a>
+                    </li>
+                  ))}
                 </ul>
                 <div className="mil-slider-nav">
-                  <div className="mil-slider-btn-next mil-blog-next">
+                  <div
+                    className={`mil-slider-btn-next mil-blog-next ${currentPage === totalPages ? "disabled" : ""}`}
+                    onClick={() => currentPage < totalPages && handlePageChange(currentPage + 1)}
+                  >
                     <span className="mil-h6">Next</span>
                     <i className="fas fa-arrow-right"></i>
                   </div>
@@ -143,8 +126,6 @@ const Main = () => {
               </div>
             </Col>
             <Col lg={4} xl={3} className="mil-mb-120">
-              {/* <div className="mil-divider mil-mb-60"></div> */}
-
               <form className="mil-sidebar-input-frame mil-mb-60">
                 <input
                   type="text"
@@ -176,7 +157,7 @@ const Main = () => {
               <p className="mil-mb-30">
                 info@wattlesol.info
                 <br />
-                30 N Gould St Ste R Sheridan, WY 82801
+                30 N Gould St Ste R Sheridan, WY 82801
               </p>
               <div className="mil-adaptive-right">
                 <Link
