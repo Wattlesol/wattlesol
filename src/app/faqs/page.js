@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div>
       <Head>
-        <link rel="canonical" href="https://wattlesol.com/faq" />
+        <link rel="canonical" href="https://wattlesol.com/faqs" />
       </Head>
       <HeroSection />
       <Main />

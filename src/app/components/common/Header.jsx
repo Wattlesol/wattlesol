@@ -71,7 +71,7 @@ const Header = () => {
                     <ul>
                       <li>
                         <Link href="/solutions" legacyBehavior>
-                          <a>Our Services</a>
+                          <a>Solutions</a>
                         </Link>
                       </li>
                       <li>
