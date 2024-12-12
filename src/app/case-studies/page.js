@@ -5,6 +5,8 @@ import Project3 from '@/app/public/global/img/projects/3.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 import CallToSectionSecond from '../components/sections/SolutionPageSections/CallToSectionSecond/CallToSectionSecond';
+import Head from 'next/head';
+
 
 export default function page() {
   return (

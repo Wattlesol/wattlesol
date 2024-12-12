@@ -48,7 +48,7 @@ const Footer = () => {
                     Sheridan, WY 82801
                   </p>
                   <p className="mil-light-soft mil-mb-10">
-                    <FaPhoneAlt className="mil-icon" /> +1 (502) 230-3883
+                    <FaPhoneAlt className="mil-icon" /> +1 (616) 314-2136
                   </p>
                   <p className="mil-light-soft mil-mb-10">
                     <FaEnvelope className="mil-icon" /> info@wattlesol.com
