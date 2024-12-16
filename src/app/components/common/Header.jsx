@@ -95,6 +95,11 @@ const Header = () => {
                         </Link>
                       </li>
                       <li>
+                        <Link href="/ppc-advertising" legacyBehavior>
+                          <a>PPC Advertising</a>
+                        </Link>
+                      </li>
+                      <li>
                         <Link href="/contact-center" legacyBehavior>
                           <a>Contact Center Solution</a>
                         </Link>
