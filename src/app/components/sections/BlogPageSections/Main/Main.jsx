@@ -7,6 +7,7 @@ import BlogImage1 from "@/app/public/global/img/blog/blog-devops.jpg";
 import BlogImage2 from "@/app/public/global/img/blog/blog-microservice.png";
 import BlogImage3 from "@/app/public/global/img/blog/blog-staff.jpg";
 import BlogImage4 from "@/app/public/global/img/blog/blog-it_service.png";
+import BlogImage5 from "@/app/public/global/img/blog/blog-seo-services-worth.png";
 import Link from "next/link";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer, toast } from "react-toastify";
@@ -25,6 +26,13 @@ const Main = () => {
 
   // List of blogs
   const blogs = [
+    {
+      image: BlogImage5,
+      title: "Are SEO Services Worth It",
+      description:
+        "Discover if SEO services are worth the investment. Explore benefits, challenges, and outcomes to make informed decisions for your business's online success.",
+      link: "/are-seo-services-worth-it",
+    },
     {
       image: BlogImage4,
       title: "What Exactly Are Managed IT Services?",
