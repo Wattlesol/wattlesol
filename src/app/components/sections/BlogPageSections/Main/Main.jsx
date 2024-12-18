@@ -15,8 +15,8 @@ import { ToastContainer, toast } from "react-toastify";
 const Main = () => {
   const [email, setEmail] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const blogsPerPage = 2; // Blogs per page
-  const totalBlogs = 4; // Total number of blogs
+  const blogsPerPage = 3; // Blogs per page
+  const totalBlogs = 5; // Total number of blogs
   const totalPages = Math.ceil(totalBlogs / blogsPerPage); // Total number of pages
 
   const handleToast = () => {
